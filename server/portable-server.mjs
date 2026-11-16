@@ -19,7 +19,8 @@ export function canonicalOrigin(value,{allowLoopback=false}={}){
 }
 const mime={'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.css':'text/css; charset=utf-8','.json':'application/json; charset=utf-8','.svg':'image/svg+xml','.csv':'text/csv; charset=utf-8','.md':'text/plain; charset=utf-8','.txt':'text/plain; charset=utf-8','.jpg':'image/jpeg','.png':'image/png'};
 export async function createPortableServer({env=process.env,db:providedDb,publicDir=resolve(root,'public'),allowLoopback=false}={}){
- const origin=canonicalOrigin(env.PUBLIC_ORIGIN,{allowLoopback}),secret=env.SESSION_SECRET;
+ const configuredOrigin=env.PUBLIC_ORIGIN || (env.RENDER==='true' ? env.RENDER_EXTERNAL_URL : undefined);
+ const origin=canonicalOrigin(configuredOrigin,{allowLoopback}),secret=env.SESSION_SECRET;
  if(typeof secret!=='string'||secret.length<48)throw Error('Set a persistent random SESSION_SECRET with at least 48 characters.');
  const db=providedDb||await openSqliteDatabase(resolve(env.SQLITE_PATH||'.data/workspace.sqlite'));
  const research=JSON.parse(await readFile(resolve(root,'src/domains/pyq/catalogue.json'),'utf8'));
