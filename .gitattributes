@@ -1,0 +1,2 @@
+# Preserve the donor reference seed's exact audited bytes on Windows checkouts.
+src/domains/career/seed.json -text

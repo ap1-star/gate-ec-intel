@@ -1,0 +1,22 @@
+{
+  "checkpoint": "39140840451e516513c1edfa4110522fa7667991",
+  "purpose": "Archived presentation inputs for portable actual-data before references; not active application assets.",
+  "files": [
+    {
+      "path": "dist/foundation.js",
+      "sha256": "3773d46776aa05a7ac7ea9a1b8990a5b02a121be94619282ea73fb28694c0f25"
+    },
+    {
+      "path": "dist/interface.js",
+      "sha256": "1e5b22f8610593e3148fba3276d372b21e0e43cccc83b4413266e04d296238cf"
+    },
+    {
+      "path": "dist/interface.css",
+      "sha256": "39231473576b05694732839073c1200ec4e51d34211771cbd5fd6dcd2a4f131d"
+    },
+    {
+      "path": "dist/features.css",
+      "sha256": "3430c86e4d117e2da5366e2cf9824be332dccb35f0fb2c575c7b6dd686509203"
+    }
+  ]
+}

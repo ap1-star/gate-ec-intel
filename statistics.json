@@ -1,0 +1,438 @@
+{
+  "summary": {
+    "questions": 520,
+    "semantic_reviews": 520,
+    "canonical_subjects": 10,
+    "subject_changes": 19,
+    "corrections_or_refinements": 41,
+    "ambiguous": 0,
+    "content_risk_records": 267,
+    "text_aligned_candidates": 325,
+    "image_source_records": 195,
+    "unsupported_calibration_claims": 66,
+    "calibrated_items": 0,
+    "mta": 11,
+    "verdicts": {
+      "consistent": 479,
+      "correction": 41
+    },
+    "visual_source_reviews": 520,
+    "answer_key_corrections": 2,
+    "taxonomy_conventions_resolved": 4
+  },
+  "subjects": [
+    {
+      "subject": "Analog Circuits",
+      "year_marks": [
+        9,
+        11,
+        9,
+        11,
+        10,
+        10,
+        13,
+        12
+      ],
+      "mean": 10.625,
+      "median": 10.5,
+      "sd": 1.4078859531733587,
+      "iqr": 1.5,
+      "mad": 1.0,
+      "cv_pct": 13.250691323984555,
+      "min": 9,
+      "max": 13,
+      "ols_slope": 0.39285714285714285,
+      "theil_sen_slope": 0.3666666666666667,
+      "permutation_p": 0.07380952380952381,
+      "bootstrap_mean_ci": [
+        9.75,
+        11.5
+      ],
+      "papers_present": 8,
+      "questions": 53,
+      "bh_q": 0.7380952380952381
+    },
+    {
+      "subject": "Communications",
+      "year_marks": [
+        10,
+        9,
+        16,
+        12,
+        7,
+        10,
+        12,
+        10
+      ],
+      "mean": 10.75,
+      "median": 10.0,
+      "sd": 2.659215781283755,
+      "iqr": 2.25,
+      "mad": 1.5,
+      "cv_pct": 24.736890988686095,
+      "min": 7,
+      "max": 16,
+      "ols_slope": -0.09523809523809523,
+      "theil_sen_slope": 0.0,
+      "permutation_p": 0.8672619047619048,
+      "bootstrap_mean_ci": [
+        9.125,
+        12.625
+      ],
+      "papers_present": 8,
+      "questions": 54,
+      "bh_q": 0.9636243386243386
+    },
+    {
+      "subject": "Control Systems",
+      "year_marks": [
+        10,
+        10,
+        6,
+        8,
+        9,
+        8,
+        10,
+        7
+      ],
+      "mean": 8.5,
+      "median": 8.5,
+      "sd": 1.511857892036909,
+      "iqr": 2.25,
+      "mad": 1.5,
+      "cv_pct": 17.786563435728343,
+      "min": 6,
+      "max": 10,
+      "ols_slope": -0.16666666666666666,
+      "theil_sen_slope": -0.25,
+      "permutation_p": 0.5416666666666666,
+      "bootstrap_mean_ci": [
+        7.5,
+        9.5
+      ],
+      "papers_present": 8,
+      "questions": 41,
+      "bh_q": 0.9636243386243386
+    },
+    {
+      "subject": "Digital Circuits",
+      "year_marks": [
+        10,
+        11,
+        9,
+        8,
+        6,
+        11,
+        9,
+        13
+      ],
+      "mean": 9.625,
+      "median": 9.5,
+      "sd": 2.1339098923270936,
+      "iqr": 2.25,
+      "mad": 1.5,
+      "cv_pct": 22.170492387813958,
+      "min": 6,
+      "max": 13,
+      "ols_slope": 0.17857142857142858,
+      "theil_sen_slope": 0.1,
+      "permutation_p": 0.6543650793650794,
+      "bootstrap_mean_ci": [
+        8.125,
+        11
+      ],
+      "papers_present": 8,
+      "questions": 52,
+      "bh_q": 0.9636243386243386
+    },
+    {
+      "subject": "Electromagnetics",
+      "year_marks": [
+        9,
+        8,
+        8,
+        4,
+        11,
+        6,
+        8,
+        7
+      ],
+      "mean": 7.625,
+      "median": 8.0,
+      "sd": 2.065879266282796,
+      "iqr": 1.5,
+      "mad": 1.0,
+      "cv_pct": 27.093498574200602,
+      "min": 4,
+      "max": 11,
+      "ols_slope": -0.15476190476190477,
+      "theil_sen_slope": -0.18333333333333335,
+      "permutation_p": 0.6982142857142857,
+      "bootstrap_mean_ci": [
+        6.25,
+        9
+      ],
+      "papers_present": 8,
+      "questions": 38,
+      "bh_q": 0.9636243386243386
+    },
+    {
+      "subject": "Electronic Devices",
+      "year_marks": [
+        11,
+        10,
+        6,
+        10,
+        7,
+        12,
+        7,
+        7
+      ],
+      "mean": 8.75,
+      "median": 8.5,
+      "sd": 2.2519832529192065,
+      "iqr": 3.25,
+      "mad": 1.5,
+      "cv_pct": 25.73695146193379,
+      "min": 6,
+      "max": 12,
+      "ols_slope": -0.3333333333333333,
+      "theil_sen_slope": -0.41666666666666663,
+      "permutation_p": 0.38392857142857145,
+      "bootstrap_mean_ci": [
+        7.375,
+        10.25
+      ],
+      "papers_present": 8,
+      "questions": 45,
+      "bh_q": 0.9598214285714286
+    },
+    {
+      "subject": "Engineering Mathematics",
+      "year_marks": [
+        13,
+        13,
+        13,
+        16,
+        13,
+        12,
+        13,
+        9
+      ],
+      "mean": 12.75,
+      "median": 13.0,
+      "sd": 1.9086270308410553,
+      "iqr": 0.25,
+      "mad": 0.0,
+      "cv_pct": 14.969623771302395,
+      "min": 9,
+      "max": 16,
+      "ols_slope": -0.40476190476190477,
+      "theil_sen_slope": -0.1,
+      "permutation_p": 0.19642857142857142,
+      "bootstrap_mean_ci": [
+        11.375,
+        14
+      ],
+      "papers_present": 8,
+      "questions": 71,
+      "bh_q": 0.878968253968254
+    },
+    {
+      "subject": "General Aptitude",
+      "year_marks": [
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15,
+        15
+      ],
+      "mean": 15,
+      "median": 15.0,
+      "sd": 0.0,
+      "iqr": 0.0,
+      "mad": 0.0,
+      "cv_pct": 0.0,
+      "min": 15,
+      "max": 15,
+      "ols_slope": 0.0,
+      "theil_sen_slope": 0.0,
+      "permutation_p": 1.0,
+      "bootstrap_mean_ci": [
+        15,
+        15
+      ],
+      "papers_present": 8,
+      "questions": 80,
+      "bh_q": 1
+    },
+    {
+      "subject": "Networks",
+      "year_marks": [
+        5,
+        5,
+        10,
+        9,
+        8,
+        6,
+        6,
+        7
+      ],
+      "mean": 7,
+      "median": 6.5,
+      "sd": 1.8516401995451028,
+      "iqr": 2.5,
+      "mad": 1.5,
+      "cv_pct": 26.452002850644323,
+      "min": 5,
+      "max": 10,
+      "ols_slope": 0.07142857142857142,
+      "theil_sen_slope": 0.08333333333333333,
+      "permutation_p": 0.8422619047619048,
+      "bootstrap_mean_ci": [
+        5.875,
+        8.25
+      ],
+      "papers_present": 8,
+      "questions": 38,
+      "bh_q": 0.9636243386243386
+    },
+    {
+      "subject": "Signals and Systems",
+      "year_marks": [
+        8,
+        8,
+        8,
+        7,
+        14,
+        10,
+        7,
+        13
+      ],
+      "mean": 9.375,
+      "median": 8.0,
+      "sd": 2.7222627143085005,
+      "iqr": 3.0,
+      "mad": 1.0,
+      "cv_pct": 29.037468952624007,
+      "min": 7,
+      "max": 14,
+      "ols_slope": 0.5119047619047619,
+      "theil_sen_slope": 0.2,
+      "permutation_p": 0.2636904761904762,
+      "bootstrap_mean_ci": [
+        7.75,
+        11.25
+      ],
+      "papers_present": 8,
+      "questions": 48,
+      "bh_q": 0.878968253968254
+    }
+  ],
+  "years": [
+    {
+      "year": 2019,
+      "marks": 100,
+      "questions": 65,
+      "subject_entropy_bits": 3.272966625554809,
+      "normalized_entropy": 0.9852611290991194,
+      "concentration_hhi": 0.1066,
+      "formats": {
+        "MCQ": 40,
+        "NAT": 25
+      }
+    },
+    {
+      "year": 2020,
+      "marks": 100,
+      "questions": 65,
+      "subject_entropy_bits": 3.2699152071232507,
+      "normalized_entropy": 0.9843425606218984,
+      "concentration_hhi": 0.10700000000000001,
+      "formats": {
+        "MCQ": 42,
+        "NAT": 23
+      }
+    },
+    {
+      "year": 2021,
+      "marks": 100,
+      "questions": 65,
+      "subject_entropy_bits": 3.2437906272402137,
+      "normalized_entropy": 0.9764782784529844,
+      "concentration_hhi": 0.11120000000000001,
+      "formats": {
+        "MCQ": 35,
+        "NAT": 30
+      }
+    },
+    {
+      "year": 2022,
+      "marks": 100,
+      "questions": 65,
+      "subject_entropy_bits": 3.233088718134229,
+      "normalized_entropy": 0.9732566828012135,
+      "concentration_hhi": 0.112,
+      "formats": {
+        "MCQ": 33,
+        "MSQ": 14,
+        "NAT": 18
+      }
+    },
+    {
+      "year": 2023,
+      "marks": 100,
+      "questions": 65,
+      "subject_entropy_bits": 3.2575847711870596,
+      "normalized_entropy": 0.9806307295454918,
+      "concentration_hhi": 0.10900000000000001,
+      "formats": {
+        "MCQ": 45,
+        "MSQ": 4,
+        "NAT": 16
+      }
+    },
+    {
+      "year": 2024,
+      "marks": 100,
+      "questions": 65,
+      "subject_entropy_bits": 3.2701201936575193,
+      "normalized_entropy": 0.9844042677174204,
+      "concentration_hhi": 0.107,
+      "formats": {
+        "MCQ": 39,
+        "MSQ": 8,
+        "NAT": 18
+      }
+    },
+    {
+      "year": 2025,
+      "marks": 100,
+      "questions": 65,
+      "subject_entropy_bits": 3.259899274880346,
+      "normalized_entropy": 0.9813274645822461,
+      "concentration_hhi": 0.1086,
+      "formats": {
+        "MCQ": 39,
+        "MSQ": 14,
+        "NAT": 12
+      }
+    },
+    {
+      "year": 2026,
+      "marks": 100,
+      "questions": 65,
+      "subject_entropy_bits": 3.2619673358355508,
+      "normalized_entropy": 0.9819500129626242,
+      "concentration_hhi": 0.10840000000000001,
+      "formats": {
+        "MCQ": 42,
+        "MSQ": 10,
+        "NAT": 13
+      }
+    }
+  ]
+}

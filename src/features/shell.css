@@ -1,0 +1,14 @@
+/* Feature adapters inherit navigation, typography and lighting from the shared shell. */
+.workspace-account{display:flex;align-items:center;gap:8px;max-width:175px;min-width:36px;padding:8px 10px;border:1px solid var(--border-soft);border-radius:var(--radius-sm);font-size:12px;line-height:1.4;color:var(--secondary);white-space:nowrap;background:var(--surface);transition:border-color 150ms ease,background-color 150ms ease}
+.workspace-account span:not(.ui-icon){overflow:hidden;text-overflow:ellipsis}
+.workspace-account:hover{color:var(--text);background:var(--surface-hover);border-color:var(--border)}
+.workspace-account .ui-icon{height:16px;width:16px;flex:none}
+.career-workspace,.personal-workspace,.feature-pyq{min-width:0}
+.career-workspace .data-table,.personal-panel .data-table{width:100%}
+.career-workspace input,.career-workspace select,.personal-workspace input,.personal-workspace select,.feature-pyq select{accent-color:var(--accent)}
+.career-workspace input::placeholder,.personal-workspace input::placeholder,.personal-workspace textarea::placeholder,.feature-pyq input::placeholder{color:var(--muted);opacity:1}
+.career-workspace .data-table .number-cell,.personal-workspace .data-table td:nth-child(3){font-variant-numeric:tabular-nums}
+#careerDetail{max-width:min(880px,94vw);max-height:88dvh;overflow:auto}
+@media(max-width:1350px){.workspace-account{max-width:145px}}
+@media(max-width:700px){.workspace-account{min-height:40px;width:40px;padding:9px;justify-content:center}.workspace-account span:not(.ui-icon){display:none}.workspace-account .ui-icon{height:17px;width:17px}.career-workspace .data-table{min-width:860px}.personal-panel .table-scroll>.data-table{min-width:530px}}
+@media(prefers-reduced-motion:reduce){.workspace-account{transition:none}}

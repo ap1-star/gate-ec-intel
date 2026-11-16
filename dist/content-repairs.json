@@ -1,0 +1,728 @@
+[
+  {
+    "id": "GATE-EC-2019-EC-03",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "The official stated zero is z=1/2 + (1/2)j; the extracted fractions are displaced and can be misread as 2+2j. Use the official page image.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2019/ec_2019.pdf",
+      "page": 6,
+      "sha256": "73c7b52338e5e1eb568639d6305df1a95b884f144230c1596d5b869bf00f6daa",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2020-EC-03",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Official function: f(x,y,z)=exp(1-x*cos(y)) + x*z*exp(-1/(1+y^2)). Supplied exp(1-x)*cos(y) is different, although the requested point derivative happens to coincide.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2020/ec_2020.pdf",
+      "page": 3,
+      "sha256": "f6b51c7f9f433cd7eaaeb276e66abe5b9e9b2e7b8b14034d551515b6d6e7de2d",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2020-EC-47",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Source explicitly defines s_PM(t)=cos(1000*pi*t+Kp*m(t)) and s_FM(t)=cos(1000*pi*t+Kf*integral_0^t m(tau) d tau). The supplied text references but omits these equations. V4 source recheck corrects the previous audit note: the integral lower limit is minus infinity, not zero.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2020/ec_2020.pdf",
+      "page": 16,
+      "sha256": "f6b51c7f9f433cd7eaaeb276e66abe5b9e9b2e7b8b14034d551515b6d6e7de2d",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2021-EC-47",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Source explicitly states that the capacitor is initially discharged and the ammeter reads zero before switching; preserve these initial conditions in the searchable text.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2021/ec_2021.pdf",
+      "page": 34,
+      "sha256": "cab9167225d3c92c96e7397bce53f3ebdc0f39a64c9740996a166e9913ff415c",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-12",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Reconstruct matrix row layout from the source page; the supplied text interleaves matrix and vector entries.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 10,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-15",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore the signal fraction and Fourier-transform option fractions/exponents from the official page.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 13,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-32",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "The supplied text loses the numerator 2^z; the official figure encloses z=-1 and excludes z=+1.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 28,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-49",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore complement on B from official page; the supplied combining glyph is not a reliable Boolean complement representation.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 42,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-50",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore transfer-function numerator/denominator structure from the official page.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 42,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-51",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore pre-emphasis transfer fraction and reference angular frequency.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 43,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text.",
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-52",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "The supplied text says cm/s for the speed of light; the official source says m/s. Preserve the official marks-to-all scoring status.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 44,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-55",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore the denominator 8 in the DFT exponent and proper summation bounds from the official page.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 47,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-63",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore conditional-density exponents and unit-step arguments from the official page.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 51,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-65",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore vector components and powers from the official page.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 52,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-GA-07",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore absolute values, powers and exponential factors from the source graphical question.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 5,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-11",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore the source vector layout and fractional answer options.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 9,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-14",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "The source has 3/2 multiplying j in the contour center; that factor is absent in supplied text.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 10,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-25",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore the open-loop transfer-function fraction.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 18,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-26",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Preserve exponential time warping; a plain x(et) string can be misinterpreted as linear time scaling.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 18,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-33",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore admittance-matrix row structure and global scale factor.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 22,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-43",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "The derivative dot is present in the source and missing in supplied text.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 30,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-47",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore DTFS sum bounds, exponent and requested weighted sum.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 34,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-48",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "The source filter has coefficient 1/2; supplied text omits it.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 34,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-49",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore the squared sinc factor; the supplied text order does not clearly bind the power to the fraction.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 35,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-57",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore transfer-function powers and denominator from the official Bode-plot question.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 41,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-59",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "The source PSD is 1/2 W/Hz, whereas supplied text says 1 W/Hz.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 42,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-65",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore symbol probabilities as table cells rather than flattened numerator/denominator text.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 44,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2024-GA-04",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore logarithm fractions: 1/log_2(x)+1/log_3(x)+1/log_4(x)=1.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+      "page": 3,
+      "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2024-GA-05",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore exponent typography: greatest prime factor of (3^199-3^196).",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+      "page": 4,
+      "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2024-EC-13",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore plant numerator: G(s)=6/[s(s+1)(s+2)].",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+      "page": 11,
+      "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2024-EC-20",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore white-noise PSD N0/2; supplied flattened text omits denominator 2.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+      "page": 17,
+      "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2024-EC-24",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore H(z)=(2z^2+3)/[(z+1/3)(z-1/3)].",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+      "page": 21,
+      "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2024-EC-38",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore G(s)=1/s^2, C(s)=K(s+alpha)/(s+4), desired poles -1 +/- j sqrt(3).",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+      "page": 29,
+      "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text.",
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2024-EC-57",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore RX(tau)=(2/3) cos(2 pi f0 tau); supplied text loses factor 2/3.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+      "page": 44,
+      "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2025-GA-03",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Frequency ratio per semitone is 2^(1/12), not sqrt(2); extraction drops radical index 12. Options A=2^(1/6), B=2^(1/2), C=2^(1/4), D=2.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2025/EC2025.pdf",
+      "page": 2,
+      "sha256": "fe940ace98711b8cb21505fa265044b23b382e649f427d2aea933696a67932ef",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2025-GA-04",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore options: A=(5/3)^(n/2), B=(5/3)^n, C=(5/3)^(2n), D=(5/3)^[n(2n-1)].",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2025/EC2025.pdf",
+      "page": 3,
+      "sha256": "fe940ace98711b8cb21505fa265044b23b382e649f427d2aea933696a67932ef",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2025-EC-40",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore matrix layout: A=[[10/3,2/3],[2/3,10/3]], B=[[2/3,10/3],[10/3,2/3]], C=[[10,2],[2,10]], D=[[10/3,1/3],[1/3,10/3]]. A/B flatten to indistinguishable text in supplied extraction.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2025/EC2025.pdf",
+      "page": 35,
+      "sha256": "fe940ace98711b8cb21505fa265044b23b382e649f427d2aea933696a67932ef",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-11",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore differential dot in d(w)/dt=A w; A option matrices retain two-by-two layout.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 11,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-12",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore D=(sqrt(2)i_hat-k_hat)/sqrt(3); supplied flattened options blur division and differ from C=sqrt(2)i_hat-sqrt(3)k_hat.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 12,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-16",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore x[n]=delta[n]-(1/3)delta[n-1]; supplied text omits factor 1/3.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 16,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-40",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore plant G(s)=1/[(s+1)(s+2)], numerator one is missing in supplied text.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 37,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text.",
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-41",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore A=[[-4,-1.5],[4,0]], B=[[2],[0]], C=[[1.5,0.625]].",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 38,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-44",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Render BER options as 10^(-3),10^(-4),10^(-5),10^(-6), not subtraction expressions.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 41,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-50",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore angular-frequency exponents 10^5 and 10^7 in input/output sinusoids.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 47,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-61",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "reason": "Restore integration region as rotated square with vertices (0,0),(1,1),(2,0),(1,-1); no axis-aligned-square assumption.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 57,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  }
+]

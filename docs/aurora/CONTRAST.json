@@ -1,0 +1,33 @@
+{
+  "scope": "Source token contrast, not rendered accessibility certification",
+  "themes": {
+    "obsidian": {
+      "minimumTextRatio": 4.919344375650788,
+      "focusOnSurface": 10.954163570259519,
+      "controlBoundary": 3.2169919291087328,
+      "primaryActionText": 9.081588533861522,
+      "minimumSeriesRatio": 8.263712395092051
+    },
+    "porcelain": {
+      "minimumTextRatio": 4.675192093957237,
+      "focusOnSurface": 5.547762781103265,
+      "controlBoundary": 3.1150003019999257,
+      "primaryActionText": 5.4540298817636685,
+      "minimumSeriesRatio": 5.547762781103265
+    },
+    "glacier": {
+      "minimumTextRatio": 5.044597914258521,
+      "focusOnSurface": 10.922578472610507,
+      "controlBoundary": 3.332703724344599,
+      "primaryActionText": 8.963091318338705,
+      "minimumSeriesRatio": 7.7508822584760155
+    },
+    "volt": {
+      "minimumTextRatio": 5.299455877550766,
+      "focusOnSurface": 14.420677262084357,
+      "controlBoundary": 3.300268760713203,
+      "primaryActionText": 11.531771780894276,
+      "minimumSeriesRatio": 8.260065846452614
+    }
+  }
+}

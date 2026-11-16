@@ -1,0 +1,66 @@
+[
+  {
+    "year": 2019,
+    "url": "https://gate2026.iitg.ac.in/doc/download/2019/ec_2019.pdf",
+    "sha256": "73c7b52338e5e1eb568639d6305df1a95b884f144230c1596d5b869bf00f6daa",
+    "pages": 31,
+    "text_chars": 0,
+    "status": "downloaded"
+  },
+  {
+    "year": 2020,
+    "url": "https://gate2026.iitg.ac.in/doc/download/2020/ec_2020.pdf",
+    "sha256": "f6b51c7f9f433cd7eaaeb276e66abe5b9e9b2e7b8b14034d551515b6d6e7de2d",
+    "pages": 20,
+    "text_chars": 3390,
+    "status": "downloaded"
+  },
+  {
+    "year": 2021,
+    "url": "https://gate2026.iitg.ac.in/doc/download/2021/ec_2021.pdf",
+    "sha256": "cab9167225d3c92c96e7397bce53f3ebdc0f39a64c9740996a166e9913ff415c",
+    "pages": 39,
+    "text_chars": 0,
+    "status": "downloaded"
+  },
+  {
+    "year": 2022,
+    "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+    "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+    "pages": 54,
+    "text_chars": 31235,
+    "status": "downloaded"
+  },
+  {
+    "year": 2023,
+    "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+    "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+    "pages": 44,
+    "text_chars": 25123,
+    "status": "downloaded"
+  },
+  {
+    "year": 2024,
+    "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+    "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+    "pages": 46,
+    "text_chars": 30862,
+    "status": "downloaded"
+  },
+  {
+    "year": 2025,
+    "url": "https://gate2026.iitg.ac.in/doc/download/2025/EC2025.pdf",
+    "sha256": "fe940ace98711b8cb21505fa265044b23b382e649f427d2aea933696a67932ef",
+    "pages": 52,
+    "text_chars": 32092,
+    "status": "downloaded"
+  },
+  {
+    "year": 2026,
+    "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+    "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+    "pages": 58,
+    "text_chars": 33027,
+    "status": "downloaded"
+  }
+]

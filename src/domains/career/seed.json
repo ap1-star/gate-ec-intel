@@ -1,0 +1,6775 @@
+{
+  "extractedAt": "2026-08-16T17:30:04.080Z",
+  "source": "user-supplied index(11).html",
+  "datasets": {
+    "DATA": {
+      "years_data": [
+        {
+          "year": 2013,
+          "appeared": 256100,
+          "appeared_confidence": "unverified",
+          "air1_marks": 78.3,
+          "air1_confidence": "unverified",
+          "cutoff_general": 25,
+          "cutoff_obc": 22.25,
+          "cutoff_sc_st": 16.67,
+          "cutoff_confidence": "verified",
+          "percentile_99_9": 66,
+          "percentile_99": 52,
+          "percentile_95": 40,
+          "percentile_confidence": "unverified",
+          "difficulty": "Moderate"
+        },
+        {
+          "year": 2014,
+          "appeared": 289200,
+          "appeared_confidence": "unverified",
+          "air1_marks": 74.5,
+          "air1_confidence": "unverified",
+          "cutoff_general": 25.56,
+          "cutoff_obc": 23.01,
+          "cutoff_sc_st": 17.04,
+          "cutoff_confidence": "verified",
+          "percentile_99_9": 64,
+          "percentile_99": 51,
+          "percentile_95": 39,
+          "percentile_confidence": "unverified",
+          "difficulty": "Moderate"
+        },
+        {
+          "year": 2015,
+          "appeared": 298800,
+          "appeared_confidence": "unverified",
+          "air1_marks": 79.3,
+          "air1_confidence": "unverified",
+          "cutoff_general": 25,
+          "cutoff_obc": 22.5,
+          "cutoff_sc_st": 16.67,
+          "cutoff_confidence": "verified",
+          "percentile_99_9": 67,
+          "percentile_99": 53,
+          "percentile_95": 40,
+          "percentile_confidence": "unverified",
+          "difficulty": "Moderate"
+        },
+        {
+          "year": 2016,
+          "appeared": 274300,
+          "appeared_confidence": "unverified",
+          "air1_marks": 84,
+          "air1_confidence": "unverified",
+          "cutoff_general": 25,
+          "cutoff_obc": 22.5,
+          "cutoff_sc_st": 16.6,
+          "cutoff_confidence": "verified",
+          "percentile_99_9": 71,
+          "percentile_99": 56,
+          "percentile_95": 43,
+          "percentile_confidence": "unverified",
+          "difficulty": "Easy"
+        },
+        {
+          "year": 2017,
+          "appeared": 245800,
+          "appeared_confidence": "unverified",
+          "air1_marks": 70,
+          "air1_confidence": "unverified",
+          "cutoff_general": 25,
+          "cutoff_obc": 22.5,
+          "cutoff_sc_st": 16.6,
+          "cutoff_confidence": "verified",
+          "percentile_99_9": 60,
+          "percentile_99": 48,
+          "percentile_95": 38,
+          "percentile_confidence": "unverified",
+          "difficulty": "Hard"
+        },
+        {
+          "year": 2018,
+          "appeared": 208800,
+          "appeared_confidence": "unverified",
+          "air1_marks": 72.3,
+          "air1_confidence": "unverified",
+          "cutoff_general": 25,
+          "cutoff_obc": 22.5,
+          "cutoff_sc_st": 16.6,
+          "cutoff_confidence": "verified",
+          "percentile_99_9": 62,
+          "percentile_99": 49,
+          "percentile_95": 38,
+          "percentile_confidence": "unverified",
+          "difficulty": "Moderate"
+        },
+        {
+          "year": 2019,
+          "appeared": 194600,
+          "appeared_confidence": "unverified",
+          "air1_marks": 74.3,
+          "air1_confidence": "unverified",
+          "cutoff_general": 26.7,
+          "cutoff_obc": 24,
+          "cutoff_sc_st": 17.8,
+          "cutoff_confidence": "verified",
+          "percentile_99_9": 64,
+          "percentile_99": 52,
+          "percentile_95": 39,
+          "percentile_confidence": "unverified",
+          "difficulty": "Moderate"
+        },
+        {
+          "year": 2020,
+          "appeared": 147300,
+          "appeared_confidence": "unverified",
+          "air1_marks": 69,
+          "air1_confidence": "unverified",
+          "cutoff_general": 28.8,
+          "cutoff_obc": 25.9,
+          "cutoff_sc_st": 19.2,
+          "cutoff_confidence": "verified",
+          "percentile_99_9": 59,
+          "percentile_99": 48,
+          "percentile_95": 37,
+          "percentile_confidence": "unverified",
+          "difficulty": "Moderate"
+        },
+        {
+          "year": 2021,
+          "appeared": 146100,
+          "appeared_confidence": "unverified",
+          "air1_marks": 80.7,
+          "air1_confidence": "unverified",
+          "cutoff_general": 25,
+          "cutoff_obc": 22.5,
+          "cutoff_sc_st": 16.6,
+          "cutoff_confidence": "verified",
+          "percentile_99_9": 69,
+          "percentile_99": 55,
+          "percentile_95": 42,
+          "percentile_confidence": "unverified",
+          "difficulty": "Easy"
+        },
+        {
+          "year": 2022,
+          "appeared": 145000,
+          "appeared_confidence": "unverified",
+          "air1_marks": 65,
+          "air1_confidence": "unverified",
+          "cutoff_general": 25,
+          "cutoff_obc": 22.5,
+          "cutoff_sc_st": 16.5,
+          "cutoff_confidence": "verified",
+          "percentile_99_9": 56,
+          "percentile_99": 45,
+          "percentile_95": 35,
+          "percentile_confidence": "unverified",
+          "difficulty": "Hard"
+        },
+        {
+          "year": 2023,
+          "appeared": 45833,
+          "appeared_confidence": "verified",
+          "air1_marks": 90,
+          "air1_confidence": "verified",
+          "cutoff_general": 29.9,
+          "cutoff_obc": 26.9,
+          "cutoff_sc_st": 19.9,
+          "cutoff_confidence": "verified",
+          "percentile_99_9": 69.67,
+          "percentile_99": 57.42,
+          "percentile_95": 43.62,
+          "percentile_confidence": "verified",
+          "difficulty": "Easy",
+          "official_summary": {
+            "registered": 70361,
+            "appeared": 45833,
+            "qualified": 8817,
+            "mean_marks_top_0_1_percent": 74.09,
+            "average_marks_all_appeared": 17.36,
+            "standard_deviation": 12.6,
+            "qualifying_marks_GEN": 29.9,
+            "qualifying_marks_OBC_EWS": 26.9,
+            "qualifying_marks_SC_ST_PwD": 19.9,
+            "qualifying_score_GEN": 350,
+            "qualifying_score_OBC_EWS": 313,
+            "qualifying_score_SC_ST_PwD": 226,
+            "source": "Official GATE 2023 Performance Report (IIT Kanpur)"
+          },
+          "appeared_marks_distribution_bins": [
+            {
+              "range": [
+                -999,
+                0
+              ],
+              "count": 1360
+            },
+            {
+              "range": [
+                0,
+                10
+              ],
+              "count": 13270
+            },
+            {
+              "range": [
+                10,
+                20
+              ],
+              "count": 16199
+            },
+            {
+              "range": [
+                20,
+                30
+              ],
+              "count": 8318
+            },
+            {
+              "range": [
+                30,
+                40
+              ],
+              "count": 3705
+            },
+            {
+              "range": [
+                40,
+                50
+              ],
+              "count": 1905
+            },
+            {
+              "range": [
+                50,
+                60
+              ],
+              "count": 833
+            },
+            {
+              "range": [
+                60,
+                70
+              ],
+              "count": 204
+            },
+            {
+              "range": [
+                70,
+                80
+              ],
+              "count": 37
+            },
+            {
+              "range": [
+                80,
+                90
+              ],
+              "count": 2
+            },
+            {
+              "range": [
+                90,
+                100
+              ],
+              "count": 0
+            }
+          ],
+          "category_appeared": {
+            "GEN": 16286,
+            "GEN_EWS": 4015,
+            "OBC_NCL": 17098,
+            "SC": 6518,
+            "ST": 1916
+          }
+        },
+        {
+          "year": 2024,
+          "appeared": 63092,
+          "appeared_confidence": "verified",
+          "air1_marks": 84.67,
+          "air1_confidence": "verified",
+          "cutoff_general": 25,
+          "cutoff_obc": 22.5,
+          "cutoff_sc_st": 16.6,
+          "cutoff_confidence": "verified",
+          "percentile_99_9": 58.64,
+          "percentile_99": 45.65,
+          "percentile_95": 33.87,
+          "percentile_confidence": "verified",
+          "difficulty": "Hard",
+          "official_summary": {
+            "registered": 78157,
+            "appeared": 63092,
+            "qualified": 13260,
+            "mean_marks_top_0_1_percent": 61.95,
+            "average_marks_all_appeared": 16.02,
+            "standard_deviation": 8.97,
+            "qualifying_marks_GEN": 25,
+            "qualifying_marks_OBC_EWS": 22.5,
+            "qualifying_marks_SC_ST_PwD": 16.6,
+            "qualifying_score_GEN": 350,
+            "qualifying_score_OBC_EWS": 313,
+            "qualifying_score_SC_ST_PwD": 226,
+            "source": "Official GATE 2024 Statistical and Performance Report (IISc Bengaluru)"
+          },
+          "appeared_marks_distribution_bins": [
+            {
+              "range": [
+                -999,
+                0
+              ],
+              "count": 742
+            },
+            {
+              "range": [
+                0,
+                10
+              ],
+              "count": 15034
+            },
+            {
+              "range": [
+                10,
+                20
+              ],
+              "count": 29356
+            },
+            {
+              "range": [
+                20,
+                30
+              ],
+              "count": 13531
+            },
+            {
+              "range": [
+                30,
+                40
+              ],
+              "count": 3291
+            },
+            {
+              "range": [
+                40,
+                50
+              ],
+              "count": 897
+            },
+            {
+              "range": [
+                50,
+                60
+              ],
+              "count": 206
+            },
+            {
+              "range": [
+                60,
+                70
+              ],
+              "count": 32
+            },
+            {
+              "range": [
+                70,
+                80
+              ],
+              "count": 2
+            },
+            {
+              "range": [
+                80,
+                90
+              ],
+              "count": 1
+            },
+            {
+              "range": [
+                90,
+                100
+              ],
+              "count": 0
+            }
+          ],
+          "category_appeared": {
+            "GEN": 22515,
+            "GEN_EWS": 5859,
+            "OBC_NCL": 23573,
+            "SC": 8623,
+            "ST": 2522
+          }
+        },
+        {
+          "year": 2025,
+          "appeared": 81475,
+          "appeared_confidence": "verified",
+          "air1_marks": 82.67,
+          "air1_confidence": "verified",
+          "air1_topper": "Swarnava Biswas",
+          "cutoff_general": 25,
+          "cutoff_obc": 22.5,
+          "cutoff_sc_st": 16.6,
+          "cutoff_confidence": "verified",
+          "percentile_99_9": 68.3,
+          "percentile_99": 50.7,
+          "percentile_95": 36.5,
+          "percentile_confidence": "unverified",
+          "difficulty": "Moderate",
+          "official_summary": {
+            "registered": 97394,
+            "appeared": 81475,
+            "qualified": 14112,
+            "mean_marks_top_0_1_percent": 71.92,
+            "average_marks_all_appeared": 14.99,
+            "standard_deviation": 10.05,
+            "qualifying_marks_GEN": 25,
+            "qualifying_marks_OBC_EWS": 22.5,
+            "qualifying_marks_SC_ST_PwD": 16.6,
+            "qualifying_score_GEN": 350,
+            "qualifying_score_OBC_EWS": 321,
+            "qualifying_score_SC_ST_PwD": 252,
+            "source": "Official GATE 2025 Statistical and Performance Report (IIT Roorkee)"
+          },
+          "qualified_marks_distribution": {
+            "[11-20)": 1236,
+            "[20-30)": 6187,
+            "[30-40)": 4043,
+            "[40-50)": 1772,
+            "[50-60)": 649,
+            "[60-70)": 172,
+            "[70-80)": 49,
+            "[80-90)": 4,
+            "[90-100]": 0,
+            "total": 14112
+          },
+          "appeared_marks_distribution_bins": [
+            {
+              "range": [
+                -999,
+                0
+              ],
+              "count": 1627
+            },
+            {
+              "range": [
+                0,
+                10
+              ],
+              "count": 26889
+            },
+            {
+              "range": [
+                10,
+                20
+              ],
+              "count": 35239
+            },
+            {
+              "range": [
+                20,
+                30
+              ],
+              "count": 11031
+            },
+            {
+              "range": [
+                30,
+                40
+              ],
+              "count": 4043
+            },
+            {
+              "range": [
+                40,
+                50
+              ],
+              "count": 1772
+            },
+            {
+              "range": [
+                50,
+                60
+              ],
+              "count": 649
+            },
+            {
+              "range": [
+                60,
+                70
+              ],
+              "count": 172
+            },
+            {
+              "range": [
+                70,
+                80
+              ],
+              "count": 49
+            },
+            {
+              "range": [
+                80,
+                90
+              ],
+              "count": 4
+            },
+            {
+              "range": [
+                90,
+                100
+              ],
+              "count": 0
+            }
+          ]
+        },
+        {
+          "year": 2026,
+          "appeared": 85000,
+          "appeared_confidence": "unverified",
+          "air1_marks": 95.67,
+          "air1_confidence": "verified",
+          "air1_topper": "Gaurav Kumar",
+          "cutoff_general": 26.4,
+          "cutoff_obc": 23.7,
+          "cutoff_sc_st": 17.6,
+          "cutoff_confidence": "unverified",
+          "percentile_99_9": 74,
+          "percentile_99": 61,
+          "percentile_95": 46,
+          "percentile_confidence": "unverified",
+          "difficulty": "Easy"
+        },
+        {
+          "year": 2027,
+          "is_hypothetical": true,
+          "appeared": 88000,
+          "appeared_confidence": "hypothetical",
+          "air1_marks": 84.67,
+          "air1_confidence": "hypothetical",
+          "cutoff_general": 25,
+          "cutoff_obc": 22.5,
+          "cutoff_sc_st": 16.6,
+          "cutoff_confidence": "hypothetical",
+          "percentile_99_9": 58.64,
+          "percentile_99": 45.65,
+          "percentile_95": 33.87,
+          "percentile_confidence": "hypothetical",
+          "difficulty": "Hard",
+          "scenario_note": "GATE 2027 has not happened (current date: Aug 2026). This row is NOT a forecast — it's a deliberate what-if, assuming the paper is at least as hard as 2024 (the hardest real year on record). Anchors reuse 2024's exact real curve as the 'at par' baseline; if 2027 turns out harder than that, actual ranks at the same marks would trend even better (lower AIR) than shown here, since a harder paper compresses the field further below the same raw score."
+        }
+      ],
+      "admission_benchmarks": {
+        "iit_top": {
+          "air": "<100",
+          "score": "800+",
+          "marks": "68-75+"
+        },
+        "iit_old": {
+          "air": "100-300",
+          "score": "720-800",
+          "marks": "62-70"
+        },
+        "iit_new": {
+          "air": "300-800",
+          "score": "620-720",
+          "marks": "54-62"
+        },
+        "nit_top": {
+          "air": "800-1500",
+          "score": "580-650",
+          "marks": "50-56"
+        },
+        "nit_good": {
+          "air": "1500-3000",
+          "score": "500-580",
+          "marks": "44-52"
+        },
+        "nit_general": {
+          "air": "3000-7000",
+          "score": "400-500",
+          "marks": "36-44"
+        }
+      },
+      "psu_cutoffs": {
+        "verified_cutoffs": [
+          {
+            "psu": "NTPC",
+            "full_name": "National Thermal Power Corporation",
+            "role": "Engineering Executive Trainee (Electronics)",
+            "year": 2021,
+            "metric": "marks_out_of_100",
+            "cutoffs": {
+              "GEN": 59.33,
+              "EWS": 56.67,
+              "OBC": 53.67,
+              "SC": 41,
+              "ST": 37.67
+            },
+            "source": "NTPC official GATE 2021 recruitment cutoff, compiled by PhysicsWallah GATE resource page"
+          },
+          {
+            "psu": "NTPC",
+            "full_name": "National Thermal Power Corporation",
+            "role": "Engineering Executive Trainee (Electronics)",
+            "year": 2019,
+            "metric": "marks_and_air",
+            "cutoffs": {
+              "UR": {
+                "air": 316,
+                "marks": 64
+              },
+              "OBC": {
+                "air": 1047,
+                "marks": 55.33
+              },
+              "SC": {
+                "air": 2359,
+                "marks": 48
+              },
+              "ST": {
+                "air": 5319,
+                "marks": 39.33
+              },
+              "PWBD": {
+                "air": 11242,
+                "marks": 30
+              }
+            },
+            "source": "NTPC official GATE 2019 recruitment cutoff, compiled by PhysicsWallah GATE resource page"
+          },
+          {
+            "psu": "NPCIL",
+            "full_name": "Nuclear Power Corporation of India Limited",
+            "role": "Executive Trainee (Electronics and Communication Engineering)",
+            "year": 2021,
+            "metric": "score_out_of_1000",
+            "cutoffs": {
+              "GEN": 847,
+              "EWS": 714,
+              "SC": 653,
+              "ST": 607,
+              "OBC": 768
+            },
+            "source": "NPCIL official GATE 2021 recruitment cutoff, compiled by PhysicsWallah GATE resource page"
+          },
+          {
+            "psu": "NPCIL",
+            "full_name": "Nuclear Power Corporation of India Limited",
+            "role": "AEE / Executive Trainee (Electronics)",
+            "year": 2019,
+            "metric": "marks_out_of_100",
+            "cutoffs": {
+              "UR": 74,
+              "EWS": 74,
+              "OBC": 64,
+              "SC": 64,
+              "ST": 69
+            },
+            "source": "NPCIL official GATE 2019 recruitment cutoff, compiled by PhysicsWallah GATE resource page"
+          },
+          {
+            "psu": "ONGC",
+            "full_name": "Oil and Natural Gas Corporation",
+            "role": "AEE (Electronics)",
+            "year": 2021,
+            "metric": "score_out_of_1000",
+            "cutoffs": {
+              "GEN": 898,
+              "OBC": 822,
+              "SC": 617,
+              "EWS": 836
+            },
+            "source": "ONGC official GATE 2021 recruitment cutoff, compiled by PhysicsWallah GATE resource page"
+          },
+          {
+            "psu": "ONGC",
+            "full_name": "Oil and Natural Gas Corporation",
+            "role": "MM Officer (Electronics)",
+            "year": 2021,
+            "metric": "score_out_of_1000",
+            "cutoffs": {
+              "GEN": 926,
+              "OBC": 909,
+              "SC": 838,
+              "ST": 789,
+              "EWS": 899
+            },
+            "source": "ONGC official GATE 2021 recruitment cutoff, compiled by PhysicsWallah GATE resource page"
+          }
+        ],
+        "top_20_psu_reference_list": [
+          {
+            "psu": "BEL",
+            "full_name": "Bharat Electronics Limited",
+            "sector": "Defence Electronics",
+            "typical_role": "Probationary/Engineer Trainee",
+            "note": "Widely considered the top EC-specific PSU (radar, comms, defence electronics). Runs its own written test — cutoff varies by drive.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "NTPC",
+            "full_name": "National Thermal Power Corporation",
+            "sector": "Power",
+            "typical_role": "Engineering Executive Trainee",
+            "note": "See verified cutoffs below.",
+            "confidence": "verified"
+          },
+          {
+            "psu": "NPCIL",
+            "full_name": "Nuclear Power Corporation of India",
+            "sector": "Nuclear Energy",
+            "typical_role": "Executive Trainee / Scientific Officer",
+            "note": "See verified cutoffs below.",
+            "confidence": "verified"
+          },
+          {
+            "psu": "ONGC",
+            "full_name": "Oil and Natural Gas Corporation",
+            "sector": "Oil & Gas",
+            "typical_role": "Assistant Executive Engineer",
+            "note": "See verified cutoffs below. Uses GATE score out of 1000; EC cutoffs run high relative to marks-based PSUs.",
+            "confidence": "verified"
+          },
+          {
+            "psu": "PGCIL / POWERGRID",
+            "full_name": "Power Grid Corporation of India Limited",
+            "sector": "Power Transmission",
+            "typical_role": "Executive Trainee",
+            "note": "Recruits EC engineers regularly — no official cutoff published for recent years.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "BSNL",
+            "full_name": "Bharat Sanchar Nigam Limited",
+            "sector": "Telecom",
+            "typical_role": "Junior Telecom Officer (JTO)",
+            "note": "Classic EC-heavy PSU; cutoff varies by circle/zone and vacancy count.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "AAI",
+            "full_name": "Airports Authority of India",
+            "sector": "Aviation",
+            "typical_role": "Junior Executive (Electronics)",
+            "note": "Popular EC PSU option; selection uses GATE score + GD + interview.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "ECIL",
+            "full_name": "Electronics Corporation of India Limited",
+            "sector": "Electronics/Defence",
+            "typical_role": "Graduate Engineer Trainee",
+            "note": "Core electronics PSU under DAE.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "DRDO",
+            "full_name": "Defence Research and Development Organisation",
+            "sector": "Defence R&D",
+            "typical_role": "Scientist 'B'",
+            "note": "Some labs (via DRDO CEPTAM) use GATE score for shortlisting Scientist B roles in EC.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "ISRO",
+            "full_name": "Indian Space Research Organisation",
+            "sector": "Space",
+            "typical_role": "Scientist/Engineer",
+            "note": "Runs its own written exam (ICRB) for most posts; does not typically use GATE score directly.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "HAL",
+            "full_name": "Hindustan Aeronautics Limited",
+            "sector": "Aerospace/Defence",
+            "typical_role": "Management Trainee",
+            "note": "Recruits EC engineers for avionics roles.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "GAIL",
+            "full_name": "Gas Authority of India Limited",
+            "sector": "Natural Gas",
+            "typical_role": "Executive Trainee",
+            "note": "Recruits Instrumentation-leaning EC profiles.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "IOCL",
+            "full_name": "Indian Oil Corporation Limited",
+            "sector": "Oil & Gas",
+            "typical_role": "Engineer",
+            "note": "Mainly recruits Mechanical/Chemical/Electrical; EC/Instrumentation openings are limited.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "BPCL",
+            "full_name": "Bharat Petroleum Corporation Limited",
+            "sector": "Oil & Gas",
+            "typical_role": "Management Trainee",
+            "note": "Occasional EC/Instrumentation vacancies.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "HPCL",
+            "full_name": "Hindustan Petroleum Corporation Limited",
+            "sector": "Oil & Gas",
+            "typical_role": "Junior Executive",
+            "note": "Occasional EC vacancies.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "SAIL",
+            "full_name": "Steel Authority of India Limited",
+            "sector": "Steel",
+            "typical_role": "Management Trainee (Technical)",
+            "note": "Mostly Mechanical/Electrical/Metallurgical; limited EC scope.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "CIL",
+            "full_name": "Coal India Limited",
+            "sector": "Mining",
+            "typical_role": "Management Trainee",
+            "note": "Limited EC recruitment.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "NLC India",
+            "full_name": "NLC India Limited",
+            "sector": "Power (Mining + Thermal)",
+            "typical_role": "Electronics & Communication Engineer (GET)",
+            "note": "Explicitly lists EC as a hiring discipline.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "OIL",
+            "full_name": "Oil India Limited",
+            "sector": "Oil & Gas",
+            "typical_role": "Engineer",
+            "note": "Occasional EC/Instrumentation vacancies.",
+            "confidence": "unverified"
+          },
+          {
+            "psu": "CONCOR",
+            "full_name": "Container Corporation of India Limited",
+            "sector": "Logistics",
+            "typical_role": "Management Trainee",
+            "note": "Limited/irregular EC vacancies.",
+            "confidence": "unverified"
+          }
+        ]
+      }
+    },
+    "RECONSTRUCTED_2026_EXTERNAL_CURVE": {
+      "dataset_classification": "2026_RECONSTRUCTED_EXTERNAL_DISTRIBUTION",
+      "official": false,
+      "source": "USER_SUPPLIED_2026_MARKS_RANK_TABLE",
+      "reconstruction_method": "log_air_monotone_pchip",
+      "label": "2026 Reconstructed External Curve",
+      "disclosure": "Based on external user-supplied marks→AIR observations. Not official GATE data.",
+      "supported_marks": {
+        "minimum": 21,
+        "maximum": 89.67
+      },
+      "curve_points": [
+        {
+          "marks": 21,
+          "air": 21482,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 21.25,
+          "air": 21014.695616,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 21.33,
+          "air": 20875,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 21.5,
+          "air": 20603.770737,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 21.67,
+          "air": 20329,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 21.75,
+          "air": 20179.898597,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 22,
+          "air": 19692,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 22.25,
+          "air": 19290.513923,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 22.33,
+          "air": 19164,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 22.5,
+          "air": 18886.919335,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 22.75,
+          "air": 18478.03969,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 23,
+          "air": 18082,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 23.25,
+          "air": 17707.490559,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 23.33,
+          "air": 17589,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 23.5,
+          "air": 17334.862244,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 23.67,
+          "air": 17087,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 23.75,
+          "air": 16976.062857,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 24,
+          "air": 16640,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 24.25,
+          "air": 16298.631165,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 24.33,
+          "air": 16190,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 24.5,
+          "air": 15960.823737,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 24.75,
+          "air": 15627.988126,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 25,
+          "air": 15303,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 25.25,
+          "air": 14986.794268,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 25.33,
+          "air": 14888,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 25.5,
+          "air": 14687.397011,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 25.67,
+          "air": 14482,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 25.75,
+          "air": 14373.218424,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 26,
+          "air": 14027,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 26.25,
+          "air": 13767.226095,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 26.33,
+          "air": 13686,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 26.5,
+          "air": 13508.596064,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 26.75,
+          "air": 13249.893482,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 27,
+          "air": 12992.365648,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 27.25,
+          "air": 12734.531685,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 27.5,
+          "air": 12475.036877,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 27.67,
+          "air": 12297,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 27.75,
+          "air": 12208.588684,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 28,
+          "air": 11938,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 28.25,
+          "air": 11754.263742,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 28.33,
+          "air": 11691,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 28.5,
+          "air": 11521.634361,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 28.67,
+          "air": 11342,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 28.75,
+          "air": 11263.884193,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 29,
+          "air": 11027,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 29.25,
+          "air": 10792.840695,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 29.33,
+          "air": 10720,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 29.5,
+          "air": 10569.25192,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 29.67,
+          "air": 10424,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 29.75,
+          "air": 10358.379841,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 30,
+          "air": 10159,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 30.25,
+          "air": 9953.672089,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 30.33,
+          "air": 9890,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 30.5,
+          "air": 9761.318746,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 30.67,
+          "air": 9636,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 30.75,
+          "air": 9576.676364,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 31,
+          "air": 9394,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 31.25,
+          "air": 9224.754778,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 31.33,
+          "air": 9167,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 31.5,
+          "air": 9027.216462,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 31.75,
+          "air": 8803.233858,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 32,
+          "air": 8600,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 32.25,
+          "air": 8439.910596,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 32.33,
+          "air": 8390,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 32.5,
+          "air": 8282.60409,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 32.75,
+          "air": 8125.780146,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 33,
+          "air": 7965,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 33.25,
+          "air": 7792.656763,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 33.33,
+          "air": 7739,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 33.5,
+          "air": 7630.719437,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 33.75,
+          "air": 7478.637143,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 34,
+          "air": 7331,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 34.25,
+          "air": 7187.827382,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 34.33,
+          "air": 7141,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 34.5,
+          "air": 7037.620084,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 34.67,
+          "air": 6931,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 34.75,
+          "air": 6879.80526,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 35,
+          "air": 6716,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 35.25,
+          "air": 6547.116056,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 35.33,
+          "air": 6495,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 35.5,
+          "air": 6388.044607,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 35.75,
+          "air": 6235.752066,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 36,
+          "air": 6091.500266,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 36.25,
+          "air": 5957.429278,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 36.33,
+          "air": 5917,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 36.5,
+          "air": 5836.932074,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 36.75,
+          "air": 5728.379773,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 37,
+          "air": 5618,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 37.25,
+          "air": 5496.986936,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 37.33,
+          "air": 5459,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 37.5,
+          "air": 5382.668772,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 37.67,
+          "air": 5307,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 37.75,
+          "air": 5270.536832,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 38,
+          "air": 5156.137761,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 38.25,
+          "air": 5039.849138,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 38.33,
+          "air": 5002,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 38.5,
+          "air": 4917.44455,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 38.67,
+          "air": 4835,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 38.75,
+          "air": 4800.202274,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 39,
+          "air": 4697,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 39.25,
+          "air": 4585.475843,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 39.33,
+          "air": 4551,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 39.5,
+          "air": 4482.11733,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 39.67,
+          "air": 4416,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 39.75,
+          "air": 4386.025275,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 40,
+          "air": 4292,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 40.25,
+          "air": 4176.681558,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 40.33,
+          "air": 4141,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 40.5,
+          "air": 4073.328548,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 40.67,
+          "air": 4007,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 40.75,
+          "air": 3973.799074,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 41,
+          "air": 3868,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 41.25,
+          "air": 3766.912259,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 41.33,
+          "air": 3735,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 41.5,
+          "air": 3666.06326,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 41.67,
+          "air": 3601,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 41.75,
+          "air": 3574.179062,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 42,
+          "air": 3495,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 42.25,
+          "air": 3399.578842,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 42.33,
+          "air": 3372,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 42.5,
+          "air": 3324.947382,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 42.67,
+          "air": 3279,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 42.75,
+          "air": 3253.322131,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 43,
+          "air": 3168,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 43.25,
+          "air": 3094.305643,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 43.33,
+          "air": 3071,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 43.5,
+          "air": 3020.881031,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 43.67,
+          "air": 2970,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 43.75,
+          "air": 2945.264297,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 44,
+          "air": 2867,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 44.25,
+          "air": 2792.520508,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 44.33,
+          "air": 2769,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 44.5,
+          "air": 2719.303273,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 44.67,
+          "air": 2670,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 44.75,
+          "air": 2646.730556,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 45,
+          "air": 2575,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 45.25,
+          "air": 2508.668365,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 45.33,
+          "air": 2487,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 45.5,
+          "air": 2437.458186,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 45.67,
+          "air": 2389,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 45.75,
+          "air": 2368.689145,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 46,
+          "air": 2308,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 46.25,
+          "air": 2238.669284,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 46.33,
+          "air": 2217,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 46.5,
+          "air": 2173.243031,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 46.67,
+          "air": 2132,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 46.75,
+          "air": 2114.204108,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 47,
+          "air": 2060,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 47.25,
+          "air": 1993.391355,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 47.33,
+          "air": 1972,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 47.5,
+          "air": 1928.052053,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 47.67,
+          "air": 1886,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 47.75,
+          "air": 1867.820196,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 48,
+          "air": 1812,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 48.25,
+          "air": 1741.480891,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 48.33,
+          "air": 1720,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 48.5,
+          "air": 1679.414362,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 48.67,
+          "air": 1642,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 48.75,
+          "air": 1625.397091,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 49,
+          "air": 1577.830107,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 49.25,
+          "air": 1529.817594,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 49.33,
+          "air": 1513,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 49.5,
+          "air": 1472.404518,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 49.67,
+          "air": 1431,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 49.75,
+          "air": 1412.633011,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 50,
+          "air": 1360,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 50.25,
+          "air": 1323.024101,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 50.33,
+          "air": 1311,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 50.5,
+          "air": 1281.907697,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 50.67,
+          "air": 1252,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 50.75,
+          "air": 1238.625857,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 51,
+          "air": 1197,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 51.25,
+          "air": 1150.42511,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 51.33,
+          "air": 1137,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 51.5,
+          "air": 1113.189348,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 51.67,
+          "air": 1091,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 51.75,
+          "air": 1080.182697,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 52,
+          "air": 1046,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 52.25,
+          "air": 1010.240836,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 52.33,
+          "air": 998,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 52.5,
+          "air": 966.801769,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 52.67,
+          "air": 940,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 52.75,
+          "air": 932.608416,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 53,
+          "air": 914,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 53.25,
+          "air": 887.02505,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 53.5,
+          "air": 855.143188,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 53.75,
+          "air": 821.39622,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 54,
+          "air": 788.451709,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 54.25,
+          "air": 758.583993,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 54.33,
+          "air": 750,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 54.5,
+          "air": 733.465651,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 54.67,
+          "air": 717,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 54.75,
+          "air": 708.352305,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 55,
+          "air": 681,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 55.25,
+          "air": 659.779061,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 55.33,
+          "air": 653,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 55.5,
+          "air": 637.419223,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 55.67,
+          "air": 622,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 55.75,
+          "air": 615.320452,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 56,
+          "air": 595,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 56.25,
+          "air": 571.72426,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 56.33,
+          "air": 565,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 56.5,
+          "air": 553.362876,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 56.67,
+          "air": 542,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 56.75,
+          "air": 536.314894,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 57,
+          "air": 515,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 57.25,
+          "air": 461.935732,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 57.33,
+          "air": 451,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 57.5,
+          "air": 441.240208,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 57.75,
+          "air": 432.852435,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 58,
+          "air": 423,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 58.25,
+          "air": 404.956166,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 58.33,
+          "air": 399,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 58.5,
+          "air": 387.305898,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 58.67,
+          "air": 376,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 58.75,
+          "air": 370.772969,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 59,
+          "air": 355,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 59.25,
+          "air": 340.37877,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 59.33,
+          "air": 336,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 59.5,
+          "air": 327.318529,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 59.67,
+          "air": 319,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 59.75,
+          "air": 315.204912,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 60,
+          "air": 303,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 60.25,
+          "air": 285.525251,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 60.33,
+          "air": 281,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 60.5,
+          "air": 274.347574,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 60.67,
+          "air": 269,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 60.75,
+          "air": 266.832525,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 61,
+          "air": 260,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 61.25,
+          "air": 243.675136,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 61.33,
+          "air": 238,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 61.5,
+          "air": 226.253984,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 61.67,
+          "air": 216,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 61.75,
+          "air": 212.393928,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 62,
+          "air": 203,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 62.25,
+          "air": 193.673633,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 62.33,
+          "air": 191,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 62.5,
+          "air": 186.036121,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 62.75,
+          "air": 179.607093,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 63,
+          "air": 173,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 63.25,
+          "air": 165.66569,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 63.33,
+          "air": 163,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 63.5,
+          "air": 156.3468,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 63.67,
+          "air": 149,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 63.75,
+          "air": 144.740131,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 64,
+          "air": 134,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 64.25,
+          "air": 134,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 64.33,
+          "air": 134,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 64.5,
+          "air": 133.183819,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 64.75,
+          "air": 129.615514,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 65,
+          "air": 124.390033,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 65.25,
+          "air": 118.727811,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 65.33,
+          "air": 117,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 65.5,
+          "air": 112.581077,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 65.67,
+          "air": 108,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 65.75,
+          "air": 106.217069,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 66,
+          "air": 101.421041,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 66.25,
+          "air": 97.122735,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 66.5,
+          "air": 92.566189,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 66.67,
+          "air": 89,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 66.75,
+          "air": 86.90857,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 67,
+          "air": 80,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 67.25,
+          "air": 76.304499,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 67.33,
+          "air": 75,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 67.5,
+          "air": 70.884359,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 67.67,
+          "air": 67,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 67.75,
+          "air": 65.76273,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 68,
+          "air": 62.649535,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 68.25,
+          "air": 60.180852,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 68.5,
+          "air": 57.804623,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 68.67,
+          "air": 56,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 68.75,
+          "air": 55.000898,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 69,
+          "air": 52,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 69.25,
+          "air": 50.456146,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 69.33,
+          "air": 50,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 69.5,
+          "air": 49.022643,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 69.75,
+          "air": 47.624239,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 70,
+          "air": 46,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 70.25,
+          "air": 43.888013,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 70.33,
+          "air": 43,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 70.5,
+          "air": 39.857182,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 70.67,
+          "air": 37,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 70.75,
+          "air": 36.276863,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 71,
+          "air": 34.542161,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 71.25,
+          "air": 33.328676,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 71.33,
+          "air": 33,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 71.5,
+          "air": 32.42222,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 71.75,
+          "air": 31.762848,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 72,
+          "air": 31,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 72.25,
+          "air": 30.061119,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 72.5,
+          "air": 29.096848,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 72.75,
+          "air": 28.096561,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 73,
+          "air": 27.051779,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 73.25,
+          "air": 25.956313,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 73.5,
+          "air": 24.8064,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 73.75,
+          "air": 23.60082,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 74,
+          "air": 22.340974,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 74.25,
+          "air": 21.030899,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 74.5,
+          "air": 19.677201,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 74.75,
+          "air": 18.288902,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 75,
+          "air": 16.877178,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 75.25,
+          "air": 15.454997,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 75.33,
+          "air": 15,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 75.5,
+          "air": 13.414434,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 75.67,
+          "air": 12,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 75.75,
+          "air": 11.669687,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 76,
+          "air": 11,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 76.25,
+          "air": 10.624906,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 76.5,
+          "air": 10.309923,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 76.75,
+          "air": 10.044495,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 77,
+          "air": 9.819458,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 77.25,
+          "air": 9.626711,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 77.5,
+          "air": 9.458969,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 77.75,
+          "air": 9.309566,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 78,
+          "air": 9.172321,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 78.25,
+          "air": 9.041439,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 78.33,
+          "air": 9,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 78.5,
+          "air": 8.914574,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 78.75,
+          "air": 8.798045,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 79,
+          "air": 8.691319,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 79.25,
+          "air": 8.593315,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 79.5,
+          "air": 8.503013,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 79.75,
+          "air": 8.419448,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 80,
+          "air": 8.3417,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 80.25,
+          "air": 8.26889,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 80.5,
+          "air": 8.200176,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 80.75,
+          "air": 8.134745,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 81,
+          "air": 8.071813,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 81.25,
+          "air": 8.010621,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 81.5,
+          "air": 7.950433,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 81.75,
+          "air": 7.890534,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 82,
+          "air": 7.830232,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 82.25,
+          "air": 7.768854,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 82.5,
+          "air": 7.705752,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 82.75,
+          "air": 7.640298,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 83,
+          "air": 7.571891,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 83.25,
+          "air": 7.499957,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 83.5,
+          "air": 7.423951,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 83.75,
+          "air": 7.343361,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 84,
+          "air": 7.25771,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 84.25,
+          "air": 7.166563,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 84.5,
+          "air": 7.069527,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 84.67,
+          "air": 7,
+          "dataType": "OBSERVED_POINT"
+        },
+        {
+          "marks": 84.75,
+          "air": 6.966022,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 85,
+          "air": 6.852871,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 85.25,
+          "air": 6.730005,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 85.5,
+          "air": 6.598519,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 85.75,
+          "air": 6.459503,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 86,
+          "air": 6.314027,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 86.25,
+          "air": 6.163134,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 86.5,
+          "air": 6.007834,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 86.75,
+          "air": 5.849094,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 87,
+          "air": 5.687832,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 87.25,
+          "air": 5.524915,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 87.5,
+          "air": 5.361155,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 87.75,
+          "air": 5.197306,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 88,
+          "air": 5.034061,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 88.25,
+          "air": 4.872055,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 88.5,
+          "air": 4.711863,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 88.75,
+          "air": 4.554,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 89,
+          "air": 4.398925,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 89.25,
+          "air": 4.24704,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 89.5,
+          "air": 4.098697,
+          "dataType": "INTERPOLATED_POINT"
+        },
+        {
+          "marks": 89.67,
+          "air": 4,
+          "dataType": "OBSERVED_POINT"
+        }
+      ]
+    },
+    "IISC_SPECIALIZATIONS": [
+      {
+        "name": "Electronics and Communication Engineering",
+        "combinedOnly": false,
+        "years": {
+          "2022": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-2022-M-tech-Min-Max.pdf",
+            "sourcePage": 2,
+            "GN": [
+              650,
+              916
+            ],
+            "OBC": [
+              550,
+              671
+            ],
+            "SC": [
+              466,
+              500
+            ],
+            "ST": [
+              432,
+              571
+            ],
+            "EWS": [
+              654,
+              712
+            ],
+            "WQ": null
+          },
+          "2023": {
+            "round": "All rounds",
+            "GN": [
+              621,
+              974
+            ],
+            "OBC": [
+              534,
+              704
+            ],
+            "SC": [
+              335,
+              517
+            ],
+            "ST": [
+              347,
+              401
+            ],
+            "EWS": [
+              562,
+              700
+            ],
+            "WQ": [
+              563,
+              662
+            ]
+          },
+          "2024": {
+            "round": "All rounds",
+            "GN": [
+              608,
+              851
+            ],
+            "OBC": [
+              505,
+              677
+            ],
+            "SC": [
+              360,
+              424
+            ],
+            "ST": [
+              310,
+              310
+            ],
+            "EWS": [
+              524,
+              588
+            ]
+          },
+          "2025": {
+            "round": "Round 1",
+            "UR": [
+              659,
+              820
+            ],
+            "OBC": [
+              592,
+              842
+            ],
+            "SC": [
+              436,
+              569
+            ],
+            "ST": [
+              439,
+              530
+            ],
+            "EWS": [
+              581,
+              651
+            ],
+            "WQ": [
+              530,
+              655
+            ]
+          },
+          "2026": {
+            "round": "Round 1",
+            "UR": [
+              670,
+              824
+            ],
+            "OBC": [
+              605,
+              735
+            ],
+            "SC": [
+              452,
+              637
+            ],
+            "ST": [
+              467,
+              528
+            ],
+            "EWS": [
+              589,
+              670
+            ],
+            "WQ": [
+              710,
+              710
+            ]
+          }
+        },
+        "cgpa2026": {
+          "UR": [
+            9.01,
+            9.29
+          ],
+          "OBC": [
+            9.46,
+            9.67
+          ],
+          "SC": [
+            8.07,
+            8.07
+          ],
+          "EWS": [
+            9.53,
+            9.53
+          ]
+        }
+      },
+      {
+        "name": "Signal Processing",
+        "combinedOnly": false,
+        "years": {
+          "2020": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-SCORE-Direct-admission-2020.pdf",
+            "sourcePage": 1,
+            "GN": [
+              831,
+              1000
+            ],
+            "OBC": [
+              778,
+              851
+            ],
+            "SC": [
+              555,
+              588
+            ],
+            "ST": [
+              616,
+              616
+            ],
+            "EWS": [
+              754,
+              815
+            ],
+            "WQ": null
+          },
+          "2021": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "Direct-MTech-2021.pdf",
+            "sourcePage": 1,
+            "GN": [
+              836,
+              933
+            ],
+            "OBC": [
+              693,
+              822
+            ],
+            "SC": [
+              569,
+              631
+            ],
+            "ST": [
+              417,
+              455
+            ],
+            "EWS": [
+              698,
+              827
+            ],
+            "WQ": null
+          },
+          "2022": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-2022-M-tech-Min-Max.pdf",
+            "sourcePage": 2,
+            "GN": [
+              675,
+              795
+            ],
+            "OBC": [
+              616,
+              716
+            ],
+            "SC": [
+              512,
+              521
+            ],
+            "ST": null,
+            "EWS": [
+              641,
+              666
+            ],
+            "WQ": null
+          },
+          "2023": {
+            "round": "All rounds",
+            "GN": [
+              696,
+              874
+            ],
+            "OBC": [
+              613,
+              762
+            ],
+            "SC": [
+              472,
+              646
+            ],
+            "ST": [
+              401,
+              559
+            ],
+            "EWS": [
+              642,
+              754
+            ],
+            "WQ": [
+              571,
+              758
+            ]
+          },
+          "2024": {
+            "round": "All rounds",
+            "GN": [
+              658,
+              829
+            ],
+            "OBC": [
+              584,
+              727
+            ],
+            "SC": [
+              414,
+              534
+            ],
+            "ST": [
+              335,
+              424
+            ],
+            "EWS": [
+              732,
+              801
+            ],
+            "WQ": [
+              613,
+              707
+            ]
+          },
+          "2025": {
+            "round": "Round 1",
+            "UR": [
+              862,
+              881
+            ],
+            "OBC": [
+              788,
+              792
+            ],
+            "SC": [
+              760,
+              760
+            ],
+            "WQ": [
+              698,
+              749
+            ]
+          },
+          "2026": {
+            "round": "Round 1",
+            "UR": [
+              819,
+              881
+            ],
+            "OBC": [
+              783,
+              791
+            ],
+            "SC": [
+              714,
+              714
+            ],
+            "EWS": [
+              779,
+              779
+            ],
+            "WQ": [
+              722,
+              747
+            ]
+          }
+        },
+        "cgpa2026": {
+          "UR": [
+            9.54,
+            9.61
+          ],
+          "OBC": [
+            9.26,
+            9.26
+          ],
+          "SC": [
+            8.55,
+            8.55
+          ],
+          "EWS": [
+            9.15,
+            9.15
+          ]
+        }
+      },
+      {
+        "name": "Microelectronics and VLSI Design",
+        "combinedOnly": false,
+        "years": {
+          "2022": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-2022-M-tech-Min-Max.pdf",
+            "sourcePage": 2,
+            "GN": [
+              708,
+              970
+            ],
+            "OBC": [
+              683,
+              845
+            ],
+            "SC": [
+              521,
+              600
+            ],
+            "ST": [
+              862,
+              862
+            ],
+            "EWS": [
+              679,
+              800
+            ],
+            "WQ": null
+          },
+          "2023": {
+            "round": "All rounds",
+            "GN": [
+              733,
+              979
+            ],
+            "OBC": [
+              604,
+              837
+            ],
+            "SC": [
+              451,
+              708
+            ],
+            "ST": [
+              326,
+              617
+            ],
+            "EWS": [
+              625,
+              791
+            ],
+            "WQ": [
+              526,
+              841
+            ]
+          },
+          "2024": {
+            "round": "All rounds",
+            "GN": [
+              866,
+              1000
+            ],
+            "OBC": [
+              692,
+              906
+            ],
+            "SC": [
+              489,
+              732
+            ],
+            "ST": [
+              633,
+              687
+            ],
+            "EWS": [
+              737,
+              821
+            ],
+            "WQ": [
+              682,
+              861
+            ]
+          },
+          "2025": {
+            "round": "Round 1",
+            "UR": [
+              811,
+              1000
+            ],
+            "OBC": [
+              772,
+              913
+            ],
+            "SC": [
+              588,
+              776
+            ],
+            "ST": [
+              534,
+              706
+            ],
+            "EWS": [
+              749,
+              803
+            ],
+            "WQ": [
+              667,
+              811
+            ]
+          },
+          "2026": {
+            "round": "Round 1",
+            "UR": [
+              804,
+              950
+            ],
+            "OBC": [
+              755,
+              852
+            ],
+            "SC": [
+              621,
+              743
+            ],
+            "ST": [
+              580,
+              580
+            ],
+            "EWS": [
+              775,
+              848
+            ],
+            "WQ": [
+              787,
+              787
+            ]
+          }
+        },
+        "cgpa2026": {
+          "UR": [
+            9.28,
+            9.79
+          ],
+          "OBC": [
+            8.92,
+            9.33
+          ],
+          "SC": [
+            8.76,
+            8.78
+          ],
+          "ST": [
+            8.56,
+            8.56
+          ],
+          "EWS": [
+            9.53,
+            9.53
+          ]
+        }
+      },
+      {
+        "name": "Electronic Systems Engineering",
+        "combinedOnly": false,
+        "years": {
+          "2022": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-2022-M-tech-Min-Max.pdf",
+            "sourcePage": 1,
+            "GN": [
+              637,
+              904
+            ],
+            "OBC": [
+              700,
+              808
+            ],
+            "SC": [
+              491,
+              612
+            ],
+            "ST": null,
+            "EWS": [
+              770,
+              770
+            ],
+            "WQ": null
+          },
+          "2023": {
+            "round": "All rounds",
+            "GN": [
+              642,
+              808
+            ],
+            "OBC": [
+              571,
+              783
+            ],
+            "SC": [
+              538,
+              716
+            ],
+            "ST": [
+              372,
+              422
+            ],
+            "EWS": [
+              683,
+              745
+            ],
+            "WQ": [
+              575,
+              642
+            ]
+          },
+          "2024": {
+            "round": "All rounds",
+            "GN": [
+              762,
+              881
+            ],
+            "OBC": [
+              682,
+              826
+            ],
+            "SC": [
+              494,
+              563
+            ],
+            "ST": [
+              380,
+              380
+            ],
+            "EWS": [
+              727,
+              727
+            ],
+            "WQ": [
+              758,
+              758
+            ]
+          },
+          "2025": {
+            "round": "Round 1",
+            "UR": [
+              749,
+              936
+            ],
+            "OBC": [
+              682,
+              795
+            ],
+            "SC": [
+              534,
+              596
+            ],
+            "ST": [
+              600,
+              600
+            ],
+            "EWS": [
+              690,
+              846
+            ],
+            "WQ": [
+              667,
+              878
+            ]
+          },
+          "2026": {
+            "round": "Round 1",
+            "UR": [
+              775,
+              870
+            ],
+            "OBC": [
+              706,
+              739
+            ],
+            "SC": [
+              532,
+              779
+            ],
+            "EWS": [
+              706,
+              743
+            ],
+            "WQ": [
+              779,
+              779
+            ]
+          }
+        },
+        "cgpa2026": {
+          "UR": [
+            9.2,
+            9.5
+          ],
+          "OBC": [
+            8.89,
+            8.93
+          ],
+          "SC": [
+            8.93,
+            8.93
+          ]
+        }
+      },
+      {
+        "name": "Electronic Product Design",
+        "combinedOnly": false,
+        "years": {
+          "2022": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-2022-M-tech-Min-Max.pdf",
+            "sourcePage": 1,
+            "GN": [
+              629,
+              787
+            ],
+            "OBC": [
+              516,
+              600
+            ],
+            "SC": [
+              508,
+              508
+            ],
+            "ST": null,
+            "EWS": [
+              483,
+              562
+            ],
+            "WQ": null
+          },
+          "2023": {
+            "round": "All rounds",
+            "GN": [
+              633,
+              754
+            ],
+            "OBC": [
+              555,
+              696
+            ],
+            "SC": [
+              409,
+              505
+            ],
+            "ST": [
+              430,
+              459
+            ],
+            "EWS": [
+              604,
+              604
+            ],
+            "WQ": [
+              555,
+              592
+            ]
+          },
+          "2024": {
+            "round": "All rounds",
+            "GN": [
+              568,
+              732
+            ],
+            "OBC": [
+              702,
+              742
+            ],
+            "SC": [
+              365,
+              469
+            ],
+            "ST": [
+              380,
+              380
+            ],
+            "EWS": [
+              677,
+              677
+            ],
+            "WQ": [
+              524,
+              633
+            ]
+          },
+          "2025": {
+            "round": "Round 1",
+            "UR": [
+              643,
+              854
+            ],
+            "OBC": [
+              620,
+              803
+            ],
+            "SC": [
+              471,
+              495
+            ],
+            "EWS": [
+              686,
+              706
+            ],
+            "WQ": [
+              612,
+              612
+            ]
+          },
+          "2026": {
+            "round": "Round 1",
+            "UR": [
+              755,
+              933
+            ],
+            "OBC": [
+              678,
+              739
+            ],
+            "SC": [
+              552,
+              580
+            ],
+            "EWS": [
+              698,
+              743
+            ],
+            "WQ": [
+              690,
+              722
+            ]
+          }
+        },
+        "cgpa2026": {
+          "UR": [
+            9.72,
+            9.72
+          ],
+          "OBC": [
+            9.53,
+            9.53
+          ],
+          "EWS": [
+            8.85,
+            9.72
+          ]
+        }
+      },
+      {
+        "name": "Semiconductor Technology",
+        "combinedOnly": false,
+        "years": {
+          "2023": {
+            "round": "All rounds",
+            "GN": [
+              725,
+              725
+            ],
+            "OBC": [
+              575,
+              579
+            ],
+            "ST": [
+              380,
+              380
+            ],
+            "EWS": [
+              696,
+              696
+            ],
+            "WQ": [
+              604,
+              683
+            ]
+          },
+          "2024": {
+            "round": "All rounds",
+            "GN": [
+              816,
+              836
+            ],
+            "OBC": [
+              682,
+              742
+            ],
+            "SC": [
+              420,
+              658
+            ],
+            "EWS": [
+              583,
+              583
+            ]
+          },
+          "2025": {
+            "round": "Round 1",
+            "UR": [
+              979,
+              979
+            ],
+            "OBC": [
+              788,
+              889
+            ],
+            "SC": [
+              651,
+              651
+            ],
+            "ST": [
+              514,
+              514
+            ],
+            "EWS": [
+              752,
+              752
+            ],
+            "WQ": [
+              663,
+              745
+            ]
+          },
+          "2026": {
+            "round": "Round 1",
+            "UR": [
+              889,
+              925
+            ],
+            "OBC": [
+              856,
+              856
+            ],
+            "SC": [
+              718,
+              718
+            ],
+            "WQ": [
+              731,
+              787
+            ]
+          }
+        },
+        "cgpa2026": {
+          "UR": [
+            9.77,
+            9.8
+          ],
+          "OBC": [
+            9.51,
+            9.51
+          ],
+          "SC": [
+            9.58,
+            9.58
+          ]
+        }
+      },
+      {
+        "name": "Quantum Technology",
+        "combinedOnly": false,
+        "years": {
+          "2022": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-2022-M-tech-Min-Max.pdf",
+            "sourcePage": 2,
+            "GN": [
+              662,
+              662
+            ],
+            "OBC": [
+              654,
+              654
+            ],
+            "SC": null,
+            "ST": null,
+            "EWS": null,
+            "WQ": null
+          },
+          "2023": {
+            "round": "All rounds",
+            "GN": [
+              700,
+              733
+            ],
+            "OBC": [
+              708,
+              721
+            ],
+            "WQ": [
+              433,
+              433
+            ]
+          },
+          "2024": {
+            "round": "All rounds",
+            "GN": [
+              654,
+              654
+            ],
+            "SC": [
+              519,
+              519
+            ]
+          },
+          "2025": {
+            "round": "Round 1",
+            "UR": [
+              682,
+              682
+            ],
+            "OBC": [
+              631,
+              631
+            ],
+            "WQ": [
+              565,
+              565
+            ]
+          },
+          "2026": {
+            "round": "Round 1",
+            "OBC": [
+              589,
+              589
+            ],
+            "WQ": [
+              556,
+              556
+            ]
+          }
+        },
+        "cgpa2026": {
+          "UR": [
+            9.23,
+            9.33
+          ],
+          "OBC": [
+            8.73,
+            8.73
+          ]
+        }
+      },
+      {
+        "name": "Instrumentation Systems",
+        "combinedOnly": false,
+        "years": {
+          "2021": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "Direct-MTech-2021.pdf",
+            "sourcePage": 1,
+            "GN": null,
+            "OBC": [
+              684,
+              765
+            ],
+            "SC": null,
+            "ST": null,
+            "EWS": null,
+            "WQ": null
+          },
+          "2022": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-2022-M-tech-Min-Max.pdf",
+            "sourcePage": 2,
+            "GN": null,
+            "OBC": null,
+            "SC": null,
+            "ST": null,
+            "EWS": [
+              508,
+              508
+            ],
+            "WQ": null
+          },
+          "2023": {
+            "round": "All rounds",
+            "GN": [
+              509,
+              596
+            ],
+            "OBC": [
+              434,
+              493
+            ]
+          },
+          "2024": {
+            "round": "All rounds",
+            "GN": [
+              584,
+              717
+            ],
+            "OBC": [
+              488,
+              529
+            ],
+            "SC": [
+              395,
+              414
+            ],
+            "ST": [
+              320,
+              320
+            ],
+            "EWS": [
+              529,
+              529
+            ]
+          },
+          "2025": {
+            "round": "Round 1",
+            "UR": [
+              725,
+              725
+            ],
+            "OBC": [
+              600,
+              647
+            ],
+            "SC": [
+              452,
+              452
+            ]
+          },
+          "2026": {
+            "round": "Round 1",
+            "OBC": [
+              666,
+              670
+            ],
+            "SC": [
+              459,
+              475
+            ],
+            "EWS": [
+              641,
+              641
+            ]
+          }
+        },
+        "cgpa2026": {
+          "UR": [
+            8.48,
+            8.99
+          ],
+          "OBC": [
+            8.43,
+            9.14
+          ]
+        }
+      },
+      {
+        "name": "Robotics and Autonomous Systems",
+        "combinedOnly": false,
+        "years": {
+          "2022": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-2022-M-tech-Min-Max.pdf",
+            "sourcePage": 2,
+            "GN": [
+              691,
+              708
+            ],
+            "OBC": null,
+            "SC": [
+              525,
+              525
+            ],
+            "ST": null,
+            "EWS": null,
+            "WQ": null
+          },
+          "2023": {
+            "round": "All rounds",
+            "GN": [
+              607,
+              816
+            ],
+            "OBC": [
+              716,
+              716
+            ],
+            "SC": [
+              596,
+              609
+            ],
+            "ST": [
+              384,
+              413
+            ],
+            "WQ": [
+              522,
+              522
+            ]
+          },
+          "2024": {
+            "round": "All rounds",
+            "GN": [
+              757,
+              757
+            ],
+            "OBC": [
+              525,
+              596
+            ],
+            "EWS": [
+              563,
+              563
+            ],
+            "WQ": [
+              529,
+              529
+            ]
+          },
+          "2025": {
+            "round": "Round 1",
+            "OBC": [
+              642,
+              729
+            ]
+          },
+          "2026": {
+            "round": "Round 1",
+            "UR": [
+              682,
+              682
+            ],
+            "OBC": [
+              682,
+              682
+            ]
+          }
+        },
+        "cgpa2026": {
+          "UR": [
+            9.54,
+            9.89
+          ],
+          "OBC": [
+            9.17,
+            9.17
+          ],
+          "SC": [
+            8.32,
+            9.14
+          ],
+          "EWS": [
+            8.68,
+            8.68
+          ]
+        }
+      },
+      {
+        "name": "Artificial Intelligence",
+        "combinedOnly": false,
+        "years": {
+          "2020": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-SCORE-Direct-admission-2020.pdf",
+            "sourcePage": 1,
+            "GN": [
+              843,
+              1000
+            ],
+            "OBC": [
+              766,
+              843
+            ],
+            "SC": [
+              561,
+              571
+            ],
+            "ST": [
+              409,
+              466
+            ],
+            "EWS": [
+              746,
+              811
+            ],
+            "WQ": null
+          },
+          "2022": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-2022-M-tech-Min-Max.pdf",
+            "sourcePage": 1,
+            "GN": [
+              883,
+              991
+            ],
+            "OBC": [
+              815,
+              815
+            ],
+            "SC": [
+              475,
+              691
+            ],
+            "ST": null,
+            "EWS": [
+              836,
+              836
+            ],
+            "WQ": null
+          },
+          "2023": {
+            "round": "All rounds",
+            "GN": [
+              853,
+              878
+            ],
+            "OBC": [
+              671,
+              745
+            ],
+            "SC": [
+              509,
+              737
+            ],
+            "ST": [
+              401,
+              463
+            ],
+            "EWS": [
+              675,
+              817
+            ],
+            "WQ": [
+              621,
+              741
+            ]
+          },
+          "2024": {
+            "round": "All rounds",
+            "OBC": [
+              752,
+              821
+            ],
+            "ST": [
+              509,
+              524
+            ]
+          },
+          "2025": {
+            "round": "Round 1",
+            "SC": [
+              643,
+              643
+            ]
+          },
+          "2026": {
+            "round": "Round 1",
+            "UR": [
+              856,
+              856
+            ],
+            "OBC": [
+              840,
+              840
+            ]
+          }
+        },
+        "cgpa2026": {
+          "UR": [
+            9.51,
+            9.79
+          ],
+          "SC": [
+            9.2,
+            9.2
+          ]
+        }
+      },
+      {
+        "name": "Computational and Data Science",
+        "combinedOnly": false,
+        "gateECEligibility": "CONFIRMED",
+        "years": {
+          "2022": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-2022-M-tech-Min-Max.pdf",
+            "sourcePage": 1,
+            "GN": [
+              808,
+              850
+            ],
+            "OBC": null,
+            "SC": [
+              641,
+              641
+            ],
+            "ST": null,
+            "EWS": null,
+            "WQ": null
+          },
+          "2026": {
+            "round": "Round 1 · IISc-specific",
+            "cutoffType": "Operated GATE Score",
+            "sourceFilename": "Min-Max-MTech-GATE_CFTI(1).pdf",
+            "sourcePage": 1,
+            "UR": null,
+            "OBC": null,
+            "SC": [
+              690,
+              690
+            ],
+            "ST": null,
+            "EWS": null,
+            "WQ": null
+          }
+        }
+      },
+      {
+        "name": "Product Design Development and Management",
+        "combinedOnly": false,
+        "gateECEligibility": "CONFIRMED",
+        "years": {
+          "2026": {
+            "round": "Round 1 · IISc-specific",
+            "cutoffType": "Operated GATE Score",
+            "sourceFilename": "Min-Max-MTech-GATE_CFTI(1).pdf",
+            "sourcePage": 2,
+            "UR": [
+              666,
+              666
+            ],
+            "OBC": [
+              580,
+              580
+            ],
+            "SC": null,
+            "ST": null,
+            "EWS": null,
+            "WQ": null
+          }
+        }
+      },
+      {
+        "name": "Smart Mobility and Logistics Systems",
+        "combinedOnly": true,
+        "gateECEligibility": "UNCLEAR",
+        "years": {
+          "2026": {
+            "round": "GATE-EC eligibility unclear · not used as an IISc EC cutoff",
+            "cutoffType": "No verified IISc GATE EC cutoff",
+            "sourceFilename": "Min-Max-MTech-GATE_CFTI(1).pdf",
+            "sourcePage": 8,
+            "UR": null,
+            "OBC": null,
+            "SC": null,
+            "ST": null,
+            "EWS": null,
+            "WQ": null
+          }
+        },
+        "legacyContext2026": {
+          "round": "Round 2 (2026) · combined COAP historical context",
+          "UR": [
+            581,
+            581
+          ],
+          "OBC": null,
+          "SC": null,
+          "ST": null,
+          "EWS": null,
+          "WQ": null
+        }
+      },
+      {
+        "name": "Earth and Climate Sciences",
+        "combinedOnly": false,
+        "gateECEligibility": "CONFIRMED",
+        "years": {
+          "2026": {
+            "round": "Round 1 · IISc-specific",
+            "cutoffType": "Operated GATE Score",
+            "sourceFilename": "Min-Max-MTech-GATE_CFTI(1).pdf",
+            "sourcePage": 1,
+            "UR": null,
+            "OBC": [
+              568,
+              568
+            ],
+            "SC": null,
+            "ST": null,
+            "EWS": null,
+            "WQ": [
+              565,
+              565
+            ]
+          }
+        }
+      },
+      {
+        "name": "Aerospace Engineering",
+        "code": "AE",
+        "department": "Aerospace Engineering",
+        "combinedOnly": false,
+        "gateECEligibility": "CONFIRMED",
+        "years": {
+          "2020": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-SCORE-Direct-admission-2020.pdf",
+            "sourcePage": 1,
+            "GN": [
+              791,
+              807
+            ],
+            "OBC": [
+              750,
+              750
+            ],
+            "SC": [
+              507,
+              507
+            ],
+            "ST": null,
+            "EWS": [
+              612,
+              612
+            ],
+            "WQ": null
+          },
+          "2021": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "Direct-MTech-2021.pdf",
+            "sourcePage": 1,
+            "GN": null,
+            "OBC": null,
+            "SC": [
+              421,
+              426
+            ],
+            "ST": null,
+            "EWS": null,
+            "WQ": null
+          }
+        }
+      },
+      {
+        "name": "Communication Networks",
+        "code": "CN",
+        "department": "Electronics and Communication",
+        "combinedOnly": false,
+        "gateECEligibility": "CONFIRMED",
+        "years": {
+          "2020": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-SCORE-Direct-admission-2020.pdf",
+            "sourcePage": 1,
+            "GN": [
+              803,
+              924
+            ],
+            "OBC": [
+              754,
+              803
+            ],
+            "SC": [
+              549,
+              653
+            ],
+            "ST": [
+              438,
+              539
+            ],
+            "EWS": [
+              746,
+              803
+            ],
+            "WQ": null
+          }
+        }
+      },
+      {
+        "name": "Bioengineering",
+        "department": "Bioengineering",
+        "combinedOnly": false,
+        "gateECEligibility": "CONFIRMED",
+        "years": {
+          "2022": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-2022-M-tech-Min-Max.pdf",
+            "sourcePage": 1,
+            "GN": null,
+            "OBC": null,
+            "SC": null,
+            "ST": null,
+            "EWS": [
+              696,
+              696
+            ],
+            "WQ": null
+          }
+        }
+      },
+      {
+        "name": "Nanoscience and Engineering",
+        "department": "Nanoscience and Engineering",
+        "combinedOnly": false,
+        "gateECEligibility": "CONFIRMED",
+        "years": {
+          "2022": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-2022-M-tech-Min-Max.pdf",
+            "sourcePage": 2,
+            "GN": [
+              612,
+              704
+            ],
+            "OBC": [
+              587,
+              587
+            ],
+            "SC": null,
+            "ST": null,
+            "EWS": [
+              571,
+              591
+            ],
+            "WQ": null
+          }
+        }
+      },
+      {
+        "name": "Smart Manufacturing",
+        "department": "Smart Manufacturing",
+        "combinedOnly": false,
+        "gateECEligibility": "CONFIRMED",
+        "years": {
+          "2022": {
+            "round": "Stage not stated · IISc-specific",
+            "cutoffType": "Operated GATE Score (highest–lowest)",
+            "sourceFilename": "GATE-2022-M-tech-Min-Max.pdf",
+            "sourcePage": 2,
+            "GN": null,
+            "OBC": null,
+            "SC": [
+              396,
+              396
+            ],
+            "ST": null,
+            "EWS": null,
+            "WQ": null
+          },
+          "2023": {
+            "round": "All rounds · IISc-specific",
+            "cutoffType": "Operated GATE Score (lowest–highest)",
+            "sourceFilename": "2023-M-tech-GATE-Min-Max(1).pdf",
+            "sourcePage": 4,
+            "GN": [
+              542,
+              542
+            ],
+            "OBC": null,
+            "SC": null,
+            "ST": null,
+            "EWS": [
+              418,
+              418
+            ],
+            "WQ": null
+          },
+          "2024": {
+            "round": "COAP R1–R5 · IISc-specific",
+            "cutoffType": "Operated GATE Score (low–high)",
+            "sourceFilename": "GATE-HIGH_LOW(1).pdf",
+            "sourcePage": 3,
+            "GN": null,
+            "OBC": [
+              484,
+              484
+            ],
+            "SC": null,
+            "ST": null,
+            "EWS": null,
+            "WQ": null
+          },
+          "2025": {
+            "round": "Round 1 · IISc-specific",
+            "cutoffType": "Operated GATE Score",
+            "sourceFilename": "M.Tech-M.Des-Admission-Cutoff-2025(1)(1).pdf",
+            "sourcePage": 3,
+            "UR": null,
+            "OBC": [
+              506,
+              506
+            ],
+            "SC": null,
+            "ST": null,
+            "EWS": null,
+            "WQ": [
+              502,
+              502
+            ]
+          }
+        }
+      },
+      {
+        "name": "Mobility Engineering",
+        "department": "Mobility Engineering",
+        "combinedOnly": false,
+        "gateECEligibility": "CONFIRMED",
+        "years": {
+          "2023": {
+            "round": "All rounds · IISc-specific",
+            "cutoffType": "Operated GATE Score (lowest–highest)",
+            "sourceFilename": "2023-M-tech-GATE-Min-Max(1).pdf",
+            "sourcePage": 3,
+            "GN": [
+              658,
+              658
+            ],
+            "OBC": null,
+            "SC": null,
+            "ST": null,
+            "EWS": null,
+            "WQ": null
+          },
+          "2024": {
+            "round": "COAP R1–R5 · IISc-specific",
+            "cutoffType": "Operated GATE Score (low–high)",
+            "sourceFilename": "GATE-HIGH_LOW(1).pdf",
+            "sourcePage": 2,
+            "GN": null,
+            "OBC": null,
+            "SC": [
+              444,
+              444
+            ],
+            "ST": [
+              246,
+              246
+            ],
+            "EWS": null,
+            "WQ": null
+          }
+        }
+      }
+    ],
+    "IISC_YEAR_CAT_MAP": {
+      "2020": {
+        "GEN": "GN",
+        "GEN_EWS": "EWS",
+        "OBC_NCL": "OBC",
+        "SC": "SC",
+        "ST": "ST"
+      },
+      "2021": {
+        "GEN": "GN",
+        "GEN_EWS": "EWS",
+        "OBC_NCL": "OBC",
+        "SC": "SC",
+        "ST": "ST"
+      },
+      "2022": {
+        "GEN": "GN",
+        "GEN_EWS": "EWS",
+        "OBC_NCL": "OBC",
+        "SC": "SC",
+        "ST": "ST"
+      },
+      "2023": {
+        "GEN": "GN",
+        "GEN_EWS": "EWS",
+        "OBC_NCL": "OBC",
+        "SC": "SC",
+        "ST": "ST"
+      },
+      "2024": {
+        "GEN": "GN",
+        "GEN_EWS": "EWS",
+        "OBC_NCL": "OBC",
+        "SC": "SC",
+        "ST": "ST"
+      },
+      "2025": {
+        "GEN": "UR",
+        "GEN_EWS": "EWS",
+        "OBC_NCL": "OBC",
+        "SC": "SC",
+        "ST": "ST"
+      },
+      "2026": {
+        "GEN": "UR",
+        "GEN_EWS": "EWS",
+        "OBC_NCL": "OBC",
+        "SC": "SC",
+        "ST": "ST"
+      }
+    },
+    "IISC_RECORD_PROVENANCE": {
+      "2023": {
+        "sourceFilename": "2023-M-tech-GATE-Min-Max(1).pdf",
+        "cutoffType": "Operated GATE Score (lowest–highest)",
+        "stage": "All rounds",
+        "records": {
+          "Electronics and Communication Engineering": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Signal Processing": {
+            "sourcePage": 4,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Microelectronics and VLSI Design": {
+            "sourcePage": 3,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Electronic Systems Engineering": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Electronic Product Design": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Semiconductor Technology": {
+            "sourcePage": 3,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Quantum Technology": {
+            "sourcePage": 3,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Instrumentation Systems": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Robotics and Autonomous Systems": {
+            "sourcePage": 3,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Artificial Intelligence": {
+            "sourcePage": 1,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Computational and Data Science": {
+            "sourcePage": 1,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          }
+        }
+      },
+      "2024": {
+        "sourceFilename": "GATE-HIGH_LOW(1).pdf",
+        "cutoffType": "Operated GATE Score (low–high)",
+        "stage": "COAP R1–R5",
+        "records": {
+          "Electronics and Communication Engineering": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Signal Processing": {
+            "sourcePage": 3,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Microelectronics and VLSI Design": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Electronic Systems Engineering": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Electronic Product Design": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Semiconductor Technology": {
+            "sourcePage": 3,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Quantum Technology": {
+            "sourcePage": 3,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Instrumentation Systems": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Robotics and Autonomous Systems": {
+            "sourcePage": 3,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Artificial Intelligence": {
+            "sourcePage": 1,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Computational and Data Science": {
+            "sourcePage": 1,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          }
+        }
+      },
+      "2025": {
+        "sourceFilename": "M.Tech-M.Des-Admission-Cutoff-2025(1)(1).pdf",
+        "cutoffType": "Operated GATE Score",
+        "stage": "Round 1",
+        "records": {
+          "Electronics and Communication Engineering": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Signal Processing": {
+            "sourcePage": 3,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Microelectronics and VLSI Design": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Electronic Systems Engineering": {
+            "sourcePage": 1,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Electronic Product Design": {
+            "sourcePage": 1,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Semiconductor Technology": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Quantum Technology": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Instrumentation Systems": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Robotics and Autonomous Systems": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Artificial Intelligence": {
+            "sourcePage": 1,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Computational and Data Science": {
+            "sourcePage": 1,
+            "acceptedGatePapers": [],
+            "ecEligibility": "UNCLEAR"
+          },
+          "Product Design Development and Management": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          }
+        }
+      },
+      "2026": {
+        "sourceFilename": "Min-Max-MTech-GATE_CFTI(1).pdf",
+        "cutoffType": "Operated GATE Score",
+        "stage": "Round 1",
+        "records": {
+          "Electronics and Communication Engineering": {
+            "sourcePage": 1,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Signal Processing": {
+            "sourcePage": 3,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Microelectronics and VLSI Design": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Electronic Systems Engineering": {
+            "sourcePage": 1,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Electronic Product Design": {
+            "sourcePage": 1,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Semiconductor Technology": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Quantum Technology": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Instrumentation Systems": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Robotics and Autonomous Systems": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Artificial Intelligence": {
+            "sourcePage": 1,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Computational and Data Science": {
+            "sourcePage": 1,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Product Design Development and Management": {
+            "sourcePage": 2,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Earth and Climate Sciences": {
+            "sourcePage": 1,
+            "acceptedGatePapers": [
+              "EC"
+            ],
+            "ecEligibility": "CONFIRMED"
+          },
+          "Smart Mobility and Logistics Systems": {
+            "sourcePage": 8,
+            "acceptedGatePapers": [],
+            "ecEligibility": "UNCLEAR",
+            "notes": "CFTI UG-CGPA context only; no verified IISc GATE EC cutoff."
+          }
+        }
+      }
+    },
+    "IISC_CFTI_UG_CGPA_PROVENANCE": {
+      "year": 2026,
+      "sourceFilename": "Min-Max-MTech-GATE_CFTI(1).pdf",
+      "sourcePage": 8,
+      "cutoffType": "CFTI UG-CGPA direct-entry cutoff (separate from GATE)",
+      "stage": "All three CFTI rounds",
+      "gateECEligibility": "UNCLEAR",
+      "notes": "This provenance applies only to cgpa2026 values; it must not be used as a GATE-score or GATE-EC eligibility record."
+    },
+    "IITM_PROGRAM_CATALOG": {
+      "EE1": "Communications and Signal Processing",
+      "EE2": "Power Systems and Power Electronics",
+      "EE3": "Microelectronics and VLSI Design",
+      "EE4": "Electronic System Design and Instrumentation",
+      "EE5": "RF and Photonics",
+      "EE6": "Integrated Circuits and Systems",
+      "EE7": "Control and Optimization",
+      "ED1": "M.Tech in Electric Vehicles",
+      "ED2": "M.Tech in Robotics",
+      "MM2": "M.Tech in Metallurgical and Materials Engineering with specialization in Semiconductor Materials Technology"
+    },
+    "IITM_SOURCE_REGISTRY": {
+      "2024": {
+        "sourceFile": "M.Tech.2024_Cutoff(1).pdf",
+        "pages": {
+          "Y": 2,
+          "N": 5
+        }
+      },
+      "2025": {
+        "sourceFile": "M.Tech.2025_Cutoff(2).pdf",
+        "pages": {
+          "Y": 2,
+          "N": 5
+        }
+      },
+      "2026": {
+        "sourceFile": "M.Tech.2026_Cutoff.pdf",
+        "pages": {
+          "Y": 2,
+          "N": 6,
+          "MM2Y": 3,
+          "ED2N": 6
+        }
+      }
+    },
+    "IITM_PROGRAMS_RAW": {
+      "2024": [
+        {
+          "code": "EE1Y",
+          "track": "HTTA",
+          "note": "EE dept. — EC paper accepted",
+          "cutoffs": {
+            "GEN": 677,
+            "EWS": 568,
+            "OBC": 553,
+            "SC": 420,
+            "ST": 320
+          }
+        },
+        {
+          "code": "EE1N",
+          "track": "Non-HTTA",
+          "note": "EE dept. — EC paper accepted",
+          "cutoffs": {
+            "GEN": 663,
+            "EWS": null,
+            "OBC": 538,
+            "SC": 484,
+            "ST": null
+          }
+        },
+        {
+          "code": "EE2Y",
+          "track": "HTTA",
+          "note": "Power Systems & Power Electronics — EE paper",
+          "cutoffs": {
+            "GEN": 709,
+            "EWS": 670,
+            "OBC": 557,
+            "SC": 437,
+            "ST": 393
+          }
+        },
+        {
+          "code": "EE3Y",
+          "track": "HTTA",
+          "note": "EE dept. — EC paper accepted",
+          "cutoffs": {
+            "GEN": 836,
+            "EWS": 801,
+            "OBC": 742,
+            "SC": 633,
+            "ST": 546
+          }
+        },
+        {
+          "code": "EE3N",
+          "track": "Non-HTTA",
+          "note": "EE dept. — EC paper accepted",
+          "cutoffs": {
+            "GEN": 801,
+            "EWS": 717,
+            "OBC": 732,
+            "SC": 524,
+            "ST": 420
+          }
+        },
+        {
+          "code": "EE4Y",
+          "track": "HTTA",
+          "note": "EE dept. — EC/BM/IN accepted",
+          "cutoffs": {
+            "GEN": 748,
+            "EWS": 707,
+            "OBC": 646,
+            "SC": 514,
+            "ST": 390
+          }
+        },
+        {
+          "code": "EE4N",
+          "track": "Non-HTTA",
+          "note": "EE dept. — EC/BM/IN accepted",
+          "cutoffs": {
+            "GEN": 692,
+            "EWS": null,
+            "OBC": 573,
+            "SC": null,
+            "ST": null
+          }
+        },
+        {
+          "code": "EE5Y",
+          "track": "HTTA",
+          "note": "EE dept. — EC/IN/PH accepted",
+          "cutoffs": {
+            "GEN": 625,
+            "EWS": 534,
+            "OBC": 539,
+            "SC": 402,
+            "ST": 350
+          }
+        },
+        {
+          "code": "EE5N",
+          "track": "Non-HTTA",
+          "note": "EE dept. — EC/IN/PH accepted",
+          "cutoffs": {
+            "GEN": 593,
+            "EWS": null,
+            "OBC": 517,
+            "SC": 397,
+            "ST": null
+          }
+        },
+        {
+          "code": "EE6Y",
+          "track": "HTTA",
+          "note": "EE dept. — EC/IN accepted",
+          "cutoffs": {
+            "GEN": 858,
+            "EWS": 815,
+            "OBC": 709,
+            "SC": 637,
+            "ST": 433
+          }
+        },
+        {
+          "code": "EE6N",
+          "track": "Non-HTTA",
+          "note": "EE dept. — EC/IN accepted",
+          "cutoffs": {
+            "GEN": 762,
+            "EWS": 598,
+            "OBC": 722,
+            "SC": 571,
+            "ST": 365
+          }
+        },
+        {
+          "code": "EE7Y",
+          "track": "HTTA",
+          "note": "EE dept. — DA/EC/IN accepted",
+          "cutoffs": {
+            "GEN": 613,
+            "EWS": 555,
+            "OBC": 555,
+            "SC": 484,
+            "ST": 398
+          }
+        },
+        {
+          "code": "EE7N",
+          "track": "Non-HTTA",
+          "note": "EE dept. — DA/EC/IN accepted",
+          "cutoffs": {
+            "GEN": 684,
+            "EWS": null,
+            "OBC": 524,
+            "SC": null,
+            "ST": null
+          }
+        }
+      ],
+      "2025": [
+        {
+          "code": "ED1Y",
+          "track": "HTTA",
+          "note": "Electronic Devices track",
+          "cutoffs": {
+            "GEN": 740,
+            "EWS": 598,
+            "OBC": 685,
+            "SC": 437,
+            "ST": 437
+          }
+        },
+        {
+          "code": "ED1N",
+          "track": "Non-HTTA",
+          "note": "Electronic Devices track",
+          "cutoffs": {
+            "GEN": 555,
+            "EWS": 525,
+            "OBC": 526,
+            "SC": 397,
+            "ST": 305
+          }
+        },
+        {
+          "code": "EE1Y",
+          "track": "HTTA",
+          "note": "EE dept. — EC paper accepted",
+          "cutoffs": {
+            "GEN": 690,
+            "EWS": 592,
+            "OBC": 647,
+            "SC": 561,
+            "ST": 346
+          }
+        },
+        {
+          "code": "EE1N",
+          "track": "Non-HTTA",
+          "note": "EE dept. — EC paper accepted",
+          "cutoffs": {
+            "GEN": 674,
+            "EWS": null,
+            "OBC": 568,
+            "SC": 405,
+            "ST": null
+          }
+        },
+        {
+          "code": "EE2Y",
+          "track": "HTTA",
+          "note": "Power Systems & Power Electronics — EE paper",
+          "cutoffs": {
+            "GEN": 657,
+            "EWS": null,
+            "OBC": 622,
+            "SC": 445,
+            "ST": 397
+          }
+        },
+        {
+          "code": "EE3Y",
+          "track": "HTTA",
+          "note": "EE dept. — EC paper accepted",
+          "cutoffs": {
+            "GEN": 881,
+            "EWS": 788,
+            "OBC": 792,
+            "SC": 760,
+            "ST": 651
+          }
+        },
+        {
+          "code": "EE3N",
+          "track": "Non-HTTA",
+          "note": "EE dept. — EC paper accepted",
+          "cutoffs": {
+            "GEN": 842,
+            "EWS": 752,
+            "OBC": 725,
+            "SC": 573,
+            "ST": 495
+          }
+        },
+        {
+          "code": "EE4Y",
+          "track": "HTTA",
+          "note": "EE dept. — EC/BM/IN accepted",
+          "cutoffs": {
+            "GEN": 829,
+            "EWS": 678,
+            "OBC": 720,
+            "SC": 656,
+            "ST": 433
+          }
+        },
+        {
+          "code": "EE4N",
+          "track": "Non-HTTA",
+          "note": "EE dept. — EC/BM/IN accepted",
+          "cutoffs": {
+            "GEN": 799,
+            "EWS": null,
+            "OBC": 788,
+            "SC": null,
+            "ST": null
+          }
+        },
+        {
+          "code": "EE5Y",
+          "track": "HTTA",
+          "note": "EE dept. — EC/IN/PH accepted",
+          "cutoffs": {
+            "GEN": 665,
+            "EWS": 561,
+            "OBC": 590,
+            "SC": 459,
+            "ST": 311
+          }
+        },
+        {
+          "code": "EE5N",
+          "track": "Non-HTTA",
+          "note": "EE dept. — EC/IN/PH accepted",
+          "cutoffs": {
+            "GEN": 623,
+            "EWS": null,
+            "OBC": 582,
+            "SC": 385,
+            "ST": null
+          }
+        },
+        {
+          "code": "EE6Y",
+          "track": "HTTA",
+          "note": "EE dept. — EC/IN accepted",
+          "cutoffs": {
+            "GEN": 944,
+            "EWS": 854,
+            "OBC": 862,
+            "SC": 686,
+            "ST": 449
+          }
+        },
+        {
+          "code": "EE6N",
+          "track": "Non-HTTA",
+          "note": "EE dept. — EC/IN accepted",
+          "cutoffs": {
+            "GEN": 862,
+            "EWS": 819,
+            "OBC": 748,
+            "SC": 634,
+            "ST": 401
+          }
+        },
+        {
+          "code": "EE7Y",
+          "track": "HTTA",
+          "note": "EE dept. — DA/EC/IN accepted",
+          "cutoffs": {
+            "GEN": 772,
+            "EWS": 547,
+            "OBC": 627,
+            "SC": 452,
+            "ST": 358
+          }
+        },
+        {
+          "code": "EE7N",
+          "track": "Non-HTTA",
+          "note": "EE dept. — DA/EC/IN accepted",
+          "cutoffs": {
+            "GEN": 620,
+            "EWS": null,
+            "OBC": 555,
+            "SC": null,
+            "ST": null
+          }
+        }
+      ],
+      "2026": [
+        {
+          "code": "ED1Y",
+          "track": "HTTA",
+          "note": "Qualifying discipline: EE, IN, EC · GATE paper: EC, EE, IN, ME, XE",
+          "cutoffs": {
+            "GEN": 751,
+            "EWS": null,
+            "OBC": 638,
+            "SC": 475,
+            "ST": 459
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 2
+        },
+        {
+          "code": "ED1Y",
+          "track": "HTTA",
+          "note": "Qualifying discipline: ME, AU, MM, PR, PI, CH · GATE paper: EC, EE, IN, ME, XE",
+          "cutoffs": {
+            "GEN": null,
+            "EWS": null,
+            "OBC": 626,
+            "SC": null,
+            "ST": 438
+          },
+          "eligibility": "UNCLEAR",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 2
+        },
+        {
+          "code": "ED1N",
+          "track": "Non-HTTA",
+          "note": "Qualifying discipline: EE, IN, EC · GATE paper: EC, EE, IN, ME, XE",
+          "cutoffs": {
+            "GEN": 617,
+            "EWS": 463,
+            "OBC": 563,
+            "SC": null,
+            "ST": null
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 6
+        },
+        {
+          "code": "EE1Y",
+          "track": "HTTA",
+          "note": "Qualifying discipline: EC, EE, EP, IN, ZE · GATE paper: EC",
+          "cutoffs": {
+            "GEN": 735,
+            "EWS": 690,
+            "OBC": 714,
+            "SC": 516,
+            "ST": 495
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 2
+        },
+        {
+          "code": "EE2Y",
+          "track": "HTTA",
+          "note": "Qualifying discipline: EC, EE, EN, EP, IN, ZE · GATE paper: EE",
+          "cutoffs": {
+            "GEN": 730,
+            "EWS": 622,
+            "OBC": 661,
+            "SC": 507,
+            "ST": 495
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 2
+        },
+        {
+          "code": "EE3Y",
+          "track": "HTTA",
+          "note": "Qualifying discipline: EC, EE, EP, IN, ZE · GATE paper: EC",
+          "cutoffs": {
+            "GEN": 871,
+            "EWS": 808,
+            "OBC": 808,
+            "SC": 682,
+            "ST": 540
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 2
+        },
+        {
+          "code": "EE4Y",
+          "track": "HTTA",
+          "note": "Qualifying discipline: BM, EC, EE, EP, IN, ZE · GATE papers: BM, EC, EE, IN",
+          "cutoffs": {
+            "GEN": 851,
+            "EWS": 742,
+            "OBC": 755,
+            "SC": 687,
+            "ST": 480
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 3
+        },
+        {
+          "code": "EE5Y",
+          "track": "HTTA",
+          "note": "Qualifying discipline: EC, EE, EP, IN, PH, ZE · GATE papers: EC, EE, IN, PH",
+          "cutoffs": {
+            "GEN": 723,
+            "EWS": 686,
+            "OBC": 653,
+            "SC": 483,
+            "ST": 392
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 3
+        },
+        {
+          "code": "EE6Y",
+          "track": "HTTA",
+          "note": "Qualifying discipline: EC, EE, EP, IN, ZE · GATE papers: EC, EE, IN",
+          "cutoffs": {
+            "GEN": 901,
+            "EWS": 844,
+            "OBC": 852,
+            "SC": 779,
+            "ST": 726
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 3
+        },
+        {
+          "code": "EE7Y",
+          "track": "HTTA",
+          "note": "Qualifying discipline: EC, EE, EP, IN, ZE · GATE papers: DA, EC, EE, IN",
+          "cutoffs": {
+            "GEN": 718,
+            "EWS": 614,
+            "OBC": 648,
+            "SC": 492,
+            "ST": 414
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 3
+        },
+        {
+          "code": "EE1N",
+          "track": "Non-HTTA",
+          "note": "Qualifying discipline: EC, EE, EP, IN, ZE · GATE paper: EC",
+          "cutoffs": {
+            "GEN": 698,
+            "EWS": null,
+            "OBC": 682,
+            "SC": 483,
+            "ST": null
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 6
+        },
+        {
+          "code": "EE2N",
+          "track": "Non-HTTA",
+          "note": "Qualifying discipline: EC, EE, EN, EP, IN, ZE · GATE paper: EE",
+          "cutoffs": {
+            "GEN": 672,
+            "EWS": 549,
+            "OBC": 618,
+            "SC": null,
+            "ST": null
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 6
+        },
+        {
+          "code": "EE3N",
+          "track": "Non-HTTA",
+          "note": "Qualifying discipline: EC, EE, EP, IN, ZE · GATE paper: EC",
+          "cutoffs": {
+            "GEN": 848,
+            "EWS": 783,
+            "OBC": 787,
+            "SC": 678,
+            "ST": 471
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 6
+        },
+        {
+          "code": "EE4N",
+          "track": "Non-HTTA",
+          "note": "Qualifying discipline: BM, EC, EE, EP, IN, ZE · GATE papers: BM, EC, EE, IN",
+          "cutoffs": {
+            "GEN": 838,
+            "EWS": null,
+            "OBC": null,
+            "SC": null,
+            "ST": null
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 6
+        },
+        {
+          "code": "EE5N",
+          "track": "Non-HTTA",
+          "note": "Qualifying discipline: EC, EE, EP, IN, PH, ZE · GATE papers: EC, EE, IN, PH",
+          "cutoffs": {
+            "GEN": 682,
+            "EWS": null,
+            "OBC": 637,
+            "SC": 459,
+            "ST": null
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 6
+        },
+        {
+          "code": "EE6N",
+          "track": "Non-HTTA",
+          "note": "Qualifying discipline: EC, EE, EP, IN, ZE · GATE papers: EC, EE, IN",
+          "cutoffs": {
+            "GEN": 881,
+            "EWS": 828,
+            "OBC": 832,
+            "SC": 674,
+            "ST": 475
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 6
+        },
+        {
+          "code": "EE7N",
+          "track": "Non-HTTA",
+          "note": "Qualifying discipline: EC, EE, EP, IN, ZE · GATE papers: DA, EC, EE, IN",
+          "cutoffs": {
+            "GEN": 678,
+            "EWS": null,
+            "OBC": 629,
+            "SC": null,
+            "ST": null
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 6
+        },
+        {
+          "code": "MM2Y",
+          "track": "HTTA",
+          "note": "Qualifying discipline: MM · GATE papers: MT, XE",
+          "cutoffs": {
+            "GEN": 660,
+            "EWS": null,
+            "OBC": 558,
+            "SC": 381,
+            "ST": 515
+          },
+          "eligibility": "UNCLEAR",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 3
+        },
+        {
+          "code": "MM2Y",
+          "track": "HTTA",
+          "note": "Qualifying discipline: CH, CY, EC, EE, PH, MS, NT · GATE papers: CH, CY, EC, EE, MT, PH, XE",
+          "cutoffs": {
+            "GEN": 717,
+            "EWS": null,
+            "OBC": 670,
+            "SC": null,
+            "ST": null
+          },
+          "pwdCutoffs": {
+            "EWS": 317
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 3
+        },
+        {
+          "code": "ED2N",
+          "track": "Non-HTTA",
+          "note": "Qualifying discipline: AE, ME, PR",
+          "cutoffs": {
+            "GEN": 641,
+            "EWS": 491,
+            "OBC": 472,
+            "SC": 435,
+            "ST": 314
+          },
+          "eligibility": "UNCLEAR",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 6
+        },
+        {
+          "code": "ED2N",
+          "track": "Non-HTTA",
+          "note": "Qualifying discipline: EC, EE, IN",
+          "cutoffs": {
+            "GEN": 722,
+            "EWS": null,
+            "OBC": 670,
+            "SC": 512,
+            "ST": 430
+          },
+          "eligibility": "CONFIRMED",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 6
+        },
+        {
+          "code": "ED2N",
+          "track": "Non-HTTA",
+          "note": "Qualifying discipline: ZE · GATE papers: AE, CS, EC, EE, IN, ME, PI",
+          "cutoffs": {
+            "GEN": 747,
+            "EWS": 640,
+            "OBC": 522,
+            "SC": null,
+            "ST": null
+          },
+          "eligibility": "UNCLEAR",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 6
+        },
+        {
+          "code": "ED2N",
+          "track": "Non-HTTA",
+          "note": "Qualifying discipline: CS",
+          "cutoffs": {
+            "GEN": 872,
+            "EWS": 843,
+            "OBC": 750,
+            "SC": null,
+            "ST": null
+          },
+          "eligibility": "UNCLEAR",
+          "sourceFile": "M.Tech.2026_Cutoff.pdf",
+          "sourcePage": 6
+        }
+      ]
+    },
+    "COAP_HISTORY": {
+      "Electronics and Communication Engineering (ECE)": {
+        "type": "core",
+        "description": "Flagship EC department offering advanced communications, network systems, and signal processing.",
+        "cutoffs": {
+          "2020": {
+            "UR": {
+              "low": 803,
+              "high": 924,
+              "paper": "EC (Communication Networks)"
+            },
+            "OBC": {
+              "low": 754,
+              "high": 803,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 549,
+              "high": 653,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 438,
+              "high": 539,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 746,
+              "high": 803,
+              "paper": "EC"
+            }
+          },
+          "2022": {
+            "UR": {
+              "low": 650,
+              "high": 916,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 550,
+              "high": 671,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 466,
+              "high": 500,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 432,
+              "high": 571,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 654,
+              "high": 712,
+              "paper": "EC"
+            }
+          },
+          "2023": {
+            "UR": {
+              "low": 621,
+              "high": 974,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 534,
+              "high": 704,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 335,
+              "high": 517,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 347,
+              "high": 401,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 562,
+              "high": 700,
+              "paper": "EC"
+            }
+          },
+          "2024": {
+            "UR": {
+              "low": 608,
+              "high": 851,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 505,
+              "high": 677,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 360,
+              "high": 424,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 310,
+              "high": 310,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 524,
+              "high": 588,
+              "paper": "EC"
+            }
+          },
+          "2025": {
+            "UR": {
+              "low": 659,
+              "high": 820,
+              "paper": "EC (Round 1)"
+            },
+            "OBC": {
+              "low": 592,
+              "high": 842,
+              "paper": "EC (Round 1)"
+            },
+            "SC": {
+              "low": 436,
+              "high": 569,
+              "paper": "EC (Round 1)"
+            },
+            "ST": {
+              "low": 439,
+              "high": 530,
+              "paper": "EC (Round 1)"
+            },
+            "EWS": {
+              "low": 581,
+              "high": 651,
+              "paper": "EC (Round 1)"
+            }
+          },
+          "2026": {
+            "UR": {
+              "low": 670,
+              "high": 824,
+              "paper": "EC (Round 1)"
+            },
+            "OBC": {
+              "low": 605,
+              "high": 735,
+              "paper": "EC (Round 1)"
+            },
+            "SC": {
+              "low": 452,
+              "high": 637,
+              "paper": "EC (Round 1)"
+            },
+            "ST": {
+              "low": 467,
+              "high": 528,
+              "paper": "EC (Round 1)"
+            },
+            "EWS": {
+              "low": 589,
+              "high": 670,
+              "paper": "EC (Round 1)"
+            }
+          }
+        }
+      },
+      "Electronic Systems Engineering (ESE)": {
+        "type": "core",
+        "description": "Focus on system-level hardware/software design, embedded systems, and VLSI.",
+        "cutoffs": {
+          "2022": {
+            "UR": {
+              "low": 637,
+              "high": 904,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 700,
+              "high": 808,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 491,
+              "high": 612,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 770,
+              "high": 770,
+              "paper": "EC"
+            }
+          },
+          "2023": {
+            "UR": {
+              "low": 642,
+              "high": 808,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 571,
+              "high": 783,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 538,
+              "high": 716,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 372,
+              "high": 422,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 683,
+              "high": 745,
+              "paper": "EC"
+            }
+          },
+          "2024": {
+            "UR": {
+              "low": 762,
+              "high": 881,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 682,
+              "high": 826,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 494,
+              "high": 563,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 380,
+              "high": 380,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 727,
+              "high": 727,
+              "paper": "EC"
+            }
+          },
+          "2025": {
+            "UR": {
+              "low": 749,
+              "high": 936,
+              "paper": "EC (Round 1)"
+            },
+            "OBC": {
+              "low": 682,
+              "high": 795,
+              "paper": "EC (Round 1)"
+            },
+            "SC": {
+              "low": 534,
+              "high": 596,
+              "paper": "EC (Round 1)"
+            },
+            "ST": {
+              "low": 600,
+              "high": 600,
+              "paper": "EC (Round 1)"
+            },
+            "EWS": {
+              "low": 690,
+              "high": 846,
+              "paper": "EC (Round 1)"
+            }
+          },
+          "2026": {
+            "UR": {
+              "low": 775,
+              "high": 870,
+              "paper": "EC (Round 1)"
+            },
+            "OBC": {
+              "low": 706,
+              "high": 739,
+              "paper": "EC (Round 1)"
+            },
+            "SC": {
+              "low": 532,
+              "high": 779,
+              "paper": "EC (Round 1)"
+            },
+            "EWS": {
+              "low": 706,
+              "high": 743,
+              "paper": "EC (Round 1)"
+            }
+          }
+        }
+      },
+      "Electronic Product Design (EPD)": {
+        "type": "core",
+        "description": "Electronic product conceptualisation, design, and manufacturing integration.",
+        "cutoffs": {
+          "2022": {
+            "UR": {
+              "low": 629,
+              "high": 787,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 516,
+              "high": 600,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 508,
+              "high": 508,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 483,
+              "high": 562,
+              "paper": "EC"
+            }
+          },
+          "2023": {
+            "UR": {
+              "low": 633,
+              "high": 754,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 555,
+              "high": 696,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 409,
+              "high": 505,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 430,
+              "high": 459,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 604,
+              "high": 604,
+              "paper": "EC"
+            }
+          },
+          "2024": {
+            "UR": {
+              "low": 568,
+              "high": 732,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 702,
+              "high": 742,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 365,
+              "high": 469,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 380,
+              "high": 380,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 677,
+              "high": 677,
+              "paper": "EC"
+            }
+          },
+          "2025": {
+            "UR": {
+              "low": 643,
+              "high": 854,
+              "paper": "EC (Round 1)"
+            },
+            "OBC": {
+              "low": 620,
+              "high": 803,
+              "paper": "EC (Round 1)"
+            },
+            "SC": {
+              "low": 471,
+              "high": 495,
+              "paper": "EC (Round 1)"
+            },
+            "EWS": {
+              "low": 686,
+              "high": 706,
+              "paper": "EC (Round 1)"
+            }
+          },
+          "2026": {
+            "UR": {
+              "low": 755,
+              "high": 933,
+              "paper": "EC (Round 1)"
+            },
+            "OBC": {
+              "low": 678,
+              "high": 739,
+              "paper": "EC (Round 1)"
+            },
+            "SC": {
+              "low": 552,
+              "high": 580,
+              "paper": "EC (Round 1)"
+            },
+            "EWS": {
+              "low": 698,
+              "high": 743,
+              "paper": "EC"
+            }
+          }
+        }
+      },
+      "Microelectronics and VLSI Design": {
+        "type": "core",
+        "description": "High-demand program focusing on solid-state devices, fabrication, and analog/digital VLSI design.",
+        "cutoffs": {
+          "2022": {
+            "UR": {
+              "low": 708,
+              "high": 970,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 683,
+              "high": 845,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 521,
+              "high": 600,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 679,
+              "high": 800,
+              "paper": "EC"
+            }
+          },
+          "2023": {
+            "UR": {
+              "low": 733,
+              "high": 979,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 604,
+              "high": 837,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 451,
+              "high": 708,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 326,
+              "high": 617,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 625,
+              "high": 791,
+              "paper": "EC"
+            }
+          },
+          "2024": {
+            "UR": {
+              "low": 866,
+              "high": 1000,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 692,
+              "high": 906,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 489,
+              "high": 732,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 633,
+              "high": 687,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 737,
+              "high": 821,
+              "paper": "EC"
+            }
+          },
+          "2025": {
+            "UR": {
+              "low": 811,
+              "high": 1000,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 772,
+              "high": 913,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 588,
+              "high": 776,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 534,
+              "high": 706,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 749,
+              "high": 803,
+              "paper": "EC"
+            }
+          },
+          "2026": {
+            "UR": {
+              "low": 804,
+              "high": 950,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 755,
+              "high": 852,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 621,
+              "high": 743,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 580,
+              "high": 580,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 775,
+              "high": 848,
+              "paper": "EC"
+            }
+          }
+        }
+      },
+      "Signal Processing": {
+        "type": "core",
+        "description": "Mathematical modeling of signals, image processing, statistical filtering, and applications in AI.",
+        "cutoffs": {
+          "2020": {
+            "UR": {
+              "low": 831,
+              "high": 1000,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 778,
+              "high": 851,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 555,
+              "high": 588,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 616,
+              "high": 616,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 754,
+              "high": 815,
+              "paper": "EC"
+            }
+          },
+          "2021": {
+            "UR": {
+              "low": 836,
+              "high": 933,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 693,
+              "high": 822,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 569,
+              "high": 631,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 417,
+              "high": 455,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 698,
+              "high": 827,
+              "paper": "EC"
+            }
+          },
+          "2022": {
+            "UR": {
+              "low": 675,
+              "high": 795,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 616,
+              "high": 716,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 512,
+              "high": 521,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 641,
+              "high": 666,
+              "paper": "EC"
+            }
+          },
+          "2023": {
+            "UR": {
+              "low": 696,
+              "high": 874,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 613,
+              "high": 762,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 472,
+              "high": 646,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 401,
+              "high": 559,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 642,
+              "high": 754,
+              "paper": "EC"
+            }
+          },
+          "2024": {
+            "UR": {
+              "low": 658,
+              "high": 829,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 584,
+              "high": 727,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 414,
+              "high": 534,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 335,
+              "high": 424,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 732,
+              "high": 801,
+              "paper": "EC"
+            }
+          },
+          "2025": {
+            "UR": {
+              "low": 862,
+              "high": 881,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 788,
+              "high": 792,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 760,
+              "high": 760,
+              "paper": "EC"
+            }
+          },
+          "2026": {
+            "UR": {
+              "low": 819,
+              "high": 881,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 783,
+              "high": 791,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 714,
+              "high": 714,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 779,
+              "high": 779,
+              "paper": "EC"
+            }
+          }
+        }
+      },
+      "Instrumentation Systems": {
+        "type": "core",
+        "description": "Sensors, industrial measurement systems, and instrumentation techniques accepting EC GATE score.",
+        "cutoffs": {
+          "2020": {
+            "UR": {
+              "low": 778,
+              "high": 787,
+              "paper": "EC"
+            }
+          },
+          "2021": {
+            "UR": {
+              "low": 684,
+              "high": 765,
+              "paper": "EC"
+            }
+          },
+          "2022": {
+            "OBC": {
+              "low": 508,
+              "high": 508,
+              "paper": "EC"
+            }
+          },
+          "2023": {
+            "UR": {
+              "low": 509,
+              "high": 596,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 434,
+              "high": 493,
+              "paper": "EC"
+            }
+          },
+          "2024": {
+            "UR": {
+              "low": 584,
+              "high": 717,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 488,
+              "high": 529,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 395,
+              "high": 414,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 320,
+              "high": 320,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 529,
+              "high": 529,
+              "paper": "EC"
+            }
+          },
+          "2025": {
+            "UR": {
+              "low": 725,
+              "high": 725,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 600,
+              "high": 647,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 452,
+              "high": 452,
+              "paper": "EC"
+            }
+          },
+          "2026": {
+            "OBC": {
+              "low": 666,
+              "high": 670,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 459,
+              "high": 475,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 641,
+              "high": 641,
+              "paper": "EC"
+            }
+          }
+        }
+      },
+      "Semiconductor Technology": {
+        "type": "core",
+        "description": "Specialised program on semiconductor physics, materials characterisation, and cleanroom fabrication.",
+        "cutoffs": {
+          "2023": {
+            "UR": {
+              "low": 725,
+              "high": 725,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 575,
+              "high": 579,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 380,
+              "high": 380,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 696,
+              "high": 696,
+              "paper": "EC"
+            }
+          },
+          "2024": {
+            "UR": {
+              "low": 816,
+              "high": 836,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 682,
+              "high": 742,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 420,
+              "high": 658,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 583,
+              "high": 583,
+              "paper": "EC"
+            }
+          },
+          "2025": {
+            "UR": {
+              "low": 979,
+              "high": 979,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 788,
+              "high": 889,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 651,
+              "high": 651,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 514,
+              "high": 514,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 752,
+              "high": 752,
+              "paper": "EC"
+            }
+          },
+          "2026": {
+            "UR": {
+              "low": 889,
+              "high": 925,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 856,
+              "high": 856,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 718,
+              "high": 718,
+              "paper": "EC"
+            }
+          }
+        }
+      },
+      "Artificial Intelligence": {
+        "type": "borderline",
+        "description": "Jointly offered program focusing on ML algorithms, deep learning, NLP, and robotics; highly competitive.",
+        "cutoffs": {
+          "2020": {
+            "UR": {
+              "low": 843,
+              "high": 1000,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 766,
+              "high": 843,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 561,
+              "high": 571,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 409,
+              "high": 466,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 746,
+              "high": 811,
+              "paper": "EC"
+            }
+          },
+          "2022": {
+            "UR": {
+              "low": 883,
+              "high": 991,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 815,
+              "high": 815,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 836,
+              "high": 836,
+              "paper": "EC"
+            }
+          },
+          "2023": {
+            "UR": {
+              "low": 853,
+              "high": 878,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 671,
+              "high": 745,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 509,
+              "high": 737,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 401,
+              "high": 463,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 675,
+              "high": 817,
+              "paper": "EC"
+            }
+          },
+          "2024": {
+            "OBC": {
+              "low": 752,
+              "high": 821,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 509,
+              "high": 524,
+              "paper": "EC"
+            }
+          },
+          "2025": {
+            "SC": {
+              "low": 643,
+              "high": 643,
+              "paper": "EC (Round 1)"
+            }
+          },
+          "2026": {
+            "UR": {
+              "low": 856,
+              "high": 856,
+              "paper": "EC (Round 1)"
+            },
+            "OBC": {
+              "low": 840,
+              "high": 840,
+              "paper": "EC (Round 1)"
+            }
+          }
+        }
+      },
+      "Robotics and Autonomous Systems": {
+        "type": "borderline",
+        "description": "Cross-disciplinary program covering drone systems, dynamic systems, control theory, and machine vision.",
+        "cutoffs": {
+          "2022": {
+            "UR": {
+              "low": 691,
+              "high": 708,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 525,
+              "high": 525,
+              "paper": "EC"
+            }
+          },
+          "2023": {
+            "UR": {
+              "low": 607,
+              "high": 816,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 716,
+              "high": 716,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 596,
+              "high": 609,
+              "paper": "EC"
+            },
+            "ST": {
+              "low": 384,
+              "high": 413,
+              "paper": "EC"
+            }
+          },
+          "2024": {
+            "UR": {
+              "low": 757,
+              "high": 757,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 525,
+              "high": 596,
+              "paper": "EC"
+            },
+            "EWS": {
+              "low": 563,
+              "high": 563,
+              "paper": "EC"
+            }
+          },
+          "2025": {
+            "OBC": {
+              "low": 642,
+              "high": 729,
+              "paper": "EC"
+            }
+          },
+          "2026": {
+            "UR": {
+              "low": 682,
+              "high": 682,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 682,
+              "high": 682,
+              "paper": "EC"
+            }
+          }
+        }
+      },
+      "Quantum Technology": {
+        "type": "borderline",
+        "description": "State-of-the-art program on quantum computing, quantum optics, information theory, and solid state physics.",
+        "cutoffs": {
+          "2022": {
+            "UR": {
+              "low": 662,
+              "high": 662,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 654,
+              "high": 654,
+              "paper": "EC"
+            }
+          },
+          "2023": {
+            "UR": {
+              "low": 700,
+              "high": 733,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 708,
+              "high": 721,
+              "paper": "EC"
+            }
+          },
+          "2024": {
+            "UR": {
+              "low": 654,
+              "high": 654,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 519,
+              "high": 519,
+              "paper": "EC"
+            }
+          },
+          "2025": {
+            "UR": {
+              "low": 682,
+              "high": 682,
+              "paper": "EC (Round 1)"
+            },
+            "OBC": {
+              "low": 631,
+              "high": 631,
+              "paper": "EC (Round 1)"
+            }
+          },
+          "2026": {
+            "OBC": {
+              "low": 589,
+              "high": 589,
+              "paper": "EC (Round 1)"
+            }
+          }
+        }
+      },
+      "Computational and Data Science": {
+        "type": "borderline",
+        "description": "Mathematical modeling, high-performance computing, data analytics, and cloud platform infrastructure.",
+        "cutoffs": {
+          "2022": {
+            "UR": {
+              "low": 808,
+              "high": 850,
+              "paper": "EC"
+            },
+            "SC": {
+              "low": 641,
+              "high": 641,
+              "paper": "EC"
+            }
+          },
+          "2023": {
+            "UR": {
+              "low": 828,
+              "high": 828,
+              "paper": "EC"
+            },
+            "OBC": {
+              "low": 683,
+              "high": 683,
+              "paper": "EC"
+            }
+          },
+          "2026": {
+            "SC": {
+              "low": 690,
+              "high": 690,
+              "paper": "EC"
+            }
+          }
+        }
+      }
+    }
+  }
+}

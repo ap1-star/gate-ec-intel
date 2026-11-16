@@ -1,0 +1,41 @@
+-- Technical Recruitment V4. Additive schema only. No candidate or vacancy seed rows.
+CREATE TABLE recruitment_sources (id TEXT PRIMARY KEY,url TEXT NOT NULL,official INTEGER NOT NULL DEFAULT 0 CHECK(official IN(0,1)),allowed_hosts_json TEXT NOT NULL DEFAULT '[]',adapter TEXT NOT NULL DEFAULT 'review_required',last_checked_at TEXT,last_success_at TEXT,last_error TEXT,etag TEXT,last_modified TEXT,content_hash TEXT,next_check_at TEXT,attempt_count INTEGER NOT NULL DEFAULT 0,lease_token TEXT,lease_until TEXT,created_at TEXT NOT NULL);
+--> statement-breakpoint
+CREATE INDEX recruitment_sources_due_idx ON recruitment_sources(next_check_at,lease_until);
+--> statement-breakpoint
+CREATE TABLE recruitment_source_runs (id TEXT PRIMARY KEY,source_id TEXT NOT NULL REFERENCES recruitment_sources(id) ON DELETE CASCADE,started_at TEXT NOT NULL,completed_at TEXT,outcome TEXT NOT NULL,error_code TEXT,discovered_count INTEGER NOT NULL DEFAULT 0);
+--> statement-breakpoint
+CREATE TABLE recruitment_notices (id TEXT PRIMARY KEY,source_id TEXT NOT NULL REFERENCES recruitment_sources(id),organization_id TEXT NOT NULL,examination_id TEXT,title TEXT NOT NULL,source_url TEXT NOT NULL,application_url TEXT,published_at TEXT,checked_at TEXT NOT NULL,verified_at TEXT,verification_status TEXT NOT NULL CHECK(verification_status IN('verified','review_required')),status TEXT NOT NULL CHECK(status IN('open','upcoming','closed','cancelled','withdrawn','historical','unknown')),deadline_at TEXT,deadline_timezone TEXT,deadline_verified INTEGER NOT NULL DEFAULT 0 CHECK(deadline_verified IN(0,1)),version INTEGER NOT NULL DEFAULT 1,payload_hash TEXT NOT NULL,payload_json TEXT NOT NULL,created_at TEXT NOT NULL,updated_at TEXT NOT NULL);
+--> statement-breakpoint
+CREATE UNIQUE INDEX recruitment_notice_source_url_idx ON recruitment_notices(source_id,source_url);
+--> statement-breakpoint
+CREATE INDEX recruitment_notice_status_deadline_idx ON recruitment_notices(status,deadline_at);
+--> statement-breakpoint
+CREATE TABLE recruitment_notice_events (id TEXT PRIMARY KEY,notice_id TEXT NOT NULL REFERENCES recruitment_notices(id) ON DELETE CASCADE,notice_version INTEGER NOT NULL,event_type TEXT NOT NULL,event_key TEXT NOT NULL UNIQUE,payload_json TEXT NOT NULL,created_at TEXT NOT NULL,fanout_completed_at TEXT);
+--> statement-breakpoint
+CREATE INDEX recruitment_events_pending_idx ON recruitment_notice_events(fanout_completed_at,created_at);
+--> statement-breakpoint
+CREATE TABLE recruitment_preferences (user_id TEXT PRIMARY KEY REFERENCES users(id) ON DELETE CASCADE,profile_json TEXT NOT NULL DEFAULT '{}',preferences_json TEXT NOT NULL,updated_at TEXT NOT NULL);
+--> statement-breakpoint
+CREATE TABLE recruitment_saved (user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,notice_id TEXT NOT NULL REFERENCES recruitment_notices(id) ON DELETE CASCADE,reminder_days_json TEXT NOT NULL DEFAULT '[]',created_at TEXT NOT NULL,PRIMARY KEY(user_id,notice_id));
+--> statement-breakpoint
+CREATE TABLE recruitment_channel_consents (user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,channel TEXT NOT NULL CHECK(channel IN('in_app','email','push','whatsapp','sms')),granted_at TEXT,revoked_at TEXT,policy_version TEXT NOT NULL,updated_at TEXT NOT NULL,PRIMARY KEY(user_id,channel));
+--> statement-breakpoint
+CREATE TABLE recruitment_contacts (user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,channel TEXT NOT NULL CHECK(channel IN('email','push','whatsapp','sms')),recipient TEXT NOT NULL,verified_at TEXT NOT NULL,metadata_json TEXT NOT NULL DEFAULT '{}',updated_at TEXT NOT NULL,PRIMARY KEY(user_id,channel));
+--> statement-breakpoint
+CREATE TABLE recruitment_verification_tokens (token_hash TEXT PRIMARY KEY,user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,channel TEXT NOT NULL,recipient TEXT NOT NULL,expires_at TEXT NOT NULL,used_at TEXT,created_at TEXT NOT NULL);
+--> statement-breakpoint
+CREATE TABLE recruitment_notifications (id TEXT PRIMARY KEY,user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,notice_id TEXT REFERENCES recruitment_notices(id) ON DELETE CASCADE,event_id TEXT REFERENCES recruitment_notice_events(id) ON DELETE CASCADE,kind TEXT NOT NULL,title TEXT NOT NULL,body TEXT NOT NULL,official_url TEXT NOT NULL,source_key TEXT NOT NULL,created_at TEXT NOT NULL,read_at TEXT,UNIQUE(user_id,source_key));
+--> statement-breakpoint
+CREATE INDEX recruitment_notifications_user_idx ON recruitment_notifications(user_id,created_at);
+--> statement-breakpoint
+CREATE TABLE recruitment_jobs (id TEXT PRIMARY KEY,user_id TEXT NOT NULL REFERENCES users(id) ON DELETE CASCADE,notice_id TEXT REFERENCES recruitment_notices(id) ON DELETE CASCADE,event_id TEXT REFERENCES recruitment_notice_events(id) ON DELETE CASCADE,notice_version INTEGER,channel TEXT NOT NULL CHECK(channel IN('in_app','email','push','whatsapp','sms')),kind TEXT NOT NULL CHECK(kind IN('notice_event','deadline_reminder','digest')),idempotency_key TEXT NOT NULL UNIQUE,payload_json TEXT NOT NULL,status TEXT NOT NULL DEFAULT 'queued' CHECK(status IN('queued','leased','retry','blocked','submitted','delivered','cancelled','superseded','dead_letter')),due_at TEXT NOT NULL,available_at TEXT NOT NULL,lease_token TEXT,lease_until TEXT,attempt_count INTEGER NOT NULL DEFAULT 0,max_attempts INTEGER NOT NULL DEFAULT 5,last_error TEXT,provider_message_id TEXT,created_at TEXT NOT NULL,updated_at TEXT NOT NULL);
+--> statement-breakpoint
+CREATE INDEX recruitment_jobs_due_idx ON recruitment_jobs(status,available_at,lease_until);
+--> statement-breakpoint
+CREATE INDEX recruitment_jobs_owner_idx ON recruitment_jobs(user_id,notice_id);
+--> statement-breakpoint
+CREATE TABLE recruitment_job_events (job_id TEXT NOT NULL REFERENCES recruitment_jobs(id) ON DELETE CASCADE,event_id TEXT NOT NULL REFERENCES recruitment_notice_events(id) ON DELETE CASCADE,PRIMARY KEY(job_id,event_id));
+--> statement-breakpoint
+CREATE TABLE recruitment_delivery_attempts (id TEXT PRIMARY KEY,job_id TEXT NOT NULL REFERENCES recruitment_jobs(id) ON DELETE CASCADE,attempt_number INTEGER NOT NULL,started_at TEXT NOT NULL,completed_at TEXT,outcome TEXT NOT NULL,error_code TEXT,provider_message_id TEXT,UNIQUE(job_id,attempt_number));
+--> statement-breakpoint

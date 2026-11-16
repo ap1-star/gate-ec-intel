@@ -1,0 +1,3707 @@
+[
+  {
+    "id": "GATE-EC-2019-GA-01",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Resolve the two governing subjects rather than matching each blank to its adjacent noun.",
+    "confidence": "high",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Resolve the two governing subjects rather than matching each blank to its adjacent noun. Step count names a plausible solution decomposition, not observed work.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-GA-02",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 0,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Recall the standard time preposition used with dawn.",
+    "confidence": "high",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Recall the standard time preposition used with dawn. Step count names a plausible solution decomposition, not observed work.",
+    "score": 6.25,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-GA-03",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Add reciprocal machine rates and invert the combined rate.",
+    "confidence": "high",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Add reciprocal machine rates and invert the combined rate. Step count names a plausible solution decomposition, not observed work.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-GA-04",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Fix two shelf positions and count permutations of the three remaining books.",
+    "confidence": "high",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Fix two shelf positions and count permutations of the three remaining books. Step count names a plausible solution decomposition, not observed work.",
+    "score": 17.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-GA-05",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Choose the mental-visualization verb appropriate to the missing-person context.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Choose the mental-visualization verb appropriate to the missing-person context. Step count names a plausible solution decomposition, not observed work.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-GA-06",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Propagate profession and adjacency constraints while distinguishing each person's right from the viewer's right.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Propagate profession and adjacency constraints while distinguishing each person's right from the viewer's right. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-GA-07",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Combine two population compositions with gender-specific illiteracy bars before computing relative literacy growth.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Combine two population compositions with gender-specific illiteracy bars before computing relative literacy growth. Step count names a plausible solution decomposition, not observed work.",
+    "score": 52.5,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-GA-08",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Separate documentary quality from impartiality when selecting the supported inference.",
+    "confidence": "high",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Separate documentary quality from impartiality when selecting the supported inference. Step count names a plausible solution decomposition, not observed work.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-GA-09",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Convert hour-hand rotations to elapsed hours, subtract different breaks and calculate the remaining budget.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Convert hour-hand rotations to elapsed hours, subtract different breaks and calculate the remaining budget. Step count names a plausible solution decomposition, not observed work.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-GA-10",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Map shared offices and adjacency constraints onto alternative floor-plan layouts.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Map shared offices and adjacency constraints onto alternative floor-plan layouts. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-01",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Identify the entire function by excluding a logarithmic branch and finite or essential singularities.",
+    "confidence": "high",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Identify the entire function by excluding a logarithmic branch and finite or essential singularities. Step count names a plausible solution decomposition, not observed work.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-02",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Separate and integrate two differential equations, then recognize the resulting curve families.",
+    "confidence": "medium",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Separate and integrate two differential equations, then recognize the resulting curve families. Step count names a plausible solution decomposition, not observed work.",
+    "score": 42.5,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-03",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Generate conjugate and reciprocal zero partners and map all four into the z-plane.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Generate conjugate and reciprocal zero partners and map all four into the z-plane. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-04",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Recognize network reciprocity under interchanged equal excitations without solving internal resistances.",
+    "confidence": "medium",
+    "uncertainty_note": "Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Recognize network reciprocity under interchanged equal excitations without solving internal resistances. Step count names a plausible solution decomposition, not observed work.",
+    "score": 20.0,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-05",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Distinguish the input-driven forced component from natural modes in a step-response decomposition.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Distinguish the input-driven forced component from natural modes in a step-response decomposition. Step count names a plausible solution decomposition, not observed work.",
+    "score": 41.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-06",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Read successive Bode slope changes and accumulate pole and zero multiplicities.",
+    "confidence": "medium",
+    "uncertainty_note": "Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Read successive Bode slope changes and accumulate pole and zero multiplicities. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-07",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Use linear-code XOR superposition to recover the codeword for the difference message.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Use linear-code XOR superposition to recover the codeword for the difference message. Step count names a plausible solution decomposition, not observed work.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-08",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Keep the equilibrium Fermi level flat while comparing band bending across multiple doping regions.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Keep the equilibrium Fermi level flat while comparing band bending across multiple doping regions. Step count names a plausible solution decomposition, not observed work.",
+    "score": 46.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-09",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Decode the semiconductor cross-section and recognize the Schottky clamp connected to the bipolar device.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Decode the semiconductor cross-section and recognize the Schottky clamp connected to the bipolar device. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-10",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Relate flat-band, inversion and accumulation to points of a high-frequency MOS capacitance curve.",
+    "confidence": "medium",
+    "uncertainty_note": "Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Relate flat-band, inversion and accumulation to points of a high-frequency MOS capacitance curve. Step count names a plausible solution decomposition, not observed work.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-11",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Apply cylindrical Gauss-law symmetry and retain the quarter-surface flux fraction.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Apply cylindrical Gauss-law symmetry and retain the quarter-surface flux fraction. Step count names a plausible solution decomposition, not observed work.",
+    "score": 31.25,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-12",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 0,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Recall which divergence or curl expression belongs to each Maxwell equation.",
+    "confidence": "high",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Recall which divergence or curl expression belongs to each Maxwell equation. Step count names a plausible solution decomposition, not observed work.",
+    "score": 6.25,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-13",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Infer how stronger pMOS drive shifts the inverter transfer curve and the two noise margins oppositely.",
+    "confidence": "medium",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Infer how stronger pMOS drive shifts the inverter transfer curve and the two noise margins oppositely. Step count names a plausible solution decomposition, not observed work.",
+    "score": 43.75,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-14",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Trace enable-controlled pull-up and pull-down paths, including a disconnected high-impedance state.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Trace enable-controlled pull-up and pull-down paths, including a disconnected high-impedance state. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-15",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Evaluate pass-device and cross-coupled-load conduction across logic input cases to recognize XNOR.",
+    "confidence": "medium",
+    "uncertainty_note": "Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Evaluate pass-device and cross-coupled-load conduction across logic input cases to recognize XNOR. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-16",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Expand the Laurent expression and retain the coefficient contributing to the unit-circle contour integral.",
+    "confidence": "medium",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expand the Laurent expression and retain the coefficient contributing to the unit-circle contour integral. Step count names a plausible solution decomposition, not observed work.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-17",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 1
+    },
+    "rationale": "Read the diagonal of a triangular matrix and count distinct eigenvalues without computing its determinant.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Read the diagonal of a triangular matrix and count distinct eigenvalues without computing its determinant. Step count names a plausible solution decomposition, not observed work.",
+    "score": 15.0,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-18",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Apply expectation linearity and add the resulting two linear identities.",
+    "confidence": "high",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Apply expectation linearity and add the resulting two linear identities. Step count names a plausible solution decomposition, not observed work.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-19",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Reverse a triangular integration region so the sine-over-x integral becomes elementary.",
+    "confidence": "medium",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Reverse a triangular integration region so the sine-over-x integral becomes elementary. Step count names a plausible solution decomposition, not observed work.",
+    "score": 53.75,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-20",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Use the exponential survival ratio or memoryless property directly.",
+    "confidence": "high",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Use the exponential survival ratio or memoryless property directly. Step count names a plausible solution decomposition, not observed work.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-21",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Extract component periods and find their least common multiple despite phase shifts.",
+    "confidence": "medium",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Extract component periods and find their least common multiple despite phase shifts. Step count names a plausible solution decomposition, not observed work.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-22",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Differentiate message segments, convert the slope contribution to instantaneous frequency and take extrema.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Differentiate message segments, convert the slope contribution to instantaneous frequency and take extrema. Step count names a plausible solution decomposition, not observed work.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-23",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Use the quadratic length scaling of small-dipole radiation resistance for a one-percent length change.",
+    "confidence": "high",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Use the quadratic length scaling of small-dipole radiation resistance for a one-percent length change. Step count names a plausible solution decomposition, not observed work.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-24",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Determine diode states in both square-wave levels and average the resulting load voltages.",
+    "confidence": "medium",
+    "uncertainty_note": "Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Determine diode states in both square-wave levels and average the resulting load voltages. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-25",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Trace the feedback flip-flop states, identify the three-state cycle and convert clock frequency.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Trace the feedback flip-flop states, identify the three-state cycle and convert clock frequency. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-26",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Translate a derivative bound into a mean-value inequality centered on the known zero.",
+    "confidence": "medium",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Translate a derivative bound into a mean-value inequality centered on the known zero. Step count names a plausible solution decomposition, not observed work.",
+    "score": 41.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-27",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Replace the oriented contour integral with twice the composite rectangle-plus-semicircle area.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Replace the oriented contour integral with twice the composite rectangle-plus-semicircle area. Step count names a plausible solution decomposition, not observed work.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-28",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 3,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Trace the six-point FFT flow graph and align its branch twiddle factors with the required DFT bin.",
+    "confidence": "medium",
+    "uncertainty_note": "Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Trace the six-point FFT flow graph and align its branch twiddle factors with the required DFT bin. Step count names a plausible solution decomposition, not observed work.",
+    "score": 63.75,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-29",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Place FIR zeros at both input frequencies and recover the normalized three-tap polynomial.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Place FIR zeros at both input frequencies and recover the normalized three-tap polynomial. Step count names a plausible solution decomposition, not observed work.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-30",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Replace the RC network by phasor impedances and translate the complex current back to sine and cosine.",
+    "confidence": "medium",
+    "uncertainty_note": "Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Replace the RC network by phasor impedances and translate the complex current back to sine and cosine. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-31",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Construct the critically damped step response and solve its nonstandard 94-percent crossing condition.",
+    "confidence": "medium",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Construct the critically damped step response and solve its nonstandard 94-percent crossing condition. Step count names a plausible solution decomposition, not observed work.",
+    "score": 48.75,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-32",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Reduce interacting forward and feedback paths while preserving the sign of every summing node.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Reduce interacting forward and feedback paths while preserving the sign of every summing node. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-33",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Match the cubic denominator to controllable-canonical coefficients and select the correct output vector.",
+    "confidence": "medium",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Match the cubic denominator to controllable-canonical coefficients and select the correct output vector. Step count names a plausible solution decomposition, not observed work.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-34",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Compare Euclidean distances of antipodal and orthogonal signal pairs at equal AWGN error probability.",
+    "confidence": "medium",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Compare Euclidean distances of antipodal and orthogonal signal pairs at equal AWGN error probability. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-35",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Convert photon energy and electron charge into the responsivity\u2013quantum-efficiency relation.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Convert photon energy and electron charge into the responsivity\u2013quantum-efficiency relation. Step count names a plausible solution decomposition, not observed work.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-36",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Compute the two long-wire field magnitudes and combine their directions at the specified interior point.",
+    "confidence": "medium",
+    "uncertainty_note": "Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Compute the two long-wire field magnitudes and combine their directions at the specified interior point. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-37",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Differentiate the waveguide dispersion relation or use the linked phase\u2013group velocity product.",
+    "confidence": "medium",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Differentiate the waveguide dispersion relation or use the linked phase\u2013group velocity product. Step count names a plausible solution decomposition, not observed work.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-38",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Set lower and upper Zener-current bounds and include the load current in source-voltage limits.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Set lower and upper Zener-current bounds and include the load current in source-voltage limits. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-39",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Trace the selected flip-flop output and NAND feedback across input and present-state cases.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Trace the selected flip-flop output and NAND feedback across input and present-state cases. Step count names a plausible solution decomposition, not observed work.",
+    "score": 58.75,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-40",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Determine which NMOS pass devices lose threshold headroom in each distinct transistor topology.",
+    "confidence": "medium",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Determine which NMOS pass devices lose threshold headroom in each distinct transistor topology. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-41",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 4,
+      "computation": 3,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Derive and integrate a time-varying RC differential equation rather than substituting a fixed time constant.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 7,
+    "cognitive_steps_basis": "Derive and integrate a time-varying RC differential equation rather than substituting a fixed time constant. Step count names a plausible solution decomposition, not observed work.",
+    "score": 73.75,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-42",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Form the compensated characteristic polynomial and impose the Routh boundary for imaginary-axis poles.",
+    "confidence": "medium",
+    "uncertainty_note": "Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Form the compensated characteristic polynomial and impose the Routh boundary for imaginary-axis poles. Step count names a plausible solution decomposition, not observed work.",
+    "score": 53.75,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-43",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Recognize a Cauchy\u2013Euler equation, solve for powers and fit two boundary values before evaluation.",
+    "confidence": "medium",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Recognize a Cauchy\u2013Euler equation, solve for powers and fit two boundary values before evaluation. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-44",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 3,
+      "representation": 2
+    },
+    "rationale": "Use Parseval to turn spectral least squares into coefficient projection and identify the optimal three taps.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Use Parseval to turn spectral least squares into coefficient projection and identify the optimal three taps. Step count names a plausible solution decomposition, not observed work.",
+    "score": 67.5,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-45",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Filter the white-noise PSD by squared gain, integrate the added PSD and combine uncorrelated powers.",
+    "confidence": "medium",
+    "uncertainty_note": "Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Filter the white-noise PSD by squared gain, integrate the added PSD and combine uncorrelated powers. Step count names a plausible solution decomposition, not observed work.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-46",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Track the AM upper spectral edge through Nyquist oversampling and quantizer bits to the final bit rate.",
+    "confidence": "medium",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Track the AM upper spectral edge through Nyquist oversampling and quantizer bits to the final bit rate. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-47",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Build both conditional error intervals with unequal priors and optimize the allowed detection threshold.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Build both conditional error intervals with unequal priors and optimize the allowed detection threshold. Step count names a plausible solution decomposition, not observed work.",
+    "score": 65.0,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-48",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Account for interface reflection and transmitted fractions before applying exponential absorption to thickness.",
+    "confidence": "medium",
+    "uncertainty_note": "Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Account for interface reflection and transmitted fractions before applying exponential absorption to thickness. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-49",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Invert the reverse-biased diode exponential at a specified fraction of saturation current.",
+    "confidence": "medium",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Invert the reverse-biased diode exponential at a specified fraction of saturation current. Step count names a plausible solution decomposition, not observed work.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-50",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Choose the long-channel saturation law, convert geometry units and evaluate the overdrive current.",
+    "confidence": "medium",
+    "uncertainty_note": "Structural difficulty is an expert-AI estimate for a prepared GATE candidate; no response-time or success-rate calibration is available.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Choose the long-channel saturation law, convert geometry units and evaluate the overdrive current. Step count names a plausible solution decomposition, not observed work.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-51",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Compare TE10 and TE11 cutoff expressions and solve the geometric aspect ratio.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Compare TE10 and TE11 cutoff expressions and solve the geometric aspect ratio. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-52",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Follow diode conduction and capacitor memory across separate square-wave intervals to the specified instant.",
+    "confidence": "medium",
+    "uncertainty_note": "Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Follow diode conduction and capacitor memory across separate square-wave intervals to the specified instant. Step count names a plausible solution decomposition, not observed work.",
+    "score": 67.5,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-53",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Equate complementary MOS saturation currents at the desired inverter trip point and isolate the sizing ratio.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Equate complementary MOS saturation currents at the desired inverter trip point and isolate the sizing ratio. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-54",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 3,
+      "representation": 2
+    },
+    "rationale": "Solve current-mirror bias, find the driving transconductance and combine active-load output resistances for gain.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 7,
+    "cognitive_steps_basis": "Solve current-mirror bias, find the driving transconductance and combine active-load output resistances for gain. Step count names a plausible solution decomposition, not observed work.",
+    "score": 72.5,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2019-EC-55",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 3,
+      "representation": 2
+    },
+    "rationale": "Follow differential-pair current steering and current-mirror scaling across several transistor branches.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 7,
+    "cognitive_steps_basis": "Follow differential-pair current steering and current-mirror scaling across several transistor branches. Step count names a plausible solution decomposition, not observed work.",
+    "score": 72.5,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-GA-01",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Select the conventional prepositions for accidental death and death from disease.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Select the conventional prepositions for accidental death and death from disease. Step count names a plausible solution decomposition, not observed work.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-GA-02",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 0,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Recall the fixed not-only/but-also correlative construction.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Recall the fixed not-only/but-also correlative construction. Step count names a plausible solution decomposition, not observed work.",
+    "score": 6.25,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-GA-03",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Identify the antonym relation and apply it to express versus repress.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Identify the antonym relation and apply it to express versus repress. Step count names a plausible solution decomposition, not observed work.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-GA-04",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Infer the unequal importance implied by differently timed announcements.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Infer the unequal importance implied by differently timed announcements. Step count names a plausible solution decomposition, not observed work.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-GA-05",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Test candidate function growth against a superadditivity inequality instead of relying on its name.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Test candidate function growth against a superadditivity inequality instead of relying on its name. Step count names a plausible solution decomposition, not observed work.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-GA-06",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Order the passage's linked crises according to their explicitly stated chronology.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Order the passage's linked crises according to their explicitly stated chronology. Step count names a plausible solution decomposition, not observed work.",
+    "score": 18.75,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-GA-07",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Include the hour hand's fifteen-minute advance in the angle calculation.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Include the hour hand's fifteen-minute advance in the angle calculation. Step count names a plausible solution decomposition, not observed work.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-GA-08",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Recognize the maximal inscribed rectangle as a square and subtract its area from the circle.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Recognize the maximal inscribed rectangle as a square and subtract its area from the circle. Step count names a plausible solution decomposition, not observed work.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-GA-09",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Combine repeated-root discriminant and Vieta identities to test the options.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Combine repeated-root discriminant and Vieta identities to test the options. Step count names a plausible solution decomposition, not observed work.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-GA-10",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Read both enrollment series and divide their aggregate averages correctly.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Read both enrollment series and divide their aggregate averages correctly. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-01",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Apply dimension bounds to distinguish linear independence, spanning and basis claims.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Apply dimension bounds to distinguish linear independence, spanning and basis claims. Step count names a plausible solution decomposition, not observed work.",
+    "score": 18.75,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-02",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Distinguish zero curl from zero vector Laplacian while checking vector-field identities.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Distinguish zero curl from zero vector Laplacian while checking vector-field identities. Step count names a plausible solution decomposition, not observed work.",
+    "score": 18.75,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-03",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Differentiate the source exponential expression with respect to x and evaluate the two cancelling terms.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Differentiate the source exponential expression with respect to x and evaluate the two cancelling terms. Step count names a plausible solution decomposition, not observed work.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-04",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Solve the repeated characteristic root and include the required linear prefactor.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Solve the repeated characteristic root and include the required linear prefactor. Step count names a plausible solution decomposition, not observed work.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-05",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Substitute an impulse into a running maximum and retain its persistent output without assuming linearity.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Substitute an impulse into a running maximum and retain its persistent output without assuming linearity. Step count names a plausible solution decomposition, not observed work.",
+    "score": 37.5,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-06",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Apply the intrinsic Fermi-level density-of-states correction and its logarithmic sign.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Apply the intrinsic Fermi-level density-of-states correction and its logarithmic sign. Step count names a plausible solution decomposition, not observed work.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-07",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Evaluate trap-assisted recombination behavior inside the depletion region under matched capture cross sections.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Evaluate trap-assisted recombination behavior inside the depletion region under matched capture cross sections. Step count names a plausible solution decomposition, not observed work.",
+    "score": 41.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-08",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Compare the hysteresis switching thresholds with a limited-amplitude sinusoid, allowing a latched output.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Compare the hysteresis switching thresholds with a limited-amplitude sinusoid, allowing a latched output. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-09",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Find the open-port voltage from the source-driven resistor network rather than confusing it with loaded voltage.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Find the open-port voltage from the source-driven resistor network rather than confusing it with loaded voltage. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-10",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Resolve enable, select and data-line logic to simplify the multiplexed Boolean function.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Resolve enable, select and data-line logic to simplify the multiplexed Boolean function. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-11",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Count enclosed poles and zeros and carry contour orientation into the argument-principle mapping.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Count enclosed poles and zeros and carry contour orientation into the argument-principle mapping. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-12",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Use the complementary no-bit-error probability for independent transmissions.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Use the complementary no-bit-error probability for independent transmissions. Step count names a plausible solution decomposition, not observed work.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-13",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Transform a purely imaginary load to a unit-magnitude reflection coefficient on the Smith chart.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Transform a purely imaginary load to a unit-magnitude reflection coefficient on the Smith chart. Step count names a plausible solution decomposition, not observed work.",
+    "score": 31.25,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-14",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Write the FIR z-polynomial, factor its numerator and retain poles introduced by delays.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Write the FIR z-polynomial, factor its numerator and retain poles introduced by delays. Step count names a plausible solution decomposition, not observed work.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-15",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Eliminate the terminated input port from Z parameters and match the resulting output resistance.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Eliminate the terminated input port from Z parameters and match the resulting output resistance. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-16",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Infer inductive reactance from the given sinusoidal phase and divide by angular frequency.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Infer inductive reactance from the given sinusoidal phase and divide by angular frequency. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-17",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Track ideal diode conduction and capacitor peak retention in the doubler topology.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Track ideal diode conduction and capacitor peak retention in the doubler topology. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-18",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Find the op-amp output node and add load and feedback currents at that node.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Find the op-amp output node and add load and feedback currents at that node. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-19",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Count address bits from a 16K-byte memory size independently of processor naming.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Count address bits from a 16K-byte memory size independently of processor naming. Step count names a plausible solution decomposition, not observed work.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-20",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Convert hexadecimal input to decimal and scale it by the DAC calibration range.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Convert hexadecimal input to decimal and scale it by the DAC calibration range. Step count names a plausible solution decomposition, not observed work.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-21",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Recognize three-quarter wavelength as an odd-quarter-wave impedance inverter.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Recognize three-quarter wavelength as an odd-quarter-wave impedance inverter. Step count names a plausible solution decomposition, not observed work.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-22",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Use the equal-probability maximum of binary entropy directly.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Use the equal-probability maximum of binary entropy directly. Step count names a plausible solution decomposition, not observed work.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-23",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Construct the cubic characteristic equation and solve its marginal Routh condition for gain.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Construct the cubic characteristic equation and solve its marginal Routh condition for gain. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-24",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Use white-noise filtering variance as PSD times the finite rectangular weighting energy.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Use white-noise filtering variance as PSD times the finite rectangular weighting energy. Step count names a plausible solution decomposition, not observed work.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-25",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Recognize that the Bernoulli minimum equals one only for the double-head event.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Recognize that the Bernoulli minimum equals one only for the double-head event. Step count names a plausible solution decomposition, not observed work.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-26",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Find dependencies among four coefficient rows and impose the same dependencies on the right-hand sides.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Find dependencies among four coefficient rows and impose the same dependencies on the right-hand sides. Step count names a plausible solution decomposition, not observed work.",
+    "score": 48.75,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-27",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Separate the differential equation while preserving the equilibrium solution lost by division.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Separate the differential equation while preserving the equilibrium solution lost by division. Step count names a plausible solution decomposition, not observed work.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-28",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Set up a multi-branch AC network and solve its complex current magnitude and phase.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Set up a multi-branch AC network and solve its complex current magnitude and phase. Step count names a plausible solution decomposition, not observed work.",
+    "score": 61.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-29",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Convert the sampled cosine to a discrete frequency and identify the conjugate DFT bins.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Convert the sampled cosine to a discrete frequency and identify the conjugate DFT bins. Step count names a plausible solution decomposition, not observed work.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-30",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Choose energy-storage state variables, apply circuit laws and arrange coupled input/state matrices.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Choose energy-storage state variables, apply circuit laws and arrange coupled input/state matrices. Step count names a plausible solution decomposition, not observed work.",
+    "score": 70.0,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-31",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Relate inverse-square depletion capacitance to voltage and infer the graph slope from its intercept.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Official marks-to-all item: structural challenge can be rated, but this is not a scored exam burden or calibration item. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Relate inverse-square depletion capacitance to voltage and infer the graph slope from its intercept. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-32",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Read the semiconductor band offsets and combine work-function, threshold and oxide-charge relations.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Read the semiconductor band offsets and combine work-function, threshold and oxide-charge relations. Step count names a plausible solution decomposition, not observed work.",
+    "score": 67.5,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-33",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Compare graded-base and uniform-base transport, including the internal electric-field effect on current gain.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Official marks-to-all item: structural challenge can be rated, but this is not a scored exam burden or calibration item. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Compare graded-base and uniform-base transport, including the internal electric-field effect on current gain. Step count names a plausible solution decomposition, not observed work.",
+    "score": 67.5,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-34",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Convert efficiency and fill factor to short-circuit current and then to volumetric carrier generation.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Convert efficiency and fill factor to short-circuit current and then to volumetric carrier generation. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-35",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Establish the direct-coupled BJT bias, obtain transconductance and calculate low-frequency gain.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Establish the direct-coupled BJT bias, obtain transconductance and calculate low-frequency gain. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-36",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Check gate-to-source overdrive over both input extrema and separately impose the hold-off condition.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Check gate-to-source overdrive over both input extrema and separately impose the hold-off condition. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-37",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Construct a MOS incremental test-source circuit and retain both transconductance and finite output resistance.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Construct a MOS incremental test-source circuit and retain both transconductance and finite output resistance. Step count names a plausible solution decomposition, not observed work.",
+    "score": 67.5,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-38",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Decode three signed representations, add them and re-encode the signed six-bit result.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Decode three signed representations, add them and re-encode the signed six-bit result. Step count names a plausible solution decomposition, not observed work.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-39",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Trace the sequence-detector transition path through several received symbols to its asserted output.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Trace the sequence-detector transition path through several received symbols to its asserted output. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-40",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Express gain along the real-axis locus, differentiate it and reject invalid break points using root-locus rules.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Express gain along the real-axis locus, differentiate it and reject invalid break points using root-locus rules. Step count names a plausible solution decomposition, not observed work.",
+    "score": 65.0,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-41",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Derive the op-amp's RC impedance ratio and solve the actual magnitude cutoff condition.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Derive the op-amp's RC impedance ratio and solve the actual magnitude cutoff condition. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-42",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Expand coherent mixing with carrier mismatch and retain the low-pass difference-frequency components.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expand coherent mixing with carrier mismatch and retain the low-pass difference-frequency components. Step count names a plausible solution decomposition, not observed work.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-43",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Replace the conducting plane by an image dipole and solve the angular interference maximum for minimum height.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Replace the conducting plane by an image dipole and solve the angular interference maximum for minimum height. Step count names a plausible solution decomposition, not observed work.",
+    "score": 65.0,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-44",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Follow transistor reference levels into the regulator feedback-divider equation to find the missing resistance.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Follow transistor reference levels into the regulator feedback-divider equation to find the missing resistance. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-45",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Extract the propagation vector from phase and impose magnetic-field transversality.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Extract the propagation vector from phase and impose magnetic-field transversality. Step count names a plausible solution decomposition, not observed work.",
+    "score": 28.75,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-46",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Convert the transformer two-port relation to normalized traveling-wave scattering parameters.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Convert the transformer two-port relation to normalized traveling-wave scattering parameters. Step count names a plausible solution decomposition, not observed work.",
+    "score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-47",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Compare the graph's maximum message slope and amplitude through PM and FM instantaneous-frequency laws.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Compare the graph's maximum message slope and amplitude through PM and FM instantaneous-frequency laws. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-48",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Locate unequal constellation decision boundaries and compare the two Gaussian tail contributions per symbol.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Locate unequal constellation decision boundaries and compare the two Gaussian tail contributions per symbol. Step count names a plausible solution decomposition, not observed work.",
+    "score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-49",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Evaluate the frequency response at three radians per second and isolate the unknown pole from magnitude.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Evaluate the frequency response at three radians per second and isolate the unknown pole from magnitude. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-50",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Find the longest relevant sequential path and combine clock-to-output, logic and setup timing budgets.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Find the longest relevant sequential path and combine clock-to-output, logic and setup timing budgets. Step count names a plausible solution decomposition, not observed work.",
+    "score": 58.75,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-51",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Describe the three-dimensional solid by correct integration limits and integrate a nonconstant coordinate density.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Describe the three-dimensional solid by correct integration limits and integrate a nonconstant coordinate density. Step count names a plausible solution decomposition, not observed work.",
+    "score": 61.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-52",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Invoke Parseval with the correct Fourier normalization and integrate squared piecewise waveform amplitudes.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Invoke Parseval with the correct Fourier normalization and integrate squared piecewise waveform amplitudes. Step count names a plausible solution decomposition, not observed work.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-53",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Match a stable all-pass zero to the reciprocal of its pole while satisfying the specified outer-unit-circle condition.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Match a stable all-pass zero to the reciprocal of its pole while satisfying the specified outer-unit-circle condition. Step count names a plausible solution decomposition, not observed work.",
+    "score": 46.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-54",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Convert the output event to an X interval and normalize by the conditional uniform support.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Convert the output event to an X interval and normalize by the conditional uniform support. Step count names a plausible solution decomposition, not observed work.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2020-EC-55",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Reduce the compensated loop and use the velocity error constant for a unit-ramp input.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Reduce the compensated loop and use the velocity error constant for a unit-ramp input. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-GA-01",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Reverse two successive percentage-growth factors to recover the earlier population.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Reverse two successive percentage-growth factors to recover the earlier population. Step count names a plausible solution decomposition, not observed work.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-GA-02",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Square the given reciprocal sum and subtract the cross term.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Square the given reciprocal sum and subtract the cross term. Step count names a plausible solution decomposition, not observed work.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-GA-03",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Reflect occupied grid cells across the specified axis and count only missing partners.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Reflect occupied grid cells across the specified axis and count only missing partners. Step count names a plausible solution decomposition, not observed work.",
+    "score": 33.75,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-GA-04",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Map nostalgia and anticipation to the past\u2013future temporal relation.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Map nostalgia and anticipation to the past\u2013future temporal relation. Step count names a plausible solution decomposition, not observed work.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-GA-05",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Distinguish the irregular active past tense from the correct passive participle.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Distinguish the irregular active past tense from the correct passive participle. Step count names a plausible solution decomposition, not observed work.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-GA-06",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Recognize that the two subset-overlap conclusions are complementary rather than individually forced.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Recognize that the two subset-overlap conclusions are complementary rather than individually forced. Step count names a plausible solution decomposition, not observed work.",
+    "score": 30.0,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-GA-07",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Separate stated benefits and health costs from unsupported engineering or data-free-AI claims.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Separate stated benefits and health costs from unsupported engineering or data-free-AI claims. Step count names a plausible solution decomposition, not observed work.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-GA-08",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Infer the cone's radius and height after rotation of the cut right triangle, then apply its volume formula.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Infer the cone's radius and height after rotation of the cut right triangle, then apply its volume formula. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-GA-09",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Compare daily bar heights using the smaller value as the percentage denominator before counting days.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Compare daily bar heights using the smaller value as the percentage denominator before counting days. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-GA-10",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Use regular-hexagon side constraints to determine the three removed similar triangles and the area ratio.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Use regular-hexagon side constraints to determine the three removed similar triangles and the area ratio. Step count names a plausible solution decomposition, not observed work.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-01",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Parameterize the arc or recognize a conservative potential, then evaluate the endpoint change.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Parameterize the arc or recognize a conservative potential, then evaluate the endpoint change. Step count names a plausible solution decomposition, not observed work.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-02",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Recognize a Bernoulli equation, substitute the square root of y and integrate its linear coefficient.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Recognize a Bernoulli equation, substitute the square root of y and integrate its linear coefficient. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-03",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Recall that multiplying a random variable by two multiplies variance by four.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Recall that multiplying a random variable by two multiplies variance by four. Step count names a plausible solution decomposition, not observed work.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-04",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Track time scaling of one bandwidth and convolution of spectra under multiplication before applying Nyquist.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Track time scaling of one bandwidth and convolution of spectra under multiplication before applying Nyquist. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-05",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Locate circular-convolution aliasing of the 31-point linear result into sixteen output indices.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Locate circular-convolution aliasing of the 31-point linear result into sixteen output indices. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-06",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Compute excess carriers from generation and lifetime and add them to doped equilibrium concentrations.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Compute excess carriers from generation and lifetime and add them to doped equilibrium concentrations. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-07",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Convert the equilibrium energy-band slope across the bar to an electric-field magnitude.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Convert the equilibrium energy-band slope across the bar to an electric-field magnitude. Step count names a plausible solution decomposition, not observed work.",
+    "score": 31.25,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-08",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Replace the diode-connected load by its incremental conductance and combine it with finite channel output conductances.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Replace the diode-connected load by its incremental conductance and combine it with finite channel output conductances. Step count names a plausible solution decomposition, not observed work.",
+    "score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-09",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Use two input/output operating points to isolate the fixed-reference op-amp's closed-loop slope.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Official marks-to-all item: structural challenge can be rated, but this is not a scored exam burden or calibration item. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Use two input/output operating points to isolate the fixed-reference op-amp's closed-loop slope. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-10",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Apply ideal op-amp node constraints and a zero-output condition to the input/reference summing network.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Apply ideal op-amp node constraints and a zero-output condition to the input/reference summing network. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-11",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Expand two positional numbers and enforce their admissible integer bases to identify a matching radix pair.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expand two positional numbers and enforce their admissible integer bases to identify a matching radix pair. Step count names a plausible solution decomposition, not observed work.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-12",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Associate each memory word with a decoder output rather than multiplying by word width.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Associate each memory word with a decoder output rather than multiplying by word width. Step count names a plausible solution decomposition, not observed work.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-13",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Write the shared error signal and account for both parallel forward branches before closing feedback.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Write the shared error signal and account for both parallel forward branches before closing feedback. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-14",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Connect complete Nyquist encirclements to open-loop pole information and infer right-half-plane closed-loop roots.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Connect complete Nyquist encirclements to open-loop pole information and infer right-half-plane closed-loop roots. Step count names a plausible solution decomposition, not observed work.",
+    "score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-15",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Compute both media impedances and use the field reflection-coefficient ratio with the correct incident side.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Compute both media impedances and use the field reflection-coefficient ratio with the correct incident side. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-16",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Set the determinant of three vectors to zero and solve the resulting linear equation.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Set the determinant of three vectors to zero and solve the resulting linear equation. Step count names a plausible solution decomposition, not observed work.",
+    "score": 42.5,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-17",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Set the relevant curl components to zero and solve for the unknown field coefficient.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Set the relevant curl components to zero and solve for the unknown field coefficient. Step count names a plausible solution decomposition, not observed work.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-18",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Reduce or solve an unbalanced resistor bridge driven by a current source and recover its central branch current.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Reduce or solve an unbalanced resistor bridge driven by a current source and recover its central branch current. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-19",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Apply nodal KCL with several independent current and voltage sources using consistent signs.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Apply nodal KCL with several independent current and voltage sources using consistent signs. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-20",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Convert the unsigned binary code and scale the DAC's specified full-scale convention.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Convert the unsigned binary code and scale the DAC's specified full-scale convention. Step count names a plausible solution decomposition, not observed work.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-21",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 1
+    },
+    "rationale": "Read average power directly from zero-lag autocorrelation rather than integrating the graph.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Read average power directly from zero-lag autocorrelation rather than integrating the graph. Step count names a plausible solution decomposition, not observed work.",
+    "score": 15.0,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-22",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Compute conventional AM carrier and sideband powers, then retain only one sideband to find saved power.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Compute conventional AM carrier and sideband powers, then retain only one sideband to find saved power. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-23",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 3,
+      "representation": 0
+    },
+    "rationale": "Combine oversampled PCM bit rate, decibel-to-linear SNR and Shannon capacity to solve minimum channel bandwidth.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Combine oversampled PCM bit rate, decibel-to-linear SNR and Shannon capacity to solve minimum channel bandwidth. Step count names a plausible solution decomposition, not observed work.",
+    "score": 67.5,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-24",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Compare peak sinusoidal slope with delta-modulator step-size times sampling rate.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Compare peak sinusoidal slope with delta-modulator step-size times sampling rate. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-25",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Translate total-internal-reflection geometry into the angle measured from the fibre axis.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Translate total-internal-reflection geometry into the angle measured from the fibre axis. Step count names a plausible solution decomposition, not observed work.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-26",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Identify all enclosed poles of the shifted contour and sum residues with the correct orientation.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Official marks-to-all item: structural challenge can be rated, but this is not a scored exam burden or calibration item.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Identify all enclosed poles of the shifted contour and sum residues with the correct orientation. Step count names a plausible solution decomposition, not observed work.",
+    "score": 65.0,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-27",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Update the distribution of the first selected coin after a head and condition the remaining coin selection.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Update the distribution of the first selected coin after a head and condition the remaining coin selection. Step count names a plausible solution decomposition, not observed work.",
+    "score": 57.5,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-28",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Preserve both initial storage variables through switching and apply the new topology to obtain an initial derivative.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Preserve both initial storage variables through switching and apply the new topology to obtain an initial derivative. Step count names a plausible solution decomposition, not observed work.",
+    "score": 70.0,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-29",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Derive both port currents in the dependent-source network and identify all admittance-matrix coefficients.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Derive both port currents in the dependent-source network and identify all admittance-matrix coefficients. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-30",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Differentiate the body-effect threshold law and invert its doping dependence with consistent oxide and length units.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Differentiate the body-effect threshold law and invert its doping dependence with consistent oxide and length units. Step count names a plausible solution decomposition, not observed work.",
+    "score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-31",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Trace every combinational path while respecting the multiplexer position to find maximum propagation delay.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Trace every combinational path while respecting the multiplexer position to find maximum propagation delay. Step count names a plausible solution decomposition, not observed work.",
+    "score": 58.75,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-32",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Follow stack order through three pushes and three pops to reassign the registers.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Follow stack order through three pushes and three pops to reassign the registers. Step count names a plausible solution decomposition, not observed work.",
+    "score": 31.25,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-33",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 3,
+      "representation": 3
+    },
+    "rationale": "Derive an electrical state model and evaluate separate controllability and observability rank conditions.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 7,
+    "cognitive_steps_basis": "Derive an electrical state model and evaluate separate controllability and observability rank conditions. Step count names a plausible solution decomposition, not observed work.",
+    "score": 75.0,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-34",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Form XOR combinations of known Hamming codewords and test systematic message\u2013codeword consistency.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Form XOR combinations of known Hamming codewords and test systematic message\u2013codeword consistency. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-35",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Transform each special-length open or short stub, simplify the matching topology and invert the quarter-wave load.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Transform each special-length open or short stub, simplify the matching topology and invert the quarter-wave load. Step count names a plausible solution decomposition, not observed work.",
+    "score": 65.0,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-36",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Apply the repeated-eigenvalue discriminant and reject inadmissible singular or nonpositive cases.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Apply the repeated-eigenvalue discriminant and reject inadmissible singular or nonpositive cases. Step count names a plausible solution decomposition, not observed work.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-37",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Use cylindrical surface normals or divergence with the correct coordinate Jacobian to integrate net flux.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Use cylindrical surface normals or divergence with the correct coordinate Jacobian to integrate net flux. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-38",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Find the dependent-source effective resistance and final voltage, then solve a signed first-order capacitor transient.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Find the dependent-source effective resistance and final voltage, then solve a signed first-order capacitor transient. Step count names a plausible solution decomposition, not observed work.",
+    "score": 67.5,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-39",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Use real-even coefficient symmetry and include both positive and negative harmonics in Fourier-series power.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Use real-even coefficient symmetry and include both positive and negative harmonics in Fourier-series power. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-40",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "First-difference the noncausal step response and convolve its shifted impulses with the exponential input at zero.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "First-difference the noncausal step response and convolve its shifted impulses with the exponential input at zero. Step count names a plausible solution decomposition, not observed work.",
+    "score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-41",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Apply the DTFT inner-product identity, identify overlapping supports and sum the surviving time-domain products.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Apply the DTFT inner-product identity, identify overlapping supports and sum the surviving time-domain products. Step count names a plausible solution decomposition, not observed work.",
+    "score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-42",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Use charge neutrality to determine the first exhausted region and relate its depletion width to total reverse bias.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Use charge neutrality to determine the first exhausted region and relate its depletion width to total reverse bias. Step count names a plausible solution decomposition, not observed work.",
+    "score": 67.5,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-43",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Compare the asymmetric pulse durations with the diode-capacitor time constant and determine waveform extrema.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Compare the asymmetric pulse durations with the diode-capacitor time constant and determine waveform extrema. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-44",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Combine the MOS saturation-edge constraint with its square-law current and resistor load equation.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Combine the MOS saturation-edge constraint with its square-law current and resistor load equation. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-45",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Use uncharged-capacitor initial behavior and op-amp rail limits rather than a steady-state gain formula.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Use uncharged-capacitor initial behavior and op-amp rail limits rather than a steady-state gain formula. Step count names a plausible solution decomposition, not observed work.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-46",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 4,
+      "computation": 3,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Track delayed XOR transitions across clock edges shorter than the gate delay rather than using a delay-free recurrence.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 8,
+    "cognitive_steps_basis": "Track delayed XOR transitions across clock edges shorter than the gate delay rather than using a delay-free recurrence. Step count names a plausible solution decomposition, not observed work.",
+    "score": 76.25,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-47",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 4,
+      "computation": 3,
+      "integration": 3,
+      "representation": 3
+    },
+    "rationale": "Solve a switched second-order RLC transient with restored initial conditions and locate its current peak.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR. Circuit/diagram interpretation is rated from the existing source-reviewed task; no additional independent visual certification in this scoring pass.",
+    "cognitive_steps_estimate": 8,
+    "cognitive_steps_basis": "Solve a switched second-order RLC transient with restored initial conditions and locate its current peak. Step count names a plausible solution decomposition, not observed work.",
+    "score": 81.25,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-48",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 4,
+      "computation": 3,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Construct the fourth-order PI closed-loop polynomial and optimize the Routh stability bound over proportional gain.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 7,
+    "cognitive_steps_basis": "Construct the fourth-order PI closed-loop polynomial and optimize the Routh stability bound over proportional gain. Step count names a plausible solution decomposition, not observed work.",
+    "score": 71.25,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-49",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Convert RMS message voltage to peak slope and add its PM frequency deviation to the carrier.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Convert RMS message voltage to peak slope and add its PM frequency deviation to the carrier. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-50",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Find the receiver intermediate frequency and choose the image on the opposite side of the local oscillator.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Find the receiver intermediate frequency and choose the image on the opposite side of the local oscillator. Step count names a plausible solution decomposition, not observed work.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-51",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Solve the conditional student proportions before converting the target conditional event to self-information.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Solve the conditional student proportions before converting the target conditional event to self-information. Step count names a plausible solution decomposition, not observed work.",
+    "score": 57.5,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-52",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 3,
+      "representation": 0
+    },
+    "rationale": "Use channel bit-rate and Nyquist constraints to choose quantizer resolution, then compare signal power with quantization noise.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Use channel bit-rate and Nyquist constraints to choose quantizer resolution, then compare signal power with quantization noise. Step count names a plausible solution decomposition, not observed work.",
+    "score": 67.5,
+    "band": "Tough",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-53",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Balance Gaussian likelihoods with unequal priors to derive and evaluate the MAP decision threshold.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Balance Gaussian likelihoods with unequal priors to derive and evaluate the MAP decision threshold. Step count names a plausible solution decomposition, not observed work.",
+    "score": 57.5,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-54",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Choose the dominant rectangular-waveguide cutoff and insert it into the dispersive phase-velocity relation.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Choose the dominant rectangular-waveguide cutoff and insert it into the dispersive phase-velocity relation. Step count names a plausible solution decomposition, not observed work.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  },
+  {
+    "id": "GATE-EC-2021-EC-55",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Convert directive gain from decibels, compute directional power density and translate it to electric-field amplitude.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has source-review flags; rating refers to the intended source task described in the reviewed rationale, not the effort of deciphering OCR.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Convert directive gain from decibels, compute directional power density and translate it to electric-field amplitude. Step count names a plausible solution decomposition, not observed work.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "individual_content_review_structural_estimate",
+    "rubric_version": "gate-structural-1.0"
+  }
+]

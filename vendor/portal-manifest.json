@@ -1,0 +1,8 @@
+{
+  "original_filename": "gate-ec-ai-portal-handover (1).zip",
+  "sha256": "b62643286fd46eda7a8b023f6c718d7497cf049cc24111f539e84c6bfdb88f14",
+  "purpose": "Retained source audit input for Part 2. Not a running subproject and never published in dist.",
+  "extraction_location_in_current_workspace": "../../work/portal-handover/gate-ec-ai-portal-handover",
+  "readme_present": false,
+  "private_database_rows_included": false
+}

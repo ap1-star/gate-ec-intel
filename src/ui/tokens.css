@@ -1,0 +1,45 @@
+/* Aurora: one semantic contract, four deliberate appearances. */
+:root {
+ color-scheme:dark;--font:Inter,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;--mono:"JetBrains Mono","SFMono-Regular",Consolas,monospace;
+ --radius:10px;--radius-sm:7px;--radius-lg:14px;--sidebar-width:258px;--toolbar-height:72px;
+ --space-1:4px;--space-2:8px;--space-3:12px;--space-4:16px;--space-5:20px;--space-6:24px;--space-8:32px;--space-10:40px;
+ --type-caption:12px;--type-label:13px;--type-body:14px;--type-heading:18px;--type-title:34px;
+ --motion-fast:130ms;--motion-standard:190ms;--motion-large:260ms;
+ /* Compatibility aliases: components share one palette contract. */
+ --canvas:var(--color-canvas);--surface:var(--color-surface);--surface-raised:var(--color-surface-raised);--surface-hover:var(--color-surface-hover);--border:var(--color-border);--border-soft:var(--color-border-subtle);--text:var(--color-text);--secondary:var(--color-text-secondary);--muted:var(--color-text-muted);--accent:var(--color-accent);--accent-bg:var(--color-selection);--positive:var(--color-positive);--warning:var(--color-warning);--negative:var(--color-negative);
+ --bg:var(--color-canvas);--panel:var(--color-surface);--panel2:var(--color-surface-raised);--line:var(--color-border);--blue:var(--color-accent);--orange:var(--color-warning);--green:var(--color-positive);
+}
+:root,:root[data-theme="obsidian"],[data-preview-theme="obsidian"] {
+ --color-canvas:#0b0c0e;--color-sidebar:#101216;--color-surface:#171a1f;--color-surface-raised:#22262d;--color-surface-hover:#2a3038;--color-surface-signature:#1c1e22;--color-control:#1a1e24;--color-control-border:#686d76;--color-border:#353a43;--color-border-subtle:#282d35;--color-border-highlight:#4c4840;
+ --color-text:#f5f2eb;--color-text-secondary:#b8bec8;--color-text-muted:#959eac;--color-accent:#e0be80;--color-accent-hover:#f1d49e;--color-accent-ink:#272016;--color-focus:#e8c990;--color-selection:#322c23;--color-selection-border:#716045;--color-positive:#80cdb9;--color-warning:#e0be80;--color-negative:#eca0ab;--color-scrim:#07090dba;
+ --accent-rgb:224,190,128;--heat-rgb:128,205,185;--heat-low:#1c2426;--heat-high:#80cdb9;--heat-text:#ecf3ef;--heat-missing:#24272c;--chart-text:#b8bec8;--chart-grid:#32373f;--chart-positive:#80cdb9;--chart-negative:#eca0ab;
+ --chart-series-1:#e0be80;--chart-series-2:#80cdb9;--chart-series-3:#9abde8;--chart-series-4:#c3a9e8;--chart-series-5:#ec9ea8;--chart-series-6:#9ed0e5;--chart-series-7:#c7d88f;--chart-series-8:#dca78c;--chart-series-9:#a9b5eb;--chart-series-10:#d8bcd3;
+ --shadow-surface:0 10px 26px #00000022,inset 0 1px 0 #ffffff05;--shadow-overlay:0 24px 80px #00000080,0 0 0 1px #e0be8012;--glow-interactive:0 0 0 3px #e0be8015,0 2px 14px #e0be8010;--glow-signature:0 0 52px #c8994f0d,0 14px 36px #00000030;
+ --lighting-ambient:radial-gradient(ellipse at 56% -15%,#c89c4d10 0,transparent 53%);--lighting-panel:radial-gradient(ellipse at 25% -30%,#e0be8012 0,transparent 65%);--lighting-brand:linear-gradient(135deg,#e8ca9130,#e0be8007);
+}
+:root[data-theme="porcelain"],[data-preview-theme="porcelain"] {
+ color-scheme:light;--color-canvas:#f4f1eb;--color-sidebar:#ece8e0;--color-surface:#ffffff;--color-surface-raised:#f8f6f1;--color-surface-hover:#eee9df;--color-surface-signature:#fffefa;--color-control:#fffefa;--color-control-border:#9a9081;--color-border:#cfc7bb;--color-border-subtle:#e5dfd5;--color-border-highlight:#b7a68b;
+ --color-text:#25282d;--color-text-secondary:#535d68;--color-text-muted:#606771;--color-accent:#826335;--color-accent-hover:#634b25;--color-accent-ink:#fffdf7;--color-focus:#826335;--color-selection:#e9e0cf;--color-selection-border:#a88a59;--color-positive:#276e61;--color-warning:#826335;--color-negative:#9c4159;--color-scrim:#38352d75;
+ --accent-rgb:130,99,53;--heat-rgb:57,126,114;--heat-low:#edf3ee;--heat-high:#397e72;--heat-text:#24493e;--heat-missing:#eeeae3;--chart-text:#535d68;--chart-grid:#ded8cf;--chart-positive:#276e61;--chart-negative:#9c4159;
+ --chart-series-1:#826335;--chart-series-2:#276e61;--chart-series-3:#315e9c;--chart-series-4:#76538e;--chart-series-5:#9c4159;--chart-series-6:#216b7d;--chart-series-7:#596e26;--chart-series-8:#99572e;--chart-series-9:#5155a0;--chart-series-10:#87506e;
+ --shadow-surface:0 4px 18px #493c2710,0 1px 3px #493c2706;--shadow-overlay:0 24px 70px #42372329,0 2px 8px #42372314;--glow-interactive:0 0 0 3px #82633512,0 2px 7px #57401f0a;--glow-signature:0 8px 30px #70593212,0 1px 4px #7059320a;
+ --lighting-ambient:radial-gradient(ellipse at 58% -10%,#ffffffdc 0,transparent 58%);--lighting-panel:linear-gradient(135deg,#ffffffa8,#f9f5ec48 72%);--lighting-brand:linear-gradient(135deg,#fffcf3,#e5d7b9);
+}
+:root[data-theme="glacier"],[data-preview-theme="glacier"] {
+ --color-canvas:#090d16;--color-sidebar:#101725;--color-surface:#151d2a;--color-surface-raised:#202d40;--color-surface-hover:#293a50;--color-surface-signature:#172234;--color-control:#192437;--color-control-border:#62768d;--color-border:#334861;--color-border-subtle:#26374e;--color-border-highlight:#4a6380;
+ --color-text:#f2f6fd;--color-text-secondary:#b8c8db;--color-text-muted:#9aadc5;--color-accent:#a6caff;--color-accent-hover:#c7dfff;--color-accent-ink:#152740;--color-focus:#b2d2ff;--color-selection:#263b57;--color-selection-border:#567ba8;--color-positive:#81d2c2;--color-warning:#ffb38a;--color-negative:#eda2ba;--color-scrim:#040914c4;
+ --accent-rgb:166,202,255;--heat-rgb:166,202,255;--heat-low:#192637;--heat-high:#a6caff;--heat-text:#eaf3ff;--heat-missing:#202b3b;--chart-text:#b8c8db;--chart-grid:#32445e;--chart-positive:#81d2c2;--chart-negative:#eda2ba;
+ --chart-series-1:#a6caff;--chart-series-2:#ffb38a;--chart-series-3:#81d2c2;--chart-series-4:#c0aff2;--chart-series-5:#eda2ba;--chart-series-6:#91c8dc;--chart-series-7:#ccd798;--chart-series-8:#dca7d2;--chart-series-9:#9eadea;--chart-series-10:#e0c58c;
+ --shadow-surface:0 10px 30px #03070e29,inset 0 1px 0 #d3e4ff07;--shadow-overlay:0 24px 80px #02060e99,0 0 0 1px #a6caff1a;--glow-interactive:0 0 0 3px #a6caff19,0 2px 18px #8ab6ff13;--glow-signature:0 0 58px #83b5ff12,0 14px 40px #01060c40;
+ --lighting-ambient:radial-gradient(ellipse at 52% -12%,#80b0ff17 0,transparent 54%);--lighting-panel:radial-gradient(ellipse at 5% -10%,#a6caff14 0,transparent 66%);--lighting-brand:linear-gradient(135deg,#a6caff32,#a6caff08);
+}
+:root[data-theme="volt"],[data-preview-theme="volt"] {
+ --color-canvas:#090b0b;--color-sidebar:#101413;--color-surface:#151918;--color-surface-raised:#222a26;--color-surface-hover:#2d3830;--color-surface-signature:#1a201b;--color-control:#1b231e;--color-control-border:#667568;--color-border:#36483b;--color-border-subtle:#28382e;--color-border-highlight:#4d6244;
+ --color-text:#f1f5ed;--color-text-secondary:#bcc9be;--color-text-muted:#9eafa3;--color-accent:#c5f277;--color-accent-hover:#defaaf;--color-accent-ink:#202b14;--color-focus:#cef58e;--color-selection:#2a3621;--color-selection-border:#6b8648;--color-positive:#8ecbb9;--color-warning:#d8c184;--color-negative:#e8a3a7;--color-scrim:#040906bf;
+ --accent-rgb:197,242,119;--heat-rgb:197,242,119;--heat-low:#1d2b20;--heat-high:#c5f277;--heat-text:#edf5e4;--heat-missing:#242d27;--chart-text:#bcc9be;--chart-grid:#33453a;--chart-positive:#8ecbb9;--chart-negative:#e8a3a7;
+ --chart-series-1:#c5f277;--chart-series-2:#8ecbb9;--chart-series-3:#9abde9;--chart-series-4:#c1a5e5;--chart-series-5:#e8a3a7;--chart-series-6:#9ecfda;--chart-series-7:#d8c184;--chart-series-8:#adb6e8;--chart-series-9:#dbaecd;--chart-series-10:#cfb49b;
+ --shadow-surface:0 8px 28px #00000026,inset 0 1px 0 #dfffb706;--shadow-overlay:0 24px 80px #02070399,0 0 0 1px #c5f27715;--glow-interactive:0 0 0 3px #c5f27716,0 2px 18px #b3ed6714;--glow-signature:0 0 56px #b8ed660f,0 14px 38px #00000038;
+ --lighting-ambient:radial-gradient(ellipse at 60% -10%,#b8ef6412 0,transparent 52%);--lighting-panel:radial-gradient(ellipse at 15% -15%,#c5f27713 0,transparent 62%);--lighting-brand:linear-gradient(135deg,#c5f2772b,#c5f27707);
+}
+:root:is([data-theme="obsidian"],[data-theme="glacier"],[data-theme="volt"]){color-scheme:dark}
+@media(prefers-reduced-motion:reduce){:root{--motion-fast:0ms;--motion-standard:0ms;--motion-large:0ms}}

@@ -1,0 +1,29 @@
+{
+  "checkpoint": "610bc106910d4c2a54eae7165b4b115b7b770029",
+  "purpose": "Portable Aurora14 career presentation references; not active application assets or native screenshots.",
+  "archiveSha256": "f29d2a3950f5d96f9b2ce87ce16848d2ec6bbe5e8757cefda642f4d2a0094615",
+  "files": [
+    {
+      "path": "src/features/career.mjs",
+      "sha256": "61cb91e69db1b015393f5add5077c6a54be837a54f361eceac3731b785285189"
+    },
+    {
+      "path": "dist/features.css",
+      "sha256": "583cb19ee70ed5083820f4746cd7f772f51bb7873a0266ae25fa1a5d9ef6f1d6"
+    }
+  ],
+  "protectedFiles": [
+    {
+      "path": "src/domains/career/index.mjs",
+      "sha256_normalized_lf": "db2248863c030b5cd2a2169b0d967b54afb55a8a9a840d6e25f80c6cea2da687"
+    },
+    {
+      "path": "src/domains/career/predictor.mjs",
+      "sha256_normalized_lf": "21d812d5f1be3de118e3d58d5fb05fcf0e5a1f86ad370ee9ae5606a57852d7c0"
+    },
+    {
+      "path": "src/domains/career/seed.json",
+      "sha256_normalized_lf": "67e985b408d643516e85f0305085cf9c076fa334f93837da27c1e46eb4a590ba"
+    }
+  ]
+}

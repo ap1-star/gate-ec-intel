@@ -1,0 +1,10 @@
+{
+  "dataVersion": "portal-reference-2026-08-16-part2",
+  "originalSource": "user-supplied gate-ec-ai-portal-handover (1).zip/server/seed/prototype-data.json",
+  "seedSha256": "67e985b408d643516e85f0305085cf9c076fa334f93837da27c1e46eb4a590ba",
+  "originalExtractedAt": "2026-08-16T17:30:04.080Z",
+  "sourceReview": "Preserved donor values, not independently certified row-by-row. Official source URLs were resolved from institute admission pages on 2026-11-15.",
+  "methodChange": "Correct the lower sensitivity mark clamp from 0 to -20 for supported negative historical marks; center predictions unchanged.",
+  "knownDataCaveat": "IITM 2026 ED1Y EWS value is null in donor seed while the current official PDF shows 588. Preserve donor null and source evidence; do not silently patch historical input.",
+  "recordIdentity": "Programme rows retain institute+year+programme+discipline-row-index+category; duplicate programme codes are not collapsed."
+}

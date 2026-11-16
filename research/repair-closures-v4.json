@@ -1,0 +1,2486 @@
+{
+  "version": "repair-closures-v4.0",
+  "method": "Explicit per-question and per-flag closure allowlist. Unrelated and broad flags remain in their previous state. A targeted repair does not certify the whole question. Only five fresh, diagram-free full-text/option comparisons permit broad text/option flag closure.",
+  "summary": {
+    "targeted_questions": 45,
+    "flags_evaluated": 89,
+    "flags_closed": 47,
+    "questions_with_closures": 42,
+    "closed_by_severity": {
+      "major": 36,
+      "critical": 11
+    }
+  },
+  "closures": [
+    {
+      "id": "GATE-EC-2019-EC-03",
+      "flag": "ZERO_COORDINATE_FRACTION_LAYOUT_CORRUPTED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2019/ec_2019.pdf",
+        "page": 6,
+        "sha256": "73c7b52338e5e1eb568639d6305df1a95b884f144230c1596d5b869bf00f6daa",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "The official stated zero is z=1/2 + (1/2)j; the extracted fractions are displaced and can be misread as 2+2j. Use the official page image. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-03",
+      "flag": "ANSWER_OPTIONS_INCOMPLETE_OR_IMAGE_ONLY",
+      "previous_status": "open_visual_transcription",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2020/ec_2020.pdf",
+        "page": 3,
+        "sha256": "f6b51c7f9f433cd7eaaeb276e66abe5b9e9b2e7b8b14034d551515b6d6e7de2d",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Official function: f(x,y,z)=exp(1-x*cos(y)) + x*z*exp(-1/(1+y^2)). Supplied exp(1-x)*cos(y) is different, although the requested point derivative happens to coincide. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-03",
+      "flag": "DEFINITE_SOURCE_FORMULA_TRANSCRIPTION_MISMATCH",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2020/ec_2020.pdf",
+        "page": 3,
+        "sha256": "f6b51c7f9f433cd7eaaeb276e66abe5b9e9b2e7b8b14034d551515b6d6e7de2d",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Official function: f(x,y,z)=exp(1-x*cos(y)) + x*z*exp(-1/(1+y^2)). Supplied exp(1-x)*cos(y) is different, although the requested point derivative happens to coincide. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-47",
+      "flag": "MODULATION_DEFINING_EQUATIONS_OMITTED_FROM_STEM",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2020/ec_2020.pdf",
+        "page": 16,
+        "sha256": "f6b51c7f9f433cd7eaaeb276e66abe5b9e9b2e7b8b14034d551515b6d6e7de2d",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Source explicitly defines s_PM(t)=cos(1000*pi*t+Kp*m(t)) and s_FM(t)=cos(1000*pi*t+Kf*integral_0^t m(tau) d tau). The supplied text references but omits these equations. V4 source recheck corrects the previous audit note: the integral lower limit is minus infinity, not zero. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2021-EC-47",
+      "flag": "INITIAL_STATE_SENTENCE_OMITTED_FROM_STEM",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2021/ec_2021.pdf",
+        "page": 34,
+        "sha256": "cab9167225d3c92c96e7397bce53f3ebdc0f39a64c9740996a166e9913ff415c",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Source explicitly states that the capacitor is initially discharged and the ammeter reads zero before switching; preserve these initial conditions in the searchable text. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-12",
+      "flag": "matrix_layout_corrupted_in_text",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 10,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Reconstruct matrix row layout from the source page; the supplied text interleaves matrix and vector entries. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-15",
+      "flag": "formula_layout_and_exponents_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 13,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore the signal fraction and Fourier-transform option fractions/exponents from the official page. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-32",
+      "flag": "integrand_exponent_and_fraction_layout_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 28,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "The supplied text loses the numerator 2^z; the official figure encloses z=-1 and excludes z=+1. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-49",
+      "flag": "boolean_complement_glyph_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 42,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore complement on B from official page; the supplied combining glyph is not a reliable Boolean complement representation. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-50",
+      "flag": "transfer_function_fractions_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 42,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore transfer-function numerator/denominator structure from the official page. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-51",
+      "flag": "filter_transfer_fraction_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 43,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore pre-emphasis transfer fraction and reference angular frequency. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-52",
+      "flag": "numeric_exponents_and_speed_units_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 44,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "The supplied text says cm/s for the speed of light; the official source says m/s. Preserve the official marks-to-all scoring status. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-63",
+      "flag": "conditional_density_formula_glyphs_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 51,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore conditional-density exponents and unit-step arguments from the official page. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-65",
+      "flag": "vector_exponents_encoded_as_unrelated_glyphs",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 52,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore vector components and powers from the official page. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-GA-07",
+      "flag": "graphical_options_not_represented_by_text",
+      "previous_status": "open_visual_transcription",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 5,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore absolute values, powers and exponential factors from the source graphical question. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-11",
+      "flag": "vector_and_fraction_layout_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 9,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore the source vector layout and fractional answer options. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-14",
+      "flag": "SOURCE_MISMATCH_contour_missing_3_over_2_coefficient",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem",
+        "formula_latex",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 10,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "The source has 3/2 multiplying j in the contour center; that factor is absent in supplied text. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-25",
+      "flag": "transfer_function_fraction_layout_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 18,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore the open-loop transfer-function fraction. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-26",
+      "flag": "exponential_time_warp_not_rendered_as_superscript",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 18,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Preserve exponential time warping; a plain x(et) string can be misinterpreted as linear time scaling. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-33",
+      "flag": "admittance_matrix_layout_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 22,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore admittance-matrix row structure and global scale factor. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-43",
+      "flag": "SOURCE_MISMATCH_derivative_dot_missing_in_state_equation",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 30,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF freshly re-rendered and visually checked during flag-closure review; derivative dot or numerator confirmed.",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "The derivative dot is present in the source and missing in supplied text. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-47",
+      "flag": "DTFS_sum_and_fraction_layout_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 34,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore DTFS sum bounds, exponent and requested weighted sum. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-48",
+      "flag": "SOURCE_MISMATCH_filter_coefficient_one_half_missing",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem",
+        "formula_latex",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 34,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "The source filter has coefficient 1/2; supplied text omits it. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-49",
+      "flag": "sinc_squared_impulse_response_layout_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 35,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore the squared sinc factor; the supplied text order does not clearly bind the power to the fraction. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-57",
+      "flag": "transfer_function_powers_and_fraction_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 41,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore transfer-function powers and denominator from the official Bode-plot question. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-59",
+      "flag": "SOURCE_MISMATCH_noise_PSD_one_half_replaced_by_one",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 42,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "The source PSD is 1/2 W/Hz, whereas supplied text says 1 W/Hz. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-65",
+      "flag": "probability_table_fraction_layout_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "probability_table"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 44,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore symbol probabilities as table cells rather than flattened numerator/denominator text. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-GA-04",
+      "flag": "FRACTION_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+        "page": 3,
+        "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore logarithm fractions: 1/log_2(x)+1/log_3(x)+1/log_4(x)=1. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-GA-05",
+      "flag": "EXPONENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+        "page": 4,
+        "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore exponent typography: greatest prime factor of (3^199-3^196). Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-EC-13",
+      "flag": "TRANSFER_FUNCTION_NUMERATOR_MISSING",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+        "page": 11,
+        "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore plant numerator: G(s)=6/[s(s+1)(s+2)]. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-EC-20",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+        "page": 17,
+        "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore white-noise PSD N0/2; supplied flattened text omits denominator 2. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-EC-24",
+      "flag": "TRANSFER_FUNCTION_FRACTION_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+        "page": 21,
+        "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore H(z)=(2z^2+3)/[(z+1/3)(z-1/3)]. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-EC-38",
+      "flag": "TRANSFER_FUNCTION_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+        "page": 29,
+        "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore G(s)=1/s^2, C(s)=K(s+alpha)/(s+4), desired poles -1 +/- j sqrt(3). Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-EC-57",
+      "flag": "SOURCE_IMAGE_CONFIRMS_MISSING_AUTOCORRELATION_FACTOR_2_OVER_3",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+        "page": 44,
+        "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore RX(tau)=(2/3) cos(2 pi f0 tau); supplied text loses factor 2/3. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2025-GA-03",
+      "flag": "SOURCE_TEXT_CONFIRMS_MISSING_TWELFTH_ROOT_INDEX",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2025/EC2025.pdf",
+        "page": 2,
+        "sha256": "fe940ace98711b8cb21505fa265044b23b382e649f427d2aea933696a67932ef",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Frequency ratio per semitone is 2^(1/12), not sqrt(2); extraction drops radical index 12. Options A=2^(1/6), B=2^(1/2), C=2^(1/4), D=2. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2025-GA-04",
+      "flag": "FRACTAL_OPTIONS_REQUIRE_EXPONENT_LAYOUT_REPAIR",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2025/EC2025.pdf",
+        "page": 3,
+        "sha256": "fe940ace98711b8cb21505fa265044b23b382e649f427d2aea933696a67932ef",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore options: A=(5/3)^(n/2), B=(5/3)^n, C=(5/3)^(2n), D=(5/3)^[n(2n-1)]. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2025-EC-40",
+      "flag": "SOURCE_TEXT_CONFIRMS_DISTINCT_MATRIX_OPTIONS_COLLAPSED_IN_EXTRACTION",
+      "previous_status": "open_visual_transcription",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2025/EC2025.pdf",
+        "page": 35,
+        "sha256": "fe940ace98711b8cb21505fa265044b23b382e649f427d2aea933696a67932ef",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore matrix layout: A=[[10/3,2/3],[2/3,10/3]], B=[[2/3,10/3],[10/3,2/3]], C=[[10,2],[2,10]], D=[[10/3,1/3],[1/3,10/3]]. A/B flatten to indistinguishable text in supplied extraction. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-11",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 11,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore differential dot in d(w)/dt=A w; A option matrices retain two-by-two layout. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-11",
+      "flag": "STATE_MATRIX_OPTION_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 11,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore differential dot in d(w)/dt=A w; A option matrices retain two-by-two layout. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-11",
+      "flag": "TIME_DERIVATIVE_DOT_MISSING",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 11,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore differential dot in d(w)/dt=A w; A option matrices retain two-by-two layout. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-12",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 12,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore D=(sqrt(2)i_hat-k_hat)/sqrt(3); supplied flattened options blur division and differ from C=sqrt(2)i_hat-sqrt(3)k_hat. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-12",
+      "flag": "VECTOR_OPTION_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 12,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore D=(sqrt(2)i_hat-k_hat)/sqrt(3); supplied flattened options blur division and differ from C=sqrt(2)i_hat-sqrt(3)k_hat. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-16",
+      "flag": "SOURCE_IMAGE_CONFIRMS_MISSING_INPUT_COEFFICIENT_1_OVER_3",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 16,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore x[n]=delta[n]-(1/3)delta[n-1]; supplied text omits factor 1/3. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-40",
+      "flag": "PLANT_NUMERATOR_MISSING",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 37,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF freshly re-rendered and visually checked during flag-closure review; derivative dot or numerator confirmed.",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore plant G(s)=1/[(s+1)(s+2)], numerator one is missing in supplied text. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-41",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 38,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore A=[[-4,-1.5],[4,0]], B=[[2],[0]], C=[[1.5,0.625]]. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-41",
+      "flag": "STATE_MATRIX_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 38,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore A=[[-4,-1.5],[4,0]], B=[[2],[0]], C=[[1.5,0.625]]. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-50",
+      "flag": "EXPONENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 47,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore angular-frequency exponents 10^5 and 10^7 in input/output sinusoids. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    }
+  ],
+  "all_dispositions": [
+    {
+      "id": "GATE-EC-2019-EC-03",
+      "flag": "ANSWER_OPTIONS_INCOMPLETE_OR_IMAGE_ONLY",
+      "previous_status": "open_visual_transcription",
+      "status": "open_visual_transcription",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2019-EC-03",
+      "flag": "FIGURE_DEPENDENT_USE_OFFICIAL_SOURCE_IMAGE",
+      "previous_status": "open_visual_transcription",
+      "status": "open_visual_transcription",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2019-EC-03",
+      "flag": "MATHEMATICAL_LAYOUT_REQUIRES_SOURCE_REVIEW",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2019-EC-03",
+      "flag": "OCR_PAGE_FOOTER_OR_EXTRACTION_ARTIFACT",
+      "previous_status": "open_formatting",
+      "status": "open_formatting",
+      "changed": false,
+      "severity": "minor",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2019-EC-03",
+      "flag": "ZERO_COORDINATE_FRACTION_LAYOUT_CORRUPTED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2019/ec_2019.pdf",
+        "page": 6,
+        "sha256": "73c7b52338e5e1eb568639d6305df1a95b884f144230c1596d5b869bf00f6daa",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "The official stated zero is z=1/2 + (1/2)j; the extracted fractions are displaced and can be misread as 2+2j. Use the official page image. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-03",
+      "flag": "ANSWER_OPTIONS_INCOMPLETE_OR_IMAGE_ONLY",
+      "previous_status": "open_visual_transcription",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2020/ec_2020.pdf",
+        "page": 3,
+        "sha256": "f6b51c7f9f433cd7eaaeb276e66abe5b9e9b2e7b8b14034d551515b6d6e7de2d",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Official function: f(x,y,z)=exp(1-x*cos(y)) + x*z*exp(-1/(1+y^2)). Supplied exp(1-x)*cos(y) is different, although the requested point derivative happens to coincide. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-03",
+      "flag": "CALIBRATION_CLAIM_HAS_NO_RESPONSE_DATA_EVIDENCE",
+      "previous_status": "quarantined_legacy_claim",
+      "status": "quarantined_legacy_claim",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-03",
+      "flag": "DEFINITE_SOURCE_FORMULA_TRANSCRIPTION_MISMATCH",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2020/ec_2020.pdf",
+        "page": 3,
+        "sha256": "f6b51c7f9f433cd7eaaeb276e66abe5b9e9b2e7b8b14034d551515b6d6e7de2d",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Official function: f(x,y,z)=exp(1-x*cos(y)) + x*z*exp(-1/(1+y^2)). Supplied exp(1-x)*cos(y) is different, although the requested point derivative happens to coincide. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-03",
+      "flag": "SOURCE_LINK_MISSING_IN_SUPPLIED_RECORD",
+      "previous_status": "resolved_metadata",
+      "status": "resolved_metadata",
+      "changed": false,
+      "severity": "minor",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-03",
+      "flag": "original_source_url_missing",
+      "previous_status": "resolved_metadata",
+      "status": "resolved_metadata",
+      "changed": false,
+      "severity": "minor",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-03",
+      "flag": "unsupported_original_calibration_claim",
+      "previous_status": "quarantined_legacy_claim",
+      "status": "quarantined_legacy_claim",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-47",
+      "flag": "CALIBRATION_CLAIM_HAS_NO_RESPONSE_DATA_EVIDENCE",
+      "previous_status": "quarantined_legacy_claim",
+      "status": "quarantined_legacy_claim",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-47",
+      "flag": "FIGURE_DEPENDENT_USE_OFFICIAL_SOURCE_IMAGE",
+      "previous_status": "open_visual_transcription",
+      "status": "open_visual_transcription",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-47",
+      "flag": "MODULATION_DEFINING_EQUATIONS_OMITTED_FROM_STEM",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2020/ec_2020.pdf",
+        "page": 16,
+        "sha256": "f6b51c7f9f433cd7eaaeb276e66abe5b9e9b2e7b8b14034d551515b6d6e7de2d",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Source explicitly defines s_PM(t)=cos(1000*pi*t+Kp*m(t)) and s_FM(t)=cos(1000*pi*t+Kf*integral_0^t m(tau) d tau). The supplied text references but omits these equations. V4 source recheck corrects the previous audit note: the integral lower limit is minus infinity, not zero. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-47",
+      "flag": "NO_BUNDLED_QUESTION_IMAGE",
+      "previous_status": "open_visual_transcription",
+      "status": "open_visual_transcription",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-47",
+      "flag": "SOURCE_LINK_MISSING_IN_SUPPLIED_RECORD",
+      "previous_status": "resolved_metadata",
+      "status": "resolved_metadata",
+      "changed": false,
+      "severity": "minor",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-47",
+      "flag": "original_source_url_missing",
+      "previous_status": "resolved_metadata",
+      "status": "resolved_metadata",
+      "changed": false,
+      "severity": "minor",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2020-EC-47",
+      "flag": "unsupported_original_calibration_claim",
+      "previous_status": "quarantined_legacy_claim",
+      "status": "quarantined_legacy_claim",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2021-EC-47",
+      "flag": "FIGURE_DEPENDENT_USE_OFFICIAL_SOURCE_IMAGE",
+      "previous_status": "open_visual_transcription",
+      "status": "open_visual_transcription",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2021-EC-47",
+      "flag": "INITIAL_STATE_SENTENCE_OMITTED_FROM_STEM",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2021/ec_2021.pdf",
+        "page": 34,
+        "sha256": "cab9167225d3c92c96e7397bce53f3ebdc0f39a64c9740996a166e9913ff415c",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Source explicitly states that the capacitor is initially discharged and the ammeter reads zero before switching; preserve these initial conditions in the searchable text. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2021-EC-47",
+      "flag": "NO_BUNDLED_QUESTION_IMAGE",
+      "previous_status": "open_visual_transcription",
+      "status": "open_visual_transcription",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2021-EC-47",
+      "flag": "SOURCE_LINK_MISSING_IN_SUPPLIED_RECORD",
+      "previous_status": "resolved_metadata",
+      "status": "resolved_metadata",
+      "changed": false,
+      "severity": "minor",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2021-EC-47",
+      "flag": "original_source_url_missing",
+      "previous_status": "resolved_metadata",
+      "status": "resolved_metadata",
+      "changed": false,
+      "severity": "minor",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-12",
+      "flag": "matrix_layout_corrupted_in_text",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 10,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Reconstruct matrix row layout from the source page; the supplied text interleaves matrix and vector entries. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-12",
+      "flag": "nonsemantic_OCR_math_glyphs",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-15",
+      "flag": "formula_layout_and_exponents_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 13,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore the signal fraction and Fourier-transform option fractions/exponents from the official page. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-15",
+      "flag": "nonsemantic_OCR_math_glyphs",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-32",
+      "flag": "integrand_exponent_and_fraction_layout_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 28,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "The supplied text loses the numerator 2^z; the official figure encloses z=-1 and excludes z=+1. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-32",
+      "flag": "nonsemantic_OCR_math_glyphs",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-49",
+      "flag": "boolean_complement_glyph_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 42,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore complement on B from official page; the supplied combining glyph is not a reliable Boolean complement representation. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-49",
+      "flag": "nonsemantic_OCR_math_glyphs",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-50",
+      "flag": "nonsemantic_OCR_math_glyphs",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-50",
+      "flag": "transfer_function_fractions_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 42,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore transfer-function numerator/denominator structure from the official page. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-51",
+      "flag": "filter_transfer_fraction_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 43,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore pre-emphasis transfer fraction and reference angular frequency. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-51",
+      "flag": "nonsemantic_OCR_math_glyphs",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-52",
+      "flag": "nonsemantic_OCR_math_glyphs",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-52",
+      "flag": "numeric_exponents_and_speed_units_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 44,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "The supplied text says cm/s for the speed of light; the official source says m/s. Preserve the official marks-to-all scoring status. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-52",
+      "flag": "official_marks_to_all",
+      "previous_status": "documented_scoring_rule",
+      "status": "documented_scoring_rule",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-55",
+      "flag": "nonsemantic_OCR_math_glyphs",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-63",
+      "flag": "conditional_density_formula_glyphs_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 51,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore conditional-density exponents and unit-step arguments from the official page. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-63",
+      "flag": "nonsemantic_OCR_math_glyphs",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-65",
+      "flag": "nonsemantic_OCR_math_glyphs",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2022-EC-65",
+      "flag": "vector_exponents_encoded_as_unrelated_glyphs",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+        "page": 52,
+        "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore vector components and powers from the official page. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-GA-07",
+      "flag": "graphical_options_not_represented_by_text",
+      "previous_status": "open_visual_transcription",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 5,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore absolute values, powers and exponential factors from the source graphical question. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-11",
+      "flag": "vector_and_fraction_layout_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 9,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore the source vector layout and fractional answer options. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-14",
+      "flag": "SOURCE_MISMATCH_contour_missing_3_over_2_coefficient",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem",
+        "formula_latex",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 10,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "The source has 3/2 multiplying j in the contour center; that factor is absent in supplied text. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-25",
+      "flag": "transfer_function_fraction_layout_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 18,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore the open-loop transfer-function fraction. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-26",
+      "flag": "exponential_time_warp_not_rendered_as_superscript",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 18,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Preserve exponential time warping; a plain x(et) string can be misinterpreted as linear time scaling. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-33",
+      "flag": "admittance_matrix_layout_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 22,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore admittance-matrix row structure and global scale factor. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-43",
+      "flag": "SOURCE_MISMATCH_derivative_dot_missing_in_state_equation",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 30,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF freshly re-rendered and visually checked during flag-closure review; derivative dot or numerator confirmed.",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "The derivative dot is present in the source and missing in supplied text. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-47",
+      "flag": "DTFS_sum_and_fraction_layout_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 34,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore DTFS sum bounds, exponent and requested weighted sum. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-48",
+      "flag": "SOURCE_MISMATCH_filter_coefficient_one_half_missing",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem",
+        "formula_latex",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 34,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "The source filter has coefficient 1/2; supplied text omits it. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-49",
+      "flag": "sinc_squared_impulse_response_layout_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 35,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore the squared sinc factor; the supplied text order does not clearly bind the power to the fraction. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-57",
+      "flag": "transfer_function_powers_and_fraction_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 41,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore transfer-function powers and denominator from the official Bode-plot question. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-59",
+      "flag": "SOURCE_MISMATCH_noise_PSD_one_half_replaced_by_one",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem",
+        "formula_latex"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 42,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "The source PSD is 1/2 W/Hz, whereas supplied text says 1 W/Hz. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2023-EC-65",
+      "flag": "probability_table_fraction_layout_corrupted",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "probability_table"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+        "page": 44,
+        "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore symbol probabilities as table cells rather than flattened numerator/denominator text. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-GA-04",
+      "flag": "FRACTION_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+        "page": 3,
+        "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore logarithm fractions: 1/log_2(x)+1/log_3(x)+1/log_4(x)=1. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-GA-04",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-GA-05",
+      "flag": "EXPONENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+        "page": 4,
+        "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore exponent typography: greatest prime factor of (3^199-3^196). Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-GA-05",
+      "flag": "MODE_SHOULD_BE_NUMERICAL",
+      "previous_status": "open_annotation_check",
+      "status": "open_annotation_check",
+      "changed": false,
+      "severity": "minor",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-GA-05",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-EC-13",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-EC-13",
+      "flag": "TRANSFER_FUNCTION_NUMERATOR_MISSING",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+        "page": 11,
+        "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore plant numerator: G(s)=6/[s(s+1)(s+2)]. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-EC-20",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+        "page": 17,
+        "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore white-noise PSD N0/2; supplied flattened text omits denominator 2. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-EC-24",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-EC-24",
+      "flag": "TRANSFER_FUNCTION_FRACTION_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+        "page": 21,
+        "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore H(z)=(2z^2+3)/[(z+1/3)(z-1/3)]. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-EC-38",
+      "flag": "DIAGRAM_DEPENDENCY_FLAG_REVIEW",
+      "previous_status": "open_annotation_check",
+      "status": "open_annotation_check",
+      "changed": false,
+      "severity": "minor",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-EC-38",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-EC-38",
+      "flag": "TRANSFER_FUNCTION_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+        "page": 29,
+        "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore G(s)=1/s^2, C(s)=K(s+alpha)/(s+4), desired poles -1 +/- j sqrt(3). Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2024-EC-57",
+      "flag": "SOURCE_IMAGE_CONFIRMS_MISSING_AUTOCORRELATION_FACTOR_2_OVER_3",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+        "page": 44,
+        "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore RX(tau)=(2/3) cos(2 pi f0 tau); supplied text loses factor 2/3. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2025-GA-03",
+      "flag": "SOURCE_TEXT_CONFIRMS_MISSING_TWELFTH_ROOT_INDEX",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2025/EC2025.pdf",
+        "page": 2,
+        "sha256": "fe940ace98711b8cb21505fa265044b23b382e649f427d2aea933696a67932ef",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Frequency ratio per semitone is 2^(1/12), not sqrt(2); extraction drops radical index 12. Options A=2^(1/6), B=2^(1/2), C=2^(1/4), D=2. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2025-GA-04",
+      "flag": "FRACTAL_OPTIONS_REQUIRE_EXPONENT_LAYOUT_REPAIR",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2025/EC2025.pdf",
+        "page": 3,
+        "sha256": "fe940ace98711b8cb21505fa265044b23b382e649f427d2aea933696a67932ef",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore options: A=(5/3)^(n/2), B=(5/3)^n, C=(5/3)^(2n), D=(5/3)^[n(2n-1)]. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2025-GA-04",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2025-EC-40",
+      "flag": "DIAGRAM_DEPENDENCY_FLAG_REVIEW",
+      "previous_status": "open_annotation_check",
+      "status": "open_annotation_check",
+      "changed": false,
+      "severity": "minor",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2025-EC-40",
+      "flag": "SOURCE_TEXT_CONFIRMS_DISTINCT_MATRIX_OPTIONS_COLLAPSED_IN_EXTRACTION",
+      "previous_status": "open_visual_transcription",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2025/EC2025.pdf",
+        "page": 35,
+        "sha256": "fe940ace98711b8cb21505fa265044b23b382e649f427d2aea933696a67932ef",
+        "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+        "rechecked_in_this_batch": false
+      },
+      "rationale": "Restore matrix layout: A=[[10/3,2/3],[2/3,10/3]], B=[[2/3,10/3],[10/3,2/3]], C=[[10,2],[2,10]], D=[[10/3,1/3],[1/3,10/3]]. A/B flatten to indistinguishable text in supplied extraction. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-11",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 11,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore differential dot in d(w)/dt=A w; A option matrices retain two-by-two layout. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-11",
+      "flag": "STATE_MATRIX_OPTION_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 11,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore differential dot in d(w)/dt=A w; A option matrices retain two-by-two layout. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-11",
+      "flag": "TIME_DERIVATIVE_DOT_MISSING",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 11,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore differential dot in d(w)/dt=A w; A option matrices retain two-by-two layout. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-12",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 12,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore D=(sqrt(2)i_hat-k_hat)/sqrt(3); supplied flattened options blur division and differ from C=sqrt(2)i_hat-sqrt(3)k_hat. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-12",
+      "flag": "VECTOR_OPTION_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 12,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore D=(sqrt(2)i_hat-k_hat)/sqrt(3); supplied flattened options blur division and differ from C=sqrt(2)i_hat-sqrt(3)k_hat. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-16",
+      "flag": "SOURCE_IMAGE_CONFIRMS_MISSING_INPUT_COEFFICIENT_1_OVER_3",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 16,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore x[n]=delta[n]-(1/3)delta[n-1]; supplied text omits factor 1/3. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-40",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-40",
+      "flag": "PLANT_NUMERATOR_MISSING",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "critical",
+      "repaired_fields": [
+        "stem"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 37,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF freshly re-rendered and visually checked during flag-closure review; derivative dot or numerator confirmed.",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore plant G(s)=1/[(s+1)(s+2)], numerator one is missing in supplied text. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-41",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 38,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore A=[[-4,-1.5],[4,0]], B=[[2],[0]], C=[[1.5,0.625]]. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-41",
+      "flag": "STATE_MATRIX_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 38,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore A=[[-4,-1.5],[4,0]], B=[[2],[0]], C=[[1.5,0.625]]. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility. Full text and all four options on this source question were visually compared; no diagram is involved.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-44",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-50",
+      "flag": "EXPONENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "resolved_targeted_field",
+      "changed": true,
+      "severity": "major",
+      "repaired_fields": [
+        "stem",
+        "options"
+      ],
+      "evidence": {
+        "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+        "page": 47,
+        "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+        "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+        "rechecked_in_this_batch": true
+      },
+      "rationale": "Restore angular-frequency exponents 10^5 and 10^7 in input/output sinusoids. Closure applies only to the defect named by this flag, not to unrelated content or source-figure accessibility.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-50",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    },
+    {
+      "id": "GATE-EC-2026-EC-61",
+      "flag": "OFFICIAL_RENDER_CONFIRMS_CONTENT_LAYOUT_REPAIR_REQUIRED",
+      "previous_status": "open",
+      "status": "open",
+      "changed": false,
+      "severity": "major",
+      "repaired_fields": [],
+      "evidence": null,
+      "rationale": "Retain prior disposition. The targeted repair does not independently establish closure of this broader or unrelated flag.",
+      "full_question_certified": false
+    }
+  ],
+  "official_source_defects": {
+    "GATE-EC-2022-EC-25": "Keep open_source_defect; no repair to official content is authorized by this map.",
+    "GATE-EC-2023-EC-46": "Keep open_source_defect; preserve official MTA scoring and source defect."
+  }
+}

@@ -1,0 +1,2472 @@
+[
+  {
+    "id": "GATE-EC-2022-GA-01",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 0,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Recognize the standard neither/nor correlative conjunction without calculation.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Estimated solution actions: Recognize the standard neither/nor correlative conjunction without calculation.",
+    "score": 6.25,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-GA-02",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Infer the value of one ratio unit from R minus S, then double it for Q.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: Infer the value of one ratio unit from R minus S, then double it for Q.",
+    "score": 17.5,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-GA-03",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Resolve unequal trapezium-leg projections and use the common height relation.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Resolve unequal trapezium-leg projections and use the common height relation.",
+    "score": 42.5,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-GA-04",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 0,
+      "representation": 2
+    },
+    "rationale": "Count squares by size while excluding every square containing the missing cell.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Count squares by size while excluding every square containing the missing cell.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-GA-05",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 0,
+      "representation": 3
+    },
+    "rationale": "Check complete line-of-sight coverage from each proposed point across the gallery boundaries.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Check complete line-of-sight coverage from each proposed point across the gallery boundaries.",
+    "score": 32.5,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-GA-06",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Separate the known adverse chemical effects from the passage's explicitly unknown genetic effects.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: Separate the known adverse chemical effects from the passage's explicitly unknown genetic effects.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-GA-07",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Solve both linear inequalities and intersect their open intervals.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Solve both linear inequalities and intersect their open intervals.",
+    "score": 17.5,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-GA-08",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 0,
+      "representation": 1
+    },
+    "rationale": "Recognize perpendicular diagonals from the coordinates and calculate half their product.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Recognize perpendicular diagonals from the coordinates and calculate half their product.",
+    "score": 20.0,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-GA-09",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Propagate the one-truth constraint from S through R and T to identify the copier.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Propagate the one-truth constraint from S through R and T to identify the copier.",
+    "score": 36.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-GA-10",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 0,
+      "integration": 1,
+      "representation": 3
+    },
+    "rationale": "Compose rotations about different axes and compare the resulting vertex permutations.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Compose rotations about different axes and compare the resulting vertex permutations.",
+    "score": 43.75,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-11",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Recognize an exact-gradient field, so its integral around the closed contour vanishes.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: Recognize an exact-gradient field, so its integral around the closed contour vanishes.",
+    "score": 26.25,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-12",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 0,
+      "representation": 1
+    },
+    "rationale": "Compare the proportional rows of A with the incompatible right-hand-side entries.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: Compare the proportional rows of A with the incompatible right-hand-side entries.",
+    "score": 26.25,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-13",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Decode the resistor/source topology, write node equations and recover the requested branch current.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Decode the resistor/source topology, write node equations and recover the requested branch current.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-14",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 2
+    },
+    "rationale": "Identify the single connection between otherwise isolated subnetworks and infer zero bridge current.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: Identify the single connection between otherwise isolated subnetworks and infer zero bridge current.",
+    "score": 23.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-15",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Relate the rational signal to a known transform by differentiation and retain the imaginary sign factor.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Relate the rational signal to a known transform by differentiation and retain the imaginary sign factor.",
+    "score": 53.75,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-16",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Identify minority-electron excess concentration and apply one diffusion-length exponential decay.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Identify minority-electron excess concentration and apply one diffusion-length exponential decay.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-17",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Use the logarithmic carrier-density/Fermi-level relation to calculate the shift caused by halving n.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Use the logarithmic carrier-density/Fermi-level relation to calculate the shift caused by halving n.",
+    "score": 28.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-18",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Compare the two diode-connected MOS current laws, geometry ratios and mobilities to locate the output.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Compare the two diode-connected MOS current laws, geometry ratios and mobilities to locate the output.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-19",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 0,
+      "representation": 1
+    },
+    "rationale": "Fill the four MUX data inputs directly from the XOR truth table.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: Fill the four MUX data inputs directly from the XOR truth table.",
+    "score": 20.0,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-20",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Apply nMOS and pMOS pass-threshold limits to the two initially discharged capacitors.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Apply nMOS and pMOS pass-threshold limits to the two initially discharged capacitors.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-21",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Shift the Nyquist critical point for K=2 and use the clockwise encirclement convention.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Shift the Nyquist critical point for K=2 and use the clockwise encirclement convention.",
+    "score": 46.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-22",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Match pole/zero positions and asymptotic root-locus branch structure to the candidates.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Match pole/zero positions and asymptotic root-locus branch structure to the candidates.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-23",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Distinguish unity magnitude from pure delay, then apply the magnitude-squared output-PSD relation.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Distinguish unity magnitude from pure delay, then apply the magnitude-squared output-PSD relation.",
+    "score": 43.75,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-24",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Apply series-current continuity to identify equal conduction and capacitor displacement current.",
+    "confidence": "medium",
+    "uncertainty_note": "Primary-topic allocation is ambiguous; the structural score concerns the task itself, not its subject allocation.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Estimated solution actions: Apply series-current continuity to identify equal conduction and capacitor displacement current.",
+    "score": 23.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-25",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Substitute the intended exponential trial function into the PDE and test the parameter pairs.",
+    "confidence": "low",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string. The official source itself omits a term in the trial exponential; this is the intended substitution task, not a certified complete prompt.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Substitute the intended exponential trial function into the PDE and test the parameter pairs.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-26",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Derive the opamp RC response, classify its passband and determine its 3-dB frequency.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Derive the opamp RC response, classify its passband and determine its 3-dB frequency.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-27",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Apply absorption and distributivity to compare each Boolean candidate with x+yz.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Apply absorption and distributivity to compare each Boolean candidate with x+yz.",
+    "score": 23.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-28",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Evaluate four CMOS claims using sizing, static operating regions, switching power and mobility.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Evaluate four CMOS claims using sizing, static operating regions, switching power and mobility.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-29",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Use entropy bounds and distinguish one-to-one mappings from the potentially many-to-one squaring map.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Use entropy bounds and distinguish one-to-one mappings from the potentially many-to-one squaring map.",
+    "score": 41.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-30",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Recognize traveling-wave speed and reject candidate terms whose x/t coefficients do not match it.",
+    "confidence": "medium",
+    "uncertainty_note": "Primary-topic allocation is ambiguous; the structural score concerns the task itself, not its subject allocation. Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Recognize traveling-wave speed and reject candidate terms whose x/t coefficients do not match it.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-31",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 0,
+      "representation": 1
+    },
+    "rationale": "Accumulate graph frequencies and locate the central observation(s) rather than average wicket counts.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Accumulate graph frequencies and locate the central observation(s) rather than average wicket counts.",
+    "score": 20.0,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-32",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Read which pole is enclosed, evaluate its residue with numerator 2^z and account for orientation.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Read which pole is enclosed, evaluate its residue with numerator 2^z and account for orientation.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-33",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Recognize that translating a finite integration window along a decaying exponential gives a vanishing limit.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: Recognize that translating a finite integration window along a decaying exponential gives a vanishing limit.",
+    "score": 23.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-34",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "In strong inversion, add Cox times the gate-voltage increment to the existing inversion charge.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: In strong inversion, add Cox times the gate-voltage increment to the existing inversion charge.",
+    "score": 28.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-35",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Average the two and four information bits carried by alternate QPSK and 16-QAM symbols.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Average the two and four information bits carried by alternate QPSK and 16-QAM symbols.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-36",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Find the stationary point, classify it and compare both endpoints for the closed-interval minimum.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Find the stationary point, classify it and compare both endpoints for the closed-interval minimum.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-37",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Use orthonormal projectors to identify alpha and beta eigenmodes plus the orthogonal null direction.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Use orthonormal projectors to identify alpha and beta eigenmodes plus the orthogonal null direction.",
+    "score": 46.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-38",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Relate the real-axis impedance-locus endpoints to the circuit's low/high-frequency equivalents.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Relate the real-axis impedance-locus endpoints to the circuit's low/high-frequency equivalents.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-39",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Extract sinusoidal magnitude and phase from the plotted current and identify the reactive impedance.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Extract sinusoidal magnitude and phase from the plotted current and identify the reactive impedance.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-40",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Find maximum gate overdrive and select the correct triode/saturation current law at fixed VDS.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Find maximum gate overdrive and select the correct triode/saturation current law at fixed VDS.",
+    "score": 46.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-41",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Decode the diode I-V model, reconstruct both saturated feedback states and map their switching thresholds to the capacitor-voltage excursion.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Estimated solution actions: Decode the diode I-V model, reconstruct both saturated feedback states and map their switching thresholds to the capacitor-voltage excursion.",
+    "score": 65.0,
+    "band": "Tough",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-42",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Read the 12-dB DC gain to find the non-inverting feedback resistance, then use the RC corner to find capacitance.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Read the 12-dB DC gain to find the non-inverting feedback resistance, then use the RC corner to find capacitance.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-43",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Follow the flip-flop feedback sequence to derive output division and duty cycle independently of input duty.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Follow the flip-flop feedback sequence to derive output division and duty cycle independently of input duty.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-44",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Substitute s squared as a new variable and constrain both roots to real non-positive values.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Substitute s squared as a new variable and constrain both roots to real non-positive values.",
+    "score": 46.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-45",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Separate geometric decay/growth from the p-series boundary and test four parameter choices.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Separate geometric decay/growth from the p-series boundary and test four parameter choices.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-46",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Compare each output graph with the fixed-frequency sinusoidal response required of an LTI system.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Compare each output graph with the fixed-frequency sinusoidal response required of an LTI system.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-47",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Judge separate device claims on intrinsic density, BJT doping, continuity and temperature-dependent mobility.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Judge separate device claims on intrinsic density, BJT doping, continuity and temperature-dependent mobility.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-48",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 2
+    },
+    "rationale": "Read outgoing transition branches and apply probability normalization at the relevant states.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Read outgoing transition branches and apply probability normalization at the relevant states.",
+    "score": 23.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-49",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 1,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Construct inversion and OR from the supplied asymmetric gate, then establish realizability of NAND/NOR.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Construct inversion and OR from the supplied asymmetric gate, then establish realizability of NAND/NOR.",
+    "score": 46.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-50",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Normalize both second-order denominators and compare damping, DC gain, damped frequency and settling time.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Normalize both second-order denominators and compare damping, DC gain, damped frequency and settling time.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-51",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Derive the RC de-emphasis response and match its time constant to the inverse pre-emphasis pole.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Derive the RC de-emphasis response and match its time constant to the inverse pre-emphasis pole.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-52",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Convert the plate spacing, compute the first TM cutoff and test the listed propagation frequencies.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string. Official marks-to-all: structural challenge is retained, but this item contributes no scored difficulty burden.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Convert the plate spacing, compute the first TM cutoff and test the listed propagation frequencies.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-53",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Read triangular boundaries, choose integration limits and integrate the polynomial over the region.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Read triangular boundaries, choose integration limits and integrate the polynomial over the region.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-54",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Infer a Thevenin source from the measured port line and combine it with the replacement load circuit.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Infer a Thevenin source from the measured port line and combine it with the replacement load circuit.",
+    "score": 58.75,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-55",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Apply the double-DFT reversal-and-scaling identity instead of evaluating two eight-point sums.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: Apply the double-DFT reversal-and-scaling identity instead of evaluating two eight-point sums.",
+    "score": 28.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-56",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Integrate generation minus recombination, enforce boundary/symmetry constraints and convert net carrier flux to current density.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 7,
+    "cognitive_steps_basis": "Estimated solution actions: Integrate generation minus recombination, enforce boundary/symmetry constraints and convert net carrier flux to current density.",
+    "score": 70.0,
+    "band": "Tough",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-57",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Replace the diode by its off/on incremental limits, compute the two resistor-divider gains and form their ratio.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Replace the diode by its off/on incremental limits, compute the two resistor-divider gains and form their ratio.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-58",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Reduce the R-2R ladder and combine its weighted source contributions at the ideal-opamp summing node.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Reduce the R-2R ladder and combine its weighted source contributions at the ideal-opamp summing node.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-59",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Form the MOS small-signal equivalent and eliminate the common current to obtain the node-voltage ratio.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Form the MOS small-signal equivalent and eliminate the common current to obtain the node-voltage ratio.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-60",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Derive the disturbance-to-error feedback transfer before applying the final-value theorem to a step.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Derive the disturbance-to-error feedback transfer before applying the final-value theorem to a step.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-61",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Recognize the log2(3) output-alphabet capacity bound and identify alpha=1 as a noiseless permutation attaining it.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Recognize the log2(3) output-alphabet capacity bound and identify alpha=1 as a noiseless permutation attaining it.",
+    "score": 41.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-62",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Translate one-error correction into the sum of zero-error and one-error binomial probabilities.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Translate one-error correction into the sum of zero-error and one-error binomial probabilities.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-63",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Determine the ML decision regions from overlapping density supports and integrate both error tails.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Estimated solution actions: Determine the ML decision regions from overlapping density supports and integrate both error tails.",
+    "score": 62.5,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-64",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Use conditional-mean quantizer levels: the positive uniform-cell midpoint and the negative triangular-cell centroid.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Use conditional-mean quantizer levels: the positive uniform-cell midpoint and the negative triangular-cell centroid.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2022-EC-65",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Compute divergence of the vector field and integrate the surviving polynomial terms over the cube.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Estimated solution actions: Compute divergence of the vector field and integrate the surviving polynomial terms over the cube.",
+    "score": 61.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-GA-01",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 0,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Select conscience from the four usage alternatives without additional reasoning or calculation.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Estimated solution actions: Select conscience from the four usage alternatives without additional reasoning or calculation.",
+    "score": 6.25,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-GA-02",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 0,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Match courts to the judiciary through the institutional analogy.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Estimated solution actions: Match courts to the judiciary through the institutional analogy.",
+    "score": 6.25,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-GA-03",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Notice that 1 through 9 already exhaust the distinct-digit sum 45 and order them for minimum value.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Notice that 1 through 9 already exhaust the distinct-digit sum 45 and order them for minimum value.",
+    "score": 28.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-GA-04",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Combine the union size, overlap and two-to-one preference relation into one linear equation.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Combine the union size, overlap and two-to-one preference relation into one linear equation.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-GA-05",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 0,
+      "representation": 2
+    },
+    "rationale": "Enumerate rectangles of different widths/heights in the non-uniform line drawing without double counting.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Enumerate rectangles of different widths/heights in the non-uniform line drawing without double counting.",
+    "score": 30.0,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-GA-06",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Track the one-way set inclusions and reject converses not entailed by the creatures passage.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Track the one-way set inclusions and reject converses not entailed by the creatures passage.",
+    "score": 23.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-GA-07",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 0,
+      "representation": 2
+    },
+    "rationale": "Match parity, sign and asymptotic decay of the plotted curve to the algebraic candidates.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Match parity, sign and asymptotic decay of the plotted curve to the algebraic candidates.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-GA-08",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Recognize past-tense adult recollection and reject inferences unsupported by the passage.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: Recognize past-tense adult recollection and reject inferences unsupported by the passage.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-GA-09",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Maximize positive pools by distributing positives, then add the fixed pooled and conditional individual-test counts.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Maximize positive pools by distributing positives, then add the fixed pooled and conditional individual-test counts.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-GA-10",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Track the doubled number of strips after each fold and convert it to the number of creases.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Track the doubled number of strips after each fold and convert it to the number of creases.",
+    "score": 31.25,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-11",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Use the scalar projection coefficient v2 dot v1 divided by the squared norm of v2.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Use the scalar projection coefficient v2 dot v1 divided by the squared norm of v2.",
+    "score": 28.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-12",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Evaluate the gradient at the point, normalize the direction vector and take their dot product.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Evaluate the gradient at the point, normalize the direction vector and take their dot product.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-13",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Enumerate the four allowed polar arguments and identify the candidate outside that root set.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Enumerate the four allowed polar arguments and identify the candidate outside that root set.",
+    "score": 28.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-14",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Locate the shifted contour relative to two complex poles and evaluate the included simple residue.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Locate the shifted contour relative to two complex poles and evaluate the included simple residue.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-15",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Apply similarity to an eigenvector equation and identify the transformed eigenvectors Pv_k.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: Apply similarity to an eigenvector equation and identify the transformed eigenvectors Pv_k.",
+    "score": 23.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-16",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 0,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Recall that the Fermi level inside the conduction band denotes degenerate n-type material.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Estimated solution actions: Recall that the Fermi level inside the conduction band denotes degenerate n-type material.",
+    "score": 6.25,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-17",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 0,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Recall filled valence and empty conduction states for an intrinsic semiconductor at zero kelvin.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Estimated solution actions: Recall filled valence and empty conduction states for an intrinsic semiconductor at zero kelvin.",
+    "score": 6.25,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-18",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Apply resonance and series-Q relations to compare the common L/C values and candidate resistances.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Apply resonance and series-Q relations to compare the common L/C values and candidate resistances.",
+    "score": 28.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-19",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 2
+    },
+    "rationale": "Match accumulation, depletion growth and strong-inversion saturation to the width-versus-gate-voltage graphs.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Match accumulation, depletion growth and strong-inversion saturation to the width-versus-gate-voltage graphs.",
+    "score": 23.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-20",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Recognize the nondispersive dielectric velocity c/sqrt(epsilon_r mu_r) for both phase and group motion.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: Recognize the nondispersive dielectric velocity c/sqrt(epsilon_r mu_r) for both phase and group motion.",
+    "score": 23.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-21",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Decode the transistor amplifier configuration and infer both impedance levels to select its controlled-source model.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Decode the transistor amplifier configuration and infer both impedance levels to select its controlled-source model.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-22",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Interpret the intended loop oscillation condition while distinguishing it from the source's problematic closed-loop wording.",
+    "confidence": "high",
+    "uncertainty_note": "Official marks-to-all: structural challenge is retained, but this item contributes no scored difficulty burden.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Interpret the intended loop oscillation condition while distinguishing it from the source's problematic closed-loop wording.",
+    "score": 41.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-23",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 0,
+      "representation": 1
+    },
+    "rationale": "Apply the 2:1 MUX selection equation to its displayed constants and input connection.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: Apply the 2:1 MUX selection equation to its displayed constants and input connection.",
+    "score": 20.0,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-24",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Separate one-bit-per-clock throughput from the three-stage propagation latency.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Separate one-bit-per-clock throughput from the three-stage propagation latency.",
+    "score": 31.25,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-25",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Set the total open-loop phase to minus pi and simplify the two arctangent contributions.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Set the total open-loop phase to minus pi and simplify the two arctangent contributions.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-26",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Test exponential time warping for future-input dependence and failure of the shift-commutation condition.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Test exponential time warping for future-input dependence and failure of the shift-commutation condition.",
+    "score": 36.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-27",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Use separated spectral copies or the cosine-squared identity to obtain half the original signal energy.",
+    "confidence": "medium",
+    "uncertainty_note": "Primary-topic allocation is ambiguous; the structural score concerns the task itself, not its subject allocation.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Use separated spectral copies or the cosine-squared identity to obtain half the original signal energy.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-28",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Recall the Gaussian Fourier pair with its correct scaling or use the supplied Gaussian integral.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: Recall the Gaussian Fourier pair with its correct scaling or use the supplied Gaussian integral.",
+    "score": 28.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-29",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Coordinate continuous/discrete and periodic/aperiodic dualities across four signal-spectrum pairings.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Coordinate continuous/discrete and periodic/aperiodic dualities across four signal-spectrum pairings.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-30",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Check non-negativity and even symmetry for each formula or plotted PSD candidate.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Check non-negativity and even symmetry for each formula or plotted PSD candidate.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-31",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Rearrange the full-scale sinusoidal ADC SNR relation to determine bit resolution.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: Rearrange the full-scale sinusoidal ADC SNR relation to determine bit resolution.",
+    "score": 22.5,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-32",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Reduce or solve the sourced resistor network and compute the 200-ohm branch current.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Reduce or solve the sourced resistor network and compute the 200-ohm branch current.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-33",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Suppress the source, solve the source-terminated Y-parameter network and match the resulting output resistance.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Estimated solution actions: Suppress the source, solve the source-terminated Y-parameter network and match the resulting output resistance.",
+    "score": 62.5,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-34",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Identify the cross-coupled NAND latch and trace the two-gate propagation path.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Identify the cross-coupled NAND latch and trace the two-gate propagation path.",
+    "score": 33.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-35",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Determine pre-switch inductor current and the post-switch resistor path producing the initial peak voltage.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Determine pre-switch inductor current and the post-switch resistor path producing the initial peak voltage.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-36",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 0,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Distinguish flat segments of the nonlinear map that create probability atoms from sloped segments creating a density.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Distinguish flat segments of the nonlinear map that create probability atoms from sloped segments creating a density.",
+    "score": 52.5,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-37",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Recognize the differential as a potential gradient, or parameterize the line, and evaluate endpoint potential change.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Recognize the differential as a potential gradient, or parameterize the line, and evaluate endpoint potential change.",
+    "score": 40.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-38",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Recognize trace(xx-transpose) as the sum of squared vector components.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Estimated solution actions: Recognize trace(xx-transpose) as the sum of squared vector components.",
+    "score": 12.5,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-39",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Evaluate the inverting and non-inverting first stages, add their outputs in the final summer and cancel the common resistor ratio.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Evaluate the inverting and non-inverting first stages, add their outputs in the final summer and cancel the common resistor ratio.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-40",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 1,
+      "representation": 3
+    },
+    "rationale": "Enumerate the biased anti-parallel diode conduction states, calculate the two thresholds and match the resulting piecewise transfer curve.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Enumerate the biased anti-parallel diode conduction states, calculate the two thresholds and match the resulting piecewise transfer curve.",
+    "score": 53.75,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-41",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Form the feedback error transfer and apply the ramp steady-state error constant.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Form the feedback error transfer and apply the ramp steady-state error constant.",
+    "score": 37.5,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-42",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Write the coupled summing-node equations and separate the two independent input-to-output paths.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Write the coupled summing-node equations and separate the two independent input-to-output paths.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-43",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Recognize the homogeneous state trajectory as a linear combination of distinct exponential eigenmodes.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Estimated solution actions: Recognize the homogeneous state trajectory as a linear combination of distinct exponential eigenmodes.",
+    "score": 23.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-44",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Establish both stored initial states before switching and use continuity plus post-switch KCL for capacitor current.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Estimated solution actions: Establish both stored initial states before switching and use continuity plus post-switch KCL for capacitor current.",
+    "score": 62.5,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-45",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 3,
+      "representation": 1
+    },
+    "rationale": "Expand the nonlinear FM output into spectral bands, track harmonic bandwidths and impose non-overlap for recovery.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 7,
+    "cognitive_steps_basis": "Estimated solution actions: Expand the nonlinear FM output into spectral bands, track harmonic bandwidths and impose non-overlap for recovery.",
+    "score": 70.0,
+    "band": "Tough",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-46",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Relate h-parameter input/output loading and reverse coupling to intended maximum amplifier gain.",
+    "confidence": "low",
+    "uncertainty_note": "Primary-topic allocation is ambiguous; the structural score concerns the task itself, not its subject allocation. Official source dependent-source labeling is suspect and the item is marks-to-all; intended-model challenge is estimated only. Official marks-to-all: structural challenge is retained, but this item contributes no scored difficulty burden.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Relate h-parameter input/output loading and reverse coupling to intended maximum amplifier gain.",
+    "score": 46.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-47",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Express the sine in exponential form and use DTFS orthogonality to isolate the relevant coefficient pair.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Express the sine in exponential form and use DTFS orthogonality to isolate the relevant coefficient pair.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-48",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Multiply the two delay polynomials and collect coincident impulse coefficients using the restored one-half filter factor.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Multiply the two delay polynomials and collect coincident impulse coefficients using the restored one-half filter factor.",
+    "score": 42.5,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-49",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 3,
+      "representation": 2
+    },
+    "rationale": "Transform the squared sinc into a triangular spectrum, shift it by modulation and evaluate gain at the input tone.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 7,
+    "cognitive_steps_basis": "Estimated solution actions: Transform the squared sinc into a triangular spectrum, shift it by modulation and evaluate gain at the input tone.",
+    "score": 72.5,
+    "band": "Tough",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-50",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Shift each message band by its carrier, identify the highest occupied frequency and double it for Nyquist sampling.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Shift each message band by its carrier, identify the highest occupied frequency and double it for Nyquist sampling.",
+    "score": 50.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-51",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Track round-trip phase for reflections and one-way phases for transmission under both reference-plane extensions.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Track round-trip phase for reflections and one-way phases for transmission under both reference-plane extensions.",
+    "score": 53.75,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-52",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Infer wavelength and reflection magnitude from minima/SWR, then identify the equivalent resistive termination and line length.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Estimated solution actions: Infer wavelength and reflection magnitude from minima/SWR, then identify the equivalent resistive termination and line length.",
+    "score": 62.5,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-53",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Combine unequal component amplitudes with relative phase and propagation-direction convention to check each polarization case.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Combine unequal component amplitudes with relative phase and propagation-direction convention to check each polarization case.",
+    "score": 62.5,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-54",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Compare infinitesimal RLCG circuit topologies while retaining first-order equivalence of distributed parameters.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Compare infinitesimal RLCG circuit topologies while retaining first-order equivalence of distributed parameters.",
+    "score": 35.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-55",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Read the sloping integration boundaries and evaluate the regional xy integral with a suitable change of variables or limits.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Read the sloping integration boundaries and evaluate the regional xy integral with a suitable change of variables or limits.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-56",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Use mass action for electron density and equal drift-current terms to solve the mobility ratio.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Use mass action for electron density and equal drift-current terms to solve the mobility ratio.",
+    "score": 28.75,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-57",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Read the low-frequency and changed Bode slopes and map them to pole/zero multiplicities.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Read the low-frequency and changed Bode slopes and map them to pole/zero multiplicities.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-58",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Use the product-of-areas convolution property and read the signed area of the plotted second input.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Estimated solution actions: Use the product-of-areas convolution property and read the signed area of the plotted second input.",
+    "score": 31.25,
+    "band": "Easy",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-59",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Combine the corrected white-noise PSD with the energy integral of the causal exponential filter.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Combine the corrected white-noise PSD with the energy integral of the causal exponential filter.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-60",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Choose the matching coating impedance/index and apply the minimum quarter-wave thickness condition.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Choose the matching coating impedance/index and apply the minimum quarter-wave thickness condition.",
+    "score": 53.75,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-61",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Scale valence-band density of states and thermal voltage to 400 K, then apply the Boltzmann occupancy factor.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Scale valence-band density of states and thermal voltage to 400 K, then apply the Boltzmann occupancy factor.",
+    "score": 51.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-62",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Translate 12-bit accuracy to an allowed RC settling error and solve the exponential decay logarithmically.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Estimated solution actions: Translate 12-bit accuracy to an allowed RC settling error and solve the exponential decay logarithmically.",
+    "score": 45.0,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-63",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Derive next-state equations, trace the cycle from the stated initial condition and infer the Q2 period.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Derive next-state equations, trace the cycle from the stated initial condition and infer the Q2 period.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-64",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Propagate the two mirror-ratio currents, subtract opposing branch currents and convert their difference to resistor voltage.",
+    "confidence": "high",
+    "uncertainty_note": "AI structural estimate for a prepared GATE EC candidate; no observed candidate success rate is implied.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Estimated solution actions: Propagate the two mirror-ratio currents, subtract opposing branch currents and convert their difference to resistor voltage.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  },
+  {
+    "id": "GATE-EC-2023-EC-65",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Construct the optimal binary decision tree for the dyadic probabilities and sum its probability-weighted depths.",
+    "confidence": "medium",
+    "uncertainty_note": "Supplied transcription/layout has content-risk flags. Scoring uses the reviewed source semantics and any attached repair notes, not the damaged string.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Estimated solution actions: Construct the optimal binary decision tree for the dyadic probabilities and sum its probability-weighted depths.",
+    "score": 56.25,
+    "band": "Moderate",
+    "evidence_basis": "Individually reviewed question stem/options, reviewed source semantics and source-confirmed repair notes; no legacy difficulty or IRT numeric score reused.",
+    "rubric_version": "structural-toughness-v1"
+  }
+]

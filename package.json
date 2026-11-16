@@ -1,0 +1,28 @@
+{
+  "name": "gate-ec-research-terminal",
+  "private": true,
+  "version": "4.0.0-technical-careers",
+  "description": "GATE EC Aurora research terminal with persistent technical career intelligence",
+  "scripts": {
+    "build": "node scripts/build-frontend.mjs",
+    "check": "tsc --noEmit",
+    "test": "node --test tests/*.test.mjs",
+    "test:research": "node tests/research-regression.cjs && node tests/research-ui-regression.cjs",
+    "verify": "node scripts/verify.mjs",
+    "preview:themes": "node scripts/aurora-previews.mjs",
+    "preview:career": "node scripts/career-previews.mjs",
+    "dev": "node scripts/dev-server.mjs --dev-auth",
+    "reminders:run": "node scripts/run-reminders.mjs",
+    "recruitment:run": "node scripts/run-recruitment.mjs",
+    "start": "node server/portable-server.mjs",
+    "owner:lookup": "node scripts/owner-id.mjs"
+  },
+  "devDependencies": {
+    "typescript": "5.9.3",
+    "esbuild": "0.28.2"
+  },
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  }
+}

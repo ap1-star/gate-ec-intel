@@ -1,0 +1,685 @@
+{
+  "scope": "Cross-calibration of own top8 per year against top4 and median examples in each of six other years; full records and source images used for selected own cases.",
+  "rubric": "structural-toughness-v1",
+  "other_year_reference_samples": [
+    {
+      "year": 2019,
+      "top4": [
+        {
+          "id": "GATE-EC-2019-EC-41",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 4,
+            "computation": 3,
+            "integration": 2,
+            "representation": 2
+          },
+          "score": 73.75,
+          "rationale": "Derive and integrate a time-varying RC differential equation rather than substituting a fixed time constant."
+        },
+        {
+          "id": "GATE-EC-2019-EC-55",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 3,
+            "integration": 3,
+            "representation": 2
+          },
+          "score": 72.5,
+          "rationale": "Follow differential-pair current steering and current-mirror scaling across several transistor branches."
+        },
+        {
+          "id": "GATE-EC-2019-EC-54",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 3,
+            "integration": 3,
+            "representation": 2
+          },
+          "score": 72.5,
+          "rationale": "Solve current-mirror bias, find the driving transconductance and combine active-load output resistances for gain."
+        },
+        {
+          "id": "GATE-EC-2019-EC-52",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 3,
+            "integration": 2,
+            "representation": 2
+          },
+          "score": 67.5,
+          "rationale": "Follow diode conduction and capacitor memory across separate square-wave intervals to the specified instant."
+        }
+      ],
+      "median_example": {
+        "id": "GATE-EC-2019-EC-34",
+        "score": 45.0,
+        "dimensions": {
+          "concept": 2,
+          "reasoning": 2,
+          "computation": 2,
+          "integration": 2,
+          "representation": 0
+        },
+        "rationale": "Compare Euclidean distances of antipodal and orthogonal signal pairs at equal AWGN error probability."
+      }
+    },
+    {
+      "year": 2020,
+      "top4": [
+        {
+          "id": "GATE-EC-2020-EC-30",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 3,
+            "integration": 2,
+            "representation": 3
+          },
+          "score": 70.0,
+          "rationale": "Choose energy-storage state variables, apply circuit laws and arrange coupled input/state matrices."
+        },
+        {
+          "id": "GATE-EC-2020-EC-37",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 3,
+            "integration": 2,
+            "representation": 2
+          },
+          "score": 67.5,
+          "rationale": "Construct a MOS incremental test-source circuit and retain both transconductance and finite output resistance."
+        },
+        {
+          "id": "GATE-EC-2020-EC-33",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 3,
+            "integration": 2,
+            "representation": 2
+          },
+          "score": 67.5,
+          "rationale": "Compare graded-base and uniform-base transport, including the internal electric-field effect on current gain."
+        },
+        {
+          "id": "GATE-EC-2020-EC-32",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 3,
+            "integration": 2,
+            "representation": 2
+          },
+          "score": 67.5,
+          "rationale": "Read the semiconductor band offsets and combine work-function, threshold and oxide-charge relations."
+        }
+      ],
+      "median_example": {
+        "id": "GATE-EC-2020-EC-17",
+        "score": 45.0,
+        "dimensions": {
+          "concept": 2,
+          "reasoning": 2,
+          "computation": 2,
+          "integration": 1,
+          "representation": 2
+        },
+        "rationale": "Track ideal diode conduction and capacitor peak retention in the doubler topology."
+      }
+    },
+    {
+      "year": 2021,
+      "top4": [
+        {
+          "id": "GATE-EC-2021-EC-47",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 4,
+            "computation": 3,
+            "integration": 3,
+            "representation": 3
+          },
+          "score": 81.25,
+          "rationale": "Solve a switched second-order RLC transient with restored initial conditions and locate its current peak."
+        },
+        {
+          "id": "GATE-EC-2021-EC-46",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 4,
+            "computation": 3,
+            "integration": 2,
+            "representation": 3
+          },
+          "score": 76.25,
+          "rationale": "Track delayed XOR transitions across clock edges shorter than the gate delay rather than using a delay-free recurrence."
+        },
+        {
+          "id": "GATE-EC-2021-EC-33",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 3,
+            "integration": 3,
+            "representation": 3
+          },
+          "score": 75.0,
+          "rationale": "Derive an electrical state model and evaluate separate controllability and observability rank conditions."
+        },
+        {
+          "id": "GATE-EC-2021-EC-48",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 4,
+            "computation": 3,
+            "integration": 2,
+            "representation": 1
+          },
+          "score": 71.25,
+          "rationale": "Construct the fourth-order PI closed-loop polynomial and optimize the Routh stability bound over proportional gain."
+        }
+      ],
+      "median_example": {
+        "id": "GATE-EC-2021-EC-25",
+        "score": 50.0,
+        "dimensions": {
+          "concept": 2,
+          "reasoning": 2,
+          "computation": 2,
+          "integration": 2,
+          "representation": 2
+        },
+        "rationale": "Translate total-internal-reflection geometry into the angle measured from the fibre axis."
+      }
+    },
+    {
+      "year": 2024,
+      "top4": [
+        {
+          "id": "GATE-EC-2024-EC-49",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 4,
+            "computation": 3,
+            "integration": 2,
+            "representation": 3
+          },
+          "score": 76.25,
+          "rationale": "Follow opamp saturation crossings together with the inductor state under triangular excitation and distinguish timing delay from waveform shape."
+        },
+        {
+          "id": "GATE-EC-2024-EC-48",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 4,
+            "computation": 3,
+            "integration": 2,
+            "representation": 3
+          },
+          "score": 76.25,
+          "rationale": "Generate sampling spectral images, locate the image pair passed by the modulated sinc filter and track their amplitude and phase; MTA remains excluded from scoring burden."
+        },
+        {
+          "id": "GATE-EC-2024-EC-51",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 3,
+            "integration": 2,
+            "representation": 3
+          },
+          "score": 70.0,
+          "rationale": "Distinguish the diode-connected bias device from the amplifying transistor and solve the coupled source/bias-resistance small-signal network."
+        },
+        {
+          "id": "GATE-EC-2024-EC-17",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 3,
+            "integration": 2,
+            "representation": 3
+          },
+          "score": 70.0,
+          "rationale": "Build the MOS small-signal circuit, couple the capacitive input and load relations, and solve the frequency-dependent input impedance."
+        }
+      ],
+      "median_example": {
+        "id": "GATE-EC-2024-EC-55",
+        "score": 46.25,
+        "dimensions": {
+          "concept": 2,
+          "reasoning": 3,
+          "computation": 2,
+          "integration": 1,
+          "representation": 0
+        },
+        "rationale": "Check parameterized eigenvector directions using the two coupled matrix equations, including sign and square-root dependencies on k."
+      }
+    },
+    {
+      "year": 2025,
+      "top4": [
+        {
+          "id": "GATE-EC-2025-EC-57",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 3,
+            "integration": 2,
+            "representation": 3
+          },
+          "score": 70.0,
+          "rationale": "Enumerate ideal-diode conduction regimes, derive piecewise voltage/current relations and compare them with several plotted options."
+        },
+        {
+          "id": "GATE-EC-2025-EC-47",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 3,
+            "integration": 2,
+            "representation": 3
+          },
+          "score": 70.0,
+          "rationale": "Use the Zener-referenced diode-connected PNP branch, finite-beta base currents and the output-current condition to solve two bias resistors."
+        },
+        {
+          "id": "GATE-EC-2025-EC-34",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 3,
+            "integration": 2,
+            "representation": 3
+          },
+          "score": 70.0,
+          "rationale": "Derive or identify the active bandpass transfer function, connect the given lower cutoff to component ratios and solve the upper cutoff."
+        },
+        {
+          "id": "GATE-EC-2025-EC-56",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 2,
+            "integration": 2,
+            "representation": 3
+          },
+          "score": 65.0,
+          "rationale": "Translate the block diagram into signal equations and compare multiple candidate signal-flow graph node/edge structures."
+        }
+      ],
+      "median_example": {
+        "id": "GATE-EC-2025-EC-59",
+        "score": 45.0,
+        "dimensions": {
+          "concept": 2,
+          "reasoning": 2,
+          "computation": 2,
+          "integration": 2,
+          "representation": 0
+        },
+        "rationale": "Project the given vector onto a one-dimensional subspace or minimize the scalar quadratic, then evaluate the residual norm."
+      }
+    },
+    {
+      "year": 2026,
+      "top4": [
+        {
+          "id": "GATE-EC-2026-EC-50",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 3,
+            "integration": 2,
+            "representation": 3
+          },
+          "score": 70.0,
+          "rationale": "Find BJT DC bias, derive transconductance and finite Early resistance, calculate the loaded small-signal gain and apply it to both input tones."
+        },
+        {
+          "id": "GATE-EC-2026-EC-61",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 3,
+            "integration": 2,
+            "representation": 2
+          },
+          "score": 67.5,
+          "rationale": "Use the source-restored rotated-square domain, split its integration bounds or transform coordinates, then integrate the quadratic polynomial over the geometry."
+        },
+        {
+          "id": "GATE-EC-2026-EC-65",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 2,
+            "integration": 2,
+            "representation": 3
+          },
+          "score": 65.0,
+          "rationale": "Enumerate the biased-diode conduction regimes, derive the divider/clamp levels and identify the greatest attainable output over the sinusoidal input."
+        },
+        {
+          "id": "GATE-EC-2026-EC-39",
+          "dimensions": {
+            "concept": 3,
+            "reasoning": 3,
+            "computation": 2,
+            "integration": 2,
+            "representation": 3
+          },
+          "score": 65.0,
+          "rationale": "Convert the RC and RL branch phase conditions to tangent identities and combine them with the specified reactive impedances to solve the resistance product."
+        }
+      ],
+      "median_example": {
+        "id": "GATE-EC-2026-EC-21",
+        "score": 45.0,
+        "dimensions": {
+          "concept": 2,
+          "reasoning": 2,
+          "computation": 2,
+          "integration": 2,
+          "representation": 0
+        },
+        "rationale": "Convert the transmitted-to-received dBm difference into a linear power ratio and invert the Friis distance-squared relation."
+      }
+    }
+  ],
+  "own_top8_comparisons": [
+    {
+      "id": "GATE-EC-2022-EC-56",
+      "year": 2022,
+      "before_score": 70.0,
+      "after_score": 70.0,
+      "reference_anchors": [
+        "GATE-EC-2020-EC-32",
+        "GATE-EC-2024-EC-17"
+      ],
+      "judgment": "Retain70: continuity physics, signed generation/recombination integration and unit conversion are several dependent operations. Representation3 is justified by two spatial profiles plus the flux model, not by a circuit picture alone."
+    },
+    {
+      "id": "GATE-EC-2022-EC-41",
+      "year": 2022,
+      "before_score": 62.5,
+      "after_score": 65.0,
+      "reference_anchors": [
+        "GATE-EC-2024-EC-49",
+        "GATE-EC-2026-EC-65"
+      ],
+      "judgment": "Increase representation2 to3; retain reasoning3 rather than4 because only extrema, not full time-varying inductor response, are requested."
+    },
+    {
+      "id": "GATE-EC-2022-EC-57",
+      "year": 2022,
+      "before_score": 62.5,
+      "after_score": 45.0,
+      "reference_anchors": [
+        "GATE-EC-2020-EC-17",
+        "GATE-EC-2025-EC-57"
+      ],
+      "judgment": "Reduce to45 after direct source-image inspection. Only two standard incremental-divider cases are needed, materially simpler than a multi-diode family of full transfer plots."
+    },
+    {
+      "id": "GATE-EC-2022-EC-63",
+      "year": 2022,
+      "before_score": 62.5,
+      "after_score": 62.5,
+      "reference_anchors": [
+        "GATE-EC-2019-EC-34"
+      ],
+      "judgment": "Retain62.5: derive ML regions from finite/one-sided supports and integrate conditional error tails, more linked reasoning than comparing Euclidean distances with a known AWGN relation."
+    },
+    {
+      "id": "GATE-EC-2022-EC-65",
+      "year": 2022,
+      "before_score": 61.25,
+      "after_score": 61.25,
+      "reference_anchors": [
+        "GATE-EC-2026-EC-61"
+      ],
+      "judgment": "Retain61.25: Gauss/divergence plus cube integration is multistep but its aligned symmetric domain is simpler than the rotated-square domain construction rated67.5."
+    },
+    {
+      "id": "GATE-EC-2022-EC-54",
+      "year": 2022,
+      "before_score": 58.75,
+      "after_score": 58.75,
+      "reference_anchors": [
+        "GATE-EC-2026-EC-39"
+      ],
+      "judgment": "Retain58.75: port-line inference then replacement-load solution requires three linked representations, but fewer model assumptions and calculations than the more highly rated phasor anchor."
+    },
+    {
+      "id": "GATE-EC-2022-EC-58",
+      "year": 2022,
+      "before_score": 56.25,
+      "after_score": 56.25,
+      "reference_anchors": [
+        "GATE-EC-2025-EC-34"
+      ],
+      "judgment": "Retain56.25: R-2R reduction plus summation is a standard within-analogue/digital converter operation, simpler than recovering an active bandpass upper cutoff."
+    },
+    {
+      "id": "GATE-EC-2022-EC-59",
+      "year": 2022,
+      "before_score": 56.25,
+      "after_score": 56.25,
+      "reference_anchors": [
+        "GATE-EC-2020-EC-37",
+        "GATE-EC-2024-EC-51"
+      ],
+      "judgment": "Retain56.25: a ratio cancels the common transistor current; the comparator anchors require a finite-output-resistance test source or coupled bias network."
+    },
+    {
+      "id": "GATE-EC-2023-EC-49",
+      "year": 2023,
+      "before_score": 72.5,
+      "after_score": 72.5,
+      "reference_anchors": [
+        "GATE-EC-2019-EC-44",
+        "GATE-EC-2024-EC-48"
+      ],
+      "judgment": "Retain72.5: squared-sinc convolution, modulation and LTI gain evaluation couple three units. More computation than FIR coefficient projection but less phase/image bookkeeping than the sampled reconstruction anchor."
+    },
+    {
+      "id": "GATE-EC-2023-EC-45",
+      "year": 2023,
+      "before_score": 70.0,
+      "after_score": 70.0,
+      "reference_anchors": [
+        "GATE-EC-2024-EC-48"
+      ],
+      "judgment": "Retain70: nonlinear FM harmonics, bandwidth changes and spectral separability form a dependent reasoning chain; no sampling-image or phase bookkeeping requiring reasoning4."
+    },
+    {
+      "id": "GATE-EC-2023-EC-33",
+      "year": 2023,
+      "before_score": 62.5,
+      "after_score": 62.5,
+      "reference_anchors": [
+        "GATE-EC-2020-EC-30"
+      ],
+      "judgment": "Retain62.5: source-terminated Y-parameter reduction plus maximum-power matching has several linked actions but less matrix construction than deriving a circuit state model."
+    },
+    {
+      "id": "GATE-EC-2023-EC-40",
+      "year": 2023,
+      "before_score": 62.5,
+      "after_score": 53.75,
+      "reference_anchors": [
+        "GATE-EC-2025-EC-57",
+        "GATE-EC-2026-EC-65"
+      ],
+      "judgment": "Revise to53.75: the simple anti-parallel biased pair is standard applied theory and within-topic integration. Circuit-to-piecewise-plot representation is3, but conceptual and integration scores must not inflate because several plot options are printed."
+    },
+    {
+      "id": "GATE-EC-2023-EC-44",
+      "year": 2023,
+      "before_score": 62.5,
+      "after_score": 62.5,
+      "reference_anchors": [
+        "GATE-EC-2021-EC-47"
+      ],
+      "judgment": "Retain62.5: initial-state continuity and KCL suffice at zero-plus. The 2021 anchor solves an entire second-order trajectory and locates a later extremum, justifying its higher reasoning4 and representation3."
+    },
+    {
+      "id": "GATE-EC-2023-EC-52",
+      "year": 2023,
+      "before_score": 62.5,
+      "after_score": 62.5,
+      "reference_anchors": [
+        "GATE-EC-2021-EC-25"
+      ],
+      "judgment": "Retain62.5: standing-wave geometry, wavelength and resistive termination are several dependent steps, more than one critical-angle conversion."
+    },
+    {
+      "id": "GATE-EC-2023-EC-53",
+      "year": 2023,
+      "before_score": 62.5,
+      "after_score": 62.5,
+      "reference_anchors": [
+        "GATE-EC-2026-EC-39"
+      ],
+      "judgment": "Retain62.5: test amplitudes, relative phase and handedness for four cases; no independently constructed phasor plot is needed, so representation2 rather than3."
+    },
+    {
+      "id": "GATE-EC-2023-EC-42",
+      "year": 2023,
+      "before_score": 56.25,
+      "after_score": 56.25,
+      "reference_anchors": [
+        "GATE-EC-2025-EC-56"
+      ],
+      "judgment": "Retain56.25: solve one block diagram for two input transfers; the 2025 anchor compares several full signal-flow candidate graphs, supporting its extra concept/representation burden."
+    }
+  ],
+  "own_record_updates": [
+    {
+      "id": "GATE-EC-2022-EC-41",
+      "before": {
+        "dimensions": {
+          "concept": 3,
+          "reasoning": 3,
+          "computation": 2,
+          "integration": 2,
+          "representation": 2
+        },
+        "score": 62.5
+      },
+      "after": {
+        "dimensions": {
+          "concept": 3,
+          "reasoning": 3,
+          "computation": 2,
+          "integration": 2,
+          "representation": 3
+        },
+        "score": 65.0
+      },
+      "justification": "Representation increases from2 to3: diode I-V graph, two reduced circuit states and capacitor switching thresholds form multiple linked representations, comparable to the 2024 nonlinear-opamp anchor."
+    },
+    {
+      "id": "GATE-EC-2022-EC-57",
+      "before": {
+        "dimensions": {
+          "concept": 3,
+          "reasoning": 3,
+          "computation": 2,
+          "integration": 2,
+          "representation": 2
+        },
+        "score": 62.5
+      },
+      "after": {
+        "dimensions": {
+          "concept": 2,
+          "reasoning": 2,
+          "computation": 2,
+          "integration": 1,
+          "representation": 2
+        },
+        "score": 45.0
+      },
+      "justification": "Source image shows a simple one-diode resistor network with a fixed drop and ideal conducting slope. Two divider cases are standard application, not a nuanced model or several-unit integration."
+    },
+    {
+      "id": "GATE-EC-2023-EC-12",
+      "before": {
+        "dimensions": {
+          "concept": 2,
+          "reasoning": 1,
+          "computation": 1,
+          "integration": 1,
+          "representation": 0
+        },
+        "score": 28.75
+      },
+      "after": {
+        "dimensions": {
+          "concept": 2,
+          "reasoning": 2,
+          "computation": 1,
+          "integration": 1,
+          "representation": 0
+        },
+        "score": 35.0
+      },
+      "justification": "Reasoning increases from1 to2 because gradient evaluation, direction normalization and projection are linked actions. This agrees with the 2021 fibre-angle geometry anchor; computation remains short."
+    },
+    {
+      "id": "GATE-EC-2023-EC-40",
+      "before": {
+        "dimensions": {
+          "concept": 3,
+          "reasoning": 3,
+          "computation": 2,
+          "integration": 2,
+          "representation": 2
+        },
+        "score": 62.5
+      },
+      "after": {
+        "dimensions": {
+          "concept": 2,
+          "reasoning": 3,
+          "computation": 2,
+          "integration": 1,
+          "representation": 3
+        },
+        "score": 53.75
+      },
+      "justification": "Source inspection supports standard applied diode concept2 and within-topic integration1, while circuit-to-piecewise-plot construction merits representation3. This avoids treating four plotted options as extra theory or cross-domain integration."
+    }
+  ],
+  "anchor_interpretation": {
+    "reasoning": "Count dependent solution operations and case branching, not text length or number of options. A direct substitute is1; a gradient-normalization-projection chain is2; several regimes or dependent models is3; multi-stage trajectory/strategy branching is4.",
+    "integration": "1 means one topic with related facts;2 means coupled distinct topics;3 means linked major units. No increase merely because a problem is visually busy.",
+    "representation": "2 means decoding one topology/transform;3 requires multiple representations/intermediate circuit states, phase geometry, spectral constructions or a generated piecewise curve.",
+    "no_equal_count_constraint": "Yearly band counts were not normalized. Anchored score comparisons, not expected year rank or quota, determine changes."
+  },
+  "residual_subjectivity": "Expert-AI estimates are not empirical item difficulty. The same source problem can admit shortcuts; scores target a sound efficient prepared-candidate solution. Adjacent scores near65 should not be treated as a validated categorical discontinuity.",
+  "reference_drift_notes": [
+    "Several other-year anchors assign integration2 to short scalar substitutions or geometry conversions, whereas the strict rubric can read those as one topic plus related facts. Do not raise all own records merely to match annual medians.",
+    "A circuit-to-plot transfer problem deserves representation3 only when an intermediate piecewise representation is actually constructed; a printed schematic alone remains1/2."
+  ],
+  "final_counts": {
+    "2022": {
+      "Easy": 19,
+      "Moderate": 44,
+      "Tough": 2
+    },
+    "2023": {
+      "Easy": 25,
+      "Moderate": 38,
+      "Tough": 2
+    }
+  }
+}

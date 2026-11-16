@@ -1,0 +1,170 @@
+{
+  "baseline_commit": "7f93d6c733737a03a4b9c3dc5522482b74bf7728",
+  "comparison": "SHA-256 with Windows CRLF normalized to LF",
+  "assets": [
+    {
+      "path": "dist/DIFFICULTY_ANALYSIS.md",
+      "sha256_normalized_lf": "10e18b67eaf20b0245ea0464d4c3ebb6839decba44f400d0e297dff0fe83bb60"
+    },
+    {
+      "path": "dist/LUCIDE_LICENSE.txt",
+      "sha256_normalized_lf": "b495047bd93a9b06913511076f504daba17d5bbeb3e0650f3bb53a4220329c57"
+    },
+    {
+      "path": "dist/RELEASE_NOTES.md",
+      "sha256_normalized_lf": "6829b3d5f54642016459156dbb756f25ec31b5ac84837ff4a330aa99024628a5"
+    },
+    {
+      "path": "dist/RESEARCH_AUDIT.md",
+      "sha256_normalized_lf": "cc630af1a74e60d896e323825bee97facccd8d64e5aced4a3543a1c1d022040c"
+    },
+    {
+      "path": "dist/V5_IMPLEMENTATION_REPORT.md",
+      "sha256_normalized_lf": "fc2407e2aed7c37f524b9edb285fa39c717e1e966359ac1c72aed15adc69f01c"
+    },
+    {
+      "path": "dist/atlas.css",
+      "sha256_normalized_lf": "9037bf255ff6ca712592a134bc3f2a58b0c4477e17cfb646a4b87dedfbf5c357"
+    },
+    {
+      "path": "dist/atlas.js",
+      "sha256_normalized_lf": "c07e9249fae4aa8a913ab43a81f57e6ec2898d1313989bd00e64636c67a6ee58"
+    },
+    {
+      "path": "dist/content-repairs.json",
+      "sha256_normalized_lf": "8049aa8c0abedcf2a303a4cbe766d794d0ddfb9cad38f52133a67b191d0ade4a"
+    },
+    {
+      "path": "dist/difficulty-data.js",
+      "sha256_normalized_lf": "255fbe394af1fb7c6d06cd4da3065cbbf9ebe0e77696994110224f60cf9711aa"
+    },
+    {
+      "path": "dist/difficulty-extras.js",
+      "sha256_normalized_lf": "5ba53f215b556d0802249e2075dcb7bd77c1245b1ecaa43572075da07b447f1d"
+    },
+    {
+      "path": "dist/difficulty-statistics.json",
+      "sha256_normalized_lf": "1007ed93ff1fa1a10897f6ef4be6f5cb8ee7ca0b1a681d71601b328bfd8a29a4"
+    },
+    {
+      "path": "dist/difficulty.css",
+      "sha256_normalized_lf": "a84e8c294ee7a6aae09ec2c3004155b59c036cf0ab7925ad7bdb77b18948e4ed"
+    },
+    {
+      "path": "dist/difficulty.js",
+      "sha256_normalized_lf": "c9bfd124298f4ade40420abad5f89f5abcfc3cbfdcca939b208e3bd8c53e868f"
+    },
+    {
+      "path": "dist/icon.svg",
+      "sha256_normalized_lf": "64813800f7a74c296d4056dd027c22fe0a7fd5027057be689ba8b852ad3421ec"
+    },
+    {
+      "path": "dist/issue-register.csv",
+      "sha256_normalized_lf": "5bed535ba7d3bd16fabe69e663050efee9f79f9ca42e4add75b646f1795f92ed"
+    },
+    {
+      "path": "dist/issue-register.json",
+      "sha256_normalized_lf": "9718fc94eb98d464e4e477dad9ab9d2e565eaba21b06e868977031e19747da16"
+    },
+    {
+      "path": "dist/quality-data.js",
+      "sha256_normalized_lf": "31d60e2585f8ac94455768a7781bdbed4de8c449fb04e792fe290db1299f1a79"
+    },
+    {
+      "path": "dist/quality.css",
+      "sha256_normalized_lf": "66c5bf4649e495c7448c063844e12ae8b6237bceca564434b713ff809d5abd97"
+    },
+    {
+      "path": "dist/quality.js",
+      "sha256_normalized_lf": "4675154df535c98682e2cd48fa10e28677e1c0a9cee9b60d03d71195520fa319"
+    },
+    {
+      "path": "dist/question-audit.csv",
+      "sha256_normalized_lf": "62e11d0fa07807b7b8410955bc32fbc7d5bf5a3c5c46c78b6d998c3d6cf52459"
+    },
+    {
+      "path": "dist/question-audit.json",
+      "sha256_normalized_lf": "b68c4b2aa9b195d7d2ea8fc26aaa38ceac65ce788e4fb6bd6bf56cd2c6b2af16"
+    },
+    {
+      "path": "dist/redesign.css",
+      "sha256_normalized_lf": "ff20efcd3c4ea44fda708e28c0692acbc5717563e67cf0bbc3c48c88b8525ee4"
+    },
+    {
+      "path": "dist/redesign.js",
+      "sha256_normalized_lf": "886f717377c98e200b03821a55d435f56d5574f63f6b5c531a8567cacbfafe1c"
+    },
+    {
+      "path": "dist/research-data.js",
+      "sha256_normalized_lf": "8384bb23168535decf71ca5d7778c9b2efc8f61a84a517e1480659cbf258dcc4"
+    },
+    {
+      "path": "dist/response-template.csv",
+      "sha256_normalized_lf": "aea2e2d0028293ea42904979ed0d3ebe7aca896eab7a4a0c6dbf4ac98ad2e0b2"
+    },
+    {
+      "path": "dist/statistics.json",
+      "sha256_normalized_lf": "44bc97875137eb903fdcc831467a3fee3266ae241ad296d02fce12d39af92595"
+    },
+    {
+      "path": "dist/study.css",
+      "sha256_normalized_lf": "27b2d9125f4f225399bf5053cfb4de7c411b6e161f27a9c382bb9a96fe17bd8c"
+    },
+    {
+      "path": "dist/study.js",
+      "sha256_normalized_lf": "ee21cb938dca03045b0ab52b89a12e2d3e57a3fdbcf39688f0c32615ad8ef9d7"
+    },
+    {
+      "path": "dist/terminal.css",
+      "sha256_normalized_lf": "a2ed9c86d31170ed747d65d3f2135fc8393ebffb179c330c5c9e0b6a3617931a"
+    },
+    {
+      "path": "dist/terminal.js",
+      "sha256_normalized_lf": "068d368c8eb75b73e0f900ec3033cd0beba430369d653e5d858faa368d30f983"
+    },
+    {
+      "path": "dist/topic-ledger.js",
+      "sha256_normalized_lf": "fc34fbc2dacfb1a63109dcc8572b333a877ea3fa3e41358a67783c911483cbaa"
+    },
+    {
+      "path": "dist/toughness-audit.csv",
+      "sha256_normalized_lf": "aa8d319f404565c7b0e62b59d8baedc89d4e9630afaa91541b7c59c42c31abdd"
+    },
+    {
+      "path": "dist/toughness-audit.json",
+      "sha256_normalized_lf": "6d0b68386cabc014fae7f5aeaf3cf764f6c51089a13cbfd37532351f38c889a0"
+    },
+    {
+      "path": "dist/trading.css",
+      "sha256_normalized_lf": "9050b75927de9fbe518d5d0ee132dc62ca2ce2a57e478890d26cba1287c471a5"
+    },
+    {
+      "path": "dist/trading.js",
+      "sha256_normalized_lf": "e25832cd3bcb68174a4ca2d2e667d05013feaf4c9d587b54a9bfb8df10de5689"
+    },
+    {
+      "path": "dist/ui-icons.js",
+      "sha256_normalized_lf": "d4758522c15f756be8f31106420b6c07afb7bdc0ddcad7839f5e1824e326d42b"
+    },
+    {
+      "path": "dist/v5-math.js",
+      "sha256_normalized_lf": "1cea8a88d1db8d1be10aeef9365d281f0405a3d9d0df384ac89298b8eec45a07"
+    },
+    {
+      "path": "dist/v5.css",
+      "sha256_normalized_lf": "367ddb3ffd75837c5d47c7716e138c237a45fa00c5014d85af6faf422385cc69"
+    },
+    {
+      "path": "dist/v5.js",
+      "sha256_normalized_lf": "8511f0e56c0620702f73a2d7adb71d8ac7e2fc5854ea7d1445a6da96343b9179"
+    },
+    {
+      "path": "dist/workspace.css",
+      "sha256_normalized_lf": "52b7622f878756e5f4806d5089199b6be91b88599d135014d8b0375b5feb259e"
+    },
+    {
+      "path": "dist/workspace.js",
+      "sha256_normalized_lf": "de4020092c447328d72d71233bd455a7395858fc061429d8c07987b7082a40d0"
+    }
+  ]
+}

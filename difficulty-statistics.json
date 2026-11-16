@@ -1,0 +1,477 @@
+{
+  "rubric": {
+    "version": "structural-toughness-v1.0",
+    "weights": {
+      "concept": 25,
+      "reasoning": 25,
+      "computation": 20,
+      "integration": 20,
+      "representation": 10
+    },
+    "formula": "score = 25*C/4 + 25*R/4 + 20*A/4 + 20*I/4 + 10*V/4",
+    "bands": {
+      "Easy": "0 <= score < 35",
+      "Moderate": "35 <= score < 65",
+      "Tough": "65 <= score <= 100"
+    },
+    "target_candidate": "A prepared GATE EC candidate who knows the standard syllabus; relative to the shortest sound solution found in the review.",
+    "anchors": {
+      "concept": [
+        "Recognition/recall",
+        "One standard fact",
+        "Standard applied concept",
+        "Nuanced theorem or model assumptions",
+        "Layered abstraction or synthesis"
+      ],
+      "reasoning": [
+        "Recall",
+        "One inference",
+        "Two or three linked steps",
+        "Several dependent steps or cases",
+        "Multi-stage strategy or branching"
+      ],
+      "computation": [
+        "None",
+        "Short arithmetic/algebra",
+        "Several calculations",
+        "Substantial symbolic/numeric manipulation",
+        "Lengthy multi-stage algebra"
+      ],
+      "integration": [
+        "Isolated fact",
+        "Single topic with related facts",
+        "Coupled distinct topics",
+        "Major units linked",
+        "Multiple domains coupled"
+      ],
+      "representation": [
+        "Direct text/formula",
+        "Simple schematic/plot",
+        "Decode topology, state or transform",
+        "Multiple representations/intermediate constructions",
+        "Complex linked graphical/state/symbolic representations"
+      ]
+    },
+    "limitations": [
+      "Question marks, format and text length are not score inputs.",
+      "Weights and cutoffs are design choices, not fitted psychometric parameters.",
+      "Question-specific cognitive steps are estimates, not measured solve times.",
+      "Source corruption and low-confidence ratings are flagged.",
+      "MTA tasks receive structural scores but are excluded from scored-burden summaries by default."
+    ]
+  },
+  "all_records": {
+    "questions": 520,
+    "marks": 800,
+    "mean_score": 43.17,
+    "marks_weighted_mean": 45.42,
+    "median": 45.0,
+    "sd": 15.72,
+    "bands": {
+      "Easy": {
+        "questions": 120,
+        "marks": 149
+      },
+      "Moderate": {
+        "questions": 358,
+        "marks": 570
+      },
+      "Tough": {
+        "questions": 42,
+        "marks": 81
+      }
+    }
+  },
+  "scored_records": {
+    "questions": 509,
+    "marks": 781,
+    "mean_score": 43.02,
+    "marks_weighted_mean": 45.25,
+    "median": 45.0,
+    "sd": 15.72,
+    "bands": {
+      "Easy": {
+        "questions": 119,
+        "marks": 148
+      },
+      "Moderate": {
+        "questions": 351,
+        "marks": 558
+      },
+      "Tough": {
+        "questions": 39,
+        "marks": 75
+      }
+    }
+  },
+  "years": {
+    "2019": {
+      "all": {
+        "questions": 65,
+        "marks": 100,
+        "mean_score": 42.38,
+        "marks_weighted_mean": 45.38,
+        "median": 45.0,
+        "sd": 17.06,
+        "bands": {
+          "Easy": {
+            "questions": 16,
+            "marks": 18
+          },
+          "Moderate": {
+            "questions": 43,
+            "marks": 70
+          },
+          "Tough": {
+            "questions": 6,
+            "marks": 12
+          }
+        }
+      },
+      "exclude_mta": {
+        "questions": 65,
+        "marks": 100,
+        "mean_score": 42.38,
+        "marks_weighted_mean": 45.38,
+        "median": 45.0,
+        "sd": 17.06,
+        "bands": {
+          "Easy": {
+            "questions": 16,
+            "marks": 18
+          },
+          "Moderate": {
+            "questions": 43,
+            "marks": 70
+          },
+          "Tough": {
+            "questions": 6,
+            "marks": 12
+          }
+        }
+      }
+    },
+    "2020": {
+      "all": {
+        "questions": 65,
+        "marks": 100,
+        "mean_score": 42.62,
+        "marks_weighted_mean": 45.59,
+        "median": 45.0,
+        "sd": 16.56,
+        "bands": {
+          "Easy": {
+            "questions": 16,
+            "marks": 19
+          },
+          "Moderate": {
+            "questions": 43,
+            "marks": 69
+          },
+          "Tough": {
+            "questions": 6,
+            "marks": 12
+          }
+        }
+      },
+      "exclude_mta": {
+        "questions": 63,
+        "marks": 96,
+        "mean_score": 42.18,
+        "marks_weighted_mean": 45.14,
+        "median": 45.0,
+        "sd": 16.52,
+        "bands": {
+          "Easy": {
+            "questions": 16,
+            "marks": 19
+          },
+          "Moderate": {
+            "questions": 42,
+            "marks": 67
+          },
+          "Tough": {
+            "questions": 5,
+            "marks": 10
+          }
+        }
+      }
+    },
+    "2021": {
+      "all": {
+        "questions": 65,
+        "marks": 100,
+        "mean_score": 48.1,
+        "marks_weighted_mean": 50.51,
+        "median": 50.0,
+        "sd": 17.08,
+        "bands": {
+          "Easy": {
+            "questions": 13,
+            "marks": 17
+          },
+          "Moderate": {
+            "questions": 41,
+            "marks": 62
+          },
+          "Tough": {
+            "questions": 11,
+            "marks": 21
+          }
+        }
+      },
+      "exclude_mta": {
+        "questions": 63,
+        "marks": 97,
+        "mean_score": 47.88,
+        "marks_weighted_mean": 50.27,
+        "median": 50.0,
+        "sd": 17.21,
+        "bands": {
+          "Easy": {
+            "questions": 13,
+            "marks": 17
+          },
+          "Moderate": {
+            "questions": 40,
+            "marks": 61
+          },
+          "Tough": {
+            "questions": 10,
+            "marks": 19
+          }
+        }
+      }
+    },
+    "2022": {
+      "all": {
+        "questions": 65,
+        "marks": 100,
+        "mean_score": 39.21,
+        "marks_weighted_mean": 40.95,
+        "median": 41.25,
+        "sd": 13.45,
+        "bands": {
+          "Easy": {
+            "questions": 19,
+            "marks": 24
+          },
+          "Moderate": {
+            "questions": 44,
+            "marks": 72
+          },
+          "Tough": {
+            "questions": 2,
+            "marks": 4
+          }
+        }
+      },
+      "exclude_mta": {
+        "questions": 64,
+        "marks": 98,
+        "mean_score": 39.2,
+        "marks_weighted_mean": 40.97,
+        "median": 41.25,
+        "sd": 13.56,
+        "bands": {
+          "Easy": {
+            "questions": 19,
+            "marks": 24
+          },
+          "Moderate": {
+            "questions": 43,
+            "marks": 70
+          },
+          "Tough": {
+            "questions": 2,
+            "marks": 4
+          }
+        }
+      }
+    },
+    "2023": {
+      "all": {
+        "questions": 65,
+        "marks": 100,
+        "mean_score": 38.6,
+        "marks_weighted_mean": 40.95,
+        "median": 40.0,
+        "sd": 15.92,
+        "bands": {
+          "Easy": {
+            "questions": 25,
+            "marks": 32
+          },
+          "Moderate": {
+            "questions": 38,
+            "marks": 64
+          },
+          "Tough": {
+            "questions": 2,
+            "marks": 4
+          }
+        }
+      },
+      "exclude_mta": {
+        "questions": 63,
+        "marks": 97,
+        "mean_score": 38.43,
+        "marks_weighted_mean": 40.84,
+        "median": 37.5,
+        "sd": 16.14,
+        "bands": {
+          "Easy": {
+            "questions": 25,
+            "marks": 32
+          },
+          "Moderate": {
+            "questions": 36,
+            "marks": 61
+          },
+          "Tough": {
+            "questions": 2,
+            "marks": 4
+          }
+        }
+      }
+    },
+    "2024": {
+      "all": {
+        "questions": 65,
+        "marks": 100,
+        "mean_score": 48.0,
+        "marks_weighted_mean": 49.85,
+        "median": 46.25,
+        "sd": 14.12,
+        "bands": {
+          "Easy": {
+            "questions": 7,
+            "marks": 8
+          },
+          "Moderate": {
+            "questions": 50,
+            "marks": 77
+          },
+          "Tough": {
+            "questions": 8,
+            "marks": 15
+          }
+        }
+      },
+      "exclude_mta": {
+        "questions": 62,
+        "marks": 95,
+        "mean_score": 47.76,
+        "marks_weighted_mean": 49.38,
+        "median": 45.625,
+        "sd": 13.58,
+        "bands": {
+          "Easy": {
+            "questions": 6,
+            "marks": 7
+          },
+          "Moderate": {
+            "questions": 49,
+            "marks": 75
+          },
+          "Tough": {
+            "questions": 7,
+            "marks": 13
+          }
+        }
+      }
+    },
+    "2025": {
+      "all": {
+        "questions": 65,
+        "marks": 100,
+        "mean_score": 43.98,
+        "marks_weighted_mean": 45.61,
+        "median": 45.0,
+        "sd": 14.85,
+        "bands": {
+          "Easy": {
+            "questions": 12,
+            "marks": 15
+          },
+          "Moderate": {
+            "questions": 49,
+            "marks": 78
+          },
+          "Tough": {
+            "questions": 4,
+            "marks": 7
+          }
+        }
+      },
+      "exclude_mta": {
+        "questions": 64,
+        "marks": 98,
+        "mean_score": 43.98,
+        "marks_weighted_mean": 45.65,
+        "median": 45.0,
+        "sd": 14.97,
+        "bands": {
+          "Easy": {
+            "questions": 12,
+            "marks": 15
+          },
+          "Moderate": {
+            "questions": 48,
+            "marks": 76
+          },
+          "Tough": {
+            "questions": 4,
+            "marks": 7
+          }
+        }
+      }
+    },
+    "2026": {
+      "all": {
+        "questions": 65,
+        "marks": 100,
+        "mean_score": 42.5,
+        "marks_weighted_mean": 44.52,
+        "median": 45.0,
+        "sd": 14.35,
+        "bands": {
+          "Easy": {
+            "questions": 12,
+            "marks": 16
+          },
+          "Moderate": {
+            "questions": 50,
+            "marks": 78
+          },
+          "Tough": {
+            "questions": 3,
+            "marks": 6
+          }
+        }
+      },
+      "exclude_mta": {
+        "questions": 65,
+        "marks": 100,
+        "mean_score": 42.5,
+        "marks_weighted_mean": 44.52,
+        "median": 45.0,
+        "sd": 14.35,
+        "bands": {
+          "Easy": {
+            "questions": 12,
+            "marks": 16
+          },
+          "Moderate": {
+            "questions": 50,
+            "marks": 78
+          },
+          "Tough": {
+            "questions": 3,
+            "marks": 6
+          }
+        }
+      }
+    }
+  }
+}

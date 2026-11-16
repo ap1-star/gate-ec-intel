@@ -1,0 +1,69 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1794787200000,
+      "tag": "0001_candidate_workspace",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1794787200001,
+      "tag": "0002_delivery_attempts",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1794787200002,
+      "tag": "0003_technical_recruitment",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1794787200003,
+      "tag": "0004_recruitment_provider_events",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1794787200004,
+      "tag": "0005_recruitment_fanout_cursor",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1794787200005,
+      "tag": "0006_recruitment_scheduler_progress",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1794787200006,
+      "tag": "0007_recruitment_review_audit",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "6",
+      "when": 1794787200007,
+      "tag": "0008_recruitment_runner",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "6",
+      "when": 1794787200008,
+      "tag": "0009_recruitment_callback_reconciliation",
+      "breakpoints": true
+    }
+  ]
+}

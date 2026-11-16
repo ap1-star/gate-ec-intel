@@ -1,0 +1,1150 @@
+[
+  {
+    "id": "GATE-EC-2019-EC-03",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "Let H(z) be the z-transform of a real-valued discrete-time signal h[n]. If P(z)=H(z)H(1/z) has a zero at z=1/2+(1/2)j, and P(z) has a total of four zeros, which one of the following plots represents all the zeros correctly?"
+    },
+    "original": {
+      "stem": "Let 𝐻(𝑧) be the z-transform of a real-valued discrete-time signal ℎ[𝑛]. If\n1 1 1\n𝑃(𝑧) = 𝐻(𝑧)𝐻( 𝑧) has a zero at 𝑧= 2 + 2 𝑗, and 𝑃(𝑧) has a total of four zeros, which one\nof the following plots represents all the zeros correctly?"
+    },
+    "reason": "The official stated zero is z=1/2 + (1/2)j; the extracted fractions are displaced and can be misread as 2+2j. Use the official page image.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2019/ec_2019.pdf",
+      "page": 6,
+      "sha256": "73c7b52338e5e1eb568639d6305df1a95b884f144230c1596d5b869bf00f6daa",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2020-EC-03",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "The partial derivative of the function f(x,y,z)=exp(1-x cos(y))+xz exp(-1/(1+y^2)) with respect to x at the point (1,0,e) is",
+      "options": {
+        "A": "-1",
+        "B": "0",
+        "C": "1",
+        "D": "1/e"
+      }
+    },
+    "original": {
+      "stem": "The partial derivative of the function f(x, y, z) = e^(1 - x) cos y + x z e^(-1/(1 + y²)) with respect to x at the point (1, 0, e) is",
+      "options": "{\"A\": \"-1\", \"B\": \"0\", \"C\": \"1\", \"D\": \"1/e\"}"
+    },
+    "reason": "Official function: f(x,y,z)=exp(1-x*cos(y)) + x*z*exp(-1/(1+y^2)). Supplied exp(1-x)*cos(y) is different, although the requested point derivative happens to coincide.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2020/ec_2020.pdf",
+      "page": 3,
+      "sha256": "f6b51c7f9f433cd7eaaeb276e66abe5b9e9b2e7b8b14034d551515b6d6e7de2d",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2020-EC-47",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "s_PM(t)=cos(1000 pi t+K_p m(t)) and s_FM(t)=cos(1000 pi t+K_f integral_(-infinity)^t m(tau) d tau) are the phase-modulated and frequency-modulated waveforms, respectively, corresponding to the message signal m(t) shown in the figure. K_p is the phase deviation constant in radian/volt and K_f is the frequency deviation constant in radian/second/volt. If their highest instantaneous frequencies are the same, the ratio K_p/K_f is _____ seconds."
+    },
+    "original": {
+      "stem": "s_PM(t) and s_FM(t) as defined below, are the phase modulated and the frequency modulated waveforms, respectively, corresponding to the message signal m(t) shown in the figure. If the highest instantaneous frequencies of s_PM(t) and s_FM(t) are same, then the value of the ratio K_p / K_f is _____ seconds."
+    },
+    "reason": "Source explicitly defines s_PM(t)=cos(1000*pi*t+Kp*m(t)) and s_FM(t)=cos(1000*pi*t+Kf*integral_0^t m(tau) d tau). The supplied text references but omits these equations. V4 source recheck corrects the previous audit note: the integral lower limit is minus infinity, not zero.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2020/ec_2020.pdf",
+      "page": 16,
+      "sha256": "f6b51c7f9f433cd7eaaeb276e66abe5b9e9b2e7b8b14034d551515b6d6e7de2d",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2021-EC-47",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "The circuit in the figure contains a 1 A current source driving a load with a 10 mH inductor and a 5 kOhm resistor in series, with a 100 pF shunt capacitor across the load. The ammeter has zero resistance. Initially the switch is open, the capacitor is discharged and the ammeter reads zero. The switch closes at t=0; the ammeter reading fluctuates before reaching a steady value. The maximum reading after closing (rounded off to two decimal places) is ______ A."
+    },
+    "original": {
+      "stem": "The circuit in the figure contains a current source (1 A) driving a load having an inductor (10 mH) and a resistor (5 k) in series, with a shunt capacitor (100 pF) across the load. The switch is closed at t = 0. The maximum ammeter reading that one will observe after the switch is closed (rounded off to two decimal places) is ______ A."
+    },
+    "reason": "Source explicitly states that the capacitor is initially discharged and the ammeter reads zero before switching; preserve these initial conditions in the searchable text.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2021/ec_2021.pdf",
+      "page": 34,
+      "sha256": "cab9167225d3c92c96e7397bce53f3ebdc0f39a64c9740996a166e9913ff415c",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-12",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "Consider a system of linear equations Ax=b, where A=[[1,-sqrt(2),3],[-1,sqrt(2),-3]] and b=[1,3]^T. This system of equations admits _________.",
+      "formula_latex": "A=\\begin{bmatrix}1&-\\sqrt2&3\\\\-1&\\sqrt2&-3\\end{bmatrix},\\quad b=\\begin{bmatrix}1\\\\3\\end{bmatrix}"
+    },
+    "original": {
+      "stem": "Consider a system of linear equations 𝐴𝑥= 𝑏, where\n1 −√2 3 𝐴= ൤ ൨, 𝑏= ቂ1 −1 √2 −3 3ቃ.\nThis system of equations admits _________."
+    },
+    "reason": "Reconstruct matrix row layout from the source page; the supplied text interleaves matrix and vector entries.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 10,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-15",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "The Fourier transform X(j omega) of the signal x(t)=t/(1+t^2)^2 is _________.",
+      "formula_latex": "x(t)=\\frac{t}{(1+t^2)^2}",
+      "options": {
+        "A": "\\frac{\\pi}{2j}\\omega e^{-|\\omega|}",
+        "B": "\\frac\\pi2\\omega e^{-|\\omega|}",
+        "C": "\\frac\\pi{2j}e^{-|\\omega|}",
+        "D": "\\frac\\pi2e^{-|\\omega|}"
+      }
+    },
+    "original": {
+      "stem": "The Fourier transform 𝑋(𝑗𝜔) of the signal\n𝑡\n𝑥(𝑡) =\n(1 + 𝑡ଶ)ଶ\nis _________.",
+      "options": "{\"A\": \"𝜋 2𝑗𝜔𝑒ି|ఠ|\", \"B\": \"𝜋 𝜔𝑒ି|ఠ| 2\", \"C\": \"𝜋 2𝑗𝑒ି|ఠ|\", \"D\": \"𝜋 𝑒ି|ఠ| 2\"}"
+    },
+    "reason": "Restore the signal fraction and Fourier-transform option fractions/exponents from the official page.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 13,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-32",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "A simple closed path C in the complex plane is shown in the figure. If the contour integral around C of 2^z/(z^2-1) dz equals -i pi A, where i=sqrt(-1), then A is ______ (rounded off to two decimal places).",
+      "formula_latex": "\\oint_C\\frac{2^z}{z^2-1}\\,dz=-i\\pi A"
+    },
+    "original": {
+      "stem": "A simple closed path 𝐶 in the complex plane is shown in the figure. If\nර 𝑑𝑧= −𝑖𝜋𝐴,\n஼ 𝑧ଶ−1\nwhere 𝑖= √−1, then the value of 𝐴 is ______ (rounded off to two decimal places)."
+    },
+    "reason": "The supplied text loses the numerator 2^z; the official figure encloses z=-1 and excludes z=+1.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 28,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-49",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "Consider a Boolean gate D whose output is Y=A+NOT(B), where + denotes logical OR. Boolean inputs 0 and 1 are also available separately. Using only instances of D and inputs 0 and 1, select the correct option(s).",
+      "formula_latex": "Y=A+\\overline B"
+    },
+    "original": {
+      "stem": "Consider a Boolean gate (D) where the output 𝑌 is related to the inputs 𝐴 and 𝐵 as,\n𝑌= 𝐴+ 𝐵ത, where + denotes logical OR operation. The Boolean inputs ‘0’ and ‘1’\nare also available separately. Using instances of only D gates and inputs ‘0’ and ‘1’,\n__________ (select the correct option(s)).\n(A) NAND logic can be implemented\n(B) OR logic cannot be implemented\n(C) NOR logic can be implemented\n(D) AND logic cannot be implemented"
+    },
+    "reason": "Restore complement on B from official page; the supplied combining glyph is not a reliable Boolean complement representation.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 42,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-50",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "Two linear time-invariant systems with transfer functions G_1(s)=10/(s^2+s+1) and G_2(s)=10/(s^2+sqrt(10)s+10) have unit-step responses y_1(t) and y_2(t), respectively. Which of the following statements is/are true?",
+      "formula_latex": "G_1(s)=\\frac{10}{s^2+s+1},\\quad G_2(s)=\\frac{10}{s^2+\\sqrt{10}s+10}"
+    },
+    "original": {
+      "stem": "Two linear time-invariant systems with transfer functions\n10 10\n𝐺ଵ(𝑠) = and 𝐺ଶ(𝑠) =\n𝑠ଶ+ 𝑠+ 1 𝑠ଶ+ 𝑠√10 + 10\nhave unit step responses 𝑦ଵ(𝑡) and 𝑦ଶ(𝑡), respectively. Which of the following\nstatements is/are true?"
+    },
+    "reason": "Restore transfer-function numerator/denominator structure from the official page.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 42,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-51",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "Consider an FM broadcast that employs the pre-emphasis filter H_pe(omega)=1+j omega/omega_0, where omega_0=10^4 rad/s. For the network shown in the figure to act as a corresponding de-emphasis filter, the appropriate pair(s) of (R,C) values is/are ________.",
+      "formula_latex": "H_{pe}(\\omega)=1+\\frac{j\\omega}{\\omega_0},\\quad \\omega_0=10^4\\ \\mathrm{rad/s}"
+    },
+    "original": {
+      "stem": "Consider an FM broadcast that employs the pre-emphasis filter with frequency\nresponse\n௝ఠ\n𝐻௣௘(𝜔) = 1 + ,\nఠబ\nwhere 𝜔଴= 10ସ rad/sec.\nFor the network shown in the figure to act as a corresponding de-emphasis filter, the\nappropriate pair(s) of (𝑅, 𝐶) values is/are ________."
+    },
+    "reason": "Restore pre-emphasis transfer fraction and reference angular frequency.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 43,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text.",
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-52",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "A waveguide consists of two infinite parallel plates (perfect conductors) at a separation of 10^(-4) cm, with air as the dielectric. Assume the speed of light in air to be 3 x 10^8 m/s. The frequency/frequencies of TM waves which can propagate in this waveguide is/are ______."
+    },
+    "original": {
+      "stem": "A waveguide consists of two infinite parallel plates (perfect conductors) at a\nseparation of 10ିସcm, with air as the dielectric. Assume the speed of light in air to\nbe 3 × 10଼m/s. The frequency/frequencies of TM waves which can propagate in\nthis waveguide is/are _______."
+    },
+    "reason": "The supplied text says cm/s for the speed of light; the official source says m/s. Preserve the official marks-to-all scoring status.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 44,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-55",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "For x=[x[0],x[1],...,x[7]], define the 8-point DFT X=DFT(x) by X[k]=sum_(n=0)^7 x[n] exp(-j(2 pi/8)nk), where j=sqrt(-1). If x=[1,0,0,0,2,0,0,0] and y=DFT(DFT(x)), then y[0] is ______ (rounded off to one decimal place).",
+      "formula_latex": "X[k]=\\sum_{n=0}^{7}x[n]\\exp\\left(-j\\frac{2\\pi}{8}nk\\right),\\quad y=\\operatorname{DFT}(\\operatorname{DFT}(x))"
+    },
+    "original": {
+      "stem": "For a vector 𝒙ഥ= ൣ𝑥[0], 𝑥[1], … , 𝑥[7]൧, the 8-point discrete Fourier transform (DFT)\nis denoted by 𝑿ഥ= 𝐷𝐹𝑇(𝒙ഥ) = ൣ𝑋[0], 𝑋[1], … , 𝑋[7]൧, where\n଻\n𝑋[𝑘] = ෍𝑥[𝑛] exp ൬−𝑗2𝜋 𝑛𝑘൰.\n௡ୀ଴\nHere, 𝑗= √−1. If 𝒙ഥ= [1, 0, 0, 0, 2, 0, 0, 0] and 𝒚ഥ= 𝐷𝐹𝑇൫𝐷𝐹𝑇(𝒙ഥ)൯, then the value\nof 𝑦[0] is _________ (rounded off to one decimal place)."
+    },
+    "reason": "Restore the denominator 8 in the DFT exponent and proper summation bounds from the official page.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 47,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-63",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "A channel transmits symbol x_A or x_B. Its output Y is the input to a maximum-likelihood detector. The conditional probability densities are f_(Y|x_A)(y)=exp(-(y+1))u(y+1) and f_(Y|x_B)(y)=exp(y-1)(1-u(y-1)), where u is the standard unit-step function. The probability of symbol error is ______ (rounded off to two decimal places).",
+      "formula_latex": "f_{Y|x_A}(y)=e^{-(y+1)}u(y+1),\\quad f_{Y|x_B}(y)=e^{y-1}\\bigl(1-u(y-1)\\bigr)"
+    },
+    "original": {
+      "stem": "Consider a channel over which either symbol 𝑥஺ or symbol 𝑥஻ is transmitted. Let the\noutput of the channel 𝑌 be the input to a maximum likelihood (ML) detector at the\nreceiver. The conditional probability density functions for 𝑌 given 𝑥஺ and 𝑥஻ are:\n𝑓௒|௫ಲ(𝑦) = 𝑒ି(௬ାଵ)𝑢(𝑦+ 1),\n𝑓௒|௫ಳ(𝑦) = 𝑒(௬ିଵ)൫1 −𝑢(𝑦−1)൯,\nwhere 𝑢(⋅) is the standard unit step function. The probability of symbol error for this\nsystem is _________ (rounded off to two decimal places)."
+    },
+    "reason": "Restore conditional-density exponents and unit-step arguments from the official page.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 51,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2022-EC-65",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "In an electrostatic field, D(x,y,z)=(x^3 i_hat+y^3 j_hat+xy^2 k_hat) C/m^2, where i_hat,j_hat,k_hat are unit vectors along the x,y,z axes. A cubical region R is centered at the origin with each side 1 m and vertices (+/-0.5 m,+/-0.5 m,+/-0.5 m). The electric charge enclosed within R is ______ C (rounded off to two decimal places).",
+      "formula_latex": "\\mathbf D(x,y,z)=(x^3\\hat{\\mathbf i}+y^3\\hat{\\mathbf j}+xy^2\\hat{\\mathbf k})\\ \\mathrm{C/m^2}"
+    },
+    "original": {
+      "stem": "In an electrostatic field, the electric displacement density vector, 𝐷ሬ⃗, is given by\n𝐷ሬ⃗(𝑥, 𝑦, 𝑧) = (𝑥ଷ 𝚤⃗+ 𝑦ଷ 𝚥⃗+ 𝑥𝑦ଶ 𝑘ሬ⃗ ) C/m2,\nwhere 𝚤⃗, 𝚥⃗, 𝑘ሬ⃗ are the unit vectors along 𝑥-axis, 𝑦-axis, and 𝑧-axis, respectively.\nConsider a cubical region 𝑅 centered at the origin with each side of length 1 m, and\nvertices at (±0.5 m, ±0.5 m, ±0.5 m). The electric charge enclosed within 𝑅 is\n_________ C (rounded off to two decimal places)."
+    },
+    "reason": "Restore vector components and powers from the official page.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2022/ec_2022.pdf",
+      "page": 52,
+      "sha256": "890d52a60173aee6a8a5e01fc057ccf53bc1969e47324a25b219825dee2b709d",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-GA-07",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "options": {
+        "A": "f(x)=x^2 2^{-|x|}",
+        "B": "f(x)=x 2^{-|x|}",
+        "C": "f(x)=|x|2^{-x}",
+        "D": "f(x)=x2^{-x}"
+      }
+    },
+    "original": {
+      "options": "{\"A\": \"x − ( ) 22 f x = x\", \"B\": \"x − ( ) f x = .2 x\", \"C\": \"x − ( ) f x = x 2\", \"D\": \"x − ( ) f x = .2 x\"}"
+    },
+    "reason": "Restore absolute values, powers and exponential factors from the source graphical question.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 5,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-11",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "Let v_1=[1,2,0]^T and v_2=[2,1,3]^T be two vectors. The coefficient alpha in v_1=alpha v_2+e that minimizes the length of the error vector e is",
+      "formula_latex": "v_1=\\begin{bmatrix}1\\\\2\\\\0\\end{bmatrix},\\quad v_2=\\begin{bmatrix}2\\\\1\\\\3\\end{bmatrix},\\quad v_1=\\alpha v_2+e",
+      "options": {
+        "A": "7/2",
+        "B": "-2/7",
+        "C": "2/7",
+        "D": "-7/2"
+      }
+    },
+    "original": {
+      "stem": "1 2\nLet 𝒗𝟏= [ 2] and 𝒗𝟐= [ 1 ] be two vectors. The value of the coefficient 𝛼 in the\n0 3\nexpression 𝒗𝟏= 𝛼𝒗𝟐+ 𝒆, which minimizes the length of the error vector 𝒆, is",
+      "options": "{\"A\": \"7 2\", \"B\": \"−2 7\", \"C\": \"2 7\", \"D\": \"−7 2\"}"
+    },
+    "reason": "Restore the source vector layout and fractional answer options.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 9,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-14",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "The value of the contour integral integral_C ((z+2)/(z^2+2z+2)) dz, where C is {z: |z+1-(3/2)j|=1}, taken in the counter-clockwise direction, is",
+      "formula_latex": "\\oint_C \\frac{z+2}{z^2+2z+2}\\,dz,\\quad C=\\{z:|z+1-\\tfrac32j|=1\\}",
+      "options": {
+        "A": "-pi(1+j)",
+        "B": "pi(1+j)",
+        "C": "pi(1-j)",
+        "D": "-pi(1-j)"
+      }
+    },
+    "original": {
+      "stem": "𝑧+2 The value of the contour integral, ∮ ( 𝑑𝑧 , where the contour C is 𝐶 𝑧2+2𝑧+2)\n{𝑧: |𝑧+ 1 − 𝑗| = 1}, taken in the counter clockwise direction, is",
+      "options": "{\"A\": \"−𝜋(1 + 𝑗)\", \"B\": \"𝜋(1 + 𝑗)\", \"C\": \"𝜋(1 −𝑗)\", \"D\": \"−𝜋(1 −𝑗)\"}"
+    },
+    "reason": "The source has 3/2 multiplying j in the contour center; that factor is absent in supplied text.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 10,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-25",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "The open-loop transfer function of a unity negative-feedback system is G(s)=k/[s(1+sT_1)(1+sT_2)], where k,T_1,T_2 are positive constants. The phase crossover frequency, in rad/s, is",
+      "formula_latex": "G(s)=\\frac{k}{s(1+sT_1)(1+sT_2)}",
+      "options": {
+        "A": "1/sqrt(T_1 T_2)",
+        "B": "1/(T_1 T_2)",
+        "C": "1/(T_1 sqrt(T_2))",
+        "D": "1/(T_2 sqrt(T_1))"
+      }
+    },
+    "original": {
+      "stem": "The open loop transfer function of a unity negative feedback system is\n𝑘\n𝐺(𝑠) = , where 𝑘, 𝑇1 and 𝑇2 are positive constants. The phase cross-\n𝑠(1+𝑠𝑇1)(1+𝑠𝑇2)\nover frequency, in rad/s, is",
+      "options": "{\"A\": \"1 √𝑇1𝑇2\", \"B\": \"1 𝑇1𝑇2\", \"C\": \"1 𝑇1√𝑇2\", \"D\": \"1 𝑇2√𝑇1\"}"
+    },
+    "reason": "Restore the open-loop transfer-function fraction.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 18,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-26",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "Consider a system with input x(t) and output y(t)=x(exp(t)). The system is",
+      "formula_latex": "y(t)=x(e^t)"
+    },
+    "original": {
+      "stem": "Consider a system with input 𝑥(𝑡) and output 𝑦(𝑡) = 𝑥(𝑒𝑡). The system is"
+    },
+    "reason": "Preserve exponential time warping; a plain x(et) string can be misinterpreted as linear time scaling.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 18,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-33",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "For the two-port network shown in the source figure, the Y-parameter matrix is Y=(1/100)[[2,-1],[-1,4/3]] S. The load impedance Z_L, in Ohm, for maximum power transfer is ______ (rounded off to the nearest integer).",
+      "formula_latex": "[Y]=\\frac1{100}\\begin{bmatrix}2&-1\\\\-1&4/3\\end{bmatrix}\\ \\mathrm S"
+    },
+    "original": {
+      "stem": "For the two port network shown below, the [Y]-parameters is given as\n1 2 −1\n[𝑌] = [ 𝑆 100 −1 4/3]\nThe value of load impedance ZL, in Ω, for maximum power transfer will be _______\n(rounded off to the nearest integer).\n10 Ω\n120 V +_ [Y]"
+    },
+    "reason": "Restore admittance-matrix row structure and global scale factor.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 22,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-43",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "The state equation of a second order system is dx(t)/dt=A x(t), where x(0) is the initial condition. Suppose lambda_1 and lambda_2 are two distinct eigenvalues of A and v_1 and v_2 are the corresponding eigenvectors. For constants alpha_1 and alpha_2, the solution x(t) of the state equation is",
+      "formula_latex": "\\dot{\\mathbf{x}}(t)=A\\mathbf{x}(t)"
+    },
+    "original": {
+      "stem": "The state equation of a second order system is\n𝒙(𝑡) = A𝒙(𝑡), 𝒙(0) is the initial condition.\nSuppose λ1 and λ2 are two distinct eigenvalues of A and 𝒗1 and 𝒗2 are the\ncorresponding eigenvectors. For constants 𝛼1 and 𝛼2, the solution, 𝒙(𝑡), of the state\nequation is"
+    },
+    "reason": "The derivative dot is present in the source and missing in supplied text.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 30,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-47",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "Consider a discrete-time periodic signal with period N=5 and DTFS representation x[n]=sum_(k=0)^4 a_k exp(jk2 pi n/5), where a_0=1, a_1=3j, a_2=2j, a_3=-2j and a_4=-3j. The value of sum_(n=0)^4 x[n] sin(4 pi n/5) is",
+      "formula_latex": "x[n]=\\sum_{k=0}^{4}a_ke^{jk2\\pi n/5},\\quad (a_0,a_1,a_2,a_3,a_4)=(1,3j,2j,-2j,-3j),\\quad \\sum_{n=0}^4x[n]\\sin(4\\pi n/5)"
+    },
+    "original": {
+      "stem": "Consider a discrete-time periodic signal with period 𝑁= 5. Let the discrete-time\n𝑗𝑘2𝜋𝑛\n5 , where 𝑎0 = 1, 𝑎1 = Fourier series (DTFS) representation be 𝑥[𝑛] = ∑ 4𝑘=0 𝑎𝑘𝑒\n4 4𝜋𝑛 3𝑗, 𝑎2 = 2𝑗, 𝑎3 = −2𝑗 and 𝑎4 = −3𝑗. The value of the sum ∑ 𝑛=0 𝑥[𝑛] sin is 5"
+    },
+    "reason": "Restore DTFS sum bounds, exponent and requested weighted sum.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 34,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-48",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "Let an input x[n] having discrete-time Fourier transform X(exp(j Omega))=1-exp(-j Omega)+2 exp(-3j Omega) be passed through an LTI system. The frequency response is H(exp(j Omega))=1-(1/2)exp(-2j Omega). The output y[n] of the system is",
+      "formula_latex": "X(e^{j\\Omega})=1-e^{-j\\Omega}+2e^{-3j\\Omega},\\quad H(e^{j\\Omega})=1-\\tfrac12e^{-2j\\Omega}",
+      "options": {
+        "A": "delta[n]+delta[n-1]-(1/2)delta[n-2]-(5/2)delta[n-3]+delta[n-5]",
+        "B": "delta[n]-delta[n-1]-(1/2)delta[n-2]-(5/2)delta[n-3]+delta[n-5]",
+        "C": "delta[n]-delta[n-1]-(1/2)delta[n-2]+(5/2)delta[n-3]-delta[n-5]",
+        "D": "delta[n]+delta[n-1]+(1/2)delta[n-2]+(5/2)delta[n-3]+delta[n-5]"
+      }
+    },
+    "original": {
+      "stem": "Let an input 𝑥[𝑛] having discrete time Fourier transform\n𝑋(𝑒𝑗𝛺) = 1 −𝑒−𝑗𝛺+ 2𝑒−3𝑗𝛺 be passed through an LTI system. The frequency\nresponse of the LTI system is 𝐻(𝑒𝑗𝛺) = 1 − 𝑒−𝑗2𝛺. The output 𝑦[𝑛] of the system\nis",
+      "options": "{\"A\": \"−1 −5 𝛿[𝑛] 𝛿[𝑛−1] 𝛿[𝑛−2] 𝛿[𝑛−3] 𝛿[𝑛−5] + + 2 2\", \"B\": \"−1 −5 𝛿[𝑛] −𝛿[𝑛−1] 𝛿[𝑛−2] 𝛿[𝑛−3] 𝛿[𝑛−5] + 2 2\", \"C\": \"−1 5 𝛿[𝑛] −𝛿[𝑛−1] 𝛿[𝑛−2] 𝛿[𝑛−3] −𝛿[𝑛−5] + 2 2\", \"D\": \"1 5 𝛿[𝑛] 𝛿[𝑛−1] 𝛿[𝑛−2] 𝛿[𝑛−3] 𝛿[𝑛−5] + + + + 2 2\"}"
+    },
+    "reason": "The source filter has coefficient 1/2; supplied text omits it.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 34,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-49",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "Let x(t)=10 cos(10.5 Wt) pass through an LTI system with impulse response h(t)=pi [sin(Wt)/(pi t)]^2 cos(10 Wt). The output of the system is",
+      "formula_latex": "x(t)=10\\cos(10.5Wt),\\quad h(t)=\\pi\\left(\\frac{\\sin Wt}{\\pi t}\\right)^2\\cos(10Wt)",
+      "options": {
+        "A": "(15W/4)cos(10.5Wt)",
+        "B": "(15W/2)cos(10.5Wt)",
+        "C": "(15W/8)cos(10.5Wt)",
+        "D": "15W cos(10.5Wt)"
+      }
+    },
+    "original": {
+      "stem": "Let 𝑥(𝑡) = 10 cos(10.5𝑊𝑡) be passed through an LTI system having impulse\n2 sin 𝑊𝑡\nresponse ℎ(𝑡) = 𝜋( 𝜋𝑡) cos 10𝑊𝑡 . The output of the system is",
+      "options": "{\"A\": \"(15𝑊 cos(10.5𝑊𝑡) ) 4\", \"B\": \"(15𝑊 cos(10.5𝑊𝑡) ) 2\", \"C\": \"(15𝑊 cos(10.5𝑊𝑡) ) 8\", \"D\": \"(15𝑊) cos(10.5𝑊𝑡)\"}"
+    },
+    "reason": "Restore the squared sinc factor; the supplied text order does not clearly bind the power to the fraction.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 35,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-57",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "The asymptotic magnitude Bode plot of a minimum-phase system is shown in the figure. Its transfer function is G(s)=k(s+z)^a/[s^b(s+p)^c], where k,z,p,a,b,c are positive constants. The value of a+b+c is ______ (rounded off to the nearest integer).",
+      "formula_latex": "G(s)=\\frac{k(s+z)^a}{s^b(s+p)^c}"
+    },
+    "original": {
+      "stem": "The asymptotic magnitude Bode plot of a minimum phase system is shown in the\n𝑘(𝑠+𝑧)𝑎\nfigure. The transfer function of the system is (𝑠) = , where 𝑘, 𝑧, 𝑝, 𝑎, 𝑏 and\n𝑠𝑏(𝑠+𝑝)𝑐\n𝑐 are positive constants. The value of (𝑎+ 𝑏+ 𝑐) is __________(rounded off to the\nnearest integer).\n-20 dB/decade\n|G(jω )| in dB\n-40 dB/decade\nω1 ω2 log ω"
+    },
+    "reason": "Restore transfer-function powers and denominator from the official Bode-plot question.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 41,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-59",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "Let X(t) be a white Gaussian noise with power spectral density 1/2 W/Hz. If X(t) is input to an LTI system with impulse response exp(-t)u(t), the average power of the system output is ______ W (rounded off to two decimal places).",
+      "formula_latex": "S_X(f)=\\tfrac12\\ \\mathrm{W/Hz},\\quad h(t)=e^{-t}u(t)"
+    },
+    "original": {
+      "stem": "Let 𝑋(𝑡) be a white Gaussian noise with power spectral density 1 W/Hz. If 𝑋(𝑡) is\ninput to an LTI system with impulse response 𝑒−𝑡𝑢(𝑡). The average power of the\nsystem output is ___________ W (rounded off to two decimal places)."
+    },
+    "reason": "The source PSD is 1/2 W/Hz, whereas supplied text says 1 W/Hz.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 42,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2023-EC-65",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "The frequencies of occurrence of symbols a,b,c,d,e,f,g,h are respectively 1/2,1/4,1/8,1/16,1/32,1/64,1/128,1/128. A symbol is chosen and determined by a series of truthfully answered yes/no questions. The average number of questions in the most efficient sequence is ______ (rounded off to two decimal places).",
+      "probability_table": {
+        "a": "1/2",
+        "b": "1/4",
+        "c": "1/8",
+        "d": "1/16",
+        "e": "1/32",
+        "f": "1/64",
+        "g": "1/128",
+        "h": "1/128"
+      }
+    },
+    "original": {
+      "stem": "The frequency of occurrence of 8 symbols (a-h) is shown in the table below. A\nsymbol is chosen and it is determined by asking a series of “yes/no” questions which\nare assumed to be truthfully answered. The average number of questions when asked\nin the most efficient sequence, to determine the chosen symbol, is _______ (rounded\noff to two decimal places).\nSymbols a b c d e f g h\nFrequency 1 1 1 1 1 1 1 1\nof 2 4 8 16 32 64 128 128\noccurrence\n.\nEND OF QUESTION PAPER"
+    },
+    "reason": "Restore symbol probabilities as table cells rather than flattened numerator/denominator text.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2023/ec_2023.pdf",
+      "page": 44,
+      "sha256": "38bf51bcd3ab44ddc8febcc39ebc5f09641cf28a045a33492da17fbb52e8d970",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2024-GA-04",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "For a real number x>1, 1/log_2(x)+1/log_3(x)+1/log_4(x)=1. The value of x is"
+    },
+    "original": {
+      "stem": "For a real number 𝑥> 1,\n1 1 1\nlog2 𝑥+ log3 𝑥+ log4 𝑥= 1\nThe value of 𝑥 is"
+    },
+    "reason": "Restore logarithm fractions: 1/log_2(x)+1/log_3(x)+1/log_4(x)=1.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+      "page": 3,
+      "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2024-GA-05",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "The greatest prime factor of (3^199-3^196) is"
+    },
+    "original": {
+      "stem": "The greatest prime factor of (3199 −3196) is"
+    },
+    "reason": "Restore exponent typography: greatest prime factor of (3^199-3^196).",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+      "page": 4,
+      "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2024-EC-13",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "In the feedback control system shown in the figure, G(s)=6/[s(s+1)(s+2)]. R(s),Y(s),E(s) are the Laplace transforms of r(t),y(t),e(t), respectively. If r(t) is a unit-step function, then ________.",
+      "options": {
+        "A": "lim_(t->infinity) e(t)=0",
+        "B": "lim_(t->infinity) e(t)=1/3",
+        "C": "lim_(t->infinity) e(t)=1/4",
+        "D": "lim_(t->infinity) e(t) does not exist; e(t) is oscillatory"
+      }
+    },
+    "original": {
+      "stem": "In the feedback control system shown in the figure below G ( s ) = . s ( s + 1)( s + 2)\nR ( s ) + E ( s ) Y ( s ) + G ( s )\n-\nR ( s ), Y ( s ), and E ( s ) are the Laplace transforms of r (t ), y (t ), and e(t ) , respectively.\nIf the input r ( t ) is a unit step function, then __________.",
+      "options": "{\"A\": \"= lim e ( t ) 0 → t\", \"B\": \"1 = lim e ( t ) 3 → t\", \"C\": \"1 = lim e ( t ) 4 → t\", \"D\": \"e ( t ) lim e ( t ) does not exist, is oscillatory → t\"}"
+    },
+    "reason": "Restore plant numerator: G(s)=6/[s(s+1)(s+2)].",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+      "page": 11,
+      "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2024-EC-20",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "White Gaussian noise w(t) with zero mean and power spectral density N_0/2, applied to a first-order RC low-pass filter, produces output n(t). At t=t_k, the variance of n(t_k) is ________.",
+      "options": {
+        "A": "N_0/(4RC)",
+        "B": "N_0/(2RC)",
+        "C": "N_0/(RC)",
+        "D": "2N_0/(RC)"
+      }
+    },
+    "original": {
+      "stem": "N 0 A white Gaussian noise w(t ) with zero mean and power spectral density ,\nwhen applied to a first-order RC low pass filter produces an output 𝑛(𝑡). At a\nparticular time 𝑡= 𝑡𝑘, the variance of the random variable 𝑛(𝑡𝑘) is ________.",
+      "options": "{\"A\": \"N 0 4 RC\", \"B\": \"N 0 2 RC\", \"C\": \"N 0 RC\", \"D\": \"2N 0 RC\"}"
+    },
+    "reason": "Restore white-noise PSD N0/2; supplied flattened text omits denominator 2.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+      "page": 17,
+      "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2024-EC-24",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "For a causal discrete-time LTI system with transfer function H(z)=(2z^2+3)/[(z+1/3)(z-1/3)], which of the following statements is/are true?"
+    },
+    "original": {
+      "stem": "For a causal discrete-time LTI system with transfer function\n2𝑧2+3\n𝐻(𝑧) = 1 1\n(𝑧 + 3)(𝑧 − 3)\nwhich of the following statements is/are true?"
+    },
+    "reason": "Restore H(z)=(2z^2+3)/[(z+1/3)(z-1/3)].",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+      "page": 21,
+      "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2024-EC-38",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "The satellite attitude-control system shown in the figure has plant G(s)=1/s^2 cascaded with compensator C(s)=K(s+alpha)/(s+4), where K and alpha are positive real constants. For the closed-loop system to have poles at -1 +/- j sqrt(3), alpha must be _______."
+    },
+    "original": {
+      "stem": "A satellite attitude control system, as shown below, has a plant with transfer\n1 K ( s + )\nfunction G ( s ) = 2 cascaded with a compensator C ( s ) = , where 𝐾 and 𝛼 s s + 4\nare positive real constants.\nR ( s ) + Y ( s ) + C ( s ) G(s)\n-\nIn order for the closed-loop system to have poles at −1 j 3 , the value of  must\nbe _______."
+    },
+    "reason": "Restore G(s)=1/s^2, C(s)=K(s+alpha)/(s+4), desired poles -1 +/- j sqrt(3).",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+      "page": 29,
+      "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text.",
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2024-EC-57",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "Let X(t)=A cos(2 pi f_0 t+theta) be a random process. A and theta are independent and uniformly distributed in [-2,2] and [0,2 pi], respectively. X(t) is fed to an 8-bit uniform mid-rise quantizer. Given R_X(tau)=(2/3)cos(2 pi f_0 tau), the signal-to-quantization-noise ratio at the output is ______ dB (rounded off to two decimal places)."
+    },
+    "original": {
+      "stem": "Let X (t ) = A cos(2f 0 t + ) be a random process, where amplitude A and phase \nare independent of each other, and are uniformly distributed in the intervals [ −2,2]\nand [0,2,] respectively. X (t ) is fed to an 8-bit uniform mid-rise type quantizer.\nGiven that the autocorrelation of X (t ) is RX () = cos(2f 0) , the signal to\nquantization noise ratio (in dB, rounded off to two decimal places) at the output of\nthe quantizer is __________."
+    },
+    "reason": "Restore RX(tau)=(2/3) cos(2 pi f0 tau); supplied text loses factor 2/3.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2024/EC24S7.pdf",
+      "page": 44,
+      "sha256": "4f7f4b0af084b3b6a1c2aa9a844515722dfa63ae61e02a583e90917933b2bde8",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2025-GA-03",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "The 12 musical notes are C,C#,D,D#,E,F,F#,G,G#,A,A#,B. Each note has frequency 2^(1/12) times that of the previous note. If C has frequency 130.8 Hz, the ratio of the frequencies of F# and C is:",
+      "options": {
+        "A": "2^(1/6)",
+        "B": "2^(1/2)",
+        "C": "2^(1/4)",
+        "D": "2"
+      }
+    },
+    "original": {
+      "stem": "The 12 musical notes are given as 𝐶, 𝐶#, 𝐷, 𝐷#, 𝐸, 𝐹, 𝐹#, 𝐺, 𝐺#, 𝐴, 𝐴#, and 𝐵.\nFrequency of each note is √2 times the frequency of the previous note. If the\nfrequency of the note C is 130.8 Hz, then the ratio of frequencies of notes 𝐹# and 𝐶\nis:",
+      "options": "{\"A\": \"6 √2\", \"B\": \"√2\", \"C\": \"4 √2\", \"D\": \"2\"}"
+    },
+    "reason": "Frequency ratio per semitone is 2^(1/12), not sqrt(2); extraction drops radical index 12. Options A=2^(1/6), B=2^(1/2), C=2^(1/4), D=2.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2025/EC2025.pdf",
+      "page": 2,
+      "sha256": "fe940ace98711b8cb21505fa265044b23b382e649f427d2aea933696a67932ef",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2025-GA-04",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "options": {
+        "A": "(5/3)^(n/2)",
+        "B": "(5/3)^n",
+        "C": "(5/3)^(2n)",
+        "D": "(5/3)^[n(2n-1)]"
+      }
+    },
+    "original": {
+      "options": "{\"A\": \"𝑛 (5 2 3)\", \"B\": \"𝑛 (5 3)\", \"C\": \"2𝑛 (5 3)\", \"D\": \"𝑛(2𝑛−1) (5 3)\"}"
+    },
+    "reason": "Restore options: A=(5/3)^(n/2), B=(5/3)^n, C=(5/3)^(2n), D=(5/3)^[n(2n-1)].",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2025/EC2025.pdf",
+      "page": 3,
+      "sha256": "fe940ace98711b8cb21505fa265044b23b382e649f427d2aea933696a67932ef",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2025-EC-40",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "The Z-parameter matrix of a two-port network relates the port voltages and currents as [V_1,V_2]^T=Z[I_1,I_2]^T. The Z-parameter matrix (with each entry in Ohm) of the network shown in the figure is ________.",
+      "options": {
+        "A": "[[10/3,2/3],[2/3,10/3]]",
+        "B": "[[2/3,10/3],[10/3,2/3]]",
+        "C": "[[10,2],[2,10]]",
+        "D": "[[10/3,1/3],[1/3,10/3]]"
+      }
+    },
+    "original": {
+      "stem": "The 𝑍-parameter matrix of a two port network relates the port voltages and port\ncurrents as follows:\n[𝑉1 = 𝑍[𝐼1 𝑉2] 𝐼2]\nThe 𝑍-parameter matrix (with each entry in Ohms) of the network shown below is\n__________.",
+      "options": "{\"A\": \"10 2 ⁄ ⁄ 3 3 [ ] 10 2 ⁄ ⁄ 3 3\", \"B\": \"10 2 ⁄ ⁄ 3 3 [ ] 10 2 ⁄ ⁄ 3 3\", \"C\": \"10 2 [ ] 2 10\", \"D\": \"10 1 ⁄ ⁄ 3 3 [ ] 10 1 ⁄ ⁄ 3 3\"}"
+    },
+    "reason": "Restore matrix layout: A=[[10/3,2/3],[2/3,10/3]], B=[[2/3,10/3],[10/3,2/3]], C=[[10,2],[2,10]], D=[[10/3,1/3],[1/3,10/3]]. A/B flatten to indistinguishable text in supplied extraction.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2025/EC2025.pdf",
+      "page": 35,
+      "sha256": "fe940ace98711b8cb21505fa265044b23b382e649f427d2aea933696a67932ef",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-11",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "Consider dw/dt=A w, with w(0)=[1,1]^T. If w(t)=exp(t)u_x+exp(-2t)u_y is the solution, where u_x and u_y are unit vectors along the positive x and y axes, respectively, which option is the correct matrix A?",
+      "options": {
+        "A": "[[1,0],[0,-2]]",
+        "B": "[[-1,0],[0,2]]",
+        "C": "[[0,-2],[1,0]]",
+        "D": "[[0,2],[-1,0]]"
+      }
+    },
+    "original": {
+      "stem": "Consider the differential equation 𝑤⃗⃗= 𝐴𝑤⃗⃗ , with 𝑤⃗⃗ (𝑡= 0) = [1 1].\nIf 𝑤⃗⃗ (𝑡) = 𝑒𝑡𝑢⃗𝑥+ 𝑒−2𝑡𝑢⃗𝑦 be the solution to the equation where 𝑢⃗𝑥 and 𝑢⃗𝑦 are\nunit vectors along the positive x and y axes respectively, then which of the\nfollowing options is the correct matrix representing A?",
+      "options": "{\"A\": \"[1 0 −2] 0\", \"B\": \"[−1 0 2] 0\", \"C\": \"[0 −2 ] 1 0\", \"D\": \"0 2 [ 0] −1\"}"
+    },
+    "reason": "Restore differential dot in d(w)/dt=A w; A option matrices retain two-by-two layout.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 11,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-12",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "A surface is given by z^2=2x^2-y^2. Vectors n and -n are unit normals at P=i_hat+sqrt(2)k_hat. Which of the following can be n, where i_hat,j_hat,k_hat are unit vectors along the x,y,z axes?",
+      "options": {
+        "A": "i_hat-sqrt(2)k_hat",
+        "B": "(2/3)i_hat-(1/3)k_hat",
+        "C": "sqrt(2)i_hat-sqrt(3)k_hat",
+        "D": "(sqrt(2)i_hat-k_hat)/sqrt(3)"
+      }
+    },
+    "original": {
+      "stem": "A surface is given by 𝑧2 = 2𝑥2 − 𝑦2 and 𝑛⃗ and −𝑛⃗ are unit normal vectors to\nthe surface at the point 𝑃⃗ = 𝒊̂ + √2 𝒌̂.\nWhich of the following vectors can be 𝑛⃗ , where 𝒊̂, 𝒋̂ and 𝒌̂ are the unit vectors\nalong x, y and z axes, respectively?",
+      "options": "{\"A\": \"𝒌̂ 𝒊̂ −√2\", \"B\": \"2 −1 𝒌̂ 𝒊̂ 3 3\", \"C\": \"𝒌̂ √2𝒊̂ −√3\", \"D\": \"𝒌̂ √2𝒊̂ − √3\"}"
+    },
+    "reason": "Restore D=(sqrt(2)i_hat-k_hat)/sqrt(3); supplied flattened options blur division and differ from C=sqrt(2)i_hat-sqrt(3)k_hat.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 12,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-16",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "The response y[n] of a discrete-time system obeys y[n]=(5/6)y[n-1]-(1/6)y[n-2]+x[n]. The input is x[n]=delta[n]-(1/3)delta[n-1]. Which of the following options is TRUE for y[n]?"
+    },
+    "original": {
+      "stem": "The response of a discrete time system y[n] obeys the following relation:\n5 1\n𝑦[𝑛] = 𝑦[𝑛−1] − 𝑦[𝑛−2] + 𝑥[𝑛].\n6 6\nThe input to the system is 𝑥[𝑛] = 𝛿[𝑛] − 𝛿[𝑛−1].\nWhich of the following options is TRUE for 𝑦[𝑛]?"
+    },
+    "reason": "Restore x[n]=delta[n]-(1/3)delta[n-1]; supplied text omits factor 1/3.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 16,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-40",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "For the control system in the figure, the plant G(s)=1/[(s+1)(s+2)] is cascaded with compensator C(s)=K(s+alpha), where K and alpha are positive real constants. Which pair (K,alpha) gives closed-loop poles at -3 +/- j sqrt(5)?"
+    },
+    "original": {
+      "stem": "For the control system shown in the Figure, the transfer function of a plant,\n𝐺(𝑠) = is connected in cascade with a compensator\n(𝑠+1)(𝑠+2)\n𝐶(𝑠) = 𝐾 (𝑠+ 𝛼), where 𝐾 and 𝛼 are positive real valued constants.\nWhich of the following pairs (𝐾, 𝛼) represent the correct values for the closed\nloop system to have poles at (−3 ± 𝑗√5)?\n∑"
+    },
+    "reason": "Restore plant G(s)=1/[(s+1)(s+2)], numerator one is missing in supplied text.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 37,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text.",
+      "Options not newly transcribed in this repair batch; retain source image and original option evidence."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-41",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "The state and output equations are dx/dt=A x+B u and y=C x, where A=[[-4,-1.5],[4,0]], B=[2,0]^T and C=[1.5,0.625]. Which expression represents Y(s)/U(s) with zero initial conditions?",
+      "options": {
+        "A": "3s/(s^2+4s-6)",
+        "B": "(3s+5)/(s^2+4s-6)",
+        "C": "(3s+5)/(s^2+4s+6)",
+        "D": "3s/(s^2+4s+6)"
+      }
+    },
+    "original": {
+      "stem": "The state and output equations for a control system are:\n−1.5 𝑥̇ = [−4 ] 𝑥+ [2 𝑢 4 0 0]\n𝑦= [1.5 0.625] 𝑥\n𝑌(𝑠)\nWhich of the following expressions correctly represents the transfer function\n𝑈(𝑠)\nof the system with zero initial conditions?",
+      "options": "{\"A\": \"3𝑠 𝑠2+4𝑠−6\", \"B\": \"3𝑠+5 𝑠2+4𝑠−6\", \"C\": \"3𝑠+5 𝑠2+4𝑠+6\", \"D\": \"3𝑠 𝑠2+4𝑠+6\"}"
+    },
+    "reason": "Restore A=[[-4,-1.5],[4,0]], B=[[2],[0]], C=[[1.5,0.625]].",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 38,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-44",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "A QPSK signal received over an AWGN channel has E_b/N_0=8.4 dB at the input of a coherent QPSK demodulator using maximum-likelihood reception. Assume erfc(u) is approximately exp(-u^2)/(u sqrt(pi)). Which is the nearest output bit error rate?",
+      "options": {
+        "A": "10^(-3)",
+        "B": "10^(-4)",
+        "C": "10^(-5)",
+        "D": "10^(-6)"
+      }
+    },
+    "original": {
+      "stem": "A QPSK modulated signal from an additive white Gaussian noise (AWGN)\nchannel is received with an Eb/No = 8.4 dB at the input of a coherent QPSK\ndemodulator. A maximum-likelihood reception method is used in the\ndemodulator.\nAssume the complimentary error function\n𝑒𝑟𝑓𝑐(𝑢) ≅ [1 ⁄ (𝑢√𝜋) ]𝑒𝑥𝑝(−𝑢2).\nWhich is the nearest bit error rate (BER) at the output of the demodulator?",
+      "options": "{\"A\": \"10-3\", \"B\": \"10-4\", \"C\": \"10-5\", \"D\": \"10-6\"}"
+    },
+    "reason": "Render BER options as 10^(-3),10^(-4),10^(-5),10^(-6), not subtraction expressions.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 41,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-50",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "A small-signal source V_i(t)=A cos(10^5 t)+B sin(10^7 t) is applied to the BJT circuit in the figure. Assume zero source resistance, V_BE=0.7 V, beta_dc=99, Early voltage=100 V and thermal voltage=25 mV. Neglect internal parasitic capacitances. Which expression best approximates V_o(t)?",
+      "options": {
+        "A": "-9.1[A cos(10^5 t)+B sin(10^7 t)]",
+        "B": "9.1[A cos(10^5 t)-B sin(10^7 t)]",
+        "C": "-190.4[A cos(10^5 t)+B sin(10^7 t)]",
+        "D": "190.4[A cos(10^5 t)-B sin(10^7 t)]"
+      }
+    },
+    "original": {
+      "stem": "A small signal source, 𝑉𝑖(𝑡) = 𝐴cos(105𝑡) + 𝐵sin(107𝑡) is applied to a\nBJT circuit as shown in the Figure.\nAssume zero source resistance, VBE = 0.7 V, βdc = 99, Early voltage = 100 V and\nThermal voltage = 25 mV. Effect of internal parasitic capacitances of the BJT\nmay be neglected.\nWhich expression is the best approximation of the output voltage 𝑉𝑜(𝑡)?",
+      "options": "{\"A\": \"−9.1[𝐴cos(105𝑡) 𝐵sin(107𝑡)] +\", \"B\": \"9.1[𝐴cos(105𝑡) −𝐵sin(107𝑡)]\", \"C\": \"−190.4[𝐴cos(105𝑡) 𝐵sin(107𝑡)] +\", \"D\": \"190.4[𝐴cos(105𝑡) −𝐵sin(107𝑡)]\"}"
+    },
+    "reason": "Restore angular-frequency exponents 10^5 and 10^7 in input/output sinusoids.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 47,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Official PDF re-rendered and visually inspected in v4 repair batch",
+      "rechecked_in_this_batch": true
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  },
+  {
+    "id": "GATE-EC-2026-EC-61",
+    "version": "content-repair-v4",
+    "status": "targeted_fields_repaired",
+    "fields": {
+      "stem": "Consider the dark-shaded square region R shown in the source figure, with vertices (0,0),(1,1),(2,0),(1,-1). The value of the double integral over R of (x^2+y^2-1) dx dy is ______ (rounded off to two decimal places)."
+    },
+    "original": {
+      "stem": "Consider the square region R in the X-Y plane as shown with the dark shading in\nthe Figure. The value of ∬(𝑥2 + 𝑦2 −1)𝑑𝑥𝑑𝑦 is ____. 𝑅\n(rounded off to two decimal places)\ny\nR\nx\n0,0 1 2"
+    },
+    "reason": "Restore integration region as rotated square with vertices (0,0),(1,1),(2,0),(1,-1); no axis-aligned-square assumption.",
+    "evidence": {
+      "url": "https://gate2026.iitg.ac.in/doc/download/2026/QPs/EC.pdf",
+      "page": 57,
+      "sha256": "ba2ca8d147480695485cea9411020d5f7b6ff5766529bd8f95b6a0b850ca0773",
+      "basis": "Existing official-source visual audit and field-specific verified repair note; converted to canonical display text",
+      "rechecked_in_this_batch": false
+    },
+    "remaining_requirements": [
+      "Official figure remains part of the question; retain source image with this text."
+    ],
+    "full_question_certified": false
+  }
+]

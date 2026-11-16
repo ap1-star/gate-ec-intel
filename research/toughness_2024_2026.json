@@ -1,0 +1,3707 @@
+[
+  {
+    "id": "GATE-EC-2024-GA-01",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Match the intensity order of bored, jaded and weary; no calculation or multistage inference is needed.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 12.5,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-GA-02",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 0,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Use both room-allocation diagrams to eliminate forbidden sibling pairs, then reconcile the surviving pairing.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: DIAGRAM_FLAG_FALSE_NEGATIVE; ROOM_ALLOCATION_LAYOUT_REQUIRED.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 41.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-GA-03",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Translate the two age ratios into simultaneous equations and use the constant father-son age difference.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-GA-04",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Apply reciprocal-logarithm change of base and combine the logarithms into one product.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-GA-05",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Factor out 3^196, reduce the remaining difference to 26, and identify its largest prime factor.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-GA-06",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Order the proclamation, bull chase, student question and reply using temporal and referential links.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 23.75,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-GA-07",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Construct the taut tape perimeter from straight tangents and circular arcs, then multiply by chalk length.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-GA-08",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Read paired-year BMI percentages and compare several category ratios to find the false statement.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-GA-09",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Compose horizontal mirror reversal with vertical water reflection before matching the original figure.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: VISUAL_OR_MISSING_OPTION_TEXT.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-GA-10",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Track the two different dimension-halving sequences and form the resulting perimeter ratio.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-11",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Recognize the repeated root -2 in the complementary solution and recover its quadratic differential operator.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: DERIVATIVE_OPTION_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 28.75,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-12",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Convert a logarithmic slope using log10(2); the control interpretation introduces no further calculation.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 17.5,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-13",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Form the closed-loop characteristic polynomial, recognize the marginal roots, and avoid an invalid final-value limit.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 60.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-14",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Recall the spectral Nyquist zero-ISI replication condition and its sampling-period normalization; MTA does not imply extra exam burden.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: NYQUIST_SUMMATION_LAYOUT_REPAIR_REQUIRED. Official marks-to-all disposition: this rates the intended structural task, not awarded exam-score burden.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 23.75,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-15",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Evaluate the tangent impedance of a shorted line at successive eighth-wavelength positions and handle zero/infinite limits.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: IMPEDANCE_OPTION_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-16",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Compute the two planar curls and apply the electrostatic curl-free condition, keeping the field sign consistent.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-17",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Build the MOS small-signal circuit, couple the capacitive input and load relations, and solve the frequency-dependent input impedance.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: IMPEDANCE_OPTION_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 70.0,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-18",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Recognize the differential amplifier's negative-feedback connection and substitute the finite open-loop gain.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-19",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Populate the four-variable Karnaugh map, identify maximal groups, and check which groups uniquely cover minterms.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-20",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Pass the white-noise PSD through the RC magnitude-squared response and integrate the spectrum to obtain variance.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 57.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-21",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Change variables in the convolution integral to track both the time scaling and the resulting amplitude factor.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-22",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Match freeze-out, extrinsic and intrinsic carrier regimes to the concentration-versus-temperature plot.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: GRAPH_FLAG_FALSE_NEGATIVE; VISUAL_OR_MISSING_OPTION_TEXT.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-23",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Read the rectifier topology, apply transformer scaling and use the full-wave average to infer the turns ratio.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-24",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Factor the rational z-transform, determine causal ROC and minimum phase, then test initial and final impulse-response statements.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 60.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-25",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Move from differential continuity to a volume integral and use the divergence theorem to select equivalent surface forms.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: INTEGRAL_AND_DERIVATIVE_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-26",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Combine the plotted concentration gradients with equilibrium drift-diffusion balance to infer current and electric-field directions.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-27",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Round opcode and register-address requirements upward in bits, subtract all instruction fields, and evaluate the remaining unsigned range.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-28",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Compute carrier power, express the two sideband powers in terms of B, and solve the given power fraction.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-29",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Rewrite the radix-dependent coefficients as 1r+2 and 3r+7, substitute x=8 and solve for the valid base.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-30",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Translate failure of a three-vector basis to a zero determinant and solve the resulting equation in alpha.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-31",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Set up nodal/KCL relations with the current-controlled voltage source and solve the coupled branch-current equations.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-32",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Use the post-switch topology to find the resistance seen by the inductor before applying L/R time-constant reasoning.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-33",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Exploit exchange symmetry of two IID continuous variables; the equality event has probability zero.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 23.75,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-34",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Apply the maximum-entropy identity log2(16) for an equiprobable alphabet.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 17.5,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-35",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Determine where Zener-limited capacitor discharge stops, compute transferred charge and integrate diode power rather than attributing all capacitor-energy loss to the diode.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-36",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Convert latitude to spherical-cap height or integration limits and compute the corresponding surface area.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: SURFACE_AREA_OPTION_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 47.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-37",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Shift the cubic characteristic polynomial to the prescribed decay boundary and apply the Routh inequalities to K.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: TRANSFER_FUNCTION_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 65.0,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-38",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Use the repaired plant and compensator, build the cubic characteristic polynomial and match the desired complex pole factor to solve its unknown parameters.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 65.0,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-39",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Combine incident and PEC-reflected magnetic fields, identify their standing-wave phase, and locate the first null away from the boundary.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 53.75,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-40",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Enumerate active priority cases and simplify the least significant output bit without treating the encoder as nonpriority logic.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-41",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Recognize delayed inversion in the selected MUX feedback path and count two propagation delays per oscillation cycle.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-42",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 1,
+      "representation": 3
+    },
+    "rationale": "Derive the T-flip-flop excitation effects and update both synchronous states together across the cycle.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 53.75,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-43",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Identify the enclosed poles and removable cancellations in the meromorphic function, calculate residues and sum their contour contributions.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: CONTOUR_INTEGRAND_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-44",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Infer shift, scale and sign from two waveform plots, then apply the corresponding Fourier-transform property factors; the official MTA disposition is separate.",
+    "confidence": "medium",
+    "uncertainty_note": "Official marks-to-all disposition: this rates the intended structural task, not awarded exam-score burden.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 58.75,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-45",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Place ML thresholds for three equally likely PAM levels, separate edge and middle-symbol errors and average Gaussian tails.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-46",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Convert output signal/noise-plus-distortion power to SINAD in dB and invert the ENOB relation.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-47",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Perform the augmented binary polynomial division over GF(2), retain the four-bit remainder and append it to the data bits.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: BIT_SEQUENCE_OPTION_ORDER_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 48.75,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-48",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 4,
+      "computation": 3,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Generate sampling spectral images, locate the image pair passed by the modulated sinc filter and track their amplitude and phase; MTA remains excluded from scoring burden.",
+    "confidence": "medium",
+    "uncertainty_note": "Official marks-to-all disposition: this rates the intended structural task, not awarded exam-score burden.",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 76.25,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-49",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 4,
+      "computation": 3,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Follow opamp saturation crossings together with the inductor state under triangular excitation and distinguish timing delay from waveform shape.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 6,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 76.25,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-50",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Recognize the Wien feedback network and impose its zero-phase frequency and loop-gain condition.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-51",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Distinguish the diode-connected bias device from the amplifying transistor and solve the coupled source/bias-resistance small-signal network.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 70.0,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-52",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Evaluate high- and low-injection gain behavior, saturation gain and beta-dependent breakdown separately; no heavy algebra is required.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 47.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-53",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Compute C(sI-A)^-1B for several realizations and compare transfer functions rather than simply comparing state-matrix eigenvalues.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: STATE_MATRIX_OPTION_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 67.5,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-54",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Connect path independence to scalar potential, closed-loop integrals and curl while rejecting the unrelated divergence condition.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 41.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-55",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Check parameterized eigenvector directions using the two coupled matrix equations, including sign and square-root dependencies on k.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: VECTOR_OPTION_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 46.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-56",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Test normalized discrete frequencies for integer periods and distinguish a period of forty from a claimed fundamental period.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 46.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-57",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Use the source-restored autocorrelation power, quantizer range and 8-bit step size to compute quantization noise and logarithmic SQNR.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 57.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-58",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Convert reflection magnitude to VSWR and multiply by the characteristic impedance for the line's maximum impedance.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-59",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Apply repeated DFT reversal/scaling identities before computing the requested transform DC term, avoiding four brute-force transforms.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 57.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-60",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Impose the short-circuit output condition for Y21, include the dependent voltage source and solve the transfer-admittance equations.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-61",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Compute oxide capacitance per area, calculate the fixed-charge voltage shift and balance flatband work-function terms.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-62",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Deactivate the independent source, apply a test source with the controlled source retained, and find the Thevenin resistance for power matching.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 67.5,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-63",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Invert the donor occupation probability with degeneracy, use the given Fermi offset and convert the logarithm to an energy separation.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 57.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-64",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Infer MOS overdrive from the linear-region current, check the new operating region and evaluate the corresponding transconductance law.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 57.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2024-EC-65",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Combine the illuminated diode I-V law with the derivative condition for maximum output power and solve for saturation current.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-GA-01",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Identify the vocabulary item stronger than praise in the specified descending intensity analogy.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 12.5,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-GA-02",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Recognize the past counterfactual construction after Had I learnt and select could have been.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 12.5,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-GA-03",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Count six semitone intervals and raise the source-restored factor 2^(1/12) to the sixth power.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-GA-04",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Read how each segment is replaced, combine the segment-count growth with the one-third length scale and generalize to iteration n.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-GA-05",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Evaluate -|x|/x separately for positive and negative x and match the resulting two constant graph branches.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: SIGNUM_FRACTION_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 31.25,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-GA-06",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Order the general adaptation statement, survival mechanism, natural-selection explanation and evolutionary consequence.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 23.75,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-GA-07",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Express all three stick lengths in terms of the two break points, impose the triangle inequalities and identify an unnecessary extra restriction.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 53.75,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-GA-08",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 0,
+      "integration": 1,
+      "representation": 3
+    },
+    "rationale": "Update the circular ordering after each of four eliminations and interpret the moving counting origin consistently; its MTA status is not a toughness bonus.",
+    "confidence": "medium",
+    "uncertainty_note": "Official marks-to-all disposition: this rates the intended structural task, not awarded exam-score burden.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 43.75,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-GA-09",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Add medal columns for five nations, compare rankings and check the percentage and doubled-total assertions.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 42.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-GA-10",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Select the correct overhead slab, include GST on fee plus overhead, invert the budget equation and verify the result lies in the assumed slab.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-11",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Use the two guaranteed leading pivots and inspect the lower triangular block under each parameter case to test rank at least three.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-12",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Apply the p-series, telescoping/comparison and factorial-series convergence facts to three separate sequences.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-13",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Count unlike-color pairs without replacement or add the two ordered draw probabilities.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-14",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Differentiate both sinusoidal phase terms, retain the factor of three in the third harmonic and find the attainable joint peak deviation.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 57.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-15",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Use the bandwidth-dependent noise term in Shannon capacity and check its small-bandwidth behavior and finite wideband limit against plots.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: VISUAL_OR_MISSING_OPTION_TEXT.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 41.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-16",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Locate unit magnitude and the negative-real-axis crossing on the Nyquist curve to distinguish gain from phase crossover.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 28.75,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-17",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 0,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Write the interconnection including its fixed impulse injection, test zero-input linearity and compare response under a time shift.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 52.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-18",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Apply the integral triangle inequality to the Fourier integral; its unit-magnitude complex exponential removes any additional computation.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: INTEGRAL_OPTION_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 23.75,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-19",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Use the specified resistor-current direction to infer a voltage drop and combine it with the known node potentials.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-20",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Multiply the given complex admittances by the common voltage phasor and track capacitive and inductive current phases.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-21",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Find the base-current divider in the supplied BJT equivalent and map the controlled collector current into the load voltage with correct sign.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: GAIN_FRACTION_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-22",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Translate the specified base current through beta, account for feedback/resistor drops and calculate VCE.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-23",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Translate the two-or-more majority condition directly into the three pairwise product terms.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 23.75,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-24",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "With carry-in set to one, recognize XOR-controlled operand inversion and relate full-adder arithmetic to subtraction.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-25",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Find stationary points and their derivative signs, then use cubic tail behavior to separate local from global extrema.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-26",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Read the root-locus geometry, test the candidate complex pole against the loop equation and enforce nonnegative gain.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-27",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Distinguish poles from zeros in an ROC, apply the unit-circle criterion for DTFT existence and check the impulse special case.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 41.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-28",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Analyze the absolute envelope in both DSB-SC and AM, and test necessity versus sufficiency of a positive message.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 47.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-29",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 0,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Recall ideal opamp input resistance, output resistance and differential/common-mode gain assumptions.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 6.25,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-30",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Compare input impedances and phase reversal for common-gate, common-source and common-drain single-stage MOS amplifiers.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 23.75,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-31",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 0,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Identify pentavalent donor elements rather than trivalent acceptors for n-type silicon.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 6.25,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-32",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Solve the Cauchy-Euler characteristic equation, apply two derivative boundary conditions and optimize the resulting polynomial on the interval.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-33",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Generate the seven nonzero binary codewords from the three-row generator matrix and compare their Hamming weights.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: GENERATOR_MATRIX_LAYOUT_REQUIRED.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 48.75,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-34",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Derive or identify the active bandpass transfer function, connect the given lower cutoff to component ratios and solve the upper cutoff.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 70.0,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-35",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Apply the weighted inverting-summer DAC relation to two adjacent input codes and subtract their output levels.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-36",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Form separate characteristic polynomials for integral and PD feedback and test whether positive controller coefficients can yield asymptotic stability.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: TRANSFER_FUNCTION_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 60.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-37",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Build the fifth-order Routh array, resolve its zero-row auxiliary polynomial and count both imaginary and half-plane roots.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-38",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Represent shifted impulse sampling spectrally, separate the zero spectral image and enforce alias-free lowpass reconstruction without adding a false time delay.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 57.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-39",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Infer total impedance magnitude from RMS voltage/current, equate it to the series resistance and solve the resulting resonance condition for C.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-40",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Apply open-circuit port conditions to the symmetric resistive ladder and derive both diagonal and transfer Z parameters.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-41",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Place the two ML thresholds and average one-sided edge-symbol and two-sided middle-symbol errors to obtain the tail multiplier.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-42",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Compute the finite pulse train's mean and second moment, use independence to eliminate cross terms and check explicit time dependence of autocorrelation.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 47.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-43",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Separate the MOS pair's DC output level from differential small-signal gain and combine bias, input phase and transconductance; use the corrected official key.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: SUPPLIED_ANSWER_KEY_DISAGREES_WITH_OFFICIAL_FINAL_KEY.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-44",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Evaluate quantization-limited SNR from resolution and compute bit rate from samples per second times bits per sample.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-45",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Read the SEL and S timing diagrams at each active clock edge and propagate the MUX/flip-flop state across four sample instants.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 58.75,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-46",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Add electron and hole conductivities, multiply by intrinsic carrier density and charge, then invert and convert resistivity units.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-47",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Use the Zener-referenced diode-connected PNP branch, finite-beta base currents and the output-current condition to solve two bias resistors.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 70.0,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-48",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Apply Einstein's mobility-diffusivity relation at 300 K and convert square metres to square centimetres.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-49",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Read the sheet limits, split or exploit symmetry of |y| and integrate surface charge over the two-dimensional region.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 47.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-50",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Multiply conductivity, electric field and circular cross-sectional area with millimetre-to-metre conversion.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-51",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Use the exact six-unit interval bound 6m to 6M and test which looser candidate bounds hold for every nonnegative function.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: INTEGRAL_UPPER_LIMIT_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 41.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-52",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Check analyticity and pole locations of several functions, including negative even powers, before applying contour-integral theorems.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 47.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-53",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Distinguish an unstable state, a stable forced state and an integrator, then test existential and universal bounded-input statements without inventing an output map.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: SUPPLIED_ANSWER_KEY_DISAGREES_WITH_OFFICIAL_FINAL_KEY.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 47.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-54",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Write the parameterized entropy, locate its equiprobable maximum and compare the three alpha values using concavity or direct evaluation.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: PARAMETER_BOUND_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-55",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Transform the fundamental period under time scaling while preserving correctly indexed Fourier-series coefficients.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 30.0,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-56",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Translate the block diagram into signal equations and compare multiple candidate signal-flow graph node/edge structures.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: VISUAL_OR_MISSING_OPTION_TEXT.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 65.0,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-57",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Enumerate ideal-diode conduction regimes, derive piecewise voltage/current relations and compare them with several plotted options.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: VISUAL_OR_MISSING_OPTION_TEXT.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 70.0,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-58",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Use linearity of expectation and the mean of one fair die; enumeration of all thirty-six outcomes is unnecessary.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 17.5,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-59",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Project the given vector onto a one-dimensional subspace or minimize the scalar quadratic, then evaluate the residual norm.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-60",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Compute marginals from the joint pmf, verify factorization and infer zero mutual information without four logarithmic terms.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-61",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Find the ideal diode's conduction threshold from the bias network, solve the sinusoidal crossing angles and convert the conducting phase span to milliseconds.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-62",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Identify the longest register-to-register combinational path and add clock-to-Q, path delay and setup time before inverting the clock period.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-63",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Invert the exponential diode law and substitute the thermal voltage and current ratio with unit-consistent logarithms.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-64",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Compute the complex load reflection coefficient, square its magnitude and apply the reflected-power correction to incident power.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2025-EC-65",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Use Faraday's law for the uniform flux ramp and loop area, then divide the induced EMF by the circuit's total resistance.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 50.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-GA-01",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 0,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Recall diurnal as the opposite of nocturnal; no numerical or diagrammatic reasoning is required.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 6.25,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-GA-02",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Bound all four highest scores between 76 and 100 and compare that width with the twenty-five-mark implication condition.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 30.0,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-GA-03",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Continue the three entering line segments through the missing rectangle and compare their intersection geometry with the options.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: VISUAL_OR_MISSING_OPTION_TEXT.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-GA-04",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Use power-base change and reciprocal logarithms to reduce the product to n squared.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-GA-05",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Negate the universal student quantifier and the embedded existence quantifier while reversing the distance inequality.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 30.0,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-GA-06",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Recover four vocabulary words from clues and partial spellings, extract their initials and rearrange them into an allowed word.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 23.75,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-GA-07",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 0,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Combine forbidden parent-child teams with the per-match parent-pair restriction and eliminate pairings across three matches.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 41.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-GA-08",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Multiply the sum of the first ten positive integers by the square-perimeter factor four.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 17.5,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-GA-09",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Accumulate the successive ring radii, subtract squared radii for alternating annuli and form the land-to-water area ratio.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-GA-10",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Apply the source-reviewed whole-figure half-turn, including row exchange and glyph rotation, to the candidate figures.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-11",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Differentiate the two independent exponential components and identify the diagonal generator matrix consistent with the initial vector.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-12",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Take the implicit-surface gradient at the specified point and normalize it, retaining either allowed sign for the unit normal.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-13",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Multiply the delayed-step and ramp Laplace transforms using the convolution theorem and preserve the exponential delay factor.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: LAPLACE_OPTION_FRACTION_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-14",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 0,
+      "computation": 0,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Recall band-to-band tunnelling as the dominant Zener-breakdown mechanism rather than drift or diffusion.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 6.25,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-15",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Sample both sinusoidal frequencies, reduce their normalized angular-frequency difference modulo 2pi and compare the indexed samples.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-16",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Use the restored input coefficient, factor the system polynomial, account for pole-zero cancellation and assess the physically intended causal/stable response.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 57.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-17",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Compute the noninverting closed-loop gain in each switch position and compare outputs as a ratio to x.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-18",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Apply the BJT base-emitter drop and DC gain to the branch-current network instead of applying a small-signal gain formula.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-19",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Reduce the nested summing and feedback paths with their signs intact to obtain the overall rational transfer function.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-20",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Trace the MOS pull-down conduction paths for input combinations and identify the complementary pull-up logic output.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-21",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Convert the transmitted-to-received dBm difference into a linear power ratio and invert the Friis distance-squared relation.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-22",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Use the symbol rate, not the four-level bit rate, in the baseband Nyquist bandwidth formula.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 17.5,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-23",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Integrate the capacitor differential equation across the impulse and move the charge-induced voltage jump into the initial condition.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: INITIAL_CONDITION_OPTION_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-24",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Identify equal-amplitude quadrature components and follow rotation at a fixed spatial point relative to the propagation direction to assign handedness.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 41.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-25",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Relate forward voltage to quasi-Fermi-level energy separation and distinguish energy units eV from voltage units V.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 17.5,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-26",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Expand the parameterized determinant once and substitute each candidate pair to test nonzero invertibility.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: MATRIX_AND_FRACTION_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-27",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Count sixty-five distinct inclusive states and round log2 of the required capacity upward.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 17.5,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-28",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Separate the dissipative and reactive parts of total dielectric current and include both conductivity and dielectric-loss contributions.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: LOSS_TANGENT_FORMULA_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 41.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-29",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Extrapolate the output-characteristic slopes to compare finite and infinite Early-voltage magnitudes.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-30",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Write the resistive-network nodal equations with both independent sources and evaluate the indicated bridge output difference.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-31",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Recognize that the ideal voltage source fixes the parallel resistor voltage, then apply Vrms squared over R without unnecessary resonance-current calculations.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-32",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Convert sixteen-QAM bit rate to symbol rate using four bits per symbol and apply minimum passband bandwidth.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-33",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 1,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Apply the dominant TE10 cutoff formula using the larger guide width and convert inches to metres.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-34",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Convert both -4 dB scattering magnitudes to power fractions and subtract reflected and transmitted powers from unity.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-35",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 1
+    },
+    "rationale": "Recognize the high-J/high-K toggle mode and divide the clock frequency by two.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 20.0,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-36",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Apply a ratio/comparison test to n squared over 2^n and bound the second sparse geometric series by a convergent geometric sum.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: EXPONENT_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 35.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-37",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 1,
+      "computation": 0,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Insert the half-period time shift into the Fourier series and use the imposed sign reversal to eliminate even harmonics.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: FOURIER_SERIES_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 2,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 23.75,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-38",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Interpret correlation as the source-key cross moment, expand the products, use independence and odd-moment symmetry, and avoid substituting Pearson normalization.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-39",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Convert the RC and RL branch phase conditions to tangent identities and combine them with the specified reactive impedances to solve the resistance product.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 65.0,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-40",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Build the repaired plant-feedback characteristic polynomial and match its two coefficients to the desired conjugate-pole pair.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 53.75,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-41",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Reconstruct the source-restored state matrices, invert sI-A and multiply by the input and output vectors to identify numerator and denominator.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 53.75,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-42",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 0
+    },
+    "rationale": "Convert 256 KiB to a hexadecimal address increment and apply the inclusive final-location offset of capacity minus one.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 40.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-43",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Combine amplitude-squared energy scaling with inverse absolute time scaling and cancel the shift-independent energy factor.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-44",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Convert Eb/N0 from dB, use the coherent QPSK BER relation and evaluate the supplied asymptotic erfc approximation to the nearest power of ten.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-45",
+    "dimensions": {
+      "concept": 1,
+      "reasoning": 1,
+      "computation": 1,
+      "integration": 0,
+      "representation": 0
+    },
+    "rationale": "Subtract the two-digit decimal number from one hundred to obtain its radix complement.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 1,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 17.5,
+    "band": "Easy",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-46",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Find the exponential signal's spectrum, integrate its squared magnitude symmetrically and invert the ninety-nine-percent arctangent energy condition.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-47",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 0,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Follow the fixed summing/interconnection structure and test preservation of linearity and time invariance without assuming causality of unspecified subsystems.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 46.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-48",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Enumerate four MUX select cases, substitute the data inputs and simplify the resulting three-variable Boolean function.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-49",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Update the eight-bit shift register and the external delay flip-flop simultaneously, tracking complemented delayed feedback over five edges.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 58.75,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-50",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Find BJT DC bias, derive transconductance and finite Early resistance, calculate the loaded small-signal gain and apply it to both input tones.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 70.0,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-51",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Derive or cascade the symmetric T-network transmission parameters, maintaining the port-current sign convention and impedance units.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: ABCD_OPTION_LAYOUT_REPAIR_REQUIRED.",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-52",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Rotate the load reflection coefficient by pi on its constant-magnitude circle and transform the new complex coefficient to normalized then actual impedance.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 62.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-53",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Apply the ideal opamp's virtual-node constraint, solve the resistor-node KCL equations and distinguish output current from the marked branch current.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-54",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Convert the semiconductor bandgap to its longest allowed photon wavelength and test all candidate ranges against the emission-energy constraint.",
+    "confidence": "medium",
+    "uncertainty_note": "Existing content review flags need to accompany this estimate: NEGATIVE_QUESTION_WORDING_NOT_EMIT.",
+    "cognitive_steps_estimate": 3,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 45.0,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-55",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Integrate thermal-noise density across bandwidth in dB, convert the received SNR and compare Shannon log2(1+SNR) with the candidate capacity bounds.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-56",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 1,
+      "representation": 2
+    },
+    "rationale": "Construct or simplify the four-variable minterm map and check multiple nonminimal expressions for exact Boolean equivalence.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-57",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 0,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Assess amplitude-phase representation against PSK, AM, narrowband FM and stochastic-noise possibilities, respecting assumptions rather than one unconditional distribution label.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 47.5,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-58",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 2,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Integrate sinusoidal products over both full and half common intervals, compare energies for normalization and separate harmonicity from orthogonality.",
+    "confidence": "high",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-59",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 1
+    },
+    "rationale": "Form the loop characteristic polynomial, apply the Routh first-column boundary and identify the positive marginal-stability gain.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 53.75,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-60",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Couple the diode-connected MOS saturation current law with the drain resistor relation, solve the nonlinear bias equation and reject the nonphysical root.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-61",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 3,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Use the source-restored rotated-square domain, split its integration bounds or transform coordinates, then integrate the quadratic polynomial over the geometry.",
+    "confidence": "medium",
+    "uncertainty_note": "Score assumes the intended formulation established in the existing source-confirmed repair notes; the flattened supplied transcription is not authoritative.",
+    "cognitive_steps_estimate": 5,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 67.5,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-62",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 2
+    },
+    "rationale": "Apply virtual short and resistor-network KCL at the coupled opamp nodes and solve the resulting closed-loop gain relation.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 56.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-63",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Assume independent bit errors explicitly, sum the zero- and one-error binomial probabilities and subtract from one for decoder failure.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-64",
+    "dimensions": {
+      "concept": 2,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 0
+    },
+    "rationale": "Obtain the concentration slope in centimetres, use Einstein diffusivity, multiply by electronic charge and convert current density from cm squared to mm squared.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 51.25,
+    "band": "Moderate",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  },
+  {
+    "id": "GATE-EC-2026-EC-65",
+    "dimensions": {
+      "concept": 3,
+      "reasoning": 3,
+      "computation": 2,
+      "integration": 2,
+      "representation": 3
+    },
+    "rationale": "Enumerate the biased-diode conduction regimes, derive the divider/clamp levels and identify the greatest attainable output over the sinusoidal input.",
+    "confidence": "medium",
+    "uncertainty_note": "",
+    "cognitive_steps_estimate": 4,
+    "cognitive_steps_basis": "Expert-AI estimate of the named solution actions in this question-specific rationale; not an observed candidate trace or measured solving time.",
+    "toughness_score": 65.0,
+    "band": "Tough",
+    "evidence_class": "AI structural estimate for a prepared GATE EC candidate, not empirical success probability",
+    "rubric_version": "GATE_EC_STRUCTURAL_TOUGHNESS_v1"
+  }
+]

@@ -1,0 +1,214 @@
+{
+  "desktop": [
+    {
+      "heading": "GATE EC Research Overview",
+      "overflow": 0,
+      "panels": 5,
+      "ready": true,
+      "route": "#monitor"
+    },
+    {
+      "heading": "Score explorer",
+      "overflow": 0,
+      "panels": 2,
+      "ready": true,
+      "route": "#explorer"
+    },
+    {
+      "heading": "Subject allocation",
+      "overflow": 0,
+      "panels": 3,
+      "ready": true,
+      "route": "#subjects"
+    },
+    {
+      "heading": "Statistical laboratory",
+      "overflow": 0,
+      "panels": 4,
+      "ready": true,
+      "route": "#lab"
+    },
+    {
+      "heading": "Question database",
+      "overflow": 0,
+      "panels": 1,
+      "ready": true,
+      "route": "#questions"
+    },
+    {
+      "heading": "Scenario laboratory",
+      "overflow": 0,
+      "panels": 4,
+      "ready": true,
+      "route": "#scenarios"
+    },
+    {
+      "heading": "Topic analysis",
+      "overflow": 0,
+      "panels": 3,
+      "ready": true,
+      "route": "#topics"
+    },
+    {
+      "heading": "Cross-year comparison",
+      "overflow": 0,
+      "panels": 4,
+      "ready": true,
+      "route": "#compare"
+    },
+    {
+      "heading": "Difficulty analysis",
+      "overflow": 0,
+      "panels": 5,
+      "ready": true,
+      "route": "#difficulty"
+    },
+    {
+      "heading": "Distributions",
+      "overflow": 0,
+      "panels": 3,
+      "ready": true,
+      "route": "#distributions"
+    },
+    {
+      "heading": "Exact trend analysis",
+      "overflow": 0,
+      "panels": 3,
+      "ready": true,
+      "route": "#inference"
+    },
+    {
+      "heading": "Candidate responses",
+      "overflow": 0,
+      "panels": 1,
+      "ready": true,
+      "route": "#responses"
+    },
+    {
+      "heading": "Data reliability",
+      "overflow": 0,
+      "panels": 3,
+      "ready": true,
+      "route": "#audit"
+    },
+    {
+      "heading": "Reports & exports",
+      "overflow": 0,
+      "panels": 1,
+      "ready": true,
+      "route": "#reports"
+    },
+    {
+      "heading": "Methodology",
+      "overflow": 0,
+      "panels": 2,
+      "ready": true,
+      "route": "#evidence"
+    },
+    {
+      "heading": "Workspace settings",
+      "overflow": 0,
+      "panels": 3,
+      "ready": true,
+      "route": "#settings"
+    }
+  ],
+  "mobile": [
+    {
+      "heading": "GATE EC Research Overview",
+      "overflow": 0,
+      "ready": true,
+      "route": "#monitor"
+    },
+    {
+      "heading": "Score explorer",
+      "overflow": 0,
+      "ready": true,
+      "route": "#explorer"
+    },
+    {
+      "heading": "Subject allocation",
+      "overflow": 0,
+      "ready": true,
+      "route": "#subjects"
+    },
+    {
+      "heading": "Statistical laboratory",
+      "overflow": 0,
+      "ready": true,
+      "route": "#lab"
+    },
+    {
+      "heading": "Question database",
+      "overflow": 0,
+      "ready": true,
+      "route": "#questions"
+    },
+    {
+      "heading": "Scenario laboratory",
+      "overflow": 0,
+      "ready": true,
+      "route": "#scenarios"
+    },
+    {
+      "heading": "Topic analysis",
+      "overflow": 0,
+      "ready": true,
+      "route": "#topics"
+    },
+    {
+      "heading": "Cross-year comparison",
+      "overflow": 0,
+      "ready": true,
+      "route": "#compare"
+    },
+    {
+      "heading": "Difficulty analysis",
+      "overflow": 0,
+      "ready": true,
+      "route": "#difficulty"
+    },
+    {
+      "heading": "Distributions",
+      "overflow": 0,
+      "ready": true,
+      "route": "#distributions"
+    },
+    {
+      "heading": "Exact trend analysis",
+      "overflow": 0,
+      "ready": true,
+      "route": "#inference"
+    },
+    {
+      "heading": "Candidate responses",
+      "overflow": 0,
+      "ready": true,
+      "route": "#responses"
+    },
+    {
+      "heading": "Data reliability",
+      "overflow": 0,
+      "ready": true,
+      "route": "#audit"
+    },
+    {
+      "heading": "Reports & exports",
+      "overflow": 0,
+      "ready": true,
+      "route": "#reports"
+    },
+    {
+      "heading": "Methodology",
+      "overflow": 0,
+      "ready": true,
+      "route": "#evidence"
+    },
+    {
+      "heading": "Workspace settings",
+      "overflow": 0,
+      "ready": true,
+      "route": "#settings"
+    }
+  ]
+}
