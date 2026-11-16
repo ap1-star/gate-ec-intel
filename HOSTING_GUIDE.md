@@ -11,6 +11,25 @@ This guide applies to the portable hosting archives. The older Sites handoff fil
 | `GATE_EC_NETLIFY_DROP.zip` → Netlify Drop | Prebuilt public research and career snapshot; no account database or automatic recruitment updates |
 | GitHub repository | Stores the source for import into your host. GitHub Pages can serve static files but does not run this Node backend. |
 
+## Render deployment (Docker)
+
+Connect this repository to a Render Web Service and select the included Dockerfile. Render supplies `RENDER_EXTERNAL_URL` automatically; if `PUBLIC_ORIGIN` is not explicitly set, the server uses that Render URL as its public HTTPS origin.
+
+Set the following service environment variables in the Render dashboard:
+
+| Variable | Value |
+| --- | --- |
+| `SESSION_SECRET` | A persistent cryptographically random secret of at least 48 characters (required; generate privately) |
+| `PUBLIC_ORIGIN` | Optional on Render: set to your final canonical frontend HTTPS origin if using a different domain |
+| `RUN_SCHEDULER` | `true` for hosted recruitment checks; `false` to disable |
+| `SQLITE_PATH` | A writable SQLite file path; use `/data/workspace.sqlite` only if `/data` is mounted persistently |
+
+Generate a secret locally with `node -e "console.log(require('node:crypto').randomBytes(48).toString('base64url'))"`, then paste the output into Render's private environment variable field. Never commit the secret to GitHub.
+
+**Important:** Render Free web services have ephemeral filesystems and spin down after inactivity. Without persistent storage, SQLite accounts and saved data can be lost after redeploys/restarts. A free instance is not suitable for reliable continuous background recruitment checks. For permanent accounts, a durable database, or uninterrupted checks, use a hosting plan/service with persistent storage and always-on execution (such as the Railway volume setup below).
+
+Check `/healthz` after deployment. A healthy response reports `status: "ok"` and `database: true`.
+
 ## Recommended: deploy the full app on Railway
 
 1. Extract `GATE_EC_HOSTING_SOURCE.zip`. Upload the extracted contents to a new GitHub repository. **`package.json`, `Dockerfile` and `railway.toml` must be at the repository root**, rather than inside another enclosing folder. Do not upload `node_modules`, real `.env` files, databases or credentials.
