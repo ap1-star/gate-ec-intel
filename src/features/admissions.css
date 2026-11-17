@@ -151,3 +151,65 @@
 @media(max-width:760px){.admissions-layout{grid-template-columns:1fr;gap:24px}.admissions-controls{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:17px 15px}.admissions-control-title,.admissions-controls>.admissions-unit-note,.admissions-control-divider,.admissions-control-actions,.admissions-controls>.admissions-check,.admissions-field:has(>.admissions-candidate-input){grid-column:1/-1}.admissions-controls>.admissions-control-divider{margin:3px 0}.admissions-control-actions>.career-primary{width:auto}.admissions-rail-foot{margin-top:12px}.admissions-record-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.admissions-record-reference{flex-direction:column;align-items:flex-start}.admissions-context-strip{gap:9px 18px}.admissions-main{gap:23px}.admissions-stage-head h2{font-size:27px}.admissions-check{min-height:38px}.admissions-source-body dl{grid-template-columns:115px minmax(0,1fr)}}
 @media(max-width:480px){.admissions-workspace{gap:19px}.admissions-controls{padding:18px;gap:17px 12px}.admissions-field>input,.admissions-field>select{font-size:13px;min-height:46px;padding:10px}.admissions-field:has([name="programme"]),.admissions-field:has([name="query"]){grid-column:1/-1}.admissions-field>input.admissions-candidate-input{min-height:80px;font-size:38px}.admissions-control-title h2{font-size:23px}.admissions-evidence-stage{padding:21px 18px}.admissions-stage-head{gap:15px;margin-bottom:17px}.admissions-stage-head h2{font-size:25px}.admissions-score-summary>strong{font-size:40px}.admissions-score-summary>small{flex-basis:100%;margin-top:-2px}.admissions-chart-scroll{margin-inline:-3px}.admissions-chart-legend{gap:10px}.admissions-chart-legend>span{font-size:12px}.admissions-evidence-stats{gap:10px 20px}.admissions-section-head h2{font-size:22px}.admissions-record-grid{grid-template-columns:1fr}.admissions-record{padding:21px}.admissions-record-reference{flex-direction:row;align-items:center;gap:15px}.admissions-record-reference strong{font-size:29px}.admissions-record-top .admissions-compare-toggle{min-height:42px}.admissions-record-actions .text-link{min-height:42px;font-size:13px}.admissions-source-body dl{grid-template-columns:1fr;gap:3px}.admissions-source-body dd{margin-bottom:12px}.admissions-source-primary>strong{font-size:36px}.admissions-source-detail{padding:21px 18px}.admissions-comparison-empty{padding:18px}.admissions-comparison-empty>span{display:none}.admissions-comparison-grid{grid-template-columns:repeat(3,minmax(245px,1fr))}.admissions-comparison-grid:has(>.admissions-record:nth-child(2):last-child){grid-template-columns:repeat(2,minmax(245px,1fr))}.admissions-comparison-grid:has(>.admissions-record:only-child){grid-template-columns:1fr}.admissions-control-actions .button,.admissions-results .pagination .button{min-height:44px}.admissions-unavailable{min-height:245px}}
 @media(prefers-reduced-motion:reduce){.admissions-workspace{--admissions-motion:0ms}.admissions-candidate-marker{transition:none}.admissions-record:hover{transform:none}.admissions-updated{animation:none}.admissions-chart-point circle{filter:none!important}}
+
+/* Score-led admissions: inputs above a compact, source-first results ledger. */
+.admissions-layout{grid-template-columns:minmax(0,1fr);gap:24px}
+.admissions-controls{display:flex;flex-direction:column;gap:17px;padding:24px;border-radius:var(--radius);box-shadow:none}
+.admissions-control-title{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:22px;align-items:baseline}
+.admissions-control-title>.admissions-eyebrow{grid-column:1/-1;font-size:11px}
+.admissions-control-title h2{font-size:25px;letter-spacing:-.6px;margin:8px 0 0}
+.admissions-control-title p{font-size:12px;margin:8px 0 0;max-width:46ch}
+.admissions-primary-fields{display:grid;grid-template-columns:1fr 1.25fr 1fr 1fr;gap:17px;align-items:end}
+.admissions-primary-fields .admissions-field{grid-column:auto}
+.admissions-primary-fields .admissions-field>select,.admissions-primary-fields .admissions-field>input{min-height:52px}
+.admissions-primary-fields .admissions-field>input.admissions-candidate-input{min-height:52px;height:52px;padding:9px 13px;font:500 27px/1.15 var(--mono);letter-spacing:-.8px}
+.admissions-unit-note{margin:-3px 0 0;max-width:120ch;font-size:11px;line-height:1.75}
+.admissions-refinements{border-top:1px solid var(--border-soft);padding-top:8px}
+.admissions-refinements>summary,.admissions-chart-drawer>summary,.admissions-comparison-drawer>summary{padding:8px 0;color:var(--secondary);font-size:12px;line-height:1.7;cursor:pointer}
+.admissions-refinements>summary>span,.admissions-chart-drawer>summary>span,.admissions-comparison-drawer>summary>span{font-size:11px;color:var(--muted);margin-left:12px}
+.admissions-secondary-fields{display:grid;grid-template-columns:1.2fr 1fr 1.2fr;gap:15px 18px;padding-top:15px}
+.admissions-secondary-fields .admissions-check{font-size:11px;grid-column:auto}
+.admissions-control-actions{display:flex;justify-content:flex-end;align-items:center;gap:10px;margin-top:0}
+.admissions-control-actions>span{font-size:11px;line-height:1.7;color:var(--muted);margin-right:auto}
+.admissions-control-actions>.button{width:auto;flex:none;min-height:38px;font-size:12px}
+.admissions-insight{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:25px;align-items:center;padding:2px 0 24px;border-bottom:1px solid var(--border-soft)}
+.admissions-insight h2{font-size:clamp(22px,2.1vw,30px);font-weight:550;line-height:1.35;letter-spacing:-.6px;margin:9px 0}
+.admissions-insight p{font-size:12px;line-height:1.8;color:var(--muted);max-width:76ch;margin:0}
+.admissions-insight-counts{display:flex;align-items:flex-start;gap:23px;flex:none}
+.admissions-insight-counts>span{display:flex;flex-direction:column;gap:8px;max-width:105px;font-size:10px;line-height:1.6;color:var(--muted)}
+.admissions-insight-counts strong{font:450 28px/1.15 var(--mono);letter-spacing:-1px;color:var(--text)}
+.admissions-insight-counts .tone-below strong{color:var(--warning)}
+.admissions-mini-scale{display:block;width:130px;max-width:100%;height:4px;position:relative;background:var(--border);border-radius:2px;margin:9px 0 2px}
+.admissions-mini-scale>i{display:block;height:4px;border-radius:2px;background:var(--chart-series-1);opacity:.55}
+.admissions-mini-scale>b{position:absolute;width:2px;height:10px;top:-3px;background:var(--text);transform:translateX(-1px);border-radius:2px}
+.admissions-institute-index{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.admissions-institute-option{border:1px solid var(--border);border-radius:var(--radius-sm);background:var(--surface);color:var(--secondary);padding:15px 17px;text-align:left;min-width:0;cursor:pointer}
+.admissions-institute-option strong{font:500 13px/1.55 var(--font);display:block}
+.admissions-institute-option span{display:block;font:400 11px/1.7 var(--font);color:var(--muted);margin-top:6px}
+.admissions-institute-option[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-bg);color:var(--text)}
+.admissions-results{min-width:0}
+.admissions-results .admissions-section-head{align-items:center;margin-bottom:15px}
+.admissions-results .admissions-section-head h2{font-size:22px;margin:5px 0 7px}
+.admissions-results .admissions-section-head p{font-size:11px}
+.admissions-results>.table-scroll{border:1px solid var(--border);border-radius:var(--radius);background:var(--surface);overflow:auto}
+.admissions-results .data-table{min-width:950px;width:100%}
+.admissions-results .data-table th{padding:13px 15px;background:var(--surface-raised);font-size:10px;white-space:nowrap}
+.admissions-results .data-table td{padding:15px;vertical-align:top;font-size:12px;line-height:1.65;max-width:255px}
+.admissions-results .data-table td>strong{display:block;font-size:13px;font-weight:550;color:var(--text)}
+.admissions-results .data-table td>small{display:block;color:var(--muted);font-size:11px;margin-top:4px}
+.admissions-results .data-table .number-cell{font:450 17px/1.5 var(--mono);white-space:nowrap;color:var(--text)}
+.admissions-results .data-table .number-cell>small{white-space:normal;font:400 10px/1.6 var(--font)}
+.admissions-results .data-table .icon-button{width:31px;min-height:31px;border:1px solid var(--border);border-radius:var(--radius-sm)}
+.admissions-results .data-table .text-link{font-size:11px;min-height:29px;display:inline-flex;align-items:center;gap:4px}
+.admissions-results .data-table .text-link+.text-link{margin-left:9px}
+.admissions-results .admissions-status{font-size:11px;line-height:1.5}
+.admissions-results .admissions-difference{font-size:10px}
+.admissions-chart-drawer,.admissions-comparison-drawer{border-top:1px solid var(--border-soft);padding-top:9px;min-width:0}
+.admissions-chart-drawer>.admissions-evidence-stage,.admissions-comparison-drawer>.admissions-comparison-panel{margin-top:15px}
+.admissions-evidence-stage{box-shadow:none;background-image:none;padding:24px;border-radius:var(--radius)}
+.admissions-evidence-stage:before{display:none}
+.admissions-stage-head h2{font-size:24px}
+.admissions-current-scenario{margin:0}
+.admissions-model-note{margin:0;font-size:12px}
+@media(max-width:1100px){.admissions-insight{grid-template-columns:1fr;gap:20px}.admissions-insight-counts{gap:32px}.admissions-insight-counts>span{max-width:none;flex-direction:row;align-items:baseline;gap:8px}.admissions-insight-counts strong{font-size:23px}.admissions-primary-fields{grid-template-columns:1fr 1fr}.admissions-control-title{display:block}.admissions-control-title p{max-width:none}.admissions-secondary-fields{grid-template-columns:1fr 1fr}.admissions-secondary-fields>.admissions-field:first-child{grid-column:1/-1}}
+@media(max-width:650px){.admissions-controls{padding:18px;gap:15px}.admissions-primary-fields{gap:14px}.admissions-primary-fields .admissions-field>input.admissions-candidate-input{height:52px;min-height:52px;font-size:26px}.admissions-primary-fields .admissions-field>select{font-size:12px;padding:9px}.admissions-control-actions{flex-wrap:wrap}.admissions-control-actions>span{width:100%;margin-bottom:3px}.admissions-control-actions>.button{flex:1}.admissions-secondary-fields{grid-template-columns:1fr}.admissions-insight-counts{flex-wrap:wrap;gap:14px 22px}.admissions-insight-counts>span{font-size:10px}.admissions-insight h2{font-size:23px}.admissions-refinements>summary>span,.admissions-chart-drawer>summary>span,.admissions-comparison-drawer>summary>span{display:block;margin:3px 0 0}.admissions-institute-index{grid-template-columns:1fr}.admissions-institute-option{padding:12px 15px}.admissions-institute-option span{margin-top:3px}.admissions-results .admissions-section-head{align-items:flex-start}.admissions-context-strip{font-size:10px}.admissions-results .segmented-control{width:auto}}

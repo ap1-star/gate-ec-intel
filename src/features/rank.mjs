@@ -49,7 +49,7 @@ export function rankHandoff(result){
 export function createRankWorkspace(bridge){
  const {C,icon}=bridge,E=C.escape;
  const fresh=()=>({year:'2025',category:'GEN',toughness:'0',scenarios:[{id:'A',marks:''}],active:'A',referenceYear:'',params:null,message:'',saving:false,revision:0,chartWidth:760});
- let state=fresh(),frame=null,announcementTimer=null,resizeObserver=null,observedRoot=null,saveGeneration=0;
+ let state=fresh(),frame=null,announcementTimer=null,resizeObserver=null,observedRoot=null,saveGeneration=0,resultAnimation=null;
  const doc=()=>typeof document==='undefined'?null:document;
  const root=()=>doc()?.querySelector?.('[data-rank-root]')??null;
  const active=()=>state.scenarios.find(scenario=>scenario.id===state.active)??state.scenarios[0];
@@ -130,13 +130,42 @@ export function createRankWorkspace(bridge){
  }
  function render(){
   loadParams();
-  return '<div class="career-workspace rank-workspace" data-rank-root><div class="rank-workspace-context"><span>'+icon('activity')+' Interactive marks simulator</span><span>EC paper · historical inputs · no validated accuracy claim</span></div><div class="rank-workbench"><section class="rank-input-panel">'+controls()+'</section><section class="rank-result-panel" data-rank-region="result">'+resultHtml()+'</section></div>'+
+  return '<div class="career-workspace rank-workspace" data-rank-root><div class="rank-workspace-context"><div><span class="rank-eyebrow">Marks / 100 → estimated AIR</span><h2>Explore what your marks could mean.</h2><p>Choose the year, enter your marks, then compare up to three scenarios.</p></div><a class="text-link" href="#admissions">Already have a GATE score? Find programmes '+icon('arrow-right')+'</a></div><div class="rank-workbench"><section class="rank-input-panel">'+controls()+'</section><section class="rank-result-panel" data-rank-region="result">'+resultHtml()+'</section></div>'+
    '<section class="rank-scenarios-section" aria-labelledby="rankScenariosTitle"><div class="rank-section-heading"><div><span class="rank-eyebrow">Compare / A → C</span><h2 id="rankScenariosTitle">What changes with your marks?</h2></div><p>Actual estimates · shared assumptions · differences versus A</p></div><div class="rank-scenario-grid" data-rank-region="scenarios">'+scenarioCards()+'</div></section>'+
    '<section class="panel rank-relationship-panel"><div class="panel-head"><div><span class="rank-eyebrow">03 / Relationship explorer</span><h2>Marks to estimated AIR</h2><p class="panel-description">Explore the preserved model and compare scenario markers.</p></div><div class="rank-reference-control">'+select('referenceYear','Overlay reference year',[['','No overlay'],...SUPPORTED_YEARS.filter(year=>String(year)!==state.year).slice().reverse().map(year=>[year,year+(year===2027?' · hypothetical':'')])],state.referenceYear)+'</div></div><div class="rank-plot-legend"><span><i class="rank-legend-model"></i>'+E(state.year)+' model</span><span><i class="rank-legend-reference"></i>Optional reference model</span><span><i class="rank-legend-scenario"></i>Scenario + marks sensitivity</span><span><i class="rank-legend-anchor"></i>Supplied AIR 1 reference</span></div><div class="rank-plot-host" data-rank-region="plot">'+plotHtml()+'</div><div class="panel-foot">The line is a calculation, not an observed rank distribution. Circle markers are user scenarios; the square is a supplied historical reference. Hover or focus markers for values.</div></section>'+
    '<section class="rank-history-section"><div class="rank-section-heading"><div><span class="rank-eyebrow">Historical context</span><h2>The same marks across years</h2></div><span class="rank-context">Estimated AIR · source-dependent</span></div><div data-rank-region="history">'+historyHtml()+'</div></section>'+
    '<details class="rank-methodology"><summary>'+icon('circle-help')+' Method, sensitivity and source evidence '+icon('chevron-down')+'</summary><div class="rank-method-grid"><div><h3>What the estimate means</h3><p>2023–2025 interpolate supplied report-derived bins. Earlier years use difficulty-matched anchors. Central AIR is the preserved integer estimate, not an official candidate result.</p>'+source(SOURCE_LINKS.gate2025,'Official 2025 report')+'</div><div><h3>What the range means</h3><p>±0.75 marks is applied by the existing engine to report marks sensitivity. This is not a confidence interval, admission probability or calibrated future forecast. Score /1000 is a model approximation, distinct from marks /100 and AIR.</p></div><div><h3>Coverage and limitations</h3><p>2026 uses a non-official reconstructed curve from 21 to 89.67 marks. 2027 toughness settings are hypothetical. Preserved inputs are not independently certified in this interface.</p>'+source(SOURCE_LINKS.gate,'Official archive')+'<small>Reference dataset: '+E(CAREER_DATA_VERSION)+'</small></div></div></details><p class="rank-sr-only" data-rank-announcement role="status" aria-live="polite" aria-atomic="true"></p></div>';
  }
- function setRegion(name,html){const node=root()?.querySelector?.('[data-rank-region="'+name+'"]');if(node)node.innerHTML=html;}
+ function setRegion(name,html){const node=root()?.querySelector?.('[data-rank-region="'+name+'"]');if(node&&node.innerHTML!==html)node.innerHTML=html;}
+ function updateResult(){
+  const panel=root()?.querySelector?.('[data-rank-region="result"]'),html=resultHtml();
+  if(!panel)return;
+  const numberNode=panel.querySelector?.('.rank-primary-number');
+  // Keep the live result nodes mounted: replacing them on every input restarts
+  // entrance motion and can disturb browser scroll anchoring during a drag.
+  if(!numberNode||!activeEvaluation()?.result||!doc()?.createElement){setRegion('result',html);return;}
+  const previous=numberNode.textContent,template=doc().createElement('template');template.innerHTML=html;
+  function reconcile(parent,next){
+   const current=[...parent.childNodes],desired=[...next.childNodes];
+   for(let index=0;index<Math.max(current.length,desired.length);index++){
+    const old=current[index],fresh=desired[index];
+    if(!fresh){old.remove();continue;}
+    if(!old){parent.appendChild(fresh.cloneNode(true));continue;}
+    if(old.nodeType!==fresh.nodeType||old.nodeName!==fresh.nodeName){old.replaceWith(fresh.cloneNode(true));continue;}
+    if(old.nodeType===3){if(old.nodeValue!==fresh.nodeValue)old.nodeValue=fresh.nodeValue;continue;}
+    if(old.nodeType!==1)continue;
+    for(const attr of [...old.attributes])if(!fresh.hasAttribute(attr.name))old.removeAttribute(attr.name);
+    for(const attr of [...fresh.attributes])if(old.getAttribute(attr.name)!==attr.value)old.setAttribute(attr.name,attr.value);
+    reconcile(old,fresh);
+   }
+  }
+  reconcile(panel,template.content);
+  if(numberNode.textContent!==previous){
+   resultAnimation?.cancel?.();resultAnimation=null;
+   if(!globalThis.matchMedia?.('(prefers-reduced-motion: reduce)').matches)
+    resultAnimation=numberNode.animate?.([{opacity:.55},{opacity:1}],{duration:180,easing:'ease-out'});
+  }
+ }
  function syncInputs(){
   const element=root();if(!element)return;
   const item=active(),support=rankInputSupport(state.year),numeric=Number(item.marks),valid=String(item.marks).trim()!==''&&Number.isFinite(numeric);
@@ -161,7 +190,7 @@ export function createRankWorkspace(bridge){
  }
  function refresh({fullPlot=false,focusScenario=false}={}){
   const element=root();if(!element){bridge.render();return;}
-  syncInputs();setRegion('tabs',scenarioTabs());setRegion('result',resultHtml());setRegion('scenarios',scenarioCards());setRegion('history',historyHtml());
+  syncInputs();setRegion('tabs',scenarioTabs());updateResult();setRegion('scenarios',scenarioCards());setRegion('history',historyHtml());
   const current=activeEvaluation();setRegion('error',current?.error?'<div class="rank-input-error" role="alert">'+icon('circle-alert')+'<span>'+E(current.error)+'</span></div>':'');
   if(fullPlot)setRegion('plot',plotHtml());else updateMarkers();
   if(focusScenario)element.querySelector('.rank-active-scenario [data-rank-id="'+state.active+'"]')?.focus?.();
@@ -217,7 +246,7 @@ export function createRankWorkspace(bridge){
   const action=button.dataset?.rankAction??(button.hasAttribute?.('data-career-save-estimate')?'save':button.hasAttribute?.('data-career-admission-link')?'admissions':button.hasAttribute?.('data-career-psu-link')?'psu':'');
   if(!['save','admissions','psu','add','activate','remove','reset','year'].includes(action))return false;
   if(action==='save')return saveEstimate();
-  if(action==='admissions'||action==='psu'){const handoff=rankHandoff(activeEvaluation()?.result);if(handoff)bridge.navigate(action==='admissions'?'admissions':'psu',handoff[action]);return true;}
+  if(action==='admissions'||action==='psu'){const handoff=rankHandoff(activeEvaluation()?.result);if(handoff)bridge.navigate(action==='admissions'?'opportunities':'psu-evidence',handoff[action]);return true;}
   if(action==='reset'){const signature=bridge.params().toString();state={...fresh(),revision:state.revision+1,params:signature};saveGeneration++;bridge.navigate('rank');bridge.render();return true;}
   if(action==='add'){
    if(state.scenarios.length>=3)return true;

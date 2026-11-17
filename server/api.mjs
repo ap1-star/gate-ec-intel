@@ -7,6 +7,7 @@ const CATEGORIES=['GEN','GEN_EWS','OBC_NCL','SC','ST'];
 const MUTATIONS=new Set(['POST','PATCH','DELETE','PUT']);
 const json=(data,status=200,headers={})=>new Response(JSON.stringify(data),{status,headers:{'content-type':'application/json; charset=utf-8','cache-control':'no-store','x-content-type-options':'nosniff',...headers}});
 const ok=(data,status=200,headers)=>json({status:'ok',data},status,headers);
+const credentialResponse=(result,status=200)=>{const response=ok(result.data,status,{'set-cookie':result.cookie});if(result.preferenceCookie)response.headers.append('set-cookie',result.preferenceCookie);return response;};
 const changes=result=>Number(result?.meta?.changes||0);
 const utc=(now)=>new Date(now).toISOString();
 const isLoopback=host=>['localhost','127.0.0.1','[::1]'].includes(host);
@@ -27,29 +28,40 @@ export function createApi(options={}){
  }
  async function identity(request,db,env,now){
   const mode=options.authMode||env.AUTH_MODE||'unavailable';
+  const credentialAuth=options.credentialAuth||options.credentialAuthFactory?.(db,env);
   if(mode==='development'){
    if(!isLoopback(new URL(request.url).hostname)||!options.localAuth)return {mode:'unavailable',session:null};
    return {mode,session:await options.localAuth.resolve(request,now)};
   }
   if(mode==='credentials'){
-   if(!options.credentialAuth)return {mode:'unavailable',session:null};
-   return {mode,session:await options.credentialAuth.resolve(request,now)};
+   if(!credentialAuth)return {mode:'unavailable',session:null};
+   return {mode,credentialAuth,session:await credentialAuth.resolve(request,now)};
   }
-  if(mode==='sites'){
+  if(mode==='sites_credentials'&&credentialAuth){
+   const preference=cookies(request).gate_auth_method;
+   if(preference!=='platform'){
+    const credentialSession=await credentialAuth.resolve(request,now);
+    if(credentialSession)return {mode,credentialAuth,session:credentialSession};
+    // Expired/deleted website accounts and explicit sign-out must not fall
+    // through into an unrelated ChatGPT identity already present in the tab.
+    if(preference==='credentials'||preference==='guest')return {mode,credentialAuth,session:null};
+   }
+  }
+  if(mode==='sites'||mode==='sites_credentials'){
    // Only deploy this mode behind Sites' trusted dispatch, which owns these identity headers.
    const userId=request.headers.get('oai-authenticated-user-id');
-   if(!userId)return {mode,session:null};
+   if(!userId)return {mode,credentialAuth,session:null};
    if(!/^[A-Za-z0-9_.:@-]{1,200}$/.test(userId))fail(401,'invalid_identity','The session could not be verified.');
    const name=request.headers.get('oai-authenticated-user-full-name');let decoded;
    try{decoded=request.headers.get('oai-authenticated-user-full-name-encoding')==='percent-encoded-utf-8'?decodeURIComponent(name||''):name;}catch{}
    const token=cookies(request).gate_csrf;
    const verifiedEmail=request.headers.get('oai-authenticated-user-email');
    const isOwner=env.OWNER_SITE_USER_ID?userId===env.OWNER_SITE_USER_ID:!!env.OWNER_EMAIL&&!!verifiedEmail&&verifiedEmail.trim().toLowerCase()===env.OWNER_EMAIL.trim().toLowerCase();
-   return {mode,session:{user:{id:userId,displayName:safeDisplay(decoded||'Candidate'),isOwner,development:false},csrfToken:/^[a-f0-9]{64}$/.test(token||'')?token:null}};
+   return {mode,credentialAuth,session:{user:{id:userId,displayName:safeDisplay(decoded||'Candidate'),isOwner,development:false,authProvider:'chatgpt'},csrfToken:/^[a-f0-9]{64}$/.test(token||'')?token:null}};
   }
   return {mode:'unavailable',session:null};
  }
- function caps(db,mode,session,env){return {database:!!db,devAuth:!!db&&mode==='development'&&!!options.localAuth,credentialAuth:!!db&&mode==='credentials'&&!!options.credentialAuth,platformAuth:mode==='sites',owner:!!session?.user?.isOwner,scheduler:!!db&&!!(options.schedulerActive||env.SCHEDULER_ACTIVE==='true')};}
+ function caps(db,mode,session,env,credentialAuth=options.credentialAuth){return {database:!!db,devAuth:!!db&&mode==='development'&&!!options.localAuth,credentialAuth:!!db&&['credentials','sites_credentials'].includes(mode)&&!!credentialAuth,platformAuth:['sites','sites_credentials'].includes(mode),owner:!!session?.user?.isOwner,scheduler:!!db&&!!(options.schedulerActive||env.SCHEDULER_ACTIVE==='true')};}
  async function ensureUser(db,session,now){await run(db,'INSERT OR IGNORE INTO users(id,display_name,created_at,last_seen_at) VALUES(?,?,?,?)',session.user.id,session.user.displayName,utc(now),utc(now));await run(db,'UPDATE users SET last_seen_at=? WHERE id=?',utc(now),session.user.id);const stored=await first(db,'SELECT display_name FROM users WHERE id=?',session.user.id);session.user.displayName=stored.display_name;}
  const audit=(db,userId,feature,now)=>run(db,'INSERT INTO activity_events(id,user_id,feature,created_at) VALUES(?,?,?,?)',id(),userId,feature,utc(now));
  async function profile(db,userId,now){await run(db,'INSERT OR IGNORE INTO profiles(user_id,category,target_year,exam_date,daily_minutes,reminder_preference,updated_at) VALUES(?,?,?,?,?,?,?)',userId,'GEN',new Date(now).getUTCFullYear()+1,null,120,'none',utc(now));const p=await first(db,'SELECT p.*,u.display_name FROM profiles p JOIN users u ON u.id=p.user_id WHERE p.user_id=?',userId);return {category:p.category,targetYear:p.target_year,examDate:p.exam_date,dailyMinutes:p.daily_minutes,reminderPreference:p.reminder_preference,displayName:p.display_name,updatedAt:p.updated_at};}
@@ -80,14 +92,14 @@ export function createApi(options={}){
    if(!path.startsWith('/api/'))return json({status:'error',code:'not_found',message:'API route not found.'},404);
    if(path==='/api/capabilities'){
     if(db)await first(db,'SELECT id FROM users LIMIT 1');
-    auth=await identity(request,db,env,now);return ok({...caps(db,auth.mode,auth.session,env),authMode:auth.mode,reminderDelivery:options.schedulerActive?'local_process':env.SCHEDULER_ACTIVE==='true'?'configured_runner':'not_configured'});
+    auth=await identity(request,db,env,now);return ok({...caps(db,auth.mode,auth.session,env,auth.credentialAuth),authMode:auth.mode,reminderDelivery:options.schedulerActive?'local_process':env.SCHEDULER_ACTIVE==='true'?'configured_runner':'not_configured'});
    }
    if(request.method==='GET'&&(path==='/api/recruitment/catalog'||path==='/api/recruitment/notices'||/^\/api\/recruitment\/notices\/[^/]+$/.test(path)))return await handleRecruitmentApi({request,url,path,db,now,env,options:recruitmentOptions});
    if(!db)fail(503,'database_unavailable','Candidate services require a configured persistent database. Public research remains available.');
-   auth=await identity(request,db,env,now);const session=auth.session,capabilities=caps(db,auth.mode,session,env);
+   auth=await identity(request,db,env,now);const session=auth.session,capabilities=caps(db,auth.mode,session,env,auth.credentialAuth);
    if(path==='/api/session'&&request.method==='GET'){
     if(session)await ensureUser(db,session,now);
-    const headers={};if(session&&auth.mode==='sites'&&!session.csrfToken){session.csrfToken=Array.from(crypto.getRandomValues(new Uint8Array(32)),b=>b.toString(16).padStart(2,'0')).join('');headers['set-cookie']='gate_csrf='+session.csrfToken+'; Path=/; HttpOnly; SameSite=Strict; Secure';}
+    const headers={};if(session&&['sites','sites_credentials'].includes(auth.mode)&&session.user.authProvider==='chatgpt'&&!session.csrfToken){session.csrfToken=Array.from(crypto.getRandomValues(new Uint8Array(32)),b=>b.toString(16).padStart(2,'0')).join('');headers['set-cookie']='gate_csrf='+session.csrfToken+'; Path=/; HttpOnly; SameSite=Strict; Secure';}
     return ok({status:session?'authenticated':auth.mode==='unavailable'?'unavailable':'anonymous',user:session?.user||null,csrfToken:session?.csrfToken||null,authMode:auth.mode,capabilities},200,headers);
    }
    if(path==='/api/dev/register'||path==='/api/dev/login'){
@@ -96,7 +108,7 @@ export function createApi(options={}){
     const result=await options.localAuth[path.endsWith('register')?'register':'login'](await bodyJson(request),now,url.protocol==='https:');return ok(result.data,path.endsWith('register')?201:200,{'set-cookie':result.cookie});
    }
    if(path==='/api/auth/register'||path==='/api/auth/login'){
-    if(auth.mode!=='credentials'||!options.credentialAuth)fail(404,'not_found','API route not found.');
+    if(!['credentials','sites_credentials'].includes(auth.mode)||!auth.credentialAuth)fail(404,'not_found','API route not found.');
     if(request.method!=='POST')fail(405,'method_not_allowed','Use POST.');
     sameOrigin(request);
     const registration=path.endsWith('register'),windowMs=15*60000;
@@ -105,15 +117,15 @@ export function createApi(options={}){
     limitCredentials('global',300,windowMs,now);
     if(registration)limitCredentials('registrations',50,windowMs,now);
     const input=await bodyJson(request);
-    limitCredentials('account:'+options.credentialAuth.accountRateLimitKey(input),20,windowMs,now);
-    const result=await options.credentialAuth[registration?'register':'login'](input,now);
-    return ok(result.data,path.endsWith('register')?201:200,{'set-cookie':result.cookie});
+    limitCredentials('account:'+auth.credentialAuth.accountRateLimitKey(input),20,windowMs,now);
+    const result=await auth.credentialAuth[registration?'register':'login'](input,now);
+    return credentialResponse(result,path.endsWith('register')?201:200);
    }
    if(path==='/api/auth/logout'&&request.method==='POST'){
-    if(auth.mode!=='credentials'||!options.credentialAuth)fail(404,'not_found','API route not found.');
+    if(!['credentials','sites_credentials'].includes(auth.mode)||!auth.credentialAuth)fail(404,'not_found','API route not found.');
     sameOrigin(request);
     if(session&&(!session.csrfToken||request.headers.get('x-csrf-token')!==session.csrfToken))fail(403,'csrf_failed','Reload the session before signing out.');
-    const result=await options.credentialAuth.logout(request);return ok(result.data,200,{'set-cookie':result.cookie});
+    const result=await auth.credentialAuth.logout(request);return credentialResponse(result);
    }
    const publicRead=request.method==='GET'&&(path==='/api/forum'||/^\/api\/forum\/[^/]+\/replies$/.test(path));
    if(!session&&!publicRead)fail(auth.mode==='unavailable'?503:401,auth.mode==='unavailable'?'authentication_unavailable':'authentication_required',auth.mode==='unavailable'?'Authentication is not configured.':'Sign in to access your workspace.');

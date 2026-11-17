@@ -1,0 +1,130 @@
+{
+  "source": "gate-seat-map-2026-10-22",
+  "commit": "cde6f90500aeaf5561b6a3f08f045d456c8b809c",
+  "counts": {
+    "rawProgrammeRows": 843,
+    "aggregateRowsExcluded": 1,
+    "programmeGroups": 842,
+    "uniqueProgrammeCodes": 760,
+    "ccmtInstitutes": 84,
+    "qualifyingDegrees": 530,
+    "gatePapers": 30,
+    "categories": 10,
+    "roundRowsByYear": {
+      "2023": 6239,
+      "2024": 8155,
+      "2025": 9465,
+      "2026": 10574
+    },
+    "ccmtRoundRows": 34433,
+    "eligibilityPaperMappings": 3826,
+    "eligibilityDegreeMemberships": 74904,
+    "seatsIn2026Matrix": 13759,
+    "iitProgrammeYearRecords": 62,
+    "iitInstitutes": 18,
+    "otherProgrammeYearRecords": 16,
+    "otherInstitutes": 3,
+    "numericNonCcmtCategoryFigures": 393,
+    "officialSourceUrls": 35
+  },
+  "anomalies": [
+    {
+      "code": "source_reference_contains_homepage_and_prose",
+      "collection": "iit",
+      "recordIndex": 38,
+      "rawReference": "https://iitjammu.ac.in (M.Tech admissions page: 'Gate Score of last candidate offered seat after COAP rounds' / 'MTech Adm 2025 Cut off' PDFs)",
+      "url": "https://iitjammu.ac.in/",
+      "handling": "Retain the original reference and show the homepage only with an exact-document link missing warning."
+    },
+    {
+      "code": "source_reference_contains_homepage_and_prose",
+      "collection": "iit",
+      "recordIndex": 39,
+      "rawReference": "https://iitjammu.ac.in (M.Tech admissions page: 'Gate Score of last candidate offered seat after COAP rounds' / 'MTech Adm 2025 Cut off' PDFs)",
+      "url": "https://iitjammu.ac.in/",
+      "handling": "Retain the original reference and show the homepage only with an exact-document link missing warning."
+    },
+    {
+      "code": "upstream_source_uses_http",
+      "collection": "iit",
+      "recordIndex": 44,
+      "url": "http://iitmandi.ac.in/pdf/admissions/Annexure_B_Cutt_Off_Score_COAP_2026_27.pdf",
+      "handling": "Retain supplied URL; no silent HTTPS rewrite or document verification is claimed."
+    },
+    {
+      "code": "source_reference_contains_homepage_and_prose",
+      "collection": "iit",
+      "recordIndex": 55,
+      "rawReference": "https://home.iitd.ac.in (PG admissions shortlisting criteria 2026-27)",
+      "url": "https://home.iitd.ac.in/",
+      "handling": "Retain the original reference and show the homepage only with an exact-document link missing warning."
+    },
+    {
+      "code": "source_reference_contains_homepage_and_prose",
+      "collection": "iit",
+      "recordIndex": 56,
+      "rawReference": "https://home.iitd.ac.in (PG admissions shortlisting criteria 2026-27)",
+      "url": "https://home.iitd.ac.in/",
+      "handling": "Retain the original reference and show the homepage only with an exact-document link missing warning."
+    },
+    {
+      "code": "source_reference_contains_homepage_and_prose",
+      "collection": "iit",
+      "recordIndex": 57,
+      "rawReference": "https://home.iitd.ac.in (PG admissions shortlisting criteria 2026-27)",
+      "url": "https://home.iitd.ac.in/",
+      "handling": "Retain the original reference and show the homepage only with an exact-document link missing warning."
+    },
+    {
+      "code": "source_reference_contains_homepage_and_prose",
+      "collection": "iit",
+      "recordIndex": 58,
+      "rawReference": "https://home.iitd.ac.in (PG admissions shortlisting criteria 2026-27)",
+      "url": "https://home.iitd.ac.in/",
+      "handling": "Retain the original reference and show the homepage only with an exact-document link missing warning."
+    },
+    {
+      "code": "declared_join_count_differs_from_exported_round_rows",
+      "year": "2023",
+      "declaredJoined": 6319,
+      "declaredTotal": 7658,
+      "availableRoundRows": 6239,
+      "handling": "Preserve supplied data and metadata separately; do not claim the declared joined count was imported."
+    },
+    {
+      "code": "declared_join_count_differs_from_exported_round_rows",
+      "year": "2024",
+      "declaredJoined": 8178,
+      "declaredTotal": 9232,
+      "availableRoundRows": 8155,
+      "handling": "Preserve supplied data and metadata separately; do not claim the declared joined count was imported."
+    },
+    {
+      "code": "declared_join_count_differs_from_exported_round_rows",
+      "year": "2025",
+      "declaredJoined": 10328,
+      "declaredTotal": 10906,
+      "availableRoundRows": 9465,
+      "handling": "Preserve supplied data and metadata separately; do not claim the declared joined count was imported."
+    },
+    {
+      "code": "aggregate_row_is_not_a_programme",
+      "index": 842,
+      "institute": "",
+      "programme": "Total Seats",
+      "seats": {
+        "OPEN": 5424,
+        "OPEN-PwD": 283,
+        "EWS": 1291,
+        "EWS-PwD": 63,
+        "OBC-NCL": 3471,
+        "OBC-NCL-PwD": 159,
+        "SC": 1944,
+        "SC-PwD": 100,
+        "ST": 972,
+        "ST-PwD": 52
+      },
+      "handling": "Aggregate/blank-identity row retained in raw snapshot, excluded from programme and seat totals."
+    }
+  ]
+}

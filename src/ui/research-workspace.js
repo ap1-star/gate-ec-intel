@@ -5,6 +5,10 @@ const appearanceEngine=window.TerminalAppearance;
 const effectiveAppearance=()=>appearanceEngine?.getEffectiveTheme()||(theme==='light'?'porcelain':'obsidian');
 const appearancePreference=()=>appearanceEngine?.getPreference()||effectiveAppearance();
 const appearanceLabels={system:'System',obsidian:'Obsidian',porcelain:'Porcelain',glacier:'Glacier',volt:'Volt'};
+function loadNavigationSections(){
+ try{const value=JSON.parse(window.sessionStorage.getItem('gate-navigation-expanded')||'[]');return Array.isArray(value)?value.filter(id=>routeCatalog.visibleGroups(true).some(group=>group.id===id)):[];}catch{return [];}
+}
+function rememberNavigationSections(value){try{window.sessionStorage.setItem('gate-navigation-expanded',JSON.stringify(value));}catch{}}
 theme=effectiveAppearance();
 function appearanceShortcut(icon){
  const preference=appearancePreference();
@@ -41,7 +45,7 @@ const ResearchUI = (() => {
   const icon = name => '<span class="ui-icon" aria-hidden="true">' + (window.UI_ICONS[name] || '') + '</span>';
   const state = {
     collapsed: safeLoad('gate-ui-collapsed', false),
-    navOpen:Array.isArray(safeLoad('gate-ui-nav-sections',[]))?safeLoad('gate-ui-nav-sections',[]):[],
+    navOpen:loadNavigationSections(),navActiveSection:null,navClosedActive:null,
     seriesMode: 'leading',
     hiddenSeries: new Set(),
     settingsOpen: false,
@@ -79,19 +83,21 @@ const ResearchUI = (() => {
     return routeCatalog.find(view) || navigation[0];
   }
   function Sidebar() {
-    const group=activeGroup();
-    const row=item=>'<a href="#'+item.id+'" class="'+(group.id===item.id?'selected':'')+'" '+(group.id===item.id?'aria-current="page"':'')+' title="'+E(item.label)+'">'+icon(item.icon)+'<span>'+E(item.label)+'</span>'+(group.id===item.id?'<i class="nav-active-dot"></i>':'')+'</a>';
+    const group=activeGroup(),activeSection=routeCatalog.sectionFor(view)?.id;
+    if(state.navActiveSection!==activeSection){state.navActiveSection=activeSection;state.navClosedActive=null;}
+    const row=item=>'<a href="#'+item.id+'" class="'+(group.id===item.id?'selected':'')+'" '+(group.id===item.id?'aria-current="page"':'')+' title="'+E(item.label)+'"><span>'+E(item.label)+'</span>'+(group.id===item.id?'<i class="nav-active-dot" aria-hidden="true"></i>':'')+'</a>';
     const sections=routeCatalog.visibleGroups(window.TerminalFeatureSession?.user?.isOwner===true).map(section=>{
-      if(section.items.every(item=>item.status==='planned'))return '<details class="nav-planned-group" data-nav-section="'+section.id+'" '+(state.navOpen?.includes(section.id)?'open':'')+'><summary><span>'+E(section.label)+'</span><small>Planned</small>'+icon('chevron-down')+'</summary><div class="planned-items">'+section.items.map(item=>'<div class="planned-nav-item" aria-disabled="true" title="Planned integration · no active service">'+icon(item.icon)+'<span>'+E(item.label)+'</span><small>Later</small></div>').join('')+'</div></details>';
-      return '<section class="nav-section"><div class="nav-section-label">'+E(section.label)+'</div><nav class="primary-nav" aria-label="'+E(section.label)+' navigation">'+section.items.map(row).join('')+'</nav></section>';
+      const active=section.id===activeSection,open=state.navOpen.includes(section.id)||(active&&state.navClosedActive!==section.id);
+      return '<details class="nav-workspace-group'+(active?' is-current':'')+'" data-nav-section="'+section.id+'" '+(open?'open':'')+'><summary data-ui-action="nav-section" aria-controls="nav-children-'+section.id+'" title="'+E(section.label)+'">'+icon(section.icon)+'<span class="nav-workspace-label">'+E(section.label)+'</span><span class="nav-workspace-chevron" aria-hidden="true">'+icon('chevron-down')+'</span></summary><nav id="nav-children-'+section.id+'" class="primary-nav nav-workspace-children" aria-label="'+E(section.label)+' navigation">'+section.items.map(row).join('')+'</nav></details>';
     }).join('');
-    return C.AppSidebar({brandHtml:'<a href="#monitor" class="brand" aria-label="GATE EC overview"><span class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M6 27L17 7L29 27M11 19H24M23 11L29 7"/></svg></span><span class="brand-label">GATE EC<small>Research Terminal</small></span></a><button class="icon-button sidebar-toggle" data-ui-action="collapse" aria-label="'+(state.collapsed?'Expand':'Collapse')+' sidebar" aria-expanded="'+!state.collapsed+'">'+icon(state.collapsed?'panel-left-open':'panel-left-close')+'</button><button class="icon-button mobile-nav-close" data-ui-action="mobile-close" aria-label="Close navigation">'+icon('x')+'</button>',navigationHtml:sections,footerHtml:'<div class="dataset-card"><span class="dataset-overline"><i class="status-dot"></i> Research edition</span><strong>EC / 2019–2026</strong><span class="sidebar-data-note">520 questions. Traceable evidence.</span><a href="#evidence">Methods & source notes '+icon('arrow-up-right')+'</a></div>'});
+    return C.AppSidebar({brandHtml:'<a href="#monitor" class="brand" aria-label="GATE EC overview"><span class="brand-symbol" aria-hidden="true"><svg viewBox="0 0 36 36"><path d="M6 27L17 7L29 27M11 19H24M23 11L29 7"/></svg></span><span class="brand-label">GATE EC<small>Research Terminal</small></span></a><button class="icon-button sidebar-toggle" data-ui-action="collapse" aria-label="'+(state.collapsed?'Expand':'Collapse')+' sidebar" aria-expanded="'+!state.collapsed+'">'+icon(state.collapsed?'panel-left-open':'panel-left-close')+'</button><button class="icon-button mobile-nav-close" data-ui-action="mobile-close" aria-label="Close navigation">'+icon('x')+'</button>',navigationHtml:'<span class="nav-workspace-caption">Workspaces</span>'+sections,footerHtml:'<div class="dataset-card"><span class="dataset-overline"><i class="status-dot"></i> Research edition</span><strong>EC / 2019–2026</strong><span class="sidebar-data-note">520 questions. Traceable evidence.</span><a href="#evidence">Methods & source notes '+icon('arrow-up-right')+'</a></div>'});
   }
   function SourceBadge(label,type='circle-check') {return C.SourceBadge({label,iconName:type});}
   function WorkspaceHeader() {
     const group=activeGroup(),exportable=routeCatalog.canExport(view,!!responseData);
     const featureSession=window.TerminalFeatureSession;
-    const accountLink=featureSession?'<a class="workspace-account" href="#'+(featureSession.status==='authenticated'?'dashboard':'profile')+'" title="'+(featureSession.status==='authenticated'?'Your account workspace':'Account service status')+'">'+icon('layout-dashboard')+'<span>'+E(featureSession.status==='authenticated'?(featureSession.user.displayName||'My workspace'):'Account')+'</span></a>':'';
+    const signedIn=featureSession?.status==='authenticated',accountLabel=signedIn?(featureSession.user.displayName||'My workspace'):'Sign in';
+    const accountLink=featureSession?'<a class="workspace-account" href="#dashboard" title="'+(signedIn?'Your account workspace':'Sign in or create an account')+'" aria-label="'+E(signedIn?'Open your workspace: '+accountLabel:'Sign in or create an account')+'">'+icon(signedIn?'layout-dashboard':'arrow-right')+'<span>'+E(accountLabel)+'</span></a>':'';
     return C.WorkspaceHeader({startHtml:'<button class="icon-button mobile-menu" data-ui-action="mobile-nav" aria-label="Open navigation" aria-controls="appSidebar" aria-expanded="false">'+icon('menu')+'</button><div class="breadcrumbs"><span>'+E(group.label)+'</span>'+(group.routes.length>1?icon('chevron-right')+'<span class="current">'+E(names[view])+'</span>':'')+'</div>',actionsHtml:'<button class="search-trigger" data-ui-action="search" aria-label="Search research tools and questions">'+icon('search')+'<span>Search workspace</span><kbd>Ctrl K</kbd></button><span class="toolbar-dataset" title="Dataset '+E(R.version)+' · 520 records · eight papers"><i></i>EC corpus<span class="dataset-version">2019–26</span></span><span class="toolbar-divider"></span>'+appearanceShortcut(icon)+(exportable?'<div class="menu-anchor"><button class="button toolbar-export" data-ui-action="export-menu" aria-expanded="'+state.exportOpen+'">'+icon('download')+'<span>Export</span>'+icon('chevron-down')+'</button>'+(state.exportOpen?'<div class="popover-menu"><button data-ui-action="export-view">'+icon('download')+'Export current view</button><a href="#reports">'+icon('file-text')+'Reports & print</a></div>':'')+'</div>':'')+'<div class="menu-anchor"><button class="icon-button" data-ui-action="settings" aria-label="Workspace settings" aria-expanded="'+state.settingsOpen+'">'+icon('sliders-horizontal')+'</button>'+(state.settingsOpen?'<div class="popover-menu settings-menu"><span class="menu-label">Workspace</span><a href="#settings">'+icon('sliders-horizontal')+'Workspace preferences</a><button data-ui-action="context">'+icon('circle-help')+'Research context</button><button data-ui-action="save">'+icon('database')+'Save current view</button><button data-ui-action="restore">'+icon('rows-3')+'Restore saved view</button><button data-ui-action="share">'+icon('external-link')+'Copy scope link</button></div>':'')+'</div>'+accountLink});
   }
   function SegmentedControl(items,selected,attribute) {return C.SegmentedControl({items,selected,attribute});}
@@ -169,7 +175,7 @@ const ResearchUI = (() => {
   }
   function secondaryNavigation() {
     const group=activeGroup();
-    if(group.routes.includes('recruitment'))return '';
+    if(group.routes.includes('recruitment')||group.routes.includes('opportunities'))return '';
     if(group.routes.length<2)return '';
     return '<nav class="workspace-tabs" aria-label="'+group.label+' views">'+group.routes.map(id=>'<a href="#'+id+'" '+(id===view?'aria-current="page"':'')+'>'+E(names[id])+'</a>').join('')+'</nav>';
   }
@@ -195,7 +201,7 @@ function restoreResearchView(){
 }
 notes.settings='Appearance and saved research scope stay on this device. Candidate preferences and account records are managed separately.';
 notes.unavailable='This route has no active feature service in Part 1. Existing public research remains available.';
-routeFunctions.settings=()=>'<div class="settings-grid">'+appearanceSettings()+'<section class="panel settings-local"><div class="panel-head"><div><span class="aurora-section-label">Your research environment</span><h2>Local workspace</h2><p class="panel-description">Device preferences, separate from your candidate account.</p></div></div><div class="settings-rows"><div><span><strong>Research context</strong><small>Definitions, active scope and local notes.</small></span><button class="button" data-ui-action="context">'+(contextVisible?'Close context':'Open context')+'</button></div><div><span><strong>Saved research view</strong><small>Restore your saved filters and analytical settings.</small></span><button class="button" data-ui-action="restore">Restore view</button></div><div><span><strong>Candidate workspace</strong><small>Check actual availability of account-backed records.</small></span><a class="text-link" href="#profile">Account status</a></div></div></section><section class="panel settings-source"><div class="panel-head"><div><span class="aurora-section-label">Know the evidence</span><h2>Dataset & interpretation</h2></div></div><div class="panel-content"><p><strong>520</strong> records · <strong>8</strong> annual papers · <strong>10</strong> reviewed primary subjects</p><p class="muted">Dataset '+E(R.version)+'. Source review, open content flags and independent certification are tracked separately.</p><a class="text-link" href="#audit">Open data integrity '+ui.icon('arrow-up-right')+'</a><a class="text-link" href="#evidence">Read methodology '+ui.icon('arrow-up-right')+'</a></div></section></div>';
+routeFunctions.settings=()=>'<div class="settings-grid">'+appearanceSettings()+'<section class="panel settings-local"><div class="panel-head"><div><span class="aurora-section-label">Your research environment</span><h2>Local workspace</h2><p class="panel-description">Device preferences, separate from your candidate account.</p></div></div><div class="settings-rows"><div><span><strong>Research context</strong><small>Definitions, active scope and local notes.</small></span><button class="button" data-ui-action="context">'+(contextVisible?'Close context':'Open context')+'</button></div><div><span><strong>Saved research view</strong><small>Restore your saved filters and analytical settings.</small></span><button class="button" data-ui-action="restore">Restore view</button></div><div><span><strong>Candidate workspace</strong><small>Sign in to save preparation records and career preferences.</small></span><a class="text-link" href="#dashboard">'+(window.TerminalFeatureSession?.status==='authenticated'?'My workspace':'Sign in or create account')+'</a></div></div></section><section class="panel settings-source"><div class="panel-head"><div><span class="aurora-section-label">Know the evidence</span><h2>Dataset & interpretation</h2></div></div><div class="panel-content"><p><strong>520</strong> records · <strong>8</strong> annual papers · <strong>10</strong> reviewed primary subjects</p><p class="muted">Dataset '+E(R.version)+'. Source review, open content flags and independent certification are tracked separately.</p><a class="text-link" href="#audit">Open data integrity '+ui.icon('arrow-up-right')+'</a><a class="text-link" href="#evidence">Read methodology '+ui.icon('arrow-up-right')+'</a></div></section></div>';
 routeFunctions.unavailable=()=>{
  const resolved=ui.state.requested,planned=resolved?.status==='planned';
  const title=planned?resolved.entry.label+' is planned':'Workspace not found';
@@ -296,7 +302,7 @@ render = function() {
   if(!['monitor','explorer','subjects','topics','questions','lab','distributions','inference','responses','compare','difficulty','scenarios','audit','reports','evidence'].includes(view))document.querySelectorAll('[data-ui-action="save"],[data-ui-action="share"]').forEach(button=>button.hidden=true);
   document.querySelector('.page-top>div:first-child').innerHTML=C.PageHeader({title:ui.names[view],description:ui.descriptions[view],eyebrow:view==='monitor'?'GATE EC / Historical intelligence':ui.activeGroup().label});
   document.querySelector('.page-actions').hidden=true;
-  document.querySelector('.scope-bar').hidden=view.startsWith('recruitment')||['technical-exams','recruiters','inference','responses','evidence','settings','unavailable','rank','admissions','institutes','psu','dashboard','profile','planner','mocks','reminders','forum','admin'].includes(view);
+  document.querySelector('.scope-bar').hidden=view.startsWith('recruitment')||['opportunities','placements','companies','gate-reports','psu-evidence','bits-offers','career-sources','technical-exams','recruiters','inference','responses','evidence','settings','unavailable','rank','admissions','institutes','psu','dashboard','profile','planner','mocks','reminders','forum','admin'].includes(view);
   $('#content').innerHTML=ui.secondaryNavigation()+routeFunctions[view]();
   updateContext();
   hydratePanels();
@@ -349,6 +355,19 @@ document.addEventListener('click',event=>{
     switch(action.dataset.uiAction){
       case 'collapse':
         ui.state.collapsed=!ui.state.collapsed;safeSave('gate-ui-collapsed',ui.state.collapsed);render();focusAfterRender('[data-ui-action="collapse"]');break;
+      case 'nav-section':{
+        const section=action.closest('[data-nav-section]');if(!section)break;
+        const id=section.dataset.navSection,expanding=!section.open;
+        if(ui.state.collapsed&&!document.body.classList.contains('mobile-nav-open')){
+          event.preventDefault();ui.state.collapsed=false;safeSave('gate-ui-collapsed',false);
+          if(id===ui.state.navActiveSection)ui.state.navClosedActive=null;if(!ui.state.navOpen.includes(id))ui.state.navOpen.push(id);
+          rememberNavigationSections(ui.state.navOpen);render();focusAfterRender('[data-nav-section="'+id+'"]>summary');
+        }else{
+          if(id===ui.state.navActiveSection)ui.state.navClosedActive=expanding?null:id;
+          ui.state.navOpen=expanding?[...new Set([...ui.state.navOpen,id])]:ui.state.navOpen.filter(value=>value!==id);
+          rememberNavigationSections(ui.state.navOpen);
+        }
+      }break;
       case 'mobile-nav':
         setMobileNavigation(!document.body.classList.contains('mobile-nav-open'));break;
       case 'mobile-close': setMobileNavigation(false);break;
@@ -560,12 +579,6 @@ document.addEventListener('click',event=>{
  if(!event.target.closest('.appearance-anchor'))closeAppearanceMenu();
  if(event.target.closest('body>aside a'))setMobileNavigation(false);
 });
-document.addEventListener('toggle',event=>{
- if(event.target.matches?.('[data-nav-section]')){
-  ui.state.navOpen=[...document.querySelectorAll('[data-nav-section][open]')].map(node=>node.dataset.navSection);
-  safeSave('gate-ui-nav-sections',ui.state.navOpen);
- }
-},true);
 window.addEventListener('keydown',event=>{
  if(event.key==='Tab'&&document.body.classList.contains('mobile-nav-open')){
   const controls=[...document.querySelectorAll('body>aside a,body>aside button,body>aside summary')].filter(node=>node.getClientRects().length);

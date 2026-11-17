@@ -1,0 +1,21 @@
+{
+  "source": "Score Line",
+  "acquiredAt": "2026-11-16T14:02:34.131Z",
+  "generatedAt": "2026-11-17T15:01:26.771Z",
+  "counts": {
+    "placements": 11391,
+    "companies": 19516,
+    "gateReports": 178,
+    "psuRecords": 3644,
+    "bitsOffers": 213,
+    "sources": 3156,
+    "excludedViewerComments": 136
+  },
+  "bytes": 33785086,
+  "sha256": "1a06049defbfe8c067530a54bd03f7dbb5a3955ef9553daca4c8b7a7c58f2043",
+  "checks": "Passed row counts, dictionary references (acquisition validation), null/zero preservation, unit separation, document group IDs and excluded comment author fields.",
+  "limitations": [
+    "Imported public structured data is an upstream snapshot, not independent verification of every source.",
+    "Source document files are linked, not bulk-downloaded."
+  ]
+}

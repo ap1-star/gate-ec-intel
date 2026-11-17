@@ -27,7 +27,7 @@ test('rank to admissions to exact institute evidence preserves compatible inputs
  const result=predictRank({marks:55,year:2025,category:'GEN'});
  assert.match(app.feature.renderers.rank(),/>550<\/strong>/);
  assert.equal(app.feature.handleClick(click({'data-career-admission-link':''})),true);
- assert.deepEqual(app.navigation,{route:'admissions',values:{rank:result.rank,score:result.score,category:'GEN',year:2025,scoreBasis:'model_approximation',metric:'gate_score'}});
+ assert.deepEqual(app.navigation,{route:'opportunities',values:{rank:result.rank,score:result.score,category:'GEN',year:2025,scoreBasis:'model_approximation',metric:'gate_score'}});
  const admission=app.feature.renderers.admissions();
  assert.match(admission,/forwarded score is a donor-model approximation/);
  const record=PROGRAMME_RECORDS.find(row=>row.institute==='iisc'&&row.year===2025&&row.category==='GEN'&&row.cutoff!==null);
@@ -48,7 +48,7 @@ test('rank to admissions to exact institute evidence preserves compatible inputs
 test('rank to PSU forwards model score without confusing exam year with recruitment year',()=>{
  const app=workspace('marks=55&year=2025&category=SC');app.feature.renderers.rank();
  assert.equal(app.feature.handleClick(click({'data-career-psu-link':''})),true);
- assert.deepEqual(app.navigation,{route:'psu',values:{score:702,category:'SC',scoreBasis:'model_approximation'}});
+ assert.deepEqual(app.navigation,{route:'psu-evidence',values:{score:702,category:'SC',scoreBasis:'model_approximation'}});
  const html=app.feature.renderers.psu();
  assert.match(html,/name="value"[^>]*value="702"/);assert.match(html,/forwarded GATE score is a model approximation/);
  assert.match(html,/value="all" selected>All years/);assert.match(html,/Different metric; comparison not made/);

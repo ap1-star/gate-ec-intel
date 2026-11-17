@@ -1,0 +1,27 @@
+# yaml-language-server: $schema=https://render.com/schema/render.yaml.json
+# Full application: paid web service + persistent SQLite disk.
+# Review the service and disk cost in Render before applying this Blueprint.
+services:
+  - type: web
+    name: gate-ec-intel
+    runtime: docker
+    plan: 0.5c-512mb
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    numInstances: 1
+    autoDeployTrigger: commit
+    healthCheckPath: /healthz
+    maxShutdownDelaySeconds: 40
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SQLITE_PATH
+        value: /data/workspace.sqlite
+      - key: RUN_SCHEDULER
+        value: "true"
+      - key: SCHEDULER_INTERVAL_MS
+        value: "60000"
+    disk:
+      name: gate-ec-workspace-data
+      mountPath: /data
+      sizeGB: 1

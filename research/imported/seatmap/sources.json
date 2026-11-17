@@ -1,0 +1,665 @@
+{
+  "officialSources": [
+    "http://iitmandi.ac.in/pdf/admissions/Annexure_B_Cutt_Off_Score_COAP_2026_27.pdf",
+    "https://acad.iitb.ac.in/sites/default/files/Minimum%20Qual-Cutoff-GATE2025_1.pdf",
+    "https://acad.iitb.ac.in/sites/default/files/Minimum%20Qual-Cutoff-GATE2026.pdf",
+    "https://academic.iitg.ac.in/acad/Notice/COAP_IITG_2025.pdf",
+    "https://academic.iiti.ac.in/Admission/2025/2025-IIT%20Indore%20GATE%20Cut%20Offs%20during%20COAP%20Rounds%20for%20MTMS.pdf",
+    "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE%20cut%20off%2024-25.pdf",
+    "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE_cut_off_Round_10.pdf",
+    "https://ccmt.admissions.nic.in/",
+    "https://gateoffice.iitkgp.ac.in/jmp/d/docs/JMP2025_cutoff.pdf",
+    "https://gateoffice.iitkgp.ac.in/jmp/d/docs/JMP2026_Cutoff.pdf",
+    "https://home.iitd.ac.in/",
+    "https://iiitb.ac.in/academics/masters-programmes/mtech-artificial-intelligence-and-data-science",
+    "https://iiitb.ac.in/courses/mtech-cse-admissions",
+    "https://iiitb.ac.in/courses/mtech-ece-admissions",
+    "https://iiitd.ac.in/admission/mtech/2025",
+    "https://iiitd.ac.in/admission/mtech/2026",
+    "https://iisc.ac.in/wp-content/uploads/2025/03/Cut-off-Report-M.Tech-M.Des-2025.pdf",
+    "https://iitgn.ac.in/assets/pdfs/GATE_coap_cutoff.pdf",
+    "https://iitgoa.ac.in/wp-content/uploads/GATE-Cut-off.pdf",
+    "https://iith.ac.in/assets/files/others/COAP-Round-wise-GATE-data.pdf",
+    "https://iitjammu.ac.in/",
+    "https://iitrpr.ac.in/admission/mtech",
+    "https://mtechadm.iitm.ac.in/pdfs/M.Tech.2024_Cutoff.pdf",
+    "https://mtechadm.iitm.ac.in/pdfs/M.Tech.2025_Cutoff.pdf",
+    "https://mtechadm.iitm.ac.in/pdfs/M.Tech.2026_Cutoff.pdf",
+    "https://pgadmit.iitpkd.ac.in/mtech-cut",
+    "https://web.iitd.ac.in/~nbalaji/mtech/MTech-shortlisting-2026.pdf",
+    "https://www.cse.iitb.ac.in/admissions/pg/mtech",
+    "https://www.cse.iitd.ac.in/~rjaiswal/mtech/2025/MTech-shortlisting-2025.pdf",
+    "https://www.iisc.ac.in/wp-content/uploads/2026/04/MTech_MDes_cutoff_2026.pdf",
+    "https://www.iitbbs.ac.in/wp-content/uploads/2025/11/GATE-score-of-last-admitted-candidate_2025-26.pdf",
+    "https://www.iitbhu.ac.in/contents/institute/admin/doc/mtech_admission_through_coap25_gate_cuttoff_scores.pdf",
+    "https://www.iitdh.ac.in/admission-cutoff-history",
+    "https://www.iitj.ac.in/PageImages/Gallery/09-2025/Round-wise-GATE-Cutoff-COAP-2025-638929382412789540.pdf",
+    "https://www.minds.iitb.ac.in/admissions/brochure-ms.pdf"
+  ],
+  "sourceReferences": [
+    {
+      "collection": "iit",
+      "recordIndex": 0,
+      "institution": "IIT Bombay",
+      "rawReference": "https://acad.iitb.ac.in/sites/default/files/Minimum%20Qual-Cutoff-GATE2026.pdf",
+      "url": "https://acad.iitb.ac.in/sites/default/files/Minimum%20Qual-Cutoff-GATE2026.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 1,
+      "institution": "IIT Bombay",
+      "rawReference": "https://acad.iitb.ac.in/sites/default/files/Minimum%20Qual-Cutoff-GATE2025_1.pdf",
+      "url": "https://acad.iitb.ac.in/sites/default/files/Minimum%20Qual-Cutoff-GATE2025_1.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 2,
+      "institution": "IIT Bombay",
+      "rawReference": "https://www.cse.iitb.ac.in/admissions/pg/mtech",
+      "url": "https://www.cse.iitb.ac.in/admissions/pg/mtech",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 3,
+      "institution": "IIT Bombay",
+      "rawReference": "https://www.cse.iitb.ac.in/admissions/pg/mtech",
+      "url": "https://www.cse.iitb.ac.in/admissions/pg/mtech",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 4,
+      "institution": "IIT Bombay",
+      "rawReference": "https://www.minds.iitb.ac.in/admissions/brochure-ms.pdf",
+      "url": "https://www.minds.iitb.ac.in/admissions/brochure-ms.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 5,
+      "institution": "IIT Bombay",
+      "rawReference": "https://www.minds.iitb.ac.in/admissions/brochure-ms.pdf",
+      "url": "https://www.minds.iitb.ac.in/admissions/brochure-ms.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 6,
+      "institution": "IIT Madras",
+      "rawReference": "https://mtechadm.iitm.ac.in/pdfs/M.Tech.2026_Cutoff.pdf",
+      "url": "https://mtechadm.iitm.ac.in/pdfs/M.Tech.2026_Cutoff.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 7,
+      "institution": "IIT Madras",
+      "rawReference": "https://mtechadm.iitm.ac.in/pdfs/M.Tech.2025_Cutoff.pdf",
+      "url": "https://mtechadm.iitm.ac.in/pdfs/M.Tech.2025_Cutoff.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 8,
+      "institution": "IIT Madras",
+      "rawReference": "https://mtechadm.iitm.ac.in/pdfs/M.Tech.2024_Cutoff.pdf",
+      "url": "https://mtechadm.iitm.ac.in/pdfs/M.Tech.2024_Cutoff.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 9,
+      "institution": "IIT Madras",
+      "rawReference": "https://mtechadm.iitm.ac.in/pdfs/M.Tech.2026_Cutoff.pdf",
+      "url": "https://mtechadm.iitm.ac.in/pdfs/M.Tech.2026_Cutoff.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 10,
+      "institution": "IIT Madras",
+      "rawReference": "https://mtechadm.iitm.ac.in/pdfs/M.Tech.2025_Cutoff.pdf",
+      "url": "https://mtechadm.iitm.ac.in/pdfs/M.Tech.2025_Cutoff.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 11,
+      "institution": "IIT Madras",
+      "rawReference": "https://mtechadm.iitm.ac.in/pdfs/M.Tech.2024_Cutoff.pdf",
+      "url": "https://mtechadm.iitm.ac.in/pdfs/M.Tech.2024_Cutoff.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 12,
+      "institution": "IIT Bhubaneswar",
+      "rawReference": "https://www.iitbbs.ac.in/wp-content/uploads/2025/11/GATE-score-of-last-admitted-candidate_2025-26.pdf",
+      "url": "https://www.iitbbs.ac.in/wp-content/uploads/2025/11/GATE-score-of-last-admitted-candidate_2025-26.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 13,
+      "institution": "IIT Bhubaneswar",
+      "rawReference": "https://www.iitbbs.ac.in/wp-content/uploads/2025/11/GATE-score-of-last-admitted-candidate_2025-26.pdf",
+      "url": "https://www.iitbbs.ac.in/wp-content/uploads/2025/11/GATE-score-of-last-admitted-candidate_2025-26.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 14,
+      "institution": "IIT Bhubaneswar",
+      "rawReference": "https://www.iitbbs.ac.in/wp-content/uploads/2025/11/GATE-score-of-last-admitted-candidate_2025-26.pdf",
+      "url": "https://www.iitbbs.ac.in/wp-content/uploads/2025/11/GATE-score-of-last-admitted-candidate_2025-26.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 15,
+      "institution": "IIT (BHU) Varanasi",
+      "rawReference": "https://www.iitbhu.ac.in/contents/institute/admin/doc/mtech_admission_through_coap25_gate_cuttoff_scores.pdf",
+      "url": "https://www.iitbhu.ac.in/contents/institute/admin/doc/mtech_admission_through_coap25_gate_cuttoff_scores.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 16,
+      "institution": "IIT (BHU) Varanasi",
+      "rawReference": "https://www.iitbhu.ac.in/contents/institute/admin/doc/mtech_admission_through_coap25_gate_cuttoff_scores.pdf",
+      "url": "https://www.iitbhu.ac.in/contents/institute/admin/doc/mtech_admission_through_coap25_gate_cuttoff_scores.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 17,
+      "institution": "IIT Dharwad",
+      "rawReference": "https://www.iitdh.ac.in/admission-cutoff-history",
+      "url": "https://www.iitdh.ac.in/admission-cutoff-history",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 18,
+      "institution": "IIT Dharwad",
+      "rawReference": "https://www.iitdh.ac.in/admission-cutoff-history",
+      "url": "https://www.iitdh.ac.in/admission-cutoff-history",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 19,
+      "institution": "IIT Gandhinagar",
+      "rawReference": "https://iitgn.ac.in/assets/pdfs/GATE_coap_cutoff.pdf",
+      "url": "https://iitgn.ac.in/assets/pdfs/GATE_coap_cutoff.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 20,
+      "institution": "IIT Gandhinagar",
+      "rawReference": "https://iitgn.ac.in/assets/pdfs/GATE_coap_cutoff.pdf",
+      "url": "https://iitgn.ac.in/assets/pdfs/GATE_coap_cutoff.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 21,
+      "institution": "IIT Goa",
+      "rawReference": "https://iitgoa.ac.in/wp-content/uploads/GATE-Cut-off.pdf",
+      "url": "https://iitgoa.ac.in/wp-content/uploads/GATE-Cut-off.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 22,
+      "institution": "IIT Hyderabad",
+      "rawReference": "https://iith.ac.in/assets/files/others/COAP-Round-wise-GATE-data.pdf",
+      "url": "https://iith.ac.in/assets/files/others/COAP-Round-wise-GATE-data.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 23,
+      "institution": "IIT Hyderabad",
+      "rawReference": "https://iith.ac.in/assets/files/others/COAP-Round-wise-GATE-data.pdf",
+      "url": "https://iith.ac.in/assets/files/others/COAP-Round-wise-GATE-data.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 24,
+      "institution": "IIT Hyderabad",
+      "rawReference": "https://iith.ac.in/assets/files/others/COAP-Round-wise-GATE-data.pdf",
+      "url": "https://iith.ac.in/assets/files/others/COAP-Round-wise-GATE-data.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 25,
+      "institution": "IIT Indore",
+      "rawReference": "https://academic.iiti.ac.in/Admission/2025/2025-IIT%20Indore%20GATE%20Cut%20Offs%20during%20COAP%20Rounds%20for%20MTMS.pdf",
+      "url": "https://academic.iiti.ac.in/Admission/2025/2025-IIT%20Indore%20GATE%20Cut%20Offs%20during%20COAP%20Rounds%20for%20MTMS.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 26,
+      "institution": "IIT Indore",
+      "rawReference": "https://academic.iiti.ac.in/Admission/2025/2025-IIT%20Indore%20GATE%20Cut%20Offs%20during%20COAP%20Rounds%20for%20MTMS.pdf",
+      "url": "https://academic.iiti.ac.in/Admission/2025/2025-IIT%20Indore%20GATE%20Cut%20Offs%20during%20COAP%20Rounds%20for%20MTMS.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 27,
+      "institution": "IIT (ISM) Dhanbad",
+      "rawReference": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE_cut_off_Round_10.pdf",
+      "url": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE_cut_off_Round_10.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 28,
+      "institution": "IIT (ISM) Dhanbad",
+      "rawReference": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE_cut_off_Round_10.pdf",
+      "url": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE_cut_off_Round_10.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 29,
+      "institution": "IIT (ISM) Dhanbad",
+      "rawReference": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE_cut_off_Round_10.pdf",
+      "url": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE_cut_off_Round_10.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 30,
+      "institution": "IIT (ISM) Dhanbad",
+      "rawReference": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE_cut_off_Round_10.pdf",
+      "url": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE_cut_off_Round_10.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 31,
+      "institution": "IIT (ISM) Dhanbad",
+      "rawReference": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE_cut_off_Round_10.pdf",
+      "url": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE_cut_off_Round_10.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 32,
+      "institution": "IIT (ISM) Dhanbad",
+      "rawReference": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE_cut_off_Round_10.pdf",
+      "url": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE_cut_off_Round_10.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 33,
+      "institution": "IIT (ISM) Dhanbad",
+      "rawReference": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE%20cut%20off%2024-25.pdf",
+      "url": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE%20cut%20off%2024-25.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 34,
+      "institution": "IIT (ISM) Dhanbad",
+      "rawReference": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE%20cut%20off%2024-25.pdf",
+      "url": "https://admissions.iitism.ac.in/mtech/assets/admission/brochure/GATE%20cut%20off%2024-25.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 35,
+      "institution": "IIT Jodhpur",
+      "rawReference": "https://www.iitj.ac.in/PageImages/Gallery/09-2025/Round-wise-GATE-Cutoff-COAP-2025-638929382412789540.pdf",
+      "url": "https://www.iitj.ac.in/PageImages/Gallery/09-2025/Round-wise-GATE-Cutoff-COAP-2025-638929382412789540.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 36,
+      "institution": "IIT Jodhpur",
+      "rawReference": "https://www.iitj.ac.in/PageImages/Gallery/09-2025/Round-wise-GATE-Cutoff-COAP-2025-638929382412789540.pdf",
+      "url": "https://www.iitj.ac.in/PageImages/Gallery/09-2025/Round-wise-GATE-Cutoff-COAP-2025-638929382412789540.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 37,
+      "institution": "IIT Jodhpur",
+      "rawReference": "https://www.iitj.ac.in/PageImages/Gallery/09-2025/Round-wise-GATE-Cutoff-COAP-2025-638929382412789540.pdf",
+      "url": "https://www.iitj.ac.in/PageImages/Gallery/09-2025/Round-wise-GATE-Cutoff-COAP-2025-638929382412789540.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 38,
+      "institution": "IIT Jammu",
+      "rawReference": "https://iitjammu.ac.in (M.Tech admissions page: 'Gate Score of last candidate offered seat after COAP rounds' / 'MTech Adm 2025 Cut off' PDFs)",
+      "url": "https://iitjammu.ac.in/",
+      "status": "homepage_with_unresolved_document_note"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 39,
+      "institution": "IIT Jammu",
+      "rawReference": "https://iitjammu.ac.in (M.Tech admissions page: 'Gate Score of last candidate offered seat after COAP rounds' / 'MTech Adm 2025 Cut off' PDFs)",
+      "url": "https://iitjammu.ac.in/",
+      "status": "homepage_with_unresolved_document_note"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 40,
+      "institution": "IIT Kharagpur",
+      "rawReference": "https://gateoffice.iitkgp.ac.in/jmp/d/docs/JMP2026_Cutoff.pdf",
+      "url": "https://gateoffice.iitkgp.ac.in/jmp/d/docs/JMP2026_Cutoff.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 41,
+      "institution": "IIT Kharagpur",
+      "rawReference": "https://gateoffice.iitkgp.ac.in/jmp/d/docs/JMP2026_Cutoff.pdf",
+      "url": "https://gateoffice.iitkgp.ac.in/jmp/d/docs/JMP2026_Cutoff.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 42,
+      "institution": "IIT Kharagpur",
+      "rawReference": "https://gateoffice.iitkgp.ac.in/jmp/d/docs/JMP2025_cutoff.pdf",
+      "url": "https://gateoffice.iitkgp.ac.in/jmp/d/docs/JMP2025_cutoff.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 43,
+      "institution": "IIT Kharagpur",
+      "rawReference": "https://gateoffice.iitkgp.ac.in/jmp/d/docs/JMP2025_cutoff.pdf",
+      "url": "https://gateoffice.iitkgp.ac.in/jmp/d/docs/JMP2025_cutoff.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 44,
+      "institution": "IIT Mandi",
+      "rawReference": "http://iitmandi.ac.in/pdf/admissions/Annexure_B_Cutt_Off_Score_COAP_2026_27.pdf",
+      "url": "http://iitmandi.ac.in/pdf/admissions/Annexure_B_Cutt_Off_Score_COAP_2026_27.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 45,
+      "institution": "IIT Palakkad",
+      "rawReference": "https://pgadmit.iitpkd.ac.in/mtech-cut",
+      "url": "https://pgadmit.iitpkd.ac.in/mtech-cut",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 46,
+      "institution": "IIT Palakkad",
+      "rawReference": "https://pgadmit.iitpkd.ac.in/mtech-cut",
+      "url": "https://pgadmit.iitpkd.ac.in/mtech-cut",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 47,
+      "institution": "IIT Palakkad",
+      "rawReference": "https://pgadmit.iitpkd.ac.in/mtech-cut",
+      "url": "https://pgadmit.iitpkd.ac.in/mtech-cut",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 48,
+      "institution": "IIT Palakkad",
+      "rawReference": "https://pgadmit.iitpkd.ac.in/mtech-cut",
+      "url": "https://pgadmit.iitpkd.ac.in/mtech-cut",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 49,
+      "institution": "IIT Palakkad",
+      "rawReference": "https://pgadmit.iitpkd.ac.in/mtech-cut",
+      "url": "https://pgadmit.iitpkd.ac.in/mtech-cut",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 50,
+      "institution": "IIT Palakkad",
+      "rawReference": "https://pgadmit.iitpkd.ac.in/mtech-cut",
+      "url": "https://pgadmit.iitpkd.ac.in/mtech-cut",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 51,
+      "institution": "IIT Ropar",
+      "rawReference": "https://iitrpr.ac.in/admission/mtech",
+      "url": "https://iitrpr.ac.in/admission/mtech",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 52,
+      "institution": "IIT Ropar",
+      "rawReference": "https://iitrpr.ac.in/admission/mtech",
+      "url": "https://iitrpr.ac.in/admission/mtech",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 53,
+      "institution": "IIT Delhi",
+      "rawReference": "https://web.iitd.ac.in/~nbalaji/mtech/MTech-shortlisting-2026.pdf",
+      "url": "https://web.iitd.ac.in/~nbalaji/mtech/MTech-shortlisting-2026.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 54,
+      "institution": "IIT Delhi",
+      "rawReference": "https://www.cse.iitd.ac.in/~rjaiswal/mtech/2025/MTech-shortlisting-2025.pdf",
+      "url": "https://www.cse.iitd.ac.in/~rjaiswal/mtech/2025/MTech-shortlisting-2025.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 55,
+      "institution": "IIT Delhi",
+      "rawReference": "https://home.iitd.ac.in (PG admissions shortlisting criteria 2026-27)",
+      "url": "https://home.iitd.ac.in/",
+      "status": "homepage_with_unresolved_document_note"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 56,
+      "institution": "IIT Delhi",
+      "rawReference": "https://home.iitd.ac.in (PG admissions shortlisting criteria 2026-27)",
+      "url": "https://home.iitd.ac.in/",
+      "status": "homepage_with_unresolved_document_note"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 57,
+      "institution": "IIT Delhi",
+      "rawReference": "https://home.iitd.ac.in (PG admissions shortlisting criteria 2026-27)",
+      "url": "https://home.iitd.ac.in/",
+      "status": "homepage_with_unresolved_document_note"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 58,
+      "institution": "IIT Delhi",
+      "rawReference": "https://home.iitd.ac.in (PG admissions shortlisting criteria 2026-27)",
+      "url": "https://home.iitd.ac.in/",
+      "status": "homepage_with_unresolved_document_note"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 59,
+      "institution": "IIT Guwahati",
+      "rawReference": "https://academic.iitg.ac.in/acad/Notice/COAP_IITG_2025.pdf",
+      "url": "https://academic.iitg.ac.in/acad/Notice/COAP_IITG_2025.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 60,
+      "institution": "IIT Guwahati",
+      "rawReference": "https://academic.iitg.ac.in/acad/Notice/COAP_IITG_2025.pdf",
+      "url": "https://academic.iitg.ac.in/acad/Notice/COAP_IITG_2025.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "iit",
+      "recordIndex": 61,
+      "institution": "IIT Guwahati",
+      "rawReference": "https://academic.iitg.ac.in/acad/Notice/COAP_IITG_2025.pdf",
+      "url": "https://academic.iitg.ac.in/acad/Notice/COAP_IITG_2025.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 0,
+      "institution": "IISc Bangalore",
+      "rawReference": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MTech_MDes_cutoff_2026.pdf",
+      "url": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MTech_MDes_cutoff_2026.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 1,
+      "institution": "IISc Bangalore",
+      "rawReference": "https://iisc.ac.in/wp-content/uploads/2025/03/Cut-off-Report-M.Tech-M.Des-2025.pdf",
+      "url": "https://iisc.ac.in/wp-content/uploads/2025/03/Cut-off-Report-M.Tech-M.Des-2025.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 2,
+      "institution": "IISc Bangalore",
+      "rawReference": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MTech_MDes_cutoff_2026.pdf",
+      "url": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MTech_MDes_cutoff_2026.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 3,
+      "institution": "IISc Bangalore",
+      "rawReference": "https://iisc.ac.in/wp-content/uploads/2025/03/Cut-off-Report-M.Tech-M.Des-2025.pdf",
+      "url": "https://iisc.ac.in/wp-content/uploads/2025/03/Cut-off-Report-M.Tech-M.Des-2025.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 4,
+      "institution": "IISc Bangalore",
+      "rawReference": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MTech_MDes_cutoff_2026.pdf",
+      "url": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MTech_MDes_cutoff_2026.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 5,
+      "institution": "IISc Bangalore",
+      "rawReference": "https://iisc.ac.in/wp-content/uploads/2025/03/Cut-off-Report-M.Tech-M.Des-2025.pdf",
+      "url": "https://iisc.ac.in/wp-content/uploads/2025/03/Cut-off-Report-M.Tech-M.Des-2025.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 6,
+      "institution": "IISc Bangalore",
+      "rawReference": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MTech_MDes_cutoff_2026.pdf",
+      "url": "https://www.iisc.ac.in/wp-content/uploads/2026/04/MTech_MDes_cutoff_2026.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 7,
+      "institution": "IISc Bangalore",
+      "rawReference": "https://iisc.ac.in/wp-content/uploads/2025/03/Cut-off-Report-M.Tech-M.Des-2025.pdf",
+      "url": "https://iisc.ac.in/wp-content/uploads/2025/03/Cut-off-Report-M.Tech-M.Des-2025.pdf",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 8,
+      "institution": "IIIT Bangalore",
+      "rawReference": "https://iiitb.ac.in/courses/mtech-cse-admissions",
+      "url": "https://iiitb.ac.in/courses/mtech-cse-admissions",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 9,
+      "institution": "IIIT Bangalore",
+      "rawReference": "https://iiitb.ac.in/courses/mtech-cse-admissions",
+      "url": "https://iiitb.ac.in/courses/mtech-cse-admissions",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 10,
+      "institution": "IIIT Bangalore",
+      "rawReference": "https://iiitb.ac.in/courses/mtech-cse-admissions",
+      "url": "https://iiitb.ac.in/courses/mtech-cse-admissions",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 11,
+      "institution": "IIIT Bangalore",
+      "rawReference": "https://iiitb.ac.in/academics/masters-programmes/mtech-artificial-intelligence-and-data-science",
+      "url": "https://iiitb.ac.in/academics/masters-programmes/mtech-artificial-intelligence-and-data-science",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 12,
+      "institution": "IIIT Bangalore",
+      "rawReference": "https://iiitb.ac.in/courses/mtech-ece-admissions",
+      "url": "https://iiitb.ac.in/courses/mtech-ece-admissions",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 13,
+      "institution": "IIIT Bangalore",
+      "rawReference": "https://iiitb.ac.in/courses/mtech-ece-admissions",
+      "url": "https://iiitb.ac.in/courses/mtech-ece-admissions",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 14,
+      "institution": "IIIT Delhi",
+      "rawReference": "https://iiitd.ac.in/admission/mtech/2026",
+      "url": "https://iiitd.ac.in/admission/mtech/2026",
+      "status": "supplied_document_or_page_url"
+    },
+    {
+      "collection": "other",
+      "recordIndex": 15,
+      "institution": "IIIT Delhi",
+      "rawReference": "https://iiitd.ac.in/admission/mtech/2025",
+      "url": "https://iiitd.ac.in/admission/mtech/2025",
+      "status": "supplied_document_or_page_url"
+    }
+  ]
+}

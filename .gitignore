@@ -2,6 +2,15 @@ node_modules/
 .env
 .env.*
 !.env.example
+*.session-secret
+research/imported/scoreline/raw/_next/
+research/imported/scoreline/raw/**/index.html
+research/imported/scoreline/normalized-evidence.json
+research/imported/seatmap/normalized.json
+research/imported/seatmap/index.html
+dist/career-atlas-opportunities.json
+public/career-atlas-opportunities.json
+research/imported/scoreline/raw/data/youtube.json
 !.env.server.example
 .openai/cache/
 

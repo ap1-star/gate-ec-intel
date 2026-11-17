@@ -1,6 +1,6 @@
 GATE EC TERMINAL — CHOOSE YOUR HOSTING FILE
 
-FULL WEBSITE: GATE_EC_HOSTING_SOURCE.zip
+FULL WEBSITE: GATE_EC_COMBINED_HOSTING_SOURCE.zip
 Recommended path: extract -> upload contents to GitHub -> deploy that repository on Railway.
 Keep package.json and Dockerfile at the repository root.
 
@@ -12,7 +12,7 @@ Railway setup:
 5. Set a new persistent random SESSION_SECRET (at least 48 characters).
 6. Set RUN_SCHEDULER=true and deploy. Start command: npm start.
 7. Register your own website account. No original hosted accounts or secrets transfer.
-8. Owner access: run `npm run owner:lookup -- yourusername` in the service shell,
+8. Owner access: run `npm run owner:lookup -- your-email@example.com` in the service shell,
    set the returned UUID as OWNER_USER_ID, and redeploy.
 
 NETLIFY OR VERCEL FRONTEND:
@@ -21,7 +21,7 @@ Set BACKEND_ORIGIN to your Railway backend's HTTPS origin.
 Set Railway PUBLIC_ORIGIN to your final Netlify/Vercel frontend origin.
 Without a backend, the frontend provides public snapshot browsing only.
 
-FAST PUBLIC-ONLY UPLOAD: GATE_EC_NETLIFY_DROP.zip
+FAST PUBLIC-ONLY UPLOAD: GATE_EC_COMBINED_NETLIFY_DROP.zip
 Upload this prebuilt ZIP at https://app.netlify.com/drop, or extract it and drop
 the folder containing index.html. This does not include a running account database
 or automatic source checks. Use the source/Railway path for those features.

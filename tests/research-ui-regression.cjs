@@ -75,7 +75,8 @@ ctx.location.hash='#monitor';run('render()');
 assert(el('#content').innerHTML.includes('Subject weightage over time'));
 assert(el('#content').innerHTML.includes('Historical allocation'));
 assert(el('#content').innerHTML.includes('520 of 520 visually reviewed'));
-assert.equal(run('ResearchUI.navigation.length'),21);
+assert.equal(run('ResearchUI.navigation.length'),20);
+assert.equal(run('window.TerminalRoutes.resolve("opportunities").status'),'available');
 assert(!el('#content').innerHTML.includes('Find the pattern.'));
 for(const mode of ['leading','all']){run('ResearchUI.state.seriesMode='+JSON.stringify(mode));run('render()');assert(!el('#content').innerHTML.includes('NaN'));}
 console.log('PASS shared UI: retained research and unified feature navigation, overview composition and all retained route renderers.');

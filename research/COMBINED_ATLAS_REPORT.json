@@ -1,0 +1,108 @@
+{
+  "version": "combined-9e6ab543ec4b1bc9",
+  "importedAt": "2026-11-16T14:02:34.131Z",
+  "counts": {
+    "opportunities": 54307,
+    "programmeKeys": 5996,
+    "institutes": 119,
+    "placements": 11391,
+    "companies": 19516,
+    "companyNames": 4536,
+    "gateReports": 178,
+    "psuRecords": 3644,
+    "bitsOffers": 213,
+    "sourceEntries": 3346,
+    "rawCcmtObservations": 56065,
+    "rawCoapObservations": 30616,
+    "seatMapRoundObservations": 34433,
+    "mergedGroups": 10488,
+    "conflictingGroups": 30,
+    "duplicateRoundObservations": 34229,
+    "sameSourceDuplicateRounds": 891,
+    "seatMapProgrammeGroups": 842,
+    "seatMap2026Seats": 13759
+  },
+  "assets": {
+    "opportunities": [
+      "career-atlas-opportunities-0.json",
+      "career-atlas-opportunities-1.json",
+      "career-atlas-opportunities-2.json",
+      "career-atlas-opportunities-3.json",
+      "career-atlas-opportunities-4.json",
+      "career-atlas-opportunities-5.json",
+      "career-atlas-opportunities-6.json"
+    ],
+    "placements": "career-atlas-placements.json",
+    "companies": "career-atlas-companies.json",
+    "gateReports": "career-atlas-gate-reports.json",
+    "psuRecords": "career-atlas-psu-evidence.json",
+    "bitsOffers": "career-atlas-bits-offers.json"
+  },
+  "files": [
+    {
+      "file": "career-atlas.json",
+      "bytes": 9496535,
+      "sha256": "d1c9f9862d14dc5bd526d96d41af74429b1fa469003db6cd1fdc4eaed8bbb793"
+    },
+    {
+      "file": "career-atlas-opportunities-0.json",
+      "bytes": 10350763,
+      "sha256": "8833459bffdf7031328b2e900c3beb9e23cb26d518c362ad20de3663d92a6463"
+    },
+    {
+      "file": "career-atlas-opportunities-1.json",
+      "bytes": 10433632,
+      "sha256": "c79f751837e7caf163d712e222e780e7a086b9f0f200da0859f875a69d9c307f"
+    },
+    {
+      "file": "career-atlas-opportunities-2.json",
+      "bytes": 11440680,
+      "sha256": "2eee1c560d5fa3483440a940b4245382a29d3193186521717840a6a501d8c694"
+    },
+    {
+      "file": "career-atlas-opportunities-3.json",
+      "bytes": 9153018,
+      "sha256": "6fef843e40eb8b3259d06af04be2df9c46a4ec3ba6c0bb93048ea361ea7df14d"
+    },
+    {
+      "file": "career-atlas-opportunities-4.json",
+      "bytes": 9080894,
+      "sha256": "91e11259f04fbfeb9b2d2472415383da621915af8d34b66a5d3fe7857305c3cc"
+    },
+    {
+      "file": "career-atlas-opportunities-5.json",
+      "bytes": 8977711,
+      "sha256": "935b4735cdee0ad9be909d68a709da2daebf8c11b26e369bf8de840194cbab05"
+    },
+    {
+      "file": "career-atlas-opportunities-6.json",
+      "bytes": 7449989,
+      "sha256": "8daae41eb52086a827f6d5318fa33ccfcd6a76e1990c197b704662aee483db29"
+    },
+    {
+      "file": "career-atlas-placements.json",
+      "bytes": 11924423,
+      "sha256": "7fd81369388372216cb7ff30de5deb856cb9832c05adc1f0ddbb207ccc2a4e5a"
+    },
+    {
+      "file": "career-atlas-companies.json",
+      "bytes": 19816248,
+      "sha256": "5dc48f3db300682ac4638bedc1e5173c56c8cba3d86811a982e8a4b3d4d6086b"
+    },
+    {
+      "file": "career-atlas-gate-reports.json",
+      "bytes": 1820829,
+      "sha256": "48134ad5be8da5092917527c5ab6ff549dd503328a7be2b786ef9449c0700b69"
+    },
+    {
+      "file": "career-atlas-psu-evidence.json",
+      "bytes": 3176085,
+      "sha256": "5c6a5983c7a44f94ccaaed7d4d0f916f180b16f5c653c640d8e91991ddc864ae"
+    },
+    {
+      "file": "career-atlas-bits-offers.json",
+      "bytes": 113229,
+      "sha256": "a40468c80bfa50517f43199f02a05c8371ce11f9640eeded1ea111e834ee1dab"
+    }
+  ]
+}

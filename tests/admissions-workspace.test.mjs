@@ -25,6 +25,36 @@ test('candidate controls validate units without reinterpreting AIR or marks as G
  assert.equal(admissionsCandidate(defaults).value,null);
 });
 
+test('score overview distinguishes comparable records from missing and incompatible source rows',()=>{
+ const app=fixture('score=702&year=2025&category=GEN');
+ const html=app.feature.renderers.admissions();
+ assert.match(html,/9 of 22 comparable records are at or below your score/);
+ assert.match(html,/<strong>26<\/strong>source rows/);
+ assert.match(html,/<strong>23<\/strong>numeric references/);
+ assert.match(html,/<strong>13<\/strong>above your score/);
+ assert.equal(app.feature.getSnapshot().display,'table');
+ assert(html.indexOf('class="admissions-results"')<html.indexOf('class="admissions-chart-drawer"'));
+ app.params('score=1000&year=2025&category=all');
+ const browseOnly=app.feature.renderers.admissions();
+ assert(!browseOnly.includes('comparable records are at or below your score'));
+ assert.match(browseOnly,/Choose a candidate category to compare/);
+});
+
+test('institute shortcuts retain candidate context and cross-filter selected evidence without inventing institutes',()=>{
+ const app=fixture('score=702&year=2025&category=GEN');app.route('institutes');
+ app.feature.renderers.institutes();
+ const record=PROGRAMME_RECORDS.find(row=>row.institute==='iisc'&&row.year===2025&&row.category==='GEN');
+ app.feature.handleClick(click('compare',record.id,'institutes'));
+ app.feature.handleClick(click('institute',null,'institutes',{institute:'iitm'}));
+ const state=app.feature.getSnapshot('institutes');
+ assert.equal(state.filters.institute,'iitm');assert.equal(state.filters.score,'702');assert.equal(state.filters.year,'2025');assert.equal(state.filters.category,'GEN');
+ assert.deepEqual(state.selected,[record.id]);
+ const html=app.feature.renderers.institutes();assert.match(html,/data-institute="iitm" aria-pressed="true"/);
+ assert.match(html,/IISc Bengaluru/);assert.match(html,/Selected evidence/);
+ assert.equal(app.feature.handleClick(click('institute',null,'institutes',{institute:'invented-institute'})),false);
+ assert.equal(app.feature.getSnapshot('institutes').filters.institute,'iitm');
+});
+
 test('historical score comparisons use actual source ranges and suppress unsupported metrics, categories and paper context',()=>{
  const row=filterProgrammes({institute:'iisc',year:2022,category:'GEN',query:'Electronics and Communication'})[0];
  assert.deepEqual(row.range,[650,916]);

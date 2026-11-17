@@ -11,15 +11,15 @@ import {createRecruitmentFeature,recruitmentFallbackCatalog} from '../src/featur
 
 const origin='https://terminal.example.test',secret='fixture-only-random-session-secret-012345678901234567890';
 const password='PortableFixturePassword123!';
-async function fixture(){
+async function fixture({emailOnly=false,hybrid=false}={}){
  const db=await openSqliteDatabase(),clock={now:Date.parse('2026-11-16T12:00:00Z')};
- const options={db,authMode:'credentials',credentialAuth:createCredentialAuth({db,secret}),now:()=>clock.now,clientKey:()=> 'fixture-client'};
+ const options={db,authMode:hybrid?'sites_credentials':'credentials',credentialAuth:createCredentialAuth({db,secret,requireEmailRegistration:emailOnly}),now:()=>clock.now,clientKey:()=> 'fixture-client'};
  const api=createApi(options);
- function client(){let cookie='',csrf='';return {
+ function client(){let cookie='',methodCookie='',csrf='';return {
   get cookie(){return cookie},get csrf(){return csrf},
   async request(path,{method='GET',body,headers={},csrfToken=csrf,requestOrigin=origin}={}){
-   const response=await api(new Request(origin+path,{method,headers:{...(cookie?{cookie}:{}),...(['POST','PUT','PATCH','DELETE'].includes(method)?{origin:requestOrigin,'content-type':'application/json','x-csrf-token':csrfToken}:{}),...headers},...(body!==undefined?{body:JSON.stringify(body)}:{})}),{OWNER_EMAIL:'owner@example.test'});
-   if(response.headers.get('set-cookie'))cookie=response.headers.get('set-cookie').split(';')[0];
+   const response=await api(new Request(origin+path,{method,headers:{...(cookie||methodCookie?{cookie:[cookie,methodCookie].filter(Boolean).join('; ')}:{}),...(['POST','PUT','PATCH','DELETE'].includes(method)?{origin:requestOrigin,'content-type':'application/json','x-csrf-token':csrfToken}:{}),...headers},...(body!==undefined?{body:JSON.stringify(body)}:{})}),{OWNER_EMAIL:'owner@example.test'});
+   for(const setCookie of response.headers.getSetCookie()){if(setCookie.startsWith('gate_session='))cookie=setCookie.split(';')[0];else if(setCookie.startsWith('gate_auth_method='))methodCookie=setCookie.split(';')[0];}
    const json=await response.json();if(json.data?.csrfToken)csrf=json.data.csrfToken;return {status:response.status,data:json.data,json,response};
   },
   async register(username,displayName=username,chosenPassword=password){return this.request('/api/auth/register',{method:'POST',body:{username,password:chosenPassword,displayName}});}
@@ -46,6 +46,37 @@ test('credential mode ignores spoofed Sites identity and owner headers and disab
   assert.equal((await client.request('/api/dev/register',{method:'POST',body:{username:'spoof',password}})).status,404);
   assert.equal((await client.request('/api/dev/login',{method:'POST',body:{username:'spoof',password}})).status,404);
   assert.equal((await client.request('/api/auth/register',{method:'GET'})).status,405);
+ }finally{f.close();}
+});
+
+test('production email registration normalizes addresses and preserves legacy username access without claiming email verification',async()=>{
+ const f=await fixture({emailOnly:true});try{
+  const client=f.client();assert.equal((await client.register('new_username')).status,400);
+  const registered=await client.request('/api/auth/register',{method:'POST',body:{email:'  Candidate+Gate@Example.TEST  ',displayName:'Email candidate',password}});assert.equal(registered.status,201);assert.equal(registered.data.user.authProvider,'credentials');assert.equal(registered.data.user.isOwner,false);assert.notEqual(registered.data.user.emailVerified,true);
+  assert.equal((await first(f.db,'SELECT username FROM dev_credentials')).username,'candidate+gate@example.test');
+  await client.request('/api/auth/logout',{method:'POST',body:{}});
+  assert.equal((await client.request('/api/auth/login',{method:'POST',body:{username:'CANDIDATE+GATE@EXAMPLE.TEST',password}})).status,200);
+  assert.equal((await client.request('/api/auth/register',{method:'POST',body:{email:'candidate+gate@example.test',password}})).status,409);
+  for(const email of ['bad','a@b','a@@example.test','a..b@example.test','a@-example.test','a@example..test','a b@example.test'])assert.equal((await client.request('/api/auth/register',{method:'POST',body:{email,password}})).status,400,email);
+  const legacy=createCredentialAuth({db:f.db,secret,requireEmailRegistration:false});await legacy.register({username:'legacy_candidate',password},f.clock.now);
+  assert.equal((await client.request('/api/auth/login',{method:'POST',body:{username:'LEGACY_CANDIDATE',password}})).status,200);
+ }finally{f.close();}
+});
+
+test('hosted email and ChatGPT identities stay separate through logout, expiry and account deletion',async()=>{
+ const f=await fixture({emailOnly:true,hybrid:true});try{
+  const client=f.client(),platform={'oai-authenticated-user-id':'platform-owner','oai-authenticated-user-email':'owner@example.test'};
+  const anonymous=await client.request('/api/session');assert.equal(anonymous.data.capabilities.credentialAuth,true);assert.equal(anonymous.data.capabilities.platformAuth,true);
+  const signedPlatform=await client.request('/api/session',{headers:platform});assert.equal(signedPlatform.data.user.id,'platform-owner');assert.equal(signedPlatform.data.user.authProvider,'chatgpt');assert.equal(signedPlatform.data.user.isOwner,true);
+  const registered=await client.request('/api/auth/register',{method:'POST',headers:platform,body:{email:'owner@example.test',password}});assert.equal(registered.status,201);assert.notEqual(registered.data.user.id,'platform-owner');assert.equal(registered.data.user.isOwner,false);
+  const ownId=registered.data.user.id;assert.equal((await client.request('/api/session',{headers:platform})).data.user.id,ownId);
+  await client.request('/api/auth/logout',{method:'POST',headers:platform,body:{}});assert.equal((await client.request('/api/session',{headers:platform})).data.status,'anonymous');
+  await client.request('/api/auth/login',{method:'POST',headers:platform,body:{username:'owner@example.test',password}});f.clock.now+=8*86400000;
+  assert.equal((await client.request('/api/session',{headers:platform})).data.status,'anonymous');
+  await client.request('/api/auth/login',{method:'POST',headers:platform,body:{username:'owner@example.test',password}});
+  assert.equal((await client.request('/api/account',{method:'DELETE',headers:platform,body:{confirmation:'DELETE'}})).status,200);
+  assert.equal((await client.request('/api/session',{headers:platform})).data.status,'anonymous');
+  const chosenPlatform=await client.request('/api/session',{headers:{...platform,cookie:'gate_auth_method=platform'}});assert.equal(chosenPlatform.data.user.id,'platform-owner');
  }finally{f.close();}
 });
 
@@ -141,8 +172,9 @@ const form=(kind,rows)=>{const node={rows,dataset:{personalForm:kind,recruitment
 test('portable personal UI renders website accounts and uses production credential endpoints',async()=>withFormData(async()=>{
  let session={status:'anonymous',user:null,capabilities:{credentialAuth:true}},requests=[];
  const bridge={C:components(),icon:()=>'',render(){},params:()=>new URLSearchParams(),session:()=>session,navigate(){},async api(path,options={}){requests.push({path,...options});return path==='/api/dashboard'?{counts:{},tasks:[],mocks:[],estimates:[],notifications:[]}:{user:{id:'candidate',displayName:'Candidate'},csrfToken:'fixture'};},async refreshSession(){session={status:'authenticated',user:{id:'candidate',displayName:'Candidate',development:false},capabilities:{credentialAuth:true}};}};
- const feature=createPersonalFeature(bridge),html=feature.renderers.dashboard();assert.match(html,/Your website account/);assert.match(html,/Create account/);assert(!html.includes('Sign in locally'));assert(!html.includes('signin-with-chatgpt'));
- await feature.handleSubmit(form('register',[['username','candidate'],['password',password],['displayName','Candidate']]));assert.equal(requests[0].path,'/api/auth/register');assert(!requests.some(request=>request.path.startsWith('/api/dev/')));
+ const feature=createPersonalFeature(bridge),html=feature.renderers.dashboard();assert.match(html,/Welcome back/);assert.match(html,/Create account/);assert.match(html,/Email or existing username/);assert.equal((html.match(/<form /g)||[]).length,1);assert(!html.includes('Sign in locally'));assert(!html.includes('signin-with-chatgpt'));
+ await feature.handleClick({target:{closest:selector=>selector==='[data-personal-action]'?{dataset:{personalAction:'auth-register'}}:null},preventDefault(){}});const registration=feature.renderers.dashboard();assert.match(registration,/Email address/);assert.match(registration,/type="email"/);assert.equal((registration.match(/<form /g)||[]).length,1);assert(!registration.includes('data-personal-form="login"'));
+ await feature.handleSubmit(form('register',[['email','candidate@example.test'],['password',password],['displayName','Candidate']]));assert.equal(requests[0].path,'/api/auth/register');assert.equal(requests[0].body.email,'candidate@example.test');assert(!requests.some(request=>request.path.startsWith('/api/dev/')));
  const click={target:{closest:selector=>selector==='[data-personal-action]'?{dataset:{personalAction:'logout'}}:null},preventDefault(){}};await feature.handleClick(click);assert(requests.some(request=>request.path==='/api/auth/logout'));
 }));
 

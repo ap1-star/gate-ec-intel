@@ -124,6 +124,37 @@ test('live updates retain focused input identity and batch multiple slider event
  }finally{globalThis.document=previousDocument;globalThis.requestAnimationFrame=previousFrame;}
 });
 
+test('valid slider updates retain the result number and use only optional opacity motion',()=>{
+ const app=fixture('marks=55&year=2025&category=GEN'),rank=app.workspace;rank.render();
+ const previousDocument=globalThis.document,previousFrame=globalThis.requestAnimationFrame,previousMatchMedia=globalThis.matchMedia;
+ const animations=[];let reducedMotion=false,cancellations=0;
+ const numericNode=value=>({nodeType:1,nodeName:'STRONG',attributes:[],childNodes:[{nodeType:3,nodeName:'#text',nodeValue:value}],get textContent(){return this.childNodes[0].nodeValue;}});
+ const numberNode=numericNode(predictRank({marks:55,year:2025,category:'GEN'}).rank.toLocaleString('en'));
+ numberNode.animate=(frames,options)=>{animations.push({frames,options});return {cancel(){cancellations++;}};};
+ const panel={childNodes:[numberNode],querySelector:selector=>selector==='.rank-primary-number'?numberNode:null,set innerHTML(value){assert.fail('a valid update replaced the live result panel');}};
+ const regions=new Map(['tabs','scenarios','history','error'].map(name=>[name,{innerHTML:''}]));
+ const markerContainer={querySelectorAll:()=>[],insertAdjacentHTML(){}};
+ const root={querySelector:selector=>selector==='[data-rank-region="result"]'?panel:selector==='[data-rank-markers]'?markerContainer:regions.get(selector.match(/data-rank-region="([^"]+)"/)?.[1])??null};
+ globalThis.document={querySelector:()=>root,createElement:tag=>{
+  assert.equal(tag,'template');
+  return {content:null,set innerHTML(html){const value=html.match(/class="career-rank-number rank-primary-number">([^<]+)<\/strong>/)?.[1];assert(value,'a valid result contains its AIR');this.content={childNodes:[numericNode(value)]};}};
+ }};
+ globalThis.requestAnimationFrame=undefined;
+ globalThis.matchMedia=query=>{assert.equal(query,'(prefers-reduced-motion: reduce)');return {matches:reducedMotion};};
+ try{
+  for(const marks of ['65','75']){
+   rank.handleInput(input(marks,'slider'));
+   assert.equal(panel.childNodes[0],numberNode,'rank digit changes retain the mounted result node');
+   assert.equal(numberNode.textContent,predictRank({marks:Number(marks),year:2025,category:'GEN'}).rank.toLocaleString('en'));
+  }
+  assert.equal(app.renders(),0);assert.equal(animations.length,2);assert.equal(cancellations,1);
+  for(const animation of animations){assert.deepEqual(animation.frames,[{opacity:.55},{opacity:1}]);assert(animation.options.duration>0&&animation.options.duration<=250,'result motion stays brief');}
+  reducedMotion=true;rank.handleInput(input('45','slider'));
+  assert.equal(panel.childNodes[0],numberNode);assert.equal(numberNode.textContent,predictRank({marks:45,year:2025,category:'GEN'}).rank.toLocaleString('en'));
+  assert.equal(animations.length,2,'reduced motion suppresses new animation');assert.equal(cancellations,2,'an existing animation is stopped');
+ }finally{globalThis.document=previousDocument;globalThis.requestAnimationFrame=previousFrame;globalThis.matchMedia=previousMatchMedia;}
+});
+
 test('save captures the validated scenario and rejects stale completion after editing or identity change',async()=>{
  const app=fixture('marks=55&year=2025&category=GEN'),rank=app.workspace;
  app.setSession({status:'authenticated',user:{id:'first'}});rank.render();
@@ -138,7 +169,7 @@ test('navigation and SVG keyboard actions are scoped and preserve the active sce
  const app=fixture('marks=55&year=2025&category=GEN'),rank=app.workspace;rank.render();
  assert.equal(rank.handleInput({target:{dataset:{}}}),false);assert.equal(rank.handleChange({target:{dataset:{}}}),false);assert.equal(rank.handleClick({target:{closest:()=>null}}),false);
  rank.handleClick(action('add'));rank.handleInput(input('65'));
- rank.handleClick(action('admissions'));assert.equal(app.navigation().id,'admissions');assert.equal(app.navigation().values.rank,predictRank({marks:65,year:2025,category:'GEN'}).rank);
+ rank.handleClick(action('admissions'));assert.equal(app.navigation().id,'opportunities');assert.equal(app.navigation().values.rank,predictRank({marks:65,year:2025,category:'GEN'}).rank);
  let prevented=false;const marker=action('activate','A').target;
  rank.handleKeyDown({key:'Enter',target:marker,preventDefault(){prevented=true;}});
  assert.equal(prevented,true);rank.handleClick(action('psu'));assert.equal(app.navigation().values.score,702);assert.equal('year' in app.navigation().values,false);

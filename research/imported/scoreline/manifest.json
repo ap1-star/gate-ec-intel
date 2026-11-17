@@ -1,0 +1,1344 @@
+{
+  "source": "Score Line",
+  "sourceOrigin": "https://score-line.pages.dev",
+  "acquiredAt": "2026-11-16T14:02:34.131Z",
+  "authorization": "User identified this as one of their own sites and explicitly requested combination/import.",
+  "license": "No license identified yet; preserve upstream attribution and original evidence links. User authorization is the reuse basis.",
+  "assets": [
+    {
+      "url": "https://score-line.pages.dev/",
+      "file": "raw/index.html",
+      "bytes": 140304,
+      "sha256": "dc875c0968f81e06e01141ef00134e35f1b98e6e9c821a1b2339c8ec39db3dd4",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://score-line.pages.dev/about/",
+      "file": "raw/about/index.html",
+      "bytes": 85397,
+      "sha256": "f0a48943a77e3427cef79c389e24f214be8a16a81f859c501d9c1c0b49021e2a",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://score-line.pages.dev/options/",
+      "file": "raw/options/index.html",
+      "bytes": 69592,
+      "sha256": "5470fa9c7f2dc39a82ed88a57f42c9f8ee02a66721e289dca79fb2529260a784",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://score-line.pages.dev/explore/",
+      "file": "raw/explore/index.html",
+      "bytes": 67964,
+      "sha256": "24b88f3467ebf4bddc68617ed98e626e549de274bc0fcde0038a574999db067f",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://score-line.pages.dev/lab/",
+      "file": "raw/lab/index.html",
+      "bytes": 67975,
+      "sha256": "ca15a48a63fc03668e4d010feee7e80a05c34525c6fe1afa160b776cf17e0c62",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://score-line.pages.dev/compare/",
+      "file": "raw/compare/index.html",
+      "bytes": 67865,
+      "sha256": "76f50d06c15d16935fd2821e94affae1ef79eb5d59d7d7460c2bb08c7c05cf6f",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://score-line.pages.dev/findings/",
+      "file": "raw/findings/index.html",
+      "bytes": 173582,
+      "sha256": "5efbbb11cbd0b17185d43773986eb41fc4dbbe57d8e8604b183ebe02922534e1",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://score-line.pages.dev/cutoffs/",
+      "file": "raw/cutoffs/index.html",
+      "bytes": 72692,
+      "sha256": "2c92d73a1fc5e9a123c79e0bbbd2b37dae861b0e5c2c92efa5b6ba575ad0d928",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://score-line.pages.dev/placements/",
+      "file": "raw/placements/index.html",
+      "bytes": 78179,
+      "sha256": "2505711b8ebcabb0c16c8a653802623a580a52ce3279b17b2f12d7200fd5d694",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://score-line.pages.dev/companies/",
+      "file": "raw/companies/index.html",
+      "bytes": 69003,
+      "sha256": "f3cf79e4056d7c480fe3177f896aa4ecbfdd4f537ced45f0fc6fc9395efdc317",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://score-line.pages.dev/institutes/",
+      "file": "raw/institutes/index.html",
+      "bytes": 261624,
+      "sha256": "1eb715e2d89cb89b8704f41218542fb24e3f03e40504c15273ecb043313ed7b2",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://score-line.pages.dev/gate/",
+      "file": "raw/gate/index.html",
+      "bytes": 70010,
+      "sha256": "d21dcd70fbd88be11ea1aac541fee6ea5671e1397d8c98bfbbb1f320d175a69a",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://score-line.pages.dev/psu/",
+      "file": "raw/psu/index.html",
+      "bytes": 69580,
+      "sha256": "4e476ae12cf0a26811e5cd8aae34f7ad58bdb341985dfddfa545ee939aeeef32",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://score-line.pages.dev/bits/",
+      "file": "raw/bits/index.html",
+      "bytes": 69891,
+      "sha256": "fca8eb1e2f67f01cc93ed11d7a9b62c74b3e18a71e7ee8699aab195c71941b9c",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://score-line.pages.dev/sources/",
+      "file": "raw/sources/index.html",
+      "bytes": 126514,
+      "sha256": "d129efc7853c9734da64d611051d5ba45c003a6360467301cc2c4b5cce3dece8",
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/3srfjz42u14tx.js",
+      "file": "raw/_next/static/chunks/3srfjz42u14tx.js",
+      "bytes": 29981,
+      "sha256": "c9dbc9d74b2ea0fefb8491e70ab13111e063fb197ce025dd15898a61ee5a1adb",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/2khxl0v1q4i6n.js",
+      "file": "raw/_next/static/chunks/2khxl0v1q4i6n.js",
+      "bytes": 229820,
+      "sha256": "885fd68a19ca1dc00018cae690b07cd463371a463f04f8b34b5590a3fec18a33",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/43vb3ykfgp3vz.js",
+      "file": "raw/_next/static/chunks/43vb3ykfgp3vz.js",
+      "bytes": 159741,
+      "sha256": "e29621dfffb016186d1bd769a80cf2c53dd2b8ff5a0e44ae1cda005d054f09aa",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+      "file": "raw/_next/static/chunks/turbopack-3-ry682tkyiqk.js",
+      "bytes": 10030,
+      "sha256": "8bbb58cbfd4633c1d828c6bc37bc32abc768a149c01b1dfc4f5131fd81274551",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/09yqcav7xq5bm.js",
+      "file": "raw/_next/static/chunks/09yqcav7xq5bm.js",
+      "bytes": 26642,
+      "sha256": "44f47bad859d039cd143a58dbc1b7a5b4ed18e7b5d92641c9fe52fa29f59ebb8",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/0bmld2byufmz0.js",
+      "file": "raw/_next/static/chunks/0bmld2byufmz0.js",
+      "bytes": 128042,
+      "sha256": "a1cdc728bf21d2cf0ab104dad02e48954c54143bc899af73c481f25fcecc06c4",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/2ssxjzea2c5ji.js",
+      "file": "raw/_next/static/chunks/2ssxjzea2c5ji.js",
+      "bytes": 45808,
+      "sha256": "9d93df017ef5938b6f840b12b3e92ddf4428d17ba4acc22264cc31e8da2fdcd0",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/0eqhyuk5i-juu.js",
+      "file": "raw/_next/static/chunks/0eqhyuk5i-juu.js",
+      "bytes": 15573,
+      "sha256": "4a2141fb5f7abd800d0ade3837a8b4a89902b40d9092b9b88c2559489471e69f",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "file": "raw/_next/static/chunks/0cz1d0mv5g_q7.js",
+      "bytes": 112594,
+      "sha256": "0973c1d64c88adc8e3c950410cb58b288f72118d5965b78049438deb8f2f9683",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/0-o74znen4827.js",
+      "file": "raw/_next/static/chunks/0-o74znen4827.js",
+      "bytes": 13269,
+      "sha256": "1c53a591011ecf8972f21353ad184772d0d75a987fb02fe1907104a16541e717",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/3r050trhm093z.js",
+      "file": "raw/_next/static/chunks/3r050trhm093z.js",
+      "bytes": 17422,
+      "sha256": "44095af26e8e42b9838953c18deb69e8caf8be84732494d2d3db8fc0fb8039ae",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/0f4zh63wm07cb.js",
+      "file": "raw/_next/static/chunks/0f4zh63wm07cb.js",
+      "bytes": 44993,
+      "sha256": "f89bd31fc0c8fbd7da9111f75ca121af9081bd21b23c29e7ba07fdf72d1bc6f1",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/0wtp_mq4195cc.js",
+      "file": "raw/_next/static/chunks/0wtp_mq4195cc.js",
+      "bytes": 36452,
+      "sha256": "edfc195845233741f7ab928a77e2a1affe60f56d6407373682abc54427a1b9e6",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/40_p1y_p1zvg7.js",
+      "file": "raw/_next/static/chunks/40_p1y_p1zvg7.js",
+      "bytes": 11892,
+      "sha256": "870cee72fa6af36fca21d9f62325b1757bb10ec7e88e90625cc7bb2823e47fe8",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/3kcfcaxcwp9se.js",
+      "file": "raw/_next/static/chunks/3kcfcaxcwp9se.js",
+      "bytes": 32502,
+      "sha256": "ba510d440575069fe7dec3b6b35128475700743acfbca4852960e5b23bed7f9a",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/2yu6-14_okmgr.js",
+      "file": "raw/_next/static/chunks/2yu6-14_okmgr.js",
+      "bytes": 49110,
+      "sha256": "4729372b1a28eb963e0926315e74eb395a535e29b7418e8da0ef2f79c3807da5",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/3stlzbk2omzc3.js",
+      "file": "raw/_next/static/chunks/3stlzbk2omzc3.js",
+      "bytes": 47302,
+      "sha256": "448a13b3e314f8999e5931007e600f4da85409671b6c570dea0e0ae18f2bb3c4",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/1qumf00a5tm5k.js",
+      "file": "raw/_next/static/chunks/1qumf00a5tm5k.js",
+      "bytes": 7705,
+      "sha256": "e2ca40aa5a976fc34556daa19209c0aec2262770670053371c9490727658a62f",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/20hb1jjghm887.js",
+      "file": "raw/_next/static/chunks/20hb1jjghm887.js",
+      "bytes": 4373,
+      "sha256": "65f8888263e7786f9a8f00f1e07c870ef090c99cc1cf8bfdbcdd5c698a2a63ff",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/1-m9iqbp2f7uz.js",
+      "file": "raw/_next/static/chunks/1-m9iqbp2f7uz.js",
+      "bytes": 27398,
+      "sha256": "3cd1835966f1f2db69ee8ebff32b4ff42f47ceff239f33644a8e5fad07f5a92b",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/3otq1ygfvn6ff.js",
+      "file": "raw/_next/static/chunks/3otq1ygfvn6ff.js",
+      "bytes": 26342,
+      "sha256": "13a832c31d971d9cc13d27a5bcfc9fcbb00140447229b081d58047bc779bf670",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/1uhrbrwy0hzw4.js",
+      "file": "raw/_next/static/chunks/1uhrbrwy0hzw4.js",
+      "bytes": 22986,
+      "sha256": "123f44b5b87b5fccd7e02e7edde9cacd865a99df9ae424ac0560e2332b061550",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/_next/static/chunks/2im_9cmz5q_kt.js",
+      "file": "raw/_next/static/chunks/2im_9cmz5q_kt.js",
+      "bytes": 9005,
+      "sha256": "dc71a02256fb1dd4cafbc3305b2aaea66474253ffc53a044ad54dc26153c7dfa",
+      "contentType": "application/javascript"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/search.json",
+      "file": "raw/data/search.json",
+      "bytes": 2102490,
+      "sha256": "71b14daf74f2a979fb3cedf94e884e43b401e5a018c2332c4f8f2ca7db398ee1",
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/hero.json",
+      "file": "raw/data/hero.json",
+      "bytes": 298329,
+      "sha256": "06309080cb6b44541eda180fae5f15f87dde5b680a2da187ad5c2135eee24a34",
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/options.json",
+      "file": "raw/data/options.json",
+      "bytes": 1515218,
+      "sha256": "c1ce5085eb6fae389b9b3f76b0729ae197ae5bc48809ab51719ecdf59679ba4d",
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/compare.json",
+      "file": "raw/data/compare.json",
+      "bytes": 247836,
+      "sha256": "4233b2e0def659c3e6125873f5ee41ae90790598fd4596e49fd53aa15b3d88ed",
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/ccmt.json",
+      "file": "raw/data/ccmt.json",
+      "bytes": 1793189,
+      "sha256": "d5df30d8bee0d7c2fca43417127fa6209e492a53a7edb8dbe1d7ed08f7555b64",
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/coap.json",
+      "file": "raw/data/coap.json",
+      "bytes": 1869819,
+      "sha256": "79cb320b3d467787deff0834989a66b5c252a98a5399f169fde47ba1237adfae",
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/companies.json",
+      "file": "raw/data/companies.json",
+      "bytes": 2160076,
+      "sha256": "6913e38c1f57b91754dac4d55cb0b7020d840a9f996c33a1d3966401de28d7db",
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/branch.json",
+      "file": "raw/data/branch.json",
+      "bytes": 560422,
+      "sha256": "161a36399eb8871738bad3da50cc19534b71ed8c04e43aa51ec43517db5c4261",
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/nirf.json",
+      "file": "raw/data/nirf.json",
+      "bytes": 279549,
+      "sha256": "b76437d99a11658e99ad296f01f8f9a66b335afb7428b8e1716c886d0ed83a0f",
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/youtube.json",
+      "file": "raw/data/youtube.json",
+      "bytes": 2234465,
+      "sha256": "07710f3bb9a9eb715899cf756191143b209e41558f37c9b94e109f20370c4ca4",
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/placements.json",
+      "file": "raw/data/placements.json",
+      "bytes": 914540,
+      "sha256": "5fece2b00d556cd02a987df47521d2989a6f9492b154a3dd8f4cfeb1233dac6b",
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/gate.json",
+      "file": "raw/data/gate.json",
+      "bytes": 1196634,
+      "sha256": "87c86bd55440a4f094faa615d751d087b374cde7114e52f8b9b200ee84974ab6",
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/gate-extra.json",
+      "file": "raw/data/gate-extra.json",
+      "bytes": 81263,
+      "sha256": "36c00a60094c21f319eb20cc8c21a796dd991c044d5d85efbfe651d7525f1c66",
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/psu.json",
+      "file": "raw/data/psu.json",
+      "bytes": 586412,
+      "sha256": "36e4155415a56e0a525a3b6366bcbdcdb4b4a98b8622a107860ed21cad3c10b1",
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/bits.json",
+      "file": "raw/data/bits.json",
+      "bytes": 15938,
+      "sha256": "01d407ed5aea26848fb4e0a40d95a142e908485805256858c3235f04db3563d9",
+      "contentType": "application/json"
+    },
+    {
+      "url": "https://score-line.pages.dev/data/sources.json",
+      "file": "raw/data/sources.json",
+      "bytes": 251109,
+      "sha256": "ef32c24b42b1602305a533a37d1cc9220d872b5e5adb43fc3f496d623da60371",
+      "contentType": "application/json"
+    }
+  ],
+  "limitations": [
+    "Imported public structured data is an upstream snapshot, not independent verification of every source.",
+    "Source document files are linked, not bulk-downloaded."
+  ],
+  "datasets": [
+    {
+      "name": "search",
+      "file": "raw/data/search.json",
+      "url": "https://score-line.pages.dev/data/search.json",
+      "bytes": 2102490,
+      "sha256": "71b14daf74f2a979fb3cedf94e884e43b401e5a018c2332c4f8f2ca7db398ee1",
+      "schema": {
+        "v": {
+          "kind": "int"
+        },
+        "items": {
+          "kind": "array",
+          "rows": 7260,
+          "itemType": "packed_row",
+          "width": 7
+        }
+      }
+    },
+    {
+      "name": "hero",
+      "file": "raw/data/hero.json",
+      "url": "https://score-line.pages.dev/data/hero.json",
+      "bytes": 298329,
+      "sha256": "06309080cb6b44541eda180fae5f15f87dde5b680a2da187ad5c2135eee24a34",
+      "schema": {
+        "year": {
+          "kind": "int"
+        },
+        "families": {
+          "kind": "array",
+          "rows": 12,
+          "itemType": "packed_row",
+          "width": 2
+        },
+        "inst": {
+          "kind": "array",
+          "rows": 112,
+          "itemType": "dict",
+          "fields": [
+            "name",
+            "code",
+            "type"
+          ]
+        },
+        "prog": {
+          "kind": "array",
+          "rows": 2237,
+          "itemType": "str"
+        },
+        "cats": {
+          "kind": "object",
+          "keys": [
+            "EWS",
+            "OPEN",
+            "SC",
+            "ST",
+            "OBC-NCL"
+          ]
+        },
+        "src": {
+          "kind": "object",
+          "keys": [
+            "k",
+            "l"
+          ]
+        }
+      }
+    },
+    {
+      "name": "options",
+      "file": "raw/data/options.json",
+      "url": "https://score-line.pages.dev/data/options.json",
+      "bytes": 1515218,
+      "sha256": "c1ce5085eb6fae389b9b3f76b0729ae197ae5bc48809ab51719ecdf59679ba4d",
+      "schema": {
+        "cols": {
+          "kind": "array",
+          "rows": 13,
+          "itemType": "str"
+        },
+        "payCols": {
+          "kind": "array",
+          "rows": 8,
+          "itemType": "str"
+        },
+        "families": {
+          "kind": "array",
+          "rows": 12,
+          "itemType": "packed_row",
+          "width": 2
+        },
+        "inst": {
+          "kind": "array",
+          "rows": 112,
+          "itemType": "dict",
+          "fields": [
+            "name",
+            "code",
+            "type"
+          ]
+        },
+        "prog": {
+          "kind": "array",
+          "rows": 2237,
+          "itemType": "str"
+        },
+        "src": {
+          "kind": "array",
+          "rows": 1202,
+          "itemType": "dict",
+          "fields": [
+            "k",
+            "l",
+            "u",
+            "f"
+          ]
+        },
+        "cats": {
+          "kind": "object",
+          "keys": [
+            "EWS",
+            "OPEN",
+            "SC",
+            "ST",
+            "OBC-NCL"
+          ]
+        }
+      }
+    },
+    {
+      "name": "compare",
+      "file": "raw/data/compare.json",
+      "url": "https://score-line.pages.dev/data/compare.json",
+      "bytes": 247836,
+      "sha256": "4233b2e0def659c3e6125873f5ee41ae90790598fd4596e49fd53aa15b3d88ed",
+      "schema": {
+        "families": {
+          "kind": "array",
+          "rows": 12,
+          "itemType": "packed_row",
+          "width": 2
+        },
+        "cats": {
+          "kind": "array",
+          "rows": 5,
+          "itemType": "str"
+        },
+        "src": {
+          "kind": "array",
+          "rows": 43,
+          "itemType": "dict",
+          "fields": [
+            "k",
+            "u",
+            "f",
+            "l"
+          ]
+        },
+        "inst": {
+          "kind": "object",
+          "keys": [
+            "IITM",
+            "IITD",
+            "IITB",
+            "IITK",
+            "IITKGP",
+            "IITR",
+            "IITG",
+            "IITH",
+            "IITBHU",
+            "IITISM",
+            "IITI",
+            "IITBBS",
+            "IITGN",
+            "IITP",
+            "IITRPR",
+            "IITJ",
+            "IITMANDI",
+            "IITTP",
+            "IITPKD",
+            "IITJMU"
+          ]
+        }
+      }
+    },
+    {
+      "name": "ccmt",
+      "file": "raw/data/ccmt.json",
+      "url": "https://score-line.pages.dev/data/ccmt.json",
+      "bytes": 1793189,
+      "sha256": "d5df30d8bee0d7c2fca43417127fa6209e492a53a7edb8dbe1d7ed08f7555b64",
+      "schema": {
+        "cols": {
+          "kind": "array",
+          "rows": 10,
+          "itemType": "str"
+        },
+        "inst": {
+          "kind": "array",
+          "rows": 94,
+          "itemType": "dict",
+          "fields": [
+            "name",
+            "code",
+            "type",
+            "short"
+          ]
+        },
+        "prog": {
+          "kind": "array",
+          "rows": 563,
+          "itemType": "str"
+        },
+        "progFam": {
+          "kind": "array",
+          "rows": 563,
+          "itemType": "int"
+        },
+        "families": {
+          "kind": "array",
+          "rows": 12,
+          "itemType": "packed_row",
+          "width": 2
+        },
+        "cat": {
+          "kind": "array",
+          "rows": 12,
+          "itemType": "str"
+        },
+        "round": {
+          "kind": "array",
+          "rows": 6,
+          "itemType": "str"
+        },
+        "src": {
+          "kind": "array",
+          "rows": 6,
+          "itemType": "dict",
+          "fields": [
+            "k",
+            "l",
+            "u",
+            "f"
+          ]
+        },
+        "rows": {
+          "kind": "array",
+          "rows": 56065,
+          "itemType": "packed_row",
+          "width": 10
+        }
+      }
+    },
+    {
+      "name": "coap",
+      "file": "raw/data/coap.json",
+      "url": "https://score-line.pages.dev/data/coap.json",
+      "bytes": 1869819,
+      "sha256": "79cb320b3d467787deff0834989a66b5c252a98a5399f169fde47ba1237adfae",
+      "schema": {
+        "cols": {
+          "kind": "array",
+          "rows": 14,
+          "itemType": "str"
+        },
+        "families": {
+          "kind": "array",
+          "rows": 12,
+          "itemType": "packed_row",
+          "width": 2
+        },
+        "inst": {
+          "kind": "array",
+          "rows": 24,
+          "itemType": "str"
+        },
+        "dept": {
+          "kind": "array",
+          "rows": 136,
+          "itemType": "str"
+        },
+        "prog": {
+          "kind": "array",
+          "rows": 872,
+          "itemType": "str"
+        },
+        "paper": {
+          "kind": "array",
+          "rows": 195,
+          "itemType": "str"
+        },
+        "cat": {
+          "kind": "array",
+          "rows": 15,
+          "itemType": "str"
+        },
+        "stage": {
+          "kind": "array",
+          "rows": 28,
+          "itemType": "str"
+        },
+        "type": {
+          "kind": "array",
+          "rows": 6,
+          "itemType": "str"
+        },
+        "note": {
+          "kind": "array",
+          "rows": 3055,
+          "itemType": "str"
+        },
+        "src": {
+          "kind": "array",
+          "rows": 137,
+          "itemType": "dict",
+          "fields": [
+            "k",
+            "u",
+            "f"
+          ]
+        },
+        "rows": {
+          "kind": "array",
+          "rows": 30616,
+          "itemType": "packed_row",
+          "width": 14
+        }
+      }
+    },
+    {
+      "name": "companies",
+      "file": "raw/data/companies.json",
+      "url": "https://score-line.pages.dev/data/companies.json",
+      "bytes": 2160076,
+      "sha256": "6913e38c1f57b91754dac4d55cb0b7020d840a9f996c33a1d3966401de28d7db",
+      "schema": {
+        "note": {
+          "kind": "str"
+        },
+        "progs": {
+          "kind": "array",
+          "rows": 15,
+          "itemType": "str"
+        },
+        "fams": {
+          "kind": "array",
+          "rows": 12,
+          "itemType": "packed_row",
+          "width": 2
+        },
+        "types": {
+          "kind": "array",
+          "rows": 6,
+          "itemType": "str"
+        },
+        "kinds": {
+          "kind": "array",
+          "rows": 3,
+          "itemType": "str"
+        },
+        "insts": {
+          "kind": "array",
+          "rows": 33,
+          "itemType": "packed_row",
+          "width": 3
+        },
+        "cos": {
+          "kind": "array",
+          "rows": 4536,
+          "itemType": "packed_row",
+          "width": 6
+        },
+        "str": {
+          "kind": "array",
+          "rows": 10427,
+          "itemType": "str"
+        },
+        "src": {
+          "kind": "array",
+          "rows": 1068,
+          "itemType": "dict",
+          "fields": [
+            "k",
+            "yt",
+            "t",
+            "l"
+          ]
+        },
+        "docs": {
+          "kind": "int"
+        },
+        "rows": {
+          "kind": "array",
+          "rows": 19516,
+          "itemType": "packed_row",
+          "width": 17
+        }
+      }
+    },
+    {
+      "name": "branch",
+      "file": "raw/data/branch.json",
+      "url": "https://score-line.pages.dev/data/branch.json",
+      "bytes": 560422,
+      "sha256": "161a36399eb8871738bad3da50cc19534b71ed8c04e43aa51ec43517db5c4261",
+      "schema": {
+        "families": {
+          "kind": "array",
+          "rows": 12,
+          "itemType": "packed_row",
+          "width": 2
+        },
+        "src": {
+          "kind": "array",
+          "rows": 1268,
+          "itemType": "dict",
+          "fields": [
+            "k",
+            "l",
+            "u",
+            "f"
+          ]
+        },
+        "data": {
+          "kind": "object",
+          "keys": [
+            "cse",
+            "vlsi",
+            "bio",
+            "ece",
+            "ctrl",
+            "civil",
+            "mech",
+            "mat",
+            "other",
+            "ee",
+            "ai",
+            "chem"
+          ]
+        }
+      }
+    },
+    {
+      "name": "nirf",
+      "file": "raw/data/nirf.json",
+      "url": "https://score-line.pages.dev/data/nirf.json",
+      "bytes": 279549,
+      "sha256": "b76437d99a11658e99ad296f01f8f9a66b335afb7428b8e1716c886d0ed83a0f",
+      "schema": {
+        "cols": {
+          "kind": "array",
+          "rows": 15,
+          "itemType": "str"
+        },
+        "src": {
+          "kind": "array",
+          "rows": 395,
+          "itemType": "dict",
+          "fields": [
+            "k",
+            "l",
+            "f"
+          ]
+        },
+        "rows": {
+          "kind": "array",
+          "rows": 2986,
+          "itemType": "packed_row",
+          "width": 15
+        }
+      }
+    },
+    {
+      "name": "youtube",
+      "file": "raw/data/youtube.json",
+      "url": "https://score-line.pages.dev/data/youtube.json",
+      "bytes": 2234465,
+      "sha256": "07710f3bb9a9eb715899cf756191143b209e41558f37c9b94e109f20370c4ca4",
+      "schema": {
+        "videos": {
+          "kind": "array",
+          "rows": 59,
+          "itemType": "dict",
+          "fields": [
+            "id",
+            "channel",
+            "title",
+            "playlist",
+            "inst",
+            "code",
+            "program",
+            "season",
+            "status",
+            "rows",
+            "comments",
+            "date"
+          ]
+        },
+        "shots": {
+          "kind": "array",
+          "rows": 204,
+          "itemType": "dict",
+          "fields": [
+            "file",
+            "id",
+            "t",
+            "inst",
+            "code",
+            "dept",
+            "program",
+            "season",
+            "content",
+            "rowsRef"
+          ]
+        },
+        "cols": {
+          "kind": "array",
+          "rows": 17,
+          "itemType": "str"
+        },
+        "rows": {
+          "kind": "array",
+          "rows": 1958,
+          "itemType": "packed_row",
+          "width": 17
+        },
+        "comments": {
+          "kind": "array",
+          "rows": 136,
+          "itemType": "dict",
+          "fields": [
+            "video",
+            "id",
+            "author",
+            "inst",
+            "code",
+            "program",
+            "season",
+            "company",
+            "ctc",
+            "base",
+            "other",
+            "text"
+          ]
+        },
+        "companies": {
+          "kind": "array",
+          "rows": 4540,
+          "itemType": "dict",
+          "fields": [
+            "name",
+            "slug",
+            "domain",
+            "logo",
+            "lw",
+            "lh",
+            "rows",
+            "rti",
+            "offers",
+            "offersYt",
+            "offersRti",
+            "intern",
+            "listed",
+            "maxCtc",
+            "medCtc",
+            "insts",
+            "seasons",
+            "per"
+          ]
+        }
+      }
+    },
+    {
+      "name": "placements",
+      "file": "raw/data/placements.json",
+      "url": "https://score-line.pages.dev/data/placements.json",
+      "bytes": 914540,
+      "sha256": "5fece2b00d556cd02a987df47521d2989a6f9492b154a3dd8f4cfeb1233dac6b",
+      "schema": {
+        "cols": {
+          "kind": "array",
+          "rows": 21,
+          "itemType": "str"
+        },
+        "families": {
+          "kind": "array",
+          "rows": 12,
+          "itemType": "packed_row",
+          "width": 2
+        },
+        "dept": {
+          "kind": "array",
+          "rows": 625,
+          "itemType": "str"
+        },
+        "note": {
+          "kind": "array",
+          "rows": 850,
+          "itemType": "str"
+        },
+        "src": {
+          "kind": "array",
+          "rows": 383,
+          "itemType": "dict",
+          "fields": [
+            "k",
+            "u",
+            "f"
+          ]
+        },
+        "rows": {
+          "kind": "array",
+          "rows": 6447,
+          "itemType": "packed_row",
+          "width": 21
+        }
+      }
+    },
+    {
+      "name": "gate",
+      "file": "raw/data/gate.json",
+      "url": "https://score-line.pages.dev/data/gate.json",
+      "bytes": 1196634,
+      "sha256": "87c86bd55440a4f094faa615d751d087b374cde7114e52f8b9b200ee84974ab6",
+      "schema": {
+        "papers": {
+          "kind": "array",
+          "rows": 264,
+          "itemType": "dict",
+          "fields": [
+            "y",
+            "c",
+            "n",
+            "parent",
+            "kind",
+            "p"
+          ]
+        },
+        "summary": {
+          "kind": "array",
+          "rows": 178,
+          "itemType": "dict",
+          "fields": [
+            "y",
+            "c",
+            "reg",
+            "app",
+            "qual",
+            "qpct",
+            "mean",
+            "sd",
+            "mt",
+            "qm",
+            "qs",
+            "maxM",
+            "minM",
+            "maxS",
+            "minS",
+            "groups",
+            "p",
+            "pm",
+            "note"
+          ]
+        },
+        "cats": {
+          "kind": "array",
+          "rows": 925,
+          "itemType": "packed_row",
+          "width": 9
+        },
+        "dist": {
+          "kind": "array",
+          "rows": 2883,
+          "itemType": "dict",
+          "fields": [
+            "y",
+            "c",
+            "pop",
+            "cat",
+            "m",
+            "p",
+            "note",
+            "bins"
+          ]
+        },
+        "ranks": {
+          "kind": "array",
+          "rows": 178,
+          "itemType": "dict",
+          "fields": [
+            "y",
+            "c",
+            "p",
+            "bands"
+          ]
+        },
+        "gender": {
+          "kind": "array",
+          "rows": 324,
+          "itemType": "packed_row",
+          "width": 7
+        }
+      }
+    },
+    {
+      "name": "gate-extra",
+      "file": "raw/data/gate-extra.json",
+      "url": "https://score-line.pages.dev/data/gate-extra.json",
+      "bytes": 81263,
+      "sha256": "36c00a60094c21f319eb20cc8c21a796dd991c044d5d85efbfe651d7525f1c66",
+      "schema": {
+        "stateGender": {
+          "kind": "array",
+          "rows": 456,
+          "itemType": "packed_row",
+          "width": 8
+        },
+        "stateCategory": {
+          "kind": "array",
+          "rows": 798,
+          "itemType": "packed_row",
+          "width": 8
+        },
+        "stateTop": {
+          "kind": "array",
+          "rows": 114,
+          "itemType": "packed_row",
+          "width": 7
+        },
+        "degree": {
+          "kind": "array",
+          "rows": 120,
+          "itemType": "packed_row",
+          "width": 7
+        },
+        "discipline": {
+          "kind": "array",
+          "rows": 148,
+          "itemType": "packed_row",
+          "width": 6
+        },
+        "topInst": {
+          "kind": "array",
+          "rows": 50,
+          "itemType": "packed_row",
+          "width": 7
+        },
+        "twoPaper": {
+          "kind": "array",
+          "rows": 62,
+          "itemType": "packed_row",
+          "width": 7
+        }
+      }
+    },
+    {
+      "name": "psu",
+      "file": "raw/data/psu.json",
+      "url": "https://score-line.pages.dev/data/psu.json",
+      "bytes": 586412,
+      "sha256": "36e4155415a56e0a525a3b6366bcbdcdb4b4a98b8622a107860ed21cad3c10b1",
+      "schema": {
+        "cols": {
+          "kind": "array",
+          "rows": 15,
+          "itemType": "str"
+        },
+        "psus": {
+          "kind": "array",
+          "rows": 43,
+          "itemType": "str"
+        },
+        "posts": {
+          "kind": "array",
+          "rows": 213,
+          "itemType": "str"
+        },
+        "papers": {
+          "kind": "array",
+          "rows": 20,
+          "itemType": "packed_row",
+          "width": 2
+        },
+        "logos": {
+          "kind": "array",
+          "rows": 43,
+          "itemType": "packed_row",
+          "width": 3
+        },
+        "full": {
+          "kind": "array",
+          "rows": 43,
+          "itemType": "str"
+        },
+        "cats": {
+          "kind": "array",
+          "rows": 64,
+          "itemType": "str"
+        },
+        "src": {
+          "kind": "array",
+          "rows": 257,
+          "itemType": "dict",
+          "fields": [
+            "k",
+            "u",
+            "f",
+            "l"
+          ]
+        },
+        "str": {
+          "kind": "array",
+          "rows": 265,
+          "itemType": "str"
+        },
+        "cuts": {
+          "kind": "array",
+          "rows": 3644,
+          "itemType": "packed_row",
+          "width": 15
+        },
+        "counts": {
+          "kind": "array",
+          "rows": 2922,
+          "itemType": "packed_row",
+          "width": 12
+        },
+        "terms": {
+          "kind": "array",
+          "rows": 579,
+          "itemType": "packed_row",
+          "width": 7
+        }
+      }
+    },
+    {
+      "name": "bits",
+      "file": "raw/data/bits.json",
+      "url": "https://score-line.pages.dev/data/bits.json",
+      "bytes": 15938,
+      "sha256": "01d407ed5aea26848fb4e0a40d95a142e908485805256858c3235f04db3563d9",
+      "schema": {
+        "cols": {
+          "kind": "array",
+          "rows": 10,
+          "itemType": "str"
+        },
+        "offered": {
+          "kind": "object",
+          "keys": [
+            "year",
+            "src",
+            "rows"
+          ]
+        },
+        "official": {
+          "kind": "array",
+          "rows": 5,
+          "itemType": "dict",
+          "fields": [
+            "k",
+            "text",
+            "src"
+          ]
+        },
+        "campuses": {
+          "kind": "array",
+          "rows": 3,
+          "itemType": "str"
+        },
+        "progs": {
+          "kind": "array",
+          "rows": 15,
+          "itemType": "str"
+        },
+        "progFam": {
+          "kind": "array",
+          "rows": 15,
+          "itemType": "str"
+        },
+        "measures": {
+          "kind": "object",
+          "keys": [
+            "gate",
+            "gpat",
+            "hd",
+            "hd_ss"
+          ]
+        },
+        "offers": {
+          "kind": "array",
+          "rows": 213,
+          "itemType": "packed_row",
+          "width": 10
+        },
+        "noOffer": {
+          "kind": "array",
+          "rows": 14,
+          "itemType": "packed_row",
+          "width": 8
+        },
+        "ug": {
+          "kind": "array",
+          "rows": 44,
+          "itemType": "packed_row",
+          "width": 4
+        },
+        "meta": {
+          "kind": "object",
+          "keys": [
+            "responses",
+            "repeats",
+            "offers",
+            "no_offer",
+            "left_out",
+            "gate_marks_dropped",
+            "judged"
+          ]
+        },
+        "src": {
+          "kind": "object",
+          "keys": [
+            "k",
+            "l"
+          ]
+        }
+      }
+    },
+    {
+      "name": "sources",
+      "file": "raw/data/sources.json",
+      "url": "https://score-line.pages.dev/data/sources.json",
+      "bytes": 251109,
+      "sha256": "ef32c24b42b1602305a533a37d1cc9220d872b5e5adb43fc3f496d623da60371",
+      "schema": {
+        "kind": "array",
+        "rows": 1314,
+        "itemType": "dict",
+        "fields": [
+          "f",
+          "kind",
+          "code",
+          "season",
+          "ext",
+          "bytes",
+          "cites",
+          "also",
+          "mine"
+        ]
+      }
+    }
+  ]
+}

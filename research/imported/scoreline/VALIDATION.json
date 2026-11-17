@@ -1,0 +1,156 @@
+{
+  "checks": [
+    {
+      "dataset": "ccmt",
+      "dictionaryReferences": "checked"
+    },
+    {
+      "dataset": "coap",
+      "dictionaryReferences": "checked"
+    },
+    {
+      "dataset": "placements",
+      "dictionaryReferences": "checked"
+    },
+    {
+      "dataset": "nirf",
+      "dictionaryReferences": "checked"
+    }
+  ],
+  "warnings": [
+    {
+      "kind": "aggregation_overlap",
+      "message": "options, compare, branch and hero repeat/aggregate evidence and are not additional independent records."
+    },
+    {
+      "kind": "personal_fields",
+      "message": "YouTube public comments contain author handles/freeform text. Omit those fields from the public merged view; BITS contains aggregate ranges only."
+    }
+  ],
+  "datasets": {
+    "search": {
+      "sha256": "passed",
+      "validJson": true
+    },
+    "hero": {
+      "sha256": "passed",
+      "validJson": true
+    },
+    "options": {
+      "sha256": "passed",
+      "validJson": true,
+      "EWS": {
+        "rows": 1049,
+        "width": 13
+      },
+      "OPEN": {
+        "rows": 1464,
+        "width": 13
+      },
+      "SC": {
+        "rows": 1336,
+        "width": 13
+      },
+      "ST": {
+        "rows": 930,
+        "width": 13
+      },
+      "OBC-NCL": {
+        "rows": 1364,
+        "width": 13
+      }
+    },
+    "compare": {
+      "sha256": "passed",
+      "validJson": true
+    },
+    "ccmt": {
+      "sha256": "passed",
+      "validJson": true,
+      "rows": {
+        "rows": 56065,
+        "width": 10
+      }
+    },
+    "coap": {
+      "sha256": "passed",
+      "validJson": true,
+      "rows": {
+        "rows": 30616,
+        "width": 14
+      }
+    },
+    "companies": {
+      "sha256": "passed",
+      "validJson": true
+    },
+    "branch": {
+      "sha256": "passed",
+      "validJson": true
+    },
+    "nirf": {
+      "sha256": "passed",
+      "validJson": true,
+      "rows": {
+        "rows": 2986,
+        "width": 15
+      }
+    },
+    "youtube": {
+      "sha256": "passed",
+      "validJson": true,
+      "rows": {
+        "rows": 1958,
+        "width": 17
+      }
+    },
+    "placements": {
+      "sha256": "passed",
+      "validJson": true,
+      "rows": {
+        "rows": 6447,
+        "width": 21
+      }
+    },
+    "gate": {
+      "sha256": "passed",
+      "validJson": true
+    },
+    "gate-extra": {
+      "sha256": "passed",
+      "validJson": true
+    },
+    "psu": {
+      "sha256": "passed",
+      "validJson": true,
+      "cuts": {
+        "rows": 3644,
+        "width": 15
+      }
+    },
+    "bits": {
+      "sha256": "passed",
+      "validJson": true,
+      "offers": {
+        "rows": 213,
+        "width": 10
+      }
+    },
+    "sources": {
+      "sha256": "passed",
+      "validJson": true
+    }
+  },
+  "coapUnits": {
+    "gate_score": 29096,
+    "rank": 154,
+    "composite_score": 2,
+    "ceed_score": 56,
+    "cat_percentile": 18,
+    "gate_marks_normalized": 1290
+  },
+  "ccmtScoreBounds": {
+    "minimum": 75,
+    "maximum": 904
+  }
+}

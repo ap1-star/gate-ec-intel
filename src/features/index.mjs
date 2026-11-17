@@ -2,6 +2,8 @@ import {createCareerFeature} from './career.mjs';
 import {createPersonalFeature} from './personal.mjs';
 import {createPyqFeature} from './pyq.mjs';
 import {createRecruitmentFeature} from './recruitment.mjs';
+import {createAtlasFeature} from './atlas.mjs';
+import {createAtlasLoader} from '../domains/atlas/index.mjs';
 const base=window.TerminalResearchBridge;
 let session={status:'loading',user:null,csrfToken:null,capabilities:{}};
 window.TerminalFeatureSession=session;
@@ -49,9 +51,9 @@ async function refreshSession(force=false){
  refreshing=task;
  try{return await task;}finally{if(refreshing===task)refreshing=null;}
 }
-const bridge={...base,params,navigate,api,session:()=>session,refreshSession:()=>refreshSession(true)};
-const career=createCareerFeature(bridge),personal=createPersonalFeature(bridge),pyq=createPyqFeature(bridge),recruitment=createRecruitmentFeature(bridge);
-features=[career,personal,pyq,recruitment];
+const bridge={...base,params,navigate,api,session:()=>session,refreshSession:()=>refreshSession(true),loadAtlas:createAtlasLoader()};
+const career=createCareerFeature(bridge),atlas=createAtlasFeature(bridge),personal=createPersonalFeature(bridge),pyq=createPyqFeature(bridge),recruitment=createRecruitmentFeature(bridge);
+features=[career,atlas,personal,pyq,recruitment];
 for(const feature of features){
  const safeRenderers=Object.fromEntries(Object.entries(feature.renderers||{}).map(([id,renderer])=>[id,()=>{try{return renderer();}catch{return base.C.ErrorState({title:'This workspace could not be rendered',description:'Reload the workspace or return to public research. No missing records have been substituted.',actionHtml:'<a class="button" href="#monitor">Research overview</a>'});}}]));
  base.register({...feature,renderers:safeRenderers});
@@ -65,7 +67,7 @@ host={lastRoute:null,afterRender(route){
  for(const feature of features)if(feature.renderers?.[route]&&feature.load)Promise.resolve(feature.load(route)).then(()=>{if(base.currentRoute()===route)base.render();}).catch(error=>base.toast(error.message||'The service could not be loaded.'));
 }};
 window.TerminalFeatureHost=host;
-window.TerminalFeatures={career,personal,pyq,recruitment,refreshSession};
+window.TerminalFeatures={career,atlas,personal,pyq,recruitment,refreshSession};
 function run(value){Promise.resolve(value).catch(error=>base.toast(error?.message||'The action could not be completed.'));}
 // Row-contained save/source actions must be handled before legacy row drilldown listeners.
 window.addEventListener('click',event=>{
@@ -79,12 +81,13 @@ window.addEventListener('click',event=>{
  if(event.target.closest('[data-diff-drill],[data-diff-topic],[data-diff-topic-year],[data-topic-family],#openBrushed,#openTopicQuestions'))pyq.resetFilters();
 },true);
 function closeHandledCareerChart(event,handled){if(handled&&event.target.closest?.('#chartDialog'))document.getElementById('chartDialog')?.close();}
-document.addEventListener('click',event=>{const handled=career.handleClick?.(event);closeHandledCareerChart(event,handled);run(handled);run(personal.handleClick?.(event));run(recruitment.handleClick?.(event));});
-document.addEventListener('change',event=>{career.handleChange?.(event);personal.handleChange?.(event);recruitment.handleChange?.(event);});
-document.addEventListener('input',event=>{career.handleInput?.(event);recruitment.handleInput?.(event);});
-document.addEventListener('keydown',event=>{closeHandledCareerChart(event,career.handleKeyDown?.(event));});
+document.addEventListener('click',event=>{const handled=career.handleClick?.(event);closeHandledCareerChart(event,handled);run(handled);run(atlas.handleClick?.(event));run(personal.handleClick?.(event));run(recruitment.handleClick?.(event));});
+document.addEventListener('change',event=>{career.handleChange?.(event);atlas.handleChange?.(event);personal.handleChange?.(event);recruitment.handleChange?.(event);});
+document.addEventListener('input',event=>{career.handleInput?.(event);atlas.handleInput?.(event);recruitment.handleInput?.(event);});
+document.addEventListener('keydown',event=>{closeHandledCareerChart(event,career.handleKeyDown?.(event));atlas.handleKeyDown?.(event);});
 document.addEventListener('submit',event=>{
- if(event.target.matches('[data-pyq-form]')){event.preventDefault();run(pyq.handleSubmit(event));}
+ if(event.target.matches('[data-atlas-form]')){event.preventDefault();run(atlas.handleSubmit?.(event));}
+ else if(event.target.matches('[data-pyq-form]')){event.preventDefault();run(pyq.handleSubmit(event));}
  else if(event.target.matches('[data-career-form]')){event.preventDefault();run(career.handleSubmit(event));}
  else if(event.target.matches('[data-personal-form]')){event.preventDefault();run(personal.handleSubmit(event));}
  else if(event.target.matches('[data-recruitment-form]')){event.preventDefault();run(recruitment.handleSubmit(event));}

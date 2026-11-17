@@ -1,46 +1,33 @@
 # Host your GATE EC terminal
 
+**Render is supported:** use the root `render.yaml` and follow [RENDER_DEPLOYMENT.md](RENDER_DEPLOYMENT.md) for the full Docker app with a persistent `/data` disk. The app infers its Render URL automatically. The full configuration uses a paid web service; review Render's charges before applying it.
+
 Use **GitHub → Railway** for the complete website, accounts, persistent saved data and background recruitment checks. Netlify and Vercel can host the frontend and connect to that Railway backend. The separate Netlify Drop archive is the quickest public-only option.
 
 This guide applies to the portable hosting archives. The older Sites handoff files describe the original hosted service; its ChatGPT sign-in, identities, database, secrets and cloud automation are not transferred in these files. Your new host starts with its own database and website accounts. The research corpus and source registry are included.
 
+Both archives now include the combined **Score Line + GATE Seat Map** public atlas. Programme/round comparisons, qualification mappings, placements, companies, official GATE report observations, PSU references and BITS reported aggregates run from bundled snapshots. Data browsing does not depend on the donor websites staying online; opening an original PDF still uses its source host. Read `COMBINED_ATLAS_HANDOFF.md` for coverage and evidence limits. These are imported snapshots, and the recruitment monitor does not automatically refresh the admissions/placement imports.
+
 | File / destination | What runs there |
 | --- | --- |
-| `GATE_EC_HOSTING_SOURCE.zip` → GitHub → Railway | Complete Node app, SQL storage, account service and background runner, after the volume and variables below are configured |
+| `GATE_EC_COMBINED_HOSTING_SOURCE.zip` → GitHub → Railway | Complete Node app, SQL storage, account service and background runner, after the volume and variables below are configured |
 | Same source → Netlify or Vercel | Frontend plus proxy to your Railway backend; without `BACKEND_ORIGIN`, public snapshot browsing only |
-| `GATE_EC_NETLIFY_DROP.zip` → Netlify Drop | Prebuilt public research and career snapshot; no account database or automatic recruitment updates |
+| `GATE_EC_COMBINED_NETLIFY_DROP.zip` → Netlify Drop | Prebuilt public research and career snapshot; no account database or automatic recruitment updates |
 | GitHub repository | Stores the source for import into your host. GitHub Pages can serve static files but does not run this Node backend. |
-
-## Render deployment (Docker)
-
-Connect this repository to a Render Web Service and select the included Dockerfile. Render supplies `RENDER_EXTERNAL_URL` automatically; if `PUBLIC_ORIGIN` is not explicitly set, the server uses that Render URL as its public HTTPS origin.
-
-Set the following service environment variables in the Render dashboard:
-
-| Variable | Value |
-| --- | --- |
-| `SESSION_SECRET` | A persistent cryptographically random secret of at least 48 characters (required; generate privately) |
-| `PUBLIC_ORIGIN` | Optional on Render: set to your final canonical frontend HTTPS origin if using a different domain |
-| `RUN_SCHEDULER` | `true` for hosted recruitment checks; `false` to disable |
-| `SQLITE_PATH` | A writable SQLite file path; use `/data/workspace.sqlite` only if `/data` is mounted persistently |
-
-Generate a secret locally with `node -e "console.log(require('node:crypto').randomBytes(48).toString('base64url'))"`, then paste the output into Render's private environment variable field. Never commit the secret to GitHub.
-
-**Important:** Render Free web services have ephemeral filesystems and spin down after inactivity. Without persistent storage, SQLite accounts and saved data can be lost after redeploys/restarts. A free instance is not suitable for reliable continuous background recruitment checks. For permanent accounts, a durable database, or uninterrupted checks, use a hosting plan/service with persistent storage and always-on execution (such as the Railway volume setup below).
-
-Check `/healthz` after deployment. A healthy response reports `status: "ok"` and `database: true`.
 
 ## Recommended: deploy the full app on Railway
 
-1. Extract `GATE_EC_HOSTING_SOURCE.zip`. Upload the extracted contents to a new GitHub repository. **`package.json`, `Dockerfile` and `railway.toml` must be at the repository root**, rather than inside another enclosing folder. Do not upload `node_modules`, real `.env` files, databases or credentials.
+**Updated startup:** Railway's `RAILWAY_PUBLIC_DOMAIN` is used automatically when `PUBLIC_ORIGIN` is blank. With a public domain configured, an empty `SESSION_SECRET` causes a random key to be created next to the SQLite database and reused on restart. Mount `/data` so both files survive redeploys. An explicit persistent secret is still supported. Before a public domain exists, the process serves public tools and `/healthz`; accounts and jobs stay disabled. Generate a domain and redeploy to enable them. [Railway system variables](https://docs.railway.com/variables/reference)
+
+1. Extract `GATE_EC_COMBINED_HOSTING_SOURCE.zip`. Upload the extracted contents to a new GitHub repository. **`package.json`, `Dockerfile` and `railway.toml` must be at the repository root**, rather than inside another enclosing folder. Do not upload `node_modules`, real `.env` files, databases or credentials.
 2. In Railway, create a project from that GitHub repository. The included Dockerfile uses Node 24 and builds the application. Keep **one replica** for this SQLite deployment.
 3. Attach a persistent volume to this service and mount it at **`/data`**. Set `SQLITE_PATH=/data/workspace.sqlite`. The database and saved accounts must use this volume so they survive redeploys. Railway documents volumes as persistent service storage. [Railway volumes](https://docs.railway.com/volumes/reference)
 4. Generate a public HTTPS domain for the service. Set the following service variables, then deploy/redeploy:
 
    | Variable | Value |
    | --- | --- |
-   | `PUBLIC_ORIGIN` | Your exact HTTPS website origin, for example `https://your-terminal.up.railway.app`; no path or trailing slash |
-   | `SESSION_SECRET` | A newly generated, persistent random secret, at least 48 characters |
+   | `PUBLIC_ORIGIN` | Optional on Railway with a generated domain; set your exact HTTPS frontend origin for custom domains or a Netlify/Vercel frontend |
+   | `SESSION_SECRET` | Optional: a persistent random secret of at least 48 characters. If blank, the server securely generates and stores one beside the database |
    | `SQLITE_PATH` | `/data/workspace.sqlite` |
    | `RUN_SCHEDULER` | `true` |
 
@@ -52,11 +39,11 @@ Check `/healthz` after deployment. A healthy response reports `status: "ok"` and
 
    Paste that result into Railway's variable field. Keep it private and preserve it across redeploys. It is not a password to give website visitors.
 
-5. Open your HTTPS website. Public research works without signing in. Use the website's account form to register your own account. The portable version uses its own secure website login; it does not reuse the original ChatGPT login.
+5. Open your HTTPS website. Public research works without signing in. Use the website's account form to register your own account. The portable version uses email and password sign-in; it does not reuse the original ChatGPT login.
 6. To grant your own registered account owner access, run this in the Railway service shell:
 
    ```sh
-   npm run owner:lookup -- yourusername
+   npm run owner:lookup -- your-email@example.com
    ```
 
    Copy the returned user UUID into the Railway variable `OWNER_USER_ID` and redeploy. The first visitor or first registered username is never automatically made the owner. Leave this variable blank until you identify your account.
@@ -85,7 +72,7 @@ With `BACKEND_ORIGIN` unset, the frontend deliberately offers public snapshot da
 
 ## Quick public-only upload: Netlify Drop
 
-1. Use **`GATE_EC_NETLIFY_DROP.zip`**, not the source archive.
+1. Use **`GATE_EC_COMBINED_NETLIFY_DROP.zip`**, not the source archive.
 2. Open [Netlify Drop](https://app.netlify.com/drop) and upload the ZIP, or extract it and drop the folder containing `index.html`.
 3. Open the URL Netlify gives you. No build command is needed for this prebuilt archive. Netlify Drop accepts a project folder or ZIP. [Official quickstart](https://docs.netlify.com/start/quickstarts/netlify-drop-quickstart/)
 
@@ -113,6 +100,8 @@ npm run build
 Production starts with `npm start` after its required environment variables and persistent storage are configured. Do not commit the generated session secret or a real user database to GitHub.
 
 ## If something is missing
+
+- **Railway crashes:** use this updated source archive, with `Dockerfile`, `railway.toml` and `package.json` at the repository root. Remove a stale `npm run dev` or Sites build command override. Start with `npm start` and health check `/healthz`. Generate the public domain and attach `/data`. Do not set a short placeholder as `SESSION_SECRET`; either leave it empty or set a strong secret. A build failure is separate from a startup failure: inspect the first error in Deploy Logs rather than the restart message.
 
 - **Research loads but accounts are unavailable:** confirm you deployed the source app on Railway, or configured `BACKEND_ORIGIN` on your frontend host.
 - **Cookies/sign-in fail:** check the canonical HTTPS `PUBLIC_ORIGIN`; use the same final frontend domain consistently.

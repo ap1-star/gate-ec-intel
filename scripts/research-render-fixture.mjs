@@ -8,6 +8,7 @@ import {createCareerFeature} from '../src/features/career.mjs';
 import {createPersonalFeature} from '../src/features/personal.mjs';
 import {createPyqFeature} from '../src/features/pyq.mjs';
 import {createRecruitmentFeature} from '../src/features/recruitment.mjs';
+import {createAtlasFeature} from '../src/features/atlas.mjs';
 const root=fileURLToPath(new URL('../',import.meta.url));
 export const PART2_CHECKPOINT='39140840451e516513c1edfa4110522fa7667991';
 const baselineManifest=JSON.parse(readFileSync(new URL('../vendor/aurora-baseline-manifest.json',import.meta.url),'utf8'));
@@ -53,7 +54,7 @@ export function createResearchHost({theme='obsidian',baseline=false,features=tru
  const base=window.TerminalResearchBridge;
  const bridge={...base,params:()=>new URLSearchParams(context.location.hash.split('?')[1]||''),session:()=>session,api:async()=>{throw Error('The published account backend is not connected.')},refreshSession:async()=>session,navigate(id,values={}){context.location.hash='#'+id+'?'+new URLSearchParams(values);run('render()')}};
  let modules=[];
- if(features&&!baseline){modules=[createCareerFeature(bridge),createPersonalFeature(bridge),createPyqFeature(bridge),createRecruitmentFeature(bridge)];for(const feature of modules)base.register(feature);base.installQuestionFilter(rows=>modules[2].filterRows(rows));}
+ if(features&&!baseline){modules=[createCareerFeature(bridge),createPersonalFeature(bridge),createPyqFeature(bridge),createRecruitmentFeature(bridge),createAtlasFeature(bridge)];for(const feature of modules)base.register(feature);base.installQuestionFilter(rows=>modules[2].filterRows(rows));}
  function render(route='monitor',params={}){context.location.hash='#'+route+(Object.keys(params).length?'?'+new URLSearchParams(params):'');run('render()');return element('#content').innerHTML;}
  function markup(){
   let content=element('#content').innerHTML;

@@ -124,7 +124,7 @@ test('shell updates preserve unchanged DOM containers; filter/search setup retai
 const originalRouteIds = ['monitor', 'explorer', 'subjects', 'topics', 'lab', 'compare', 'scenarios', 'reports', 'audit', 'questions', 'difficulty', 'distributions', 'inference', 'responses', 'evidence'];
 test('catalogue uniquely covers every original research route plus real settings', () => {
   const activeIds = Array.from(routes.working).flatMap(entry => Array.from(entry.routes));
-  assert.equal(activeIds.length, 33);
+  assert.equal(activeIds.length, 40);
   assert.equal(new Set(activeIds).size, activeIds.length);
   assert.ok([...originalRouteIds,'settings','recruitment','technical-exams','recruiters','recruitment-detail','recruitment-preferences','recruitment-saved','recruitment-notifications'].every(id=>activeIds.includes(id)));
   for (const id of activeIds) {

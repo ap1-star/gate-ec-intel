@@ -88,3 +88,42 @@
 @media(max-width:600px){.rank-workspace{gap:24px}.rank-workspace-context{flex-direction:column;gap:6px}.rank-workspace-context>span:last-child{max-width:none;text-align:left;font-size:11px}.rank-input-panel,.rank-result-panel{padding:20px}.rank-result-top{align-items:flex-start}.rank-result-top>.career-evidence-label{font-size:11px;padding:4px 6px}.rank-result-main{gap:10px}.rank-primary-number.career-rank-number{font-size:68px;letter-spacing:-3px}.rank-entered-context>strong{font-size:21px}.rank-entered-context>span,.rank-entered-context>small{font-size:11px}.rank-sensitivity-head>strong{font-size:21px}.rank-sensitivity-head{gap:6px 12px}.rank-sensitivity-labels{font-size:10px}.rank-result-statistics>div>strong{font-size:24px}.rank-result-actions{gap:9px}.rank-result-actions .button{font-size:12px;padding-inline:10px}.rank-scenario-grid{grid-template-columns:1fr}.rank-scenario-add-tile{min-height:104px}.rank-scenario-values{grid-template-columns:1fr 1fr}.rank-scenario-card{padding:17px}.rank-section-heading{align-items:flex-start;flex-direction:column;gap:10px}.rank-section-heading>p{text-align:left}.rank-section-heading h2{font-size:19px}.rank-relationship-panel .panel-head{padding:20px;align-items:flex-start;flex-direction:column;gap:17px}.rank-reference-control{width:100%}.rank-reference-control label{display:grid;grid-template-columns:1fr 1.2fr;align-items:center;gap:10px}.rank-plot-legend{padding:16px 20px 5px;gap:12px 18px;font-size:10px}.rank-plot-host{padding:10px 7px 0}.rank-relationship-panel>.panel-foot{padding:15px 20px;font-size:11px}.rank-history-strip{grid-auto-columns:137px}.rank-history-section>.rank-context{font-size:11px}.rank-empty-result h2{font-size:24px}.rank-result-disclosure{font-size:10px;gap:10px}.rank-result-disclosure>.ui-icon{width:13px;height:13px}.rank-methodology>summary{font-size:12px;line-height:1.7}.rank-marks-input input{font-size:42px}}
 @media(max-width:600px){.rank-result-main{flex-wrap:wrap}.rank-result-main>div:first-child{min-width:0;max-width:100%}.rank-primary-number.career-rank-number{font-size:clamp(50px,17vw,68px)}.rank-entered-context{flex:0 0 auto;max-width:100%}}
 @media(prefers-reduced-motion:reduce){.rank-workspace *,.rank-workspace *:before,.rank-workspace *:after{animation:none!important;transition:none!important;scroll-behavior:auto!important}}
+
+/* A quieter instrument panel, with an explicit route for official score holders. */
+.rank-workspace-context{align-items:flex-end;padding-bottom:7px;gap:24px}
+.rank-workspace-context h2{font-size:clamp(23px,2.1vw,30px);line-height:1.35;font-weight:550;letter-spacing:-.65px;margin:9px 0}
+.rank-workspace-context p{font-size:12px;line-height:1.8;color:var(--muted);margin:0}
+.rank-workspace-context>.text-link{max-width:28ch;font-size:12px;line-height:1.7;text-align:right;flex:none}
+.rank-workbench{border-radius:var(--radius);box-shadow:none;grid-template-columns:minmax(290px,.9fr) minmax(0,1.1fr)}
+.rank-input-panel{padding:25px}
+.rank-result-panel{background-image:none;box-shadow:none;padding:27px 31px}
+.rank-result-panel:before{display:none}
+.rank-empty-result{min-height:360px}
+.rank-empty-orbit{width:45px;height:45px;border-radius:var(--radius-sm);box-shadow:none;margin-top:25px}
+.rank-empty-orbit>.ui-icon{width:20px;height:20px}
+.rank-empty-result h2{font-size:25px;max-width:30ch}
+.rank-input-form{gap:14px}
+.rank-primary-number.career-rank-number{font-size:clamp(58px,5.4vw,82px);font-weight:450}
+.rank-scenario-card{border-radius:var(--radius-sm);box-shadow:none}
+.rank-scenario-card:hover{transform:none;box-shadow:none;border-color:var(--accent)}
+.rank-relationship-panel{box-shadow:none;border-radius:var(--radius)}
+.rank-history-item{background:none;box-shadow:none;border-radius:var(--radius-sm);min-height:117px}
+.rank-history-item:hover{transform:none}
+@media(max-width:850px){.rank-workbench{grid-template-columns:1fr}.rank-workspace-context{align-items:flex-start;flex-direction:column;gap:12px}.rank-workspace-context>.text-link{max-width:none;text-align:left}.rank-empty-result{min-height:270px}}
+@media(max-width:600px){.rank-input-panel,.rank-result-panel{padding:20px}.rank-workspace-context h2{font-size:24px}.rank-primary-number.career-rank-number{font-size:clamp(48px,16vw,68px)}}
+
+/* A changing history strip must never set the workspace's intrinsic width. */
+.rank-workspace{grid-template-columns:minmax(0,1fr)}
+.rank-workspace>*,.rank-workbench>*,.rank-history-section{min-width:0;max-width:100%}
+.rank-result-panel{container-type:inline-size;min-height:36rem;overflow-anchor:none}
+.rank-empty-result{min-height:0}
+.rank-result-main{display:grid;grid-template-columns:minmax(0,1fr) max-content;align-items:center}
+.rank-result-main>div:first-child{min-width:0}
+.rank-primary-number.career-rank-number{font-size:clamp(34px,12cqi,82px);letter-spacing:-.045em;white-space:nowrap;min-height:1.03em;animation:none}
+.rank-entered-context{min-width:0;max-width:100%}
+.rank-sensitivity-head{display:grid;grid-template-columns:minmax(0,1fr);gap:4px}
+.rank-sensitivity-head>strong{font-size:clamp(16px,4.4cqi,22px);white-space:nowrap}
+.rank-workspace-context>div{min-width:0}
+.rank-workspace-context>.text-link{white-space:normal;flex-shrink:1;overflow-wrap:anywhere}
+.rank-result-statistics>div{min-width:0}
+@container(max-width:360px){.rank-result-main{grid-template-columns:minmax(0,1fr);gap:15px}.rank-entered-context{flex-direction:row;align-items:baseline;justify-content:space-between;flex-wrap:wrap;border-left:0;border-top:1px solid var(--border-soft);padding:12px 0 0;gap:7px 12px}.rank-primary-number.career-rank-number{font-size:clamp(34px,16cqi,58px)}.rank-result-statistics{grid-template-columns:minmax(0,1fr);gap:15px}}
