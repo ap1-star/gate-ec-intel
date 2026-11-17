@@ -15,7 +15,7 @@ assert.equal(result.fullMean[0],35);
 assert.equal(result.summary.yearCount,4);
 assert.equal(result.summary.subjects,2);
 const equal=leaveOneYearOut(vectors,[2019,2020,2021,2022],'equal');
-assert.equal(equal.summary.modelMae,equal.summary.baselineMae);
+assert.ok(Math.abs(equal.summary.modelMae-equal.summary.baselineMae)<1e-10);
 assert.equal(equal.summary.beatsBaseline,false);
 const constant=leaveOneYearOut([[15,85],[15,85],[15,85]],[1,2,3]);
 assert.equal(constant.summary.modelMae,0);
