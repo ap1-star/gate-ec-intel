@@ -91,5 +91,25 @@ window.V5Math = (() => {
       beatsBaseline:baselineMae>0&&modelMae<baselineMae-1e-9,
       yearWins,yearCount:rows.length,subjects:dimensions}};
   }
-  return {total,average,percentile,describe,pearson,spearman,slope,rolling,bootstrap,allocation,backtest,leaveOneYearOut};
+  // Planning projection; hard syllabus-pattern constraints are not learned from the corpus.
+  function ec2027MeanForecast(vectors,subjects) {
+    if(!Array.isArray(subjects)||!Array.isArray(vectors)||vectors.length<2||
+       vectors.some(v=>!Array.isArray(v)||v.length!==subjects.length||
+         v.some(x=>!Number.isFinite(x)||x<0)))throw new TypeError('Expected complete annual subject vectors.');
+    const ga=subjects.indexOf('General Aptitude'),math=subjects.indexOf('Engineering Mathematics');
+    if(ga<0||math<0||ga===math||new Set(subjects).size!==subjects.length)throw new TypeError('Subject taxonomy must include unique Mathematics and General Aptitude.');
+    const base=allocation(vectors,vectors.map(()=>1),subjects.map(()=>1));
+    const technical=subjects.map((_,i)=>i).filter(i=>i!==ga&&i!==math);
+    const denominator=total(technical.map(i=>base[i]));
+    if(denominator<=0)throw new TypeError('No technical marks to allocate.');
+    const raw=technical.map(i=>base[i]*72/denominator);
+    const rounded=raw.map(Math.floor);
+    const remainder=72-total(rounded);
+    const indices=technical.map((_,i)=>i).sort((a,b)=>(raw[b]-rounded[b])-(raw[a]-rounded[a])||a-b);
+    for(let i=0;i<remainder;i++)rounded[indices[i]]++;
+    const forecast=subjects.map((_,i)=>i===ga?15:i===math?13:rounded[technical.indexOf(i)]);
+    return {subjects:[...subjects],historicalMean:base,forecast,technicalUnrounded:raw,yearsTrained:vectors.length,
+      method:'equal historical mean, technical normalization to 72, largest-remainder rounding; official GA=15, Mathematics=13'};
+  }
+  return {total,average,percentile,describe,pearson,spearman,slope,rolling,bootstrap,allocation,backtest,leaveOneYearOut,ec2027MeanForecast};
 })();
